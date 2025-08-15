@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 1. Rough Offworlder Scavenger (↔ Settler) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Scrapper</defName>
+    <label>Scavenger</label>
+    <combatPower>35</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>false</isFighter>
+	<gearHealthRange>
+	  <min>0.2</min>
+	  <max>2.0</max>
+	</gearHealthRange>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>250</min>
+      <max>350</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>300</min>
+      <max>400</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>10~20</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- 2. Rough Offworlder Raider (↔ Trader) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Fence</defName>
+    <label>Fence</label>
+    <combatPower>50</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>1.0</min>
+      <max>1.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>Gun</li>
+      <li>SimpleGun</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>400</min>
+      <max>600</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>300</min>
+      <max>600</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>15~25</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- 3. Rough Offworlder Indentured (↔ Conscript) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Conscript</defName>
+    <label>Conscript</label>
+    <combatPower>60</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.8</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>400</min>
+      <max>600</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+      <li>OutlanderAdvanced</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </apparelMoney>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>10~20</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- 4. Rough Offworlder Enforcer (↔ Marine) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Marine</defName>
+    <label>Marauder</label>
+    <combatPower>70</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.6</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>500</min>
+      <max>700</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+      <li>OutlanderAdvanced</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <initialWillRange>4~6</initialWillRange>
+    <initialResistanceRange>30~40</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- 5. Rough Offworlder Bloodrager (↔ Medic) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Medic</defName>
+    <label>Sawbones</label>
+    <combatPower>80</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>400</min>
+      <max>800</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+      <li>OutlanderAdvanced</li>
+      <li>OutlanderMedic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </apparelMoney>
+    <initialWillRange>0~2</initialWillRange>
+    <initialResistanceRange>5~15</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- 6. Rough Offworlder Marksman (↔ Engineer) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Engineer</defName>
+    <label>Sabotuer</label>
+    <combatPower>90</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>1.5</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>400</min>
+      <max>800</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+      <li>OutlanderEngineer</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </apparelMoney>
+    <initialWillRange>2~5</initialWillRange>
+    <initialResistanceRange>25~35</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- 7. Rough Offworlder Skirmisher (↔ Scout) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Scout</defName>
+    <label>Assassin</label>
+    <combatPower>70</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.6</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>550</min>
+      <max>700</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+      <li>OutlanderScout</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </apparelMoney>
+    <initialWillRange>4~6</initialWillRange>
+    <initialResistanceRange>30~40</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- 8. Rough Offworlder Specter (↔ Commando) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Commando</defName>
+    <label>Shocktrooper</label>
+    <combatPower>85</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.8</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>MeleeWeapon</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>500</min>
+      <max>700</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+      <li>OutlanderShocktrooper</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </apparelMoney>
+    <initialWillRange>4~6</initialWillRange>
+    <initialResistanceRange>30~40</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- 9. Rough Offworlder Warchief (↔ Commander) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Commander</defName>
+    <label>Boss</label>
+    <combatPower>95</combatPower>
+    <minGenerationAge>30</minGenerationAge>
+    <isFighter>false</isFighter>
+    <itemQuality>Good</itemQuality>
+    <gearHealthRange>
+      <min>1.0</min>
+      <max>1.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>1200</min>
+      <max>1400</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+      <li>OutlanderAdvanced</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1200</min>
+      <max>1600</max>
+    </apparelMoney>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>15~25</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- 10. Rough Offworlder Overlord (↔ Representative) -->
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Warlord</defName>
+    <label>Warlord</label>
+    <combatPower>120</combatPower>
+    <factionLeader>true</factionLeader>
+    <minGenerationAge>30</minGenerationAge>
+    <isFighter>false</isFighter>
+    <itemQuality>Good</itemQuality>
+    <gearHealthRange>
+      <min>1.0</min>
+      <max>1.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>1200</min>
+      <max>1500</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>OutlanderBasic</li>
+      <li>OutlanderOfficer</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>KP_Officer_Uniform</li>
+      <li>KP_Officer_Flak_Armor</li>
+    </apparelRequired>
+    <techHediffsChance>0.15</techHediffsChance>
+    <techHediffsMoney>
+      <min>600</min>
+      <max>1500</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+      <li>Advanced</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <initialWillRange>4~6</initialWillRange>
+    <initialResistanceRange>25~35</initialResistanceRange>
+  </PawnKindDef>
+
+</Defs>

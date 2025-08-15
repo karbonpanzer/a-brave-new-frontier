@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Civil Offworlder Faction Namer -->
+  <RulePackDef>
+    <defName>NamerFactionOffworlderCivil</defName>
+    <label>Civil Offworlder faction namer</label>
+    <include>
+      <li>OutlanderPlaceNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[civilPrefix] [civilCore]</li>
+        <li>r_name->The [civilPrefix] [civilCore]</li>
+        <li>r_name->[civilCore] of [civilPlanet]</li>
+        <li>r_name->[civilPrefix] [civilCore] Group</li>
+        <li>r_name->[civilPrefix] [civilCore] Initiative</li>
+        <li>r_name->[civilCore] &amp; [civilSuffix]</li>
+        <li>r_name->[civilPrefix] &amp; [civilCore]</li>
+        <li>r_name->[civilCore] Syndicate</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>civilPrefix->NameBanks/CivilFactionPrefixes</li>
+        <li>civilCore->NameBanks/CivilFactionCores</li>
+        <li>civilSuffix->NameBanks/CivilFactionSuffixes</li>
+        <li>civilPlanet->NameBanks/Planets</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerSettlementOffworlderCivil</defName>
+    <label>Civil Offworlder settlement namer</label>
+    <include>
+      <!-- uses the standard OutlanderPlaceNameUtility to look for "r_name" -->
+      <li>OutlanderPlaceNameUtility</li>
+    </include>
+    <rulePack>
+      <!-- all templates must start with r_name-> -->
+      <rulesStrings>
+        <li>r_name->[settPrefix] [settInfix]</li>
+        <li>r_name->[settInfix] [settSuffix]</li>
+        <li>r_name->The [settPrefix] [settInfix]</li>
+        <li>r_name->[settInfix] at [settPlanet]</li>
+        <li>r_name->[settPrefix] &amp; [settSuffix]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>settPrefix->NameBanks/CivilSettlementPrefixes</li>
+        <li>settInfix->NameBanks/SettlementCore</li>
+        <li>settSuffix->NameBanks/CivilSettlementSuffixes</li>
+        <li>settPlanet->NameBanks/Planets</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef> 
+  
+  <!-- Rough Offworlder Faction Namer -->
+  <RulePackDef>
+    <defName>NamerFactionOffworlderRough</defName>
+    <label>Rough Offworlder faction namer</label>
+    <include>
+      <li>OutlanderPlaceNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;[factionNumber] [factionPrefix]</li>
+        <li>r_name-&gt;[factionPrefix] [factionCore]</li>
+        <li>r_name-&gt;[factionCore] of [factionPlanet]</li>
+        <li>r_name-&gt;The [factionPrefix] [factionCore]</li>
+        <li>r_name-&gt;[factionPrefix] [factionCore] Regiment</li>
+        <li>r_name-&gt;[factionCore] Coalition</li>
+        <li>r_name-&gt;[factionPrefix] Syndicate</li>
+        <li>r_name-&gt;[factionNumber]th [factionCore]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>factionNumber-&gt;NameBanks/FactionNumbers</li>
+        <li>factionPrefix-&gt;NameBanks/RoughFactionPrefixes</li>
+        <li>factionCore-&gt;NameBanks/FactionCores</li>
+        <li>factionPlanet-&gt;NameBanks/Planets</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Rough Offworlder Settlement Namer -->
+  <RulePackDef>
+    <defName>NamerSettlementOffworlderRough</defName>
+    <label>Rough Offworlder settlement namer</label>
+    <include>
+      <li>OutlanderPlaceNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;[settPrefix] [settInfix]</li>
+        <li>r_name-&gt;The [settPrefix] [settInfix]</li>
+        <li>r_name-&gt;[settInfix] of [settPlanet]</li>
+        <li>r_name-&gt;[settInfix]-at-[settPlanet]</li>
+        <li>r_name-&gt;[settPrefix] [settSuffix]</li>
+        <li>r_name-&gt;[settInfix] [settSuffix]</li>
+        <li>r_name-&gt;[settInfix]-[settSuffix]</li>
+        <li>r_name-&gt;[settInfix] Outpost</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>settPrefix-&gt;NameBanks/RoughSettlementPrefixes</li>
+        <li>settInfix-&gt;NameBanks/SettlementCore</li>
+        <li>settPlanet-&gt;NameBanks/Planets</li>
+        <li>settSuffix-&gt;NameBanks/RoughSettlementSuffixes</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

@@ -1,0 +1,60 @@
+Operations Center
+Command Node
+Regional HQ
+Field Office
+Division HQ
+Planetary HQ
+Sector HQ
+Admin Annex
+Logistics
+Distribution
+Research
+Biosecurity
+Customs
+Security
+Asset Protection
+Risk Management
+Compliance
+Medical
+Habitation
+Terraforming
+Extraction
+Drilling
+Prospecting
+Smelting
+Refining
+Processing
+Fabrication
+Assembly
+Manufacturing
+Maintenance
+Power
+Fuel
+Cryo
+Communications
+Navigation
+Survey
+Testing
+Quarantine
+Staging
+Transit
+Port Authority
+Freight
+Warehousing
+Cold Storage
+Fueling
+Decontamination
+Inspection
+Customs & Excise
+Border Control
+Operations
+Crew Services
+Catering
+Accommodation
+Training
+Recruitment
+Calibration
+Diagnostics
+Overhaul
+Repair
+Reclamation

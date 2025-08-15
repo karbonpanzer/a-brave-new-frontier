@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>kp.bravenewfrontier</packageId>
+  <author>karbonpanzer</author>
+  <name>A Brave New Frontier</name>
+  <description>A Brave New Frontier has arrived at the Rim, bringing with it conflict, geopolitics, wealth inequality, and a subsistance off of meals made of insects over regular animal meat. Wars are now fought of control of resources of various importance, expanding the military industrial complex, or selling off outdated military equipment to backwater conflicts to make some extra money. This equipment is the best that money can buy, back in the 40th Century when it was new and effective against interhuman conflicts, but its the 56th Century and now you fight the bugs and the bots and this armor is essentially tissue paper. 
+
+The Clothing added by this mod function based on environment that a soldier can find on the Rim. From the harsh heat of the Spiceworlds to the bittercold of the Glassworld, a uniform for any season and anyplace that are deemed worthy for heavy losses by either military command or the companies that hired your colonist to remove certain native elements from the planet. In the infantry, you needs are meet even though the food quality is poor, the equipment is poor, and the leaders are even poorer, but you get to see more than the shithole you grew up on.
+
+Thanks to Krazy4Games for his artwork in this mod.
+  </description>
+  
+  <supportedVersions>
+	  <li>1.4</li>
+	  <li>1.5</li>
+	  <li>1.6</li>	  
+  </supportedVersions>
+    
+</ModMetaData>
