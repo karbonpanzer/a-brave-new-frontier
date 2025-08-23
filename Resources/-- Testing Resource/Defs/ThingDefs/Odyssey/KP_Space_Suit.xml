@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>KP_Space_Helmet</defName>
+    <label>Erebus Vacsuit Helmet</label>
+    <description>Standard-issue during the Great Voyager Age, this helmet was reinforced with carapace plating for vacuum survival and protection against extreme environmental hazards. Worn by those who left the Coreworlds in search of riches and instead vanished into the dark, it became a quiet symbol of expeditions that ended in silence and horror.</description>
+    <techLevel>Spacer</techLevel>
+	
+    <recipeMaker>
+      <researchPrerequisite>ErebusPatternCarapaceArmor</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Armor/SpaceSuit/SpaceSuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>12</Mass>
+      <MarketValue>950</MarketValue>
+      <MaxHitPoints>180</MaxHitPoints>
+      <StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+      <EquipDelay>6</EquipDelay>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>4</Insulation_Heat>
+    </statBases>
+	
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+      <VacuumResistance>0.69</VacuumResistance>
+    </equippedStatOffsets>	
+	
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	
+	<costList>
+		<Cloth>10</Cloth>
+		<Plasteel>5</Plasteel>
+		<ComponentIndustrial>1</ComponentIndustrial>
+	</costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>40</costStuffCount>
+	
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+	
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>	
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Legs</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Armor/SpaceSuit/SpaceSuit</wornGraphicPath>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>KP_Space_Suit</defName>
+    <label>Erebus Vacsuit</label>
+    <description>A Vacsuit modified with carapace armor, it was once commonly used in the harshest of expeditions during the Great Voyager Age, from when hundreds of thousands of expeditions left the Coreworlds for the Rim. Now no more than a relic of a distant past.Many searching for the riches of the unclaimed worlds. What many found were terror and horror beyond their comprehension in the great dark nothing.</description>
+    <techLevel>Spacer</techLevel>
+	
+    <recipeMaker>
+      <researchPrerequisite>ErebusPatternCarapaceArmor</researchPrerequisite>
+    </recipeMaker>
+	
+    <graphicData>
+      <texPath>Armor/SpaceSuit/SpaceSuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>12</Mass>
+      <MarketValue>950</MarketValue>
+      <MaxHitPoints>180</MaxHitPoints>
+      <StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+      <EquipDelay>6</EquipDelay>
+      <Insulation_Cold>90</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>	  
+    </statBases>
+	
+    <equippedStatOffsets>
+      <MoveSpeed>-1.50</MoveSpeed>
+      <VacuumResistance>0.32</VacuumResistance>
+    </equippedStatOffsets>
+	
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	
+    <costList>
+		<Cloth>60</Cloth>
+		<Plasteel>15</Plasteel>
+    </costList>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>	
+    <costStuffCount>100</costStuffCount>
+	
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+	
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Legs</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Armor/SpaceSuit/SpaceSuit</wornGraphicPath>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Spacefarer</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+    </apparel>
+
+  </ThingDef>  
+</Defs>

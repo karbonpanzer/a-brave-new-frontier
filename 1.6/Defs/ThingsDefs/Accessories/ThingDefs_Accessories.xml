@@ -1,30 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
- <Defs>
-
-<!-- Webbing Magazine -->  
-	<ThingDef ParentName="ApparelMakeableBase">
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>KP_Webbing_Magazine</defName>
     <description>A more modern form of webbing, seen often on the Rim. This configuration is suited towards magazine-based firearms that are more common among armies in the Rim. The generalized design makes this webbing versatile for all magazine sizes, ensuring a universal system for magazine storage. Bulky but providing more than enough ammunition to make up for the additional weight.</description>
     <label>Magazine Webbing</label>
     <recipeMaker>
       <researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
     </recipeMaker>
-
     <graphicData>
       <texPath>Accessories/MagazineBandoleer/MagazineBandoleer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	    <shaderType>CutoutComplex</shaderType>	
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <costStuffCount>60</costStuffCount>
-	  <costList>
+    <costList>
       <Steel>40</Steel>
     </costList>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
@@ -34,82 +28,83 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-	
     <thingCategories>
       <li>KP_Accessories</li>
-    </thingCategories>	
-
+    </thingCategories>
     <equippedStatOffsets>
       <RangedCooldownFactor>-0.35</RangedCooldownFactor>
     </equippedStatOffsets>
-
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-        <li>Waist</li>        
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>Accessories/MagazineBandoleer/MagazineBandoleer</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
       <tags>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>OutlanderAdvanced</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderAdvanced</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
-
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.50,0.5,0.36)</only>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <only>(0.40,0.57,0.40)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.38,0.36,0.20)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.29,0.32,0.12)</only>
-			</li>
-		  </options>
-		</colorGenerator>	
-  </ThingDef> 
-
-<!-- Webbing Ammo -->
-	<ThingDef ParentName="ApparelMakeableBase">
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.50,0.5,0.36)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.40,0.57,0.40)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.38,0.36,0.20)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.29,0.32,0.12)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <modExtensions>
+      <li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+        <vanillaDesc>A more modern form of webbing, seen often on the Rim. This configuration is suited towards magazine-based firearms that are more common among armies in the Rim. The generalized design makes this webbing versatile for all magazine sizes, ensuring a universal system for magazine storage. Bulky but providing more than enough ammunition to make up for the additional weight.</vanillaDesc>
+        <loreDesc />
+      </li>
+      <li Class="BNF.StyleSwitcher.BNFTextureExtension">
+        <originalPath>Textures/Original/Accessories/MagazineBandoleer/MagazineBandoleer</originalPath>
+        <greyscalePath>Textures/Greyscale/Accessories/MagazineBandoleer/MagazineBandoleer</greyscalePath>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>KP_Webbing_Ammo</defName>
     <description>The necessity of ammunition is constant among soldiers. While improvements have been made many still find themselves using webbing such as this to be combat effective. This design harkens back to the First Attrition Wars, where soldiers fought with simple rifles fed by stripper clips and en-blocs. Cumbersome but effective storage allows a soldier to provide continuous fire in a fight.</description>
     <label>Ammo Webbing</label>
     <recipeMaker>
       <researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
     </recipeMaker>
-
     <graphicData>
       <texPath>Accessories/AmmoBandoleer/AmmoBandoleer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	    <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <costStuffCount>40</costStuffCount>
-  	<costList>
+    <costList>
       <Steel>40</Steel>
     </costList>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
@@ -119,82 +114,83 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-	
     <thingCategories>
       <li>KP_Accessories</li>
     </thingCategories>
-
     <equippedStatOffsets>
       <RangedCooldownFactor>-0.35</RangedCooldownFactor>
-    </equippedStatOffsets>   
-
+    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-        <li>Waist</li>        
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>Accessories/AmmoBandoleer/AmmoBandoleer</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
       <tags>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>OutlanderAdvanced</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderAdvanced</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
-    
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.50,0.5,0.36)</only>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <only>(0.40,0.57,0.40)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.38,0.36,0.20)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.29,0.32,0.12)</only>
-			</li>
-		  </options>
-		</colorGenerator>	
-  </ThingDef> 
-
-<!-- Webbing Vanguard -->
-	<ThingDef ParentName="ApparelMakeableBase">
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.50,0.5,0.36)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.40,0.57,0.40)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.38,0.36,0.20)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.29,0.32,0.12)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <modExtensions>
+      <li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+        <vanillaDesc>The necessity of ammunition is constant among soldiers. While improvements have been made many still find themselves using webbing such as this to be combat effective. This design harkens back to the First Attrition Wars, where soldiers fought with simple rifles fed by stripper clips and en-blocs. Cumbersome but effective storage allows a soldier to provide continuous fire in a fight.</vanillaDesc>
+        <loreDesc />
+      </li>
+      <li Class="BNF.StyleSwitcher.BNFTextureExtension">
+        <originalPath>Textures/Original/Accessories/AmmoBandoleer/AmmoBandoleer</originalPath>
+        <greyscalePath>Textures/Greyscale/Accessories/AmmoBandoleer/AmmoBandoleer</greyscalePath>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>KP_Webbing_Scout</defName>
     <description>The most important aspect in the army is intelligence, such intelligence can be provided by the Vanguard of an army. Scouts and rangers are those who lead the way, often several days in advance of any army. As such they need all the bare necessities for this duty, from spare rations, their haversack, and their ammunition are added integrally to their kit. A member of the Vanguard is always ready for anything.</description>
     <label>Vanguard Webbing</label>
     <recipeMaker>
       <researchPrerequisite>VanguardKit</researchPrerequisite>
     </recipeMaker>
-
     <graphicData>
       <texPath>Accessories/ScoutWebbing/ScoutWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	    <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <costStuffCount>40</costStuffCount>
-  	<costList>
+    <costList>
       <Steel>40</Steel>
     </costList>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
@@ -204,82 +200,83 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-	
     <thingCategories>
       <li>KP_Accessories</li>
     </thingCategories>
-
     <equippedStatOffsets>
-		<HuntingStealth>0.40</HuntingStealth>
-    </equippedStatOffsets>   
-
+      <HuntingStealth>0.40</HuntingStealth>
+    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-        <li>Waist</li>        
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>Accessories/ScoutWebbing/ScoutWebbing</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
       <tags>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>OutlanderScout</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderScout</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
-    
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.50,0.5,0.36)</only>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <only>(0.40,0.57,0.40)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.38,0.36,0.20)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.29,0.32,0.12)</only>
-			</li>
-		  </options>
-		</colorGenerator>	
-    </ThingDef> 
-
-<!-- Webbing Shocktrooper -->
-	<ThingDef ParentName="ApparelMakeableBase">
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.50,0.5,0.36)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.40,0.57,0.40)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.38,0.36,0.20)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.29,0.32,0.12)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <modExtensions>
+      <li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+        <vanillaDesc>The most important aspect in the army is intelligence, such intelligence can be provided by the Vanguard of an army. Scouts and rangers are those who lead the way, often several days in advance of any army. As such they need all the bare necessities for this duty, from spare rations, their haversack, and their ammunition are added integrally to their kit. A member of the Vanguard is always ready for anything.</vanillaDesc>
+        <loreDesc />
+      </li>
+      <li Class="BNF.StyleSwitcher.BNFTextureExtension">
+        <originalPath>Textures/Original/Accessories/ScoutWebbing/ScoutWebbing</originalPath>
+        <greyscalePath>Textures/Greyscale/Accessories/ScoutWebbing/ScoutWebbing</greyscalePath>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>KP_Webbing_Shocktrooper</defName>
     <description>War makes monsters of us all. The Shock Trooper is not a new role in an army, it is an ancient title from Old Earth. Soldiers driven to the edge of madness from constant combat which has rendered many of them “unadaptable.” As such their kit defines this “unadaptable” status, chemical pumps and ease of access to their weaponry during the hardest of fighting.</description>
     <label>Shocktrooper Webbing</label>
     <recipeMaker>
       <researchPrerequisite>StormtrooperKit</researchPrerequisite>
     </recipeMaker>
-
     <graphicData>
       <texPath>Accessories/ShocktrooperWebbing/ShocktrooperWebbing</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	    <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <costStuffCount>40</costStuffCount>
-  	<costList>
+    <costList>
       <Steel>40</Steel>
     </costList>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
@@ -289,87 +286,86 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-	
     <thingCategories>
       <li>KP_Accessories</li>
     </thingCategories>
-
     <equippedStatOffsets>
-      <PainShockThreshold>0.20</PainShockThreshold>	  
-    </equippedStatOffsets>   
-
+      <PainShockThreshold>0.20</PainShockThreshold>
+    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-        <li>Waist</li>        
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>Accessories/ShocktrooperWebbing/ShocktrooperWebbing</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
       <tags>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>OutlanderShocktrooper</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderShocktrooper</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
-    
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.50,0.5,0.36)</only>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <only>(0.40,0.57,0.40)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.38,0.36,0.20)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.29,0.32,0.12)</only>
-			</li>
-		  </options>
-		</colorGenerator>	
-    </ThingDef> 
-
-
-<!-- Belt Pouch Infantry -->
-	<ThingDef ParentName="ApparelMakeableBase">
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.50,0.5,0.36)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.40,0.57,0.40)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.38,0.36,0.20)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.29,0.32,0.12)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <modExtensions>
+      <li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+        <vanillaDesc>War makes monsters of us all. The Shock Trooper is not a new role in an army, it is an ancient title from Old Earth. Soldiers driven to the edge of madness from constant combat which has rendered many of them “unadaptable.” As such their kit defines this “unadaptable” status, chemical pumps and ease of access to their weaponry during the hardest of fighting.</vanillaDesc>
+        <loreDesc />
+      </li>
+      <li Class="BNF.StyleSwitcher.BNFTextureExtension">
+        <originalPath>Textures/Original/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</originalPath>
+        <greyscalePath>Textures/Greyscale/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</greyscalePath>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>KP_Pouches_Infantry</defName>
     <description>For centuries, the Infantry of the Great Domain served with the essentials needed to fight. Several ammo pouches that can be configured for both magazines and loss ammo, a canteen, and a knife or bayonet which serve as both weapon and utility for those in the infantry. Though coming in many configurations, this variant was the most popular and thus the most widespread.</description>
     <label>Infantry Pouches</label>
     <recipeMaker>
       <researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
     </recipeMaker>
-
     <graphicData>
       <texPath>Accessories/InfantryPouches/InfantryPouches</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	    <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <costStuffCount>40</costStuffCount>
-	  <costList>
+    <costList>
       <Steel>40</Steel>
     </costList>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-
     <thingCategories>
       <li>KP_Accessories</li>
     </thingCategories>
-
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>2000</WorkToMake>
@@ -379,87 +375,87 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
-
     <equippedStatOffsets>
       <RangedCooldownFactor>-0.2</RangedCooldownFactor>
     </equippedStatOffsets>
-
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-        <li>Waist</li>             
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>Accessories/InfantryPouches/InfantryPouches</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
       <tags>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>OutlanderAdvanced</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderAdvanced</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
-
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.50,0.5,0.36)</only>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <only>(0.40,0.57,0.40)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.38,0.36,0.20)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.29,0.32,0.12)</only>
-			</li>
-		  </options>
-		</colorGenerator>	
-  </ThingDef> 
-
-<!-- Belt Pouch Support -->
-	<ThingDef ParentName="ApparelMakeableBase">
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.50,0.5,0.36)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.40,0.57,0.40)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.38,0.36,0.20)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.29,0.32,0.12)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <modExtensions>
+      <li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+        <vanillaDesc>For centuries, the Infantry of the Great Domain served with the essentials needed to fight. Several ammo pouches that can be configured for both magazines and loss ammo, a canteen, and a knife or bayonet which serve as both weapon and utility for those in the infantry. Though coming in many configurations, this variant was the most popular and thus the most widespread.</vanillaDesc>
+        <loreDesc />
+      </li>
+      <li Class="BNF.StyleSwitcher.BNFTextureExtension">
+        <originalPath>Textures/Original/Accessories/InfantryPouches/InfantryPouches</originalPath>
+        <greyscalePath>Textures/Greyscale/Accessories/InfantryPouches/InfantryPouches</greyscalePath>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>KP_Pouches_Support</defName>
     <description>Armies are built on the ability to build defenses. Engineers have been needed on the battlefield for centuries from maintenance to fortifications. Their necessity is even needed now, this belt is the standard answer for that need. Containing both magazine pouches, a canteen, and a generalized toolbelt that contains everything an engineer might need for any problem they may encounter.</description>
     <label>Support Pouches</label>
     <recipeMaker>
-      <researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>      
+      <researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>
     </recipeMaker>
-
     <graphicData>
       <texPath>Accessories/SupportPouches/SupportPouches</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	    <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <costStuffCount>40</costStuffCount>
-	  <costList>
+    <costList>
       <Steel>30</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>      
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-
     <thingCategories>
       <li>KP_Accessories</li>
     </thingCategories>
-
     <equippedStatOffsets>
-		<FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
-		<ConstructionSpeed>0.15</ConstructionSpeed>
-	</equippedStatOffsets>
-
+      <FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+      <ConstructionSpeed>0.15</ConstructionSpeed>
+    </equippedStatOffsets>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>2500</WorkToMake>
@@ -469,83 +465,84 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-        <li>Waist</li>       
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>Accessories/SupportPouches/SupportPouches</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
       <tags>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>OutlanderEngineer</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderEngineer</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
-
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.50,0.5,0.36)</only>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <only>(0.40,0.57,0.40)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.38,0.36,0.20)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.29,0.32,0.12)</only>
-			</li>
-		  </options>
-		</colorGenerator>	
-  </ThingDef> 
-
-<!-- Belt Pouch Medic -->           
-	<ThingDef ParentName="ApparelMakeableBase">
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.50,0.5,0.36)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.40,0.57,0.40)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.38,0.36,0.20)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.29,0.32,0.12)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <modExtensions>
+      <li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+        <vanillaDesc>Armies are built on the ability to build defenses. Engineers have been needed on the battlefield for centuries from maintenance to fortifications. Their necessity is even needed now, this belt is the standard answer for that need. Containing both magazine pouches, a canteen, and a generalized toolbelt that contains everything an engineer might need for any problem they may encounter.</vanillaDesc>
+        <loreDesc />
+      </li>
+      <li Class="BNF.StyleSwitcher.BNFTextureExtension">
+        <originalPath>Textures/Original/Accessories/SupportPouches/SupportPouches</originalPath>
+        <greyscalePath>Textures/Greyscale/Accessories/SupportPouches/SupportPouches</greyscalePath>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>KP_Pouches_Medic</defName>
     <description>Keeping a soldier in fighting condition is the most important factor in success of an army. A strong medical corps is necessary in this task. This is the standard kit for a medic in the field, providing several items necessary for stabilization of a wounded soldier. Though it lacks the ability to treat life-threatening wounds it makes up for it in its speed and ease of access.</description>
     <label>Medic Pouches</label>
     <recipeMaker>
-      <researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>    
+      <researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>
     </recipeMaker>
-
     <graphicData>
       <texPath>Accessories/MedicPouches/MedicPouches</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	    <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <costStuffCount>40</costStuffCount>
-	  <costList>
+    <costList>
       <Steel>30</Steel>
-      <Silver>5</Silver>      
+      <Silver>5</Silver>
     </costList>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-
     <thingCategories>
       <li>KP_Accessories</li>
-    </thingCategories>	
-
-		<equippedStatOffsets>
-			<MedicalTendSpeed>0.1</MedicalTendSpeed>
-			<MedicalTendQuality>0.15</MedicalTendQuality>
-		</equippedStatOffsets> 
-
+    </thingCategories>
+    <equippedStatOffsets>
+      <MedicalTendSpeed>0.1</MedicalTendSpeed>
+      <MedicalTendQuality>0.15</MedicalTendQuality>
+    </equippedStatOffsets>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>2500</WorkToMake>
@@ -555,47 +552,54 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
-        <li>Waist</li>        
+        <li>Waist</li>
       </bodyPartGroups>
       <wornGraphicPath>Accessories/MedicPouches/MedicPouches</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
       <tags>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>OutlanderMedic</li>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderMedic</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
-
-		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.50,0.5,0.36)</only>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <only>(0.40,0.57,0.40)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.38,0.36,0.20)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.29,0.32,0.12)</only>
-			</li>
-		  </options>
-		</colorGenerator>	
-  </ThingDef>  
-
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.50,0.5,0.36)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <only>(0.40,0.57,0.40)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.38,0.36,0.20)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.29,0.32,0.12)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <modExtensions>
+      <li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+        <vanillaDesc>Keeping a soldier in fighting condition is the most important factor in success of an army. A strong medical corps is necessary in this task. This is the standard kit for a medic in the field, providing several items necessary for stabilization of a wounded soldier. Though it lacks the ability to treat life-threatening wounds it makes up for it in its speed and ease of access.</vanillaDesc>
+        <loreDesc />
+      </li>
+      <li Class="BNF.StyleSwitcher.BNFTextureExtension">
+        <originalPath>Textures/Original/Accessories/MedicPouches/MedicPouches</originalPath>
+        <greyscalePath>Textures/Greyscale/Accessories/MedicPouches/MedicPouches</greyscalePath>
+      </li>
+    </modExtensions>
+  </ThingDef>
 </Defs>

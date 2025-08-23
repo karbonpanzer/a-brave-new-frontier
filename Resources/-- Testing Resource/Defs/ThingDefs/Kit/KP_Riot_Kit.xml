@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<Defs>
+
+  <ThingDef ParentName="KP_CarapaceArmors">
+    <defName>KP_Riot_Armor</defName>
+    <label>riot armor</label>
+    <description>A padded leather vest reinforced with industrial plating. Cheap and mass-producible gear once issued to enforcers and penal units.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="false">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Armor/Riot/RiotArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>6.0</Mass>
+      <MarketValue>180</MarketValue>
+      <MaxHitPoints>110</MaxHitPoints>
+      <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.03</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Cloth>40</Cloth>
+      <Steel>20</Steel>
+    </costList>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderAdvanced</li>
+        <li>SpacerMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <wornGraphicPath>Armor/Riot/RiotArmor</wornGraphicPath>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+
+  </ThingDef>
+  <ThingDef ParentName="KP_CarapaceHelmets">
+    <defName>KP_Riot_Helmet</defName>
+    <label>riot helmet</label>
+    <description>A reinforced leather helmet offering modest protection and visibility, often used in urban pacification and riot control.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechHelmet</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="false">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Armor/Riot/RiotHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>5500</WorkToMake>
+      <Mass>2.2</Mass>
+      <MarketValue>130</MarketValue>
+      <MaxHitPoints>95</MaxHitPoints>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Cloth>20</Cloth>
+      <Steel>15</Steel>
+    </costList>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmorHeadgear</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderAdvanced</li>
+        <li>SpacerMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <wornGraphicPath>Armor/Riot/RiotHelmet</wornGraphicPath>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+
+  </ThingDef>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>KP_Riot_Belt</defName>
+    <label>riot belt</label>
+    <description>A rugged leather belt used to subdue prisoners and enforce order. Common among low-cost security outfits.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Accessories/RiotBelt/RiotBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>3000</WorkToMake>
+      <Mass>0.8</Mass>
+      <MarketValue>90</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <Suppressability>0.10</Suppressability>
+      <PrisonerSuppression>0.15</PrisonerSuppression>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <costStuffCount>0</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>KP_Accessories</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>OutlanderAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <wornGraphicPath>Accessories/RiotBelt/RiotBelt</wornGraphicPath>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+
+  </ThingDef>
+</Defs>

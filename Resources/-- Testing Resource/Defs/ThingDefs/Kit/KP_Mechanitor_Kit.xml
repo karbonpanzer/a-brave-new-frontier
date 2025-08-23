@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<Defs>
+
+  <ThingDef ParentName="KP_CarapaceArmors">
+    <defName>KP_Gilgamesh_Armor</defName>
+    <label>gilgamesh armor</label>
+    <description>Experimental carapace armor configured for Mechanitor integration. Offers increased bandwidth and control range at the cost of mobility and insulation.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>SpacerTechMechanitor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="false">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Armor/Mechanitor/MechanitorArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>13000</WorkToMake>
+      <Mass>10</Mass>
+      <MarketValue>850</MarketValue>
+      <MaxHitPoints>175</MaxHitPoints>
+      <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <Bandwidth>4</Bandwidth>
+      <MechControlGroups>1</MechControlGroups>
+    </equippedStatOffsets>
+    <costList>
+      <Cloth>60</Cloth>
+      <Plasteel>25</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <costStuffCount>90</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Armor/Mechanitor/MechanitorArmor</wornGraphicPath>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+
+  </ThingDef>
+  <ThingDef ParentName="KP_CarapaceHelmets">
+    <defName>KP_Gilgamesh_Helmet</defName>
+    <label>gilgamesh helmet</label>
+    <description>Mechanitor-compatible helmet that boosts bandwidth without enhancing signal range. Cheaper than standard mechanitor helms but provides reliable protection.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>SpacerTechMechanitor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechHelmet</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="false">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Armor/Mechanitor/MechanitorHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2.8</Mass>
+      <MarketValue>280</MarketValue>
+      <MaxHitPoints>135</MaxHitPoints>
+      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <Bandwidth>2</Bandwidth>
+    </equippedStatOffsets>
+    <costList>
+      <Plasteel>20</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelArmorHeadgear</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Armor/Mechanitor/MechanitorHelmet</wornGraphicPath>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+
+  </ThingDef>
+</Defs>

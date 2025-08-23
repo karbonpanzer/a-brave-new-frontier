@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>KP_Trench_Mace</defName>
+    <label>trench mace</label>
+    <description>A brutal close-range blunt weapon forged for trench assaults.</description>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>2.0</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li text="Blunt"/>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>KP_Trench_Sword</defName>
+    <label>trench sword</label>
+    <description>A close-combat blade used in confined battlefield environments like bunkers and trenches.</description>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>6200</WorkToMake>
+      <Mass>1.6</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>tip</label>
+        <capacities>
+          <li text="Cut"/>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>
