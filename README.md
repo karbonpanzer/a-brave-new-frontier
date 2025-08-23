@@ -1,5 +1,9 @@
 # A Brave New Frontier
 
+<p align="center">
+  <img src="https://i.imgur.com/LM4PASC.png" alt="BNF Preview" width="500"/>
+</p>
+
 ## Overview
 *A Brave New Frontier* is a spiritual successor to Shazbot’s Frontier Uniforms. It expands RimWorld with a middle-ground armor tier between flak and power armor, inspired by various sci-fi and video game sources. 
 
