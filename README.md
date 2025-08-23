@@ -74,10 +74,10 @@ This scenario provides a strong combat opening with BNF gear but still makes res
 
 ---
 
-## Roadmap (High Level)
-Most defs are written; art assets/textures are the main work left. DLC-tied content uses conditional defs and fails gracefully if the DLC isn’t installed.
+## Roadmap Items
+Most defs are written; art assets/textures are the main work left. DLC-tied content uses conditional defs.
 
-- **Gasmask** – Base-game toxic protection mask.
+- **Gasmask** – Base-game toxic protection mask which works with the helmets provided in this mod.
 - **Riot Kit** – Armour, helmet, belt for law/riot units.
 - **Psycher Kit** *(Royalty)* – Armour, headgear, staff for psycasters.
 - **Mechinator Kit** *(Biotech)* – Helmet, armour, webbing for mechanitors.
@@ -85,8 +85,13 @@ Most defs are written; art assets/textures are the main work left. DLC-tied cont
 - **Melee Expansion** – Trench club & trench sword to fill melee gaps.
 - **Argonaut Kit** *(Odyssey)* – Vacsuit & helmet for spacer/void environments.
 
----
+## Roadmap Factions
+Most defs are written; art assets/textures are the main work left. DLC-tied content uses conditional defs.
 
-## Repository Layout
-A suggested clean structure for the mod files:
+- **Company Scrip** – Alternative money that is inferior to silver but BNF factions prefer them for trade.
+- **Custom Quests and Incidents** – Lore-Friendly Quests to be incorporated into the mod in a decent way. 
 
+## Roadmap Et Cetera
+
+- **Texture Swapping** – A mod setting to swap between the masked colored textures and the greyscaled textures to avoid the issues of aliasing with the textures.
+- **Description Swapping** – A mod setting to replace the flavorful but dragging lore based descriptions with a less stylized vanilla tone. 
