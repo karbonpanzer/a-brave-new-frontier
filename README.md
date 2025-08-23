@@ -1,20 +1,20 @@
 # A Brave New Frontier
 
 ## Overview
-*A Brave New Frontier* is a spiritual successor to Shazbot’s Frontier Uniforms. It expands RimWorld’s military gear with grounded sci-fi infantry equipment — filling the gap between flak and power armour with kit for regular human troops.
+*A Brave New Frontier* is a spiritual successor to Shazbot’s Frontier Uniforms. It expands RimWorld’s with a middle ground armor between flak and power armor which is inspire by variousd Sci-Fi and video game sources. Currently materials related to this mod and items are on hiatus but right now I am working on including other materials such as mod settings, factions, and starting scenario and many more things which will be lateral expansions. 
 
 ### Design Goals
 - Mid-tier protection between flak and marine.
-- Focus on line infantry: uniforms, helmets, armour, belts and weapons.
 - Clean, vanilla-style art and silhouettes.
-- Accessories and belts used sparingly for clarity.
+- Following the method of armor differing from vanilla Rimworld styling.
+- 
 - DLC-aware progression: extras for Royalty, Biotech, and Odyssey.
 
 ---
 
-## Implemented Items (Defs Complete)
+## Implemented Materials
 
-The following items are already implemented in the `1.6/Defs` folder. Textures are still pending unless otherwise noted.
+The following items are already implemented and serve as the last of the changes when it comes to items and apparel.
 
 | Category            | Items (variants in parentheses) |
 |---------------------|----------------------------------|
