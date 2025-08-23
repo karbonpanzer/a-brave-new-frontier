@@ -1,20 +1,22 @@
 # A Brave New Frontier
 
 ## Overview
-*A Brave New Frontier* is a spiritual successor to Shazbot’s Frontier Uniforms. It expands RimWorld’s with a middle ground armor between flak and power armor which is inspire by variousd Sci-Fi and video game sources. Currently materials related to this mod and items are on hiatus but right now I am working on including other materials such as mod settings, factions, and starting scenario and many more things which will be lateral expansions. 
+*A Brave New Frontier* is a spiritual successor to Shazbot’s Frontier Uniforms. It expands RimWorld with a middle-ground armor tier between flak and power armor, inspired by various sci-fi and video game sources. 
+
+At present, work on new items is on hiatus; current focus is on lateral expansions such as mod settings, factions, and a starting scenario.
 
 ### Design Goals
 - Mid-tier protection between flak and marine.
-- Clean, vanilla-style art and silhouettes.
-- Following the method of armor differing from vanilla Rimworld styling.
-- 
+- Clean, vanilla-style silhouettes with distinctive design.
+- Armor styling that differs from vanilla RimWorld methods.
 - DLC-aware progression: extras for Royalty, Biotech, and Odyssey.
 
 ---
 
 ## Implemented Materials
 
-The following items are already implemented and serve as the last of the changes when it comes to items and apparel.
+### Weapons and Apparel
+These are the last planned additions to items and apparel. Defs exist; textures/art remain to be finished.
 
 | Category            | Items (variants in parentheses) |
 |---------------------|----------------------------------|
@@ -26,8 +28,7 @@ The following items are already implemented and serve as the last of the changes
 | Hats                | Field Hat (Arid, Temperate, Boreal, Polar); Officer Cap |
 | Weapons             | Assault Pistol; Hyper-SMG; Hyperblaster; Chem-Rail Rifle; Retro Rifle; Heavy “Autoloader” Rifle; Super-Shotgun; Trench Spike (+ associated projectiles) |
 
-## Factions
-
+### Factions
 BNF introduces new offworld factions that use the gear and weapons above:
 
 - **Civil Offworlders** (`KP_Offworlder_Civil`):  
@@ -48,9 +49,8 @@ Both factions:
 - Use the Astropolitan culture and support Ideology/Biotech features (memes and xenotypes) if those DLCs are active.
 - Have proper caravan trader kinds and spawn rules.
 
-## Scenario
-
-BNF adds a new custom scenario designed to showcase its military gear from the start.
+### Scenario
+BNF adds a custom scenario to showcase its military gear from the start.
 
 - **Colonial Franchise** (`KP_Outlanders`):  
   A group of offworld contractors sent by a coreworld organization to found a colonial franchise.
@@ -70,7 +70,7 @@ BNF adds a new custom scenario designed to showcase its military gear from the s
     - 40 industrial medicine  
     - 150 steel (baseline crashlanded materials)
 
-This scenario gives players a strong combat opening with BNF gear, but still makes resource management challenging.
+This scenario provides a strong combat opening with BNF gear but still makes resource management challenging.
 
 ---
 
@@ -88,6 +88,5 @@ Most defs are written; art assets/textures are the main work left. DLC-tied cont
 ---
 
 ## Repository Layout
-
-A clean suggested structure for the mod’s files:
+A suggested clean structure for the mod files:
 
