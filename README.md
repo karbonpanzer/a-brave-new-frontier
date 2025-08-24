@@ -12,7 +12,7 @@ At present, work on new items is on hiatus; current focus is on lateral expansio
 ### Design Goals
 - Mid-tier protection between flak and marine.
 - Clean, vanilla-style silhouettes with distinctive design.
-- Armor styling that differs from vanilla RimWorld methods.
+- Modular building of soldiers based on accessories which allow certain colonist to be built to fit their role.
 - DLC-aware progression: extras for Royalty, Biotech, and Odyssey.
 
 ---
