@@ -21,17 +21,8 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
-    <modExtensions>
-      <li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-        <vanillaDesc />
-        <loreDesc />
-      </li>
-      <li Class="BNF.StyleSwitcher.BNFTextureExtension">
-        <originalPath>Textures/Original/REPLACE_ME</originalPath>
-        <greyscalePath>Textures/Greyscale/REPLACE_ME</greyscalePath>
-      </li>
-    </modExtensions>
   </ThingDef>
+  
   <ThingDef ParentName="KP_CarapaceArmors">
     <defName>KP_Light_Flak_Armor</defName>
     <label>Carapace Armor</label>
