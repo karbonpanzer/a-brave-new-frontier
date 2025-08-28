@@ -3,11 +3,9 @@
 ![Preview 1](https://imgur.com/fVVaDCS.png)
 ![Preview 2](https://i.imgur.com/2WX0nv5.png)
 
-~~~text
 During the era of the Great Domain, humanity reached the apex of its power. Hundreds of worlds were under the thumb of humanity, not since the First Age of Expansion that humanity had this amount of freedom. The Golden Age of Humanity saw a cultural explosion which humanity might never see again as billions took to the stars. That was until they found them, buried in the ancient worlds of the Rim. Mechanoids destroyed in years what humanity took centuries to build, the Golden Age had fallen with the Great Domain.
 The Final War began in the Rim, between ancient machines and humanity. The Great Domain fought valiantly against the Mechanoid Fleets, holding worlds with such fervor that some say the planets fell before the Dominion Regiments did. Alas, the Great Domain fell after a series of losses of which it could never recover, its death knell being the Exodus Protocol, millions of colony ships were sent out in every direction to ensure the survival of humanity. On those ships were the last sliver of hope for humanity as the Great Domain’s capital fell.
 This gear is a remnant of that final struggle, armor that was issued to the Infantry of the Great Domain, each piece perfected after centuries of fighting. While not as strong as power armor it keeps millions of people fighting against the Mechanoids and the Insectoids when all hope was lost. A light armor made for regiments that held the line until the bitter end. This armor was the hope of a brighter tomorrow when humanity could be free from the threats of outsiders. While the Great Domain is lost, there is hope here in the Brave New Frontier.
-~~~
 
 ![Gallery 1](https://i.imgur.com/kuBol1S.png)
 ![Gallery 2](https://i.imgur.com/l5ZDjxV.png)
