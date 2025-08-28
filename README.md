@@ -19,35 +19,32 @@ This gear is a remnant of that final struggle, armor that was issued to the Infa
 </details>
 
 <details>
-<summary><b>Screenshots (grid)</b> (expand)</summary>
+<summary><b>Screenshots (16)</b> (expand)</summary>
 
-<table>
-  <tr>
-    <td><img src="https://i.imgur.com/kuBol1S.png" alt="1" width="100%"></td>
-    <td><img src="https://i.imgur.com/l5ZDjxV.png" alt="2" width="100%"></td>
-    <td><img src="https://i.imgur.com/ukSlgBG.png" alt="3" width="100%"></td>
-    <td><img src="https://i.imgur.com/0JEayy3.png" alt="4" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="https://i.imgur.com/ilpvkhC.png" alt="5" width="100%"></td>
-    <td><img src="https://i.imgur.com/FQ91Di2.png" alt="6" width="100%"></td>
-    <td><img src="https://i.imgur.com/7LXNwZK.png" alt="7" width="100%"></td>
-    <td><img src="https://i.imgur.com/xv2aOUw.png" alt="8" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="https://i.imgur.com/r0yELJ4.png" alt="9" width="100%"></td>
-    <td><img src="https://i.imgur.com/8xSHgiW.png" alt="10" width="100%"></td>
-    <td><img src="https://i.imgur.com/DKSNkjT.png" alt="11" width="100%"></td>
-    <td><img src="https://i.imgur.com/8qb0NA8.png" alt="12" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="https://i.imgur.com/sknXQma.png" alt="13" width="100%"></td>
-    <td><img src="https://i.imgur.com/ZfcH1nq.png" alt="14" width="100%"></td>
-    <td><img src="https://i.imgur.com/W1Ko9ew.png" alt="15" width="100%"></td>
-    <td><img src="https://i.imgur.com/63FghuM.png" alt="16" width="100%"></td>
-  </tr>
-</table>
-
+<p>
+  <img src="https://i.imgur.com/kuBol1S.png" alt="Gallery 1" width="24%">
+  <img src="https://i.imgur.com/l5ZDjxV.png" alt="Gallery 2" width="24%">
+  <img src="https://i.imgur.com/ukSlgBG.png" alt="Gallery 3" width="24%">
+  <img src="https://i.imgur.com/0JEayy3.png" alt="Gallery 4" width="24%">
+</p>
+<p>
+  <img src="https://i.imgur.com/ilpvkhC.png" alt="Gallery 5" width="24%">
+  <img src="https://i.imgur.com/FQ91Di2.png" alt="Gallery 6" width="24%">
+  <img src="https://i.imgur.com/7LXNwZK.png" alt="Gallery 7" width="24%">
+  <img src="https://i.imgur.com/xv2aOUw.png" alt="Gallery 8" width="24%">
+</p>
+<p>
+  <img src="https://i.imgur.com/r0yELJ4.png" alt="Gallery 9" width="24%">
+  <img src="https://i.imgur.com/8xSHgiW.png" alt="Gallery 10" width="24%">
+  <img src="https://i.imgur.com/DKSNkjT.png" alt="Gallery 11" width="24%">
+  <img src="https://i.imgur.com/8qb0NA8.png" alt="Gallery 12" width="24%">
+</p>
+<p>
+  <img src="https://i.imgur.com/sknXQma.png" alt="Gallery 13" width="24%">
+  <img src="https://i.imgur.com/ZfcH1nq.png" alt="Gallery 14" width="24%">
+  <img src="https://i.imgur.com/W1Ko9ew.png" alt="Gallery 15" width="24%">
+  <img src="https://i.imgur.com/63FghuM.png" alt="Gallery 16" width="24%">
+</p>
 </details>
 
 ### Links
