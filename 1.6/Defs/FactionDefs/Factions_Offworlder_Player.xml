@@ -1,41 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  <FactionDef ParentName="PlayerFactionBase">
-    <defName>KP_Offworlder_Player</defName>
-    <label>New Franchise</label>
-    <description>A offworlder group sponsored by coreworld governments and corporations.</description>
-    <colorSpectrum>
-      <li>(0, 0.737, 0.847)</li>
-    </colorSpectrum>
-    <isPlayer>true</isPlayer>
-    <basicMemberKind>KP_Offwolder_Player</basicMemberKind>
-    <pawnSingular>offworlder</pawnSingular>
-    <pawnsPlural>offworlders</pawnsPlural>
-    <techLevel>Spacer</techLevel>
-    <allowedCultures>
-      <li>Astropolitan</li>
-    </allowedCultures>
-    <factionNameMaker>NamerFactionOffworlderCivil</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOffworlderCivil</settlementNameMaker>
-    <backstoryFilters>
-      <li>
-        <categories>
-          <li>Outlander</li>
-        </categories>
-      </li>
-    </backstoryFilters>
-    <factionIconPath>UI/FactionIcons/OffworlderCivilOutpost</factionIconPath>
-    <startingResearchTags>
-      <li>ClassicStart</li>
-    </startingResearchTags>
-    <startingTechprintsResearchTags>
-      <li>ClassicStart</li>
-      <li>ClassicStartTechprints</li>
-    </startingTechprintsResearchTags>
-    <apparelStuffFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </apparelStuffFilter>
-  </FactionDef>
+	<!--==================== KP_Offworlder_Player | New Franchise ====================-->
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>KP_Offworlder_Player</defName>
+		<label>New Franchise</label>
+		<description>A offworlder group sponsored by coreworld governments and corporations.</description>
+		<colorSpectrum>
+			<li>(0, 0.737, 0.847)</li>
+		</colorSpectrum>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>KP_Offwolder_Player</basicMemberKind>
+		<pawnSingular>offworlder</pawnSingular>
+		<pawnsPlural>offworlders</pawnsPlural>
+		<techLevel>Spacer</techLevel>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<factionNameMaker>NamerFactionOffworlderCivil</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOffworlderCivil</settlementNameMaker>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>UI/FactionIcons/OffworlderCivilOutpost</factionIconPath>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>ClassicStart</li>
+			<li>ClassicStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
 </Defs>

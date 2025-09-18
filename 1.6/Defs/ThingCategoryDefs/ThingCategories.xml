@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
-
-  <!-- Frontier Uniforms -->
-    <ThingCategoryDef>
-      <defName>KP_Uniforms</defName>
-      <label>Frontier Uniforms</label>
-      <parent>Apparel</parent>
+	<!--==================== KP_Uniforms | Frontier Uniforms ====================-->
+	<ThingCategoryDef>
+		<defName>KP_Uniforms</defName>
+		<label>Frontier Uniforms</label>
+		<parent>Apparel</parent>
 	</ThingCategoryDef>
 
-    <ThingCategoryDef>
-      <defName>KP_Headgear</defName>
-      <label>Frontier Headgear</label>
-      <parent>KP_Uniforms</parent>
+	<!--==================== KP_Headgear | Frontier Headgear ====================-->
+	<ThingCategoryDef>
+		<defName>KP_Headgear</defName>
+		<label>Frontier Headgear</label>
+		<parent>KP_Uniforms</parent>
 	</ThingCategoryDef>
-	
-    <ThingCategoryDef>
-      <defName>KP_Accessories</defName>
-      <label>Frontier Accessories</label>
-      <parent>KP_Uniforms</parent>
-	</ThingCategoryDef>	
+
+	<!--==================== KP_Accessories | Frontier Accessories ====================-->
+	<ThingCategoryDef>
+		<defName>KP_Accessories</defName>
+		<label>Frontier Accessories</label>
+		<parent>KP_Uniforms</parent>
+	</ThingCategoryDef>
 
 </Defs>

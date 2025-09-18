@@ -1,0 +1,10 @@
+gov_epithet_civil_1w->Corridor
+gov_epithet_civil_1w->Bastion
+gov_epithet_civil_1w->Concourse
+gov_epithet_civil_1w->Frontier
+gov_epithet_civil_1w->Depotline
+gov_epithet_civil_1w->Palladium
+gov_epithet_civil_1w->Meridian
+gov_epithet_civil_1w->Beacon
+gov_epithet_civil_1w->Statute
+gov_epithet_civil_1w->Ordinance

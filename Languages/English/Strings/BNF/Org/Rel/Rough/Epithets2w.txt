@@ -1,0 +1,10 @@
+rel_epithet_rough_2w->Broken Seal
+rel_epithet_rough_2w->Red March
+rel_epithet_rough_2w->Black Glass
+rel_epithet_rough_2w->Last Mile
+rel_epithet_rough_2w->Empty Sky
+rel_epithet_rough_2w->Iron Vigil
+rel_epithet_rough_2w->Cold Trail
+rel_epithet_rough_2w->Warden Psalm
+rel_epithet_rough_2w->Dust Prayer
+rel_epithet_rough_2w->Gravel Hymn

@@ -8,12 +8,12 @@
 The Clothing added by this mod function based on environment that a soldier can find on the Rim. From the harsh heat of the Spiceworlds to the bittercold of the Glassworld, a uniform for any season and anyplace that are deemed worthy for heavy losses by either military command or the companies that hired your colonist to remove certain native elements from the planet. In the infantry, you needs are meet even though the food quality is poor, the equipment is poor, and the leaders are even poorer, but you get to see more than the shithole you grew up on.
 
 Thanks to Krazy4Games for his artwork in this mod.
-  </description>
+	</description>
   
-  <supportedVersions>
+	<supportedVersions>
 	  <li>1.4</li>
 	  <li>1.5</li>
 	  <li>1.6</li>	  
-  </supportedVersions>
+    </supportedVersions>
     
 </ModMetaData>

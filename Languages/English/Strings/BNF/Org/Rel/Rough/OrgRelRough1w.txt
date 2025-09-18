@@ -1,0 +1,10 @@
+org_rel_rough_1w->Vector
+org_rel_rough_1w->Rite
+org_rel_rough_1w->Fellowship
+org_rel_rough_1w->Confraternity
+org_rel_rough_1w->Procession
+org_rel_rough_1w->Tabernacle
+org_rel_rough_1w->Chaplaincy
+org_rel_rough_1w->Votary
+org_rel_rough_1w->Circuit
+org_rel_rough_1w->Pilgrimage

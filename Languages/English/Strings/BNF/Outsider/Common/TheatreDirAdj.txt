@@ -1,0 +1,17 @@
+theatre_dir_adj->North
+theatre_dir_adj->South
+theatre_dir_adj->East
+theatre_dir_adj->West
+theatre_dir_adj->Outer
+theatre_dir_adj->Inner
+theatre_dir_adj->Upper
+theatre_dir_adj->Lower
+theatre_dir_adj->Far
+theatre_dir_adj->Near
+theatre_dir_adj->High
+theatre_dir_adj->Low
+theatre_dir_adj->Sunward
+theatre_dir_adj->Rimward
+theatre_dir_adj->Coreward
+theatre_dir_adj->Spinward
+theatre_dir_adj->Trailing

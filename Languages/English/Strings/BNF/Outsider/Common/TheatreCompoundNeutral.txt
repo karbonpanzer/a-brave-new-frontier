@@ -1,0 +1,10 @@
+theatre_compound_neutral->Dust Belt
+theatre_compound_neutral->Ash Belt
+theatre_compound_neutral->Iron Line
+theatre_compound_neutral->Black Ridge
+theatre_compound_neutral->Frost Span
+theatre_compound_neutral->Sun Reach
+theatre_compound_neutral->Stone Wilds
+theatre_compound_neutral->Salt March
+theatre_compound_neutral->Glass Belt
+theatre_compound_neutral->Storm Line

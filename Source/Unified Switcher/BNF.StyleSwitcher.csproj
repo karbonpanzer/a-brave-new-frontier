@@ -13,6 +13,7 @@
 
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <!-- SDK already includes all *.cs in this folder by default.

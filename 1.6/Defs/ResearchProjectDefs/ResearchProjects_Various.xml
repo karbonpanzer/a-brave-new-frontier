@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
-
+	<!--==================== LateIndustrialUniforms | Frontier Uniforms ====================-->
 	<ResearchProjectDef>
 		<defName>LateIndustrialUniforms</defName>
 		<label>Frontier Uniforms</label>
@@ -11,10 +11,11 @@
 		<prerequisites>
 			<li>ComplexClothing</li>
 		</prerequisites>
- 			<researchViewX>0</researchViewX>
- 			<researchViewY>1</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
+	<!--==================== OfficerUniforms | Officer Uniforms ====================-->
 	<ResearchProjectDef>
 		<defName>OfficerUniforms</defName>
 		<label>Officer Uniforms</label>
@@ -25,10 +26,11 @@
 		<prerequisites>
 			<li>LateIndustrialUniforms</li>
 		</prerequisites>
- 			<researchViewX>1</researchViewX>
- 			<researchViewY>3</researchViewY>
-	</ResearchProjectDef>	
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
 
+	<!--==================== LateIndustrialKitSupport | Support Kit ====================-->
 	<ResearchProjectDef>
 		<defName>LateIndustrialKitSupport</defName>
 		<label>Support Kit</label>
@@ -39,10 +41,11 @@
 		<prerequisites>
 			<li>LateIndustrialUniforms</li>
 		</prerequisites>
- 			<researchViewX>1</researchViewX>
- 			<researchViewY>1</researchViewY>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
+	<!--==================== LateIndustrialKitInfantry | Infantry Kit ====================-->
 	<ResearchProjectDef>
 		<defName>LateIndustrialKitInfantry</defName>
 		<label>Infantry Kit</label>
@@ -53,10 +56,11 @@
 		<prerequisites>
 			<li>LateIndustrialUniforms</li>
 		</prerequisites>
- 			<researchViewX>1</researchViewX>
- 			<researchViewY>2</researchViewY>
-	</ResearchProjectDef>		
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
 
+	<!--==================== LateIndustrialFlakArmor | Carapace Armor and Helmets ====================-->
 	<ResearchProjectDef>
 		<defName>LateIndustrialFlakArmor</defName>
 		<label>Carapace Armor and Helmets</label>
@@ -67,10 +71,11 @@
 		<prerequisites>
 			<li>FlakArmor</li>
 		</prerequisites>
- 			<researchViewX>0</researchViewX>
- 			<researchViewY>0</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
+	<!--==================== SpecializedFlakArmor | Specialized Flak Armor and Helmets ====================-->
 	<ResearchProjectDef>
 		<defName>SpecializedFlakArmor</defName>
 		<label>Specialized Flak Armor and Helmets</label>
@@ -79,13 +84,14 @@
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>LateIndustrialFlakArmor</li>		
+			<li>LateIndustrialFlakArmor</li>
 			<li>LateIndustrialKitSupport</li>
 		</prerequisites>
- 			<researchViewX>2</researchViewX>
- 			<researchViewY>1</researchViewY>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
-	
+
+	<!--==================== StormtrooperKit | Stormtrooper Kit ====================-->
 	<ResearchProjectDef>
 		<defName>StormtrooperKit</defName>
 		<label>Stormtrooper Kit</label>
@@ -94,14 +100,14 @@
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>LateIndustrialFlakArmor</li>		
+			<li>LateIndustrialFlakArmor</li>
 			<li>LateIndustrialKitSupport</li>
 		</prerequisites>
- 			<researchViewX>2</researchViewX>
- 			<researchViewY>2</researchViewY>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
-	
 
+	<!--==================== ThermalHelmets | Thermal Helmets ====================-->
 	<ResearchProjectDef>
 		<defName>ThermalHelmets</defName>
 		<label>Thermal Helmets</label>
@@ -111,12 +117,13 @@
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>SpecializedFlakArmor</li>
-			<li>ArcticUniforms</li>						
+			<li>ArcticUniforms</li>
 		</prerequisites>
- 			<researchViewX>3</researchViewX>
- 			<researchViewY>4</researchViewY>
-	</ResearchProjectDef>	
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
 
+	<!--==================== HeavyFlakArmor | Heavy Carapace Armor and Helmets ====================-->
 	<ResearchProjectDef>
 		<defName>HeavyFlakArmor</defName>
 		<label>Heavy Carapace Armor and Helmets</label>
@@ -127,10 +134,11 @@
 		<prerequisites>
 			<li>SpecializedFlakArmor</li>
 		</prerequisites>
- 			<researchViewX>3</researchViewX>
- 			<researchViewY>0</researchViewY>
-	</ResearchProjectDef>	
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
 
+	<!--==================== ModifiedGauntlets | Modified Gauntlets ====================-->
 	<ResearchProjectDef>
 		<defName>ModifiedGauntlets</defName>
 		<label>Modified Gauntlets</label>
@@ -141,10 +149,11 @@
 		<prerequisites>
 			<li>SpecializedFlakArmor</li>
 		</prerequisites>
- 			<researchViewX>3</researchViewX>
- 			<researchViewY>4</researchViewY>
-	</ResearchProjectDef>		
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
 
+	<!--==================== OfficerFlakArmor | Officer Carapace Armor ====================-->
 	<ResearchProjectDef>
 		<defName>OfficerFlakArmor</defName>
 		<label>Officer Carapace Armor</label>
@@ -153,13 +162,14 @@
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>OfficerUniforms</li>		
+			<li>OfficerUniforms</li>
 			<li>SpecializedFlakArmor</li>
 		</prerequisites>
- 			<researchViewX>3</researchViewX>
- 			<researchViewY>3</researchViewY>
-	</ResearchProjectDef>	
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
 
+	<!--==================== VanguardKit | Vanguard Carapace Armor ====================-->
 	<ResearchProjectDef>
 		<defName>VanguardKit</defName>
 		<label>Vanguard Carapace Armor</label>
@@ -170,10 +180,11 @@
 		<prerequisites>
 			<li>SpecializedFlakArmor</li>
 		</prerequisites>
- 			<researchViewX>3</researchViewX>
- 			<researchViewY>1</researchViewY>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
+	<!--==================== ArcticUniforms | Polar Uniforms ====================-->
 	<ResearchProjectDef>
 		<defName>ArcticUniforms</defName>
 		<label>Polar Uniforms</label>
@@ -184,10 +195,11 @@
 		<prerequisites>
 			<li>LateIndustrialUniforms</li>
 		</prerequisites>
- 			<researchViewX>1</researchViewX>
- 			<researchViewY>4</researchViewY>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 
+	<!--==================== SurplusWeaponsInfantry | Surplus Infantry Weaponry ====================-->
 	<ResearchProjectDef>
 		<defName>SurplusWeaponsInfantry</defName>
 		<label>Surplus Infantry Weaponry</label>
@@ -197,13 +209,14 @@
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>GasOperation</li>
-			<li>PrecisionRifling</li>	
-			<li>Smithing</li>				
+			<li>PrecisionRifling</li>
+			<li>Smithing</li>
 		</prerequisites>
- 			<researchViewX>0</researchViewX>
- 			<researchViewY>6</researchViewY>
-	</ResearchProjectDef>	
+		<researchViewX>0</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
 
+	<!--==================== SurplusWeaponsExperimental | Surplus Experimental Weaponry ====================-->
 	<ResearchProjectDef>
 		<defName>SurplusWeaponsExperimental</defName>
 		<label>Surplus Experimental Weaponry</label>
@@ -213,10 +226,10 @@
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>SurplusWeaponsInfantry</li>
-			<li>ChargedShot</li>			
+			<li>ChargedShot</li>
 		</prerequisites>
- 			<researchViewX>1</researchViewX>
- 			<researchViewY>6</researchViewY>
-	</ResearchProjectDef>		
+		<researchViewX>1</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
 
 </Defs>

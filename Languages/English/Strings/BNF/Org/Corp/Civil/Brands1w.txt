@@ -1,0 +1,10 @@
+brand_core_civil_1w->Quadrant
+brand_core_civil_1w->Aegis
+brand_core_civil_1w->Bastion
+brand_core_civil_1w->Exodus
+brand_core_civil_1w->Aurora
+brand_core_civil_1w->Concordia
+brand_core_civil_1w->Mariner
+brand_core_civil_1w->Meridian
+brand_core_civil_1w->Starforge
+brand_core_civil_1w->Palladium

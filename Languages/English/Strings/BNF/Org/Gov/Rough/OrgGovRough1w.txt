@@ -1,0 +1,12 @@
+org_gov_rough_1w->Wardenship
+org_gov_rough_1w->Marshalate
+org_gov_rough_1w->Canton
+org_gov_rough_1w->March
+org_gov_rough_1w->Marcherate
+org_gov_rough_1w->Freehold
+org_gov_rough_1w->Holdfast
+org_gov_rough_1w->Palisade
+org_gov_rough_1w->Bastionry
+org_gov_rough_1w->Borderkeep
+org_gov_rough_1w->Watchpost
+org_gov_rough_1w->Rangerate

@@ -1,0 +1,13 @@
+Commission
+Authority
+Directorate
+Assembly
+Council
+Secretariat
+Magistracy
+Protectorate
+Prefecture
+Concord
+Registry
+Ministry
+Bureau

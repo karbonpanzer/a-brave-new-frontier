@@ -1,0 +1,13 @@
+Reaches
+Ranges
+Barrens
+Uplands
+Lowlands
+Flats
+Breaks
+Wilds
+Wastes
+Marches
+Steppes
+Ridges
+Badlands

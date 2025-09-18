@@ -1,0 +1,10 @@
+Crew
+Band
+Outfit
+Syndicate
+Combine
+Cartel
+Posse
+Consortium
+Covenant
+Brotherhood

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<!--==================== NamerSettlementOffworlderCivil ====================-->
+	<RulePackDef>
+		<defName>NamerSettlementOffworlderCivil</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name-&gt;New [new_townform]</li>
+				<li>name-&gt;New [newable_abstract]</li>
+				<li>name-&gt;[townroot][townsuffix]</li>
+				<li>name-&gt;[townroot] [civil_second]</li>
+				<li>name-&gt;[civil_concept_root] [civil_second]</li>
+				<li>name-&gt;[civil_poss_root]'s [civil_poss_noun]</li>
+				<li>name-&gt;[townroot][townsuffix]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>new_townform</keyword>
+					<path>BNF/Settlement/Common/NewTownform</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>newable_abstract</keyword>
+					<path>BNF/Settlement/Common/Newable_Abstract</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>townroot</keyword>
+					<path>BNF/Settlement/Common/TownRoot_Common</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>townsuffix</keyword>
+					<path>BNF/Settlement/Common/TownSuffix_Common</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>civil_second</keyword>
+					<path>BNF/Settlement/Civil/SecondWord_Civil</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>civil_concept_root</keyword>
+					<path>BNF/Settlement/Civil/ConceptRoot</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>civil_poss_root</keyword>
+					<path>BNF/Settlement/Civil/PossessiveRoot</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>civil_poss_noun</keyword>
+					<path>BNF/Settlement/Civil/PossessiveNoun</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

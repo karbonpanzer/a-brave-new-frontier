@@ -1,0 +1,976 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<!--==================== KP_CarapaceHelmets ====================-->
+	<ThingDef Name="KP_CarapaceHelmets" ParentName="ArmorHelmetMakeableBase" Abstract="true">
+		<techLevel>Spacer</techLevel>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<tags>
+				<li>KP_CarapaceHelmets</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+	</ThingDef>
+
+	<!--==================== KP_Light_Flak_Helmet | Carapace Helmet ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Light_Flak_Helmet</defName>
+		<label>Carapace Helmet</label>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/LightHelmet/LightHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>10</Cloth>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderAdvanced</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</loreDesc>
+				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequete protection against melee and small arms fire while remaining light. It is inferior to full helmet protection though, its ease of production makes it more accessible.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/LightHelmet/LightHelmet</originalPath>
+				<greyscalePath>Greyscale/Helmets/LightHelmet/LightHelmet</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Light_Flak_Helmet_Medic | Carapace Helmet (Medic) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Light_Flak_Helmet_Medic</defName>
+		<label>Carapace Helmet (Medic)</label>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
+		
+This variant is marked for usage by Medical staff.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/LightHelmetMedic/LightHelmetMedic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>10</Cloth>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/LightHelmetMedic/LightHelmetMedic</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderMedic</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
+		
+This variant is marked for usage by Medical staff.</loreDesc>
+				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard carapace helmet, but marked with insignia to denote medical personnel.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/LightHelmetMedic/LightHelmetMedic</originalPath>
+				<greyscalePath>Greyscale/Helmets/LightHelmetMedic/LightHelmetMedic</greyscalePath>
+			</li>
+					
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Light_Flak_Helmet_Support | Carapace Helmet (Engineer) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Light_Flak_Helmet_Support</defName>
+		<label>Carapace Helmet (Engineer)</label>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
+		
+This variant is marked for usage by Engineering staff.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/LightHelmetSupport/LightHelmetSupport</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>10</Cloth>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/LightHelmetSupport/LightHelmetSupport</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderEngineer</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
+		
+This variant is marked for usage by Engineering staff.</loreDesc>
+				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard carapace helmet, but marked with insignia to denote engineers.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/LightHelmetSupport/LightHelmetSupport</originalPath>
+				<greyscalePath>Greyscale/Helmets/LightHelmetSupport/LightHelmetSupport</greyscalePath>
+			</li>
+		
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Light_Flak_Helmet_Thermal | Carapace Helmet (Thermal) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Light_Flak_Helmet_Thermal</defName>
+		<label>Carapace Helmet (Thermal)</label>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
+		
+This variant is modified for usage on extremely cold worlds.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>ThermalHelmets</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/LightHelmetThermal/LightHelmetThermal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+			<Insulation_Cold>12</Insulation_Cold>
+			<Insulation_Heat>0.2</Insulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>80</Cloth>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/LightHelmetThermal/LightHelmetThermal</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderAdvanced</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
+		
+This variant is modified for usage on extremely cold worlds.</loreDesc>
+				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Lined with thermal material to improve insulation in harsh climates.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/LightHelmetThermal/LightHelmetThermal</originalPath>
+				<greyscalePath>Greyscale/Helmets/LightHelmetThermal/LightHelmetThermal</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Light_Flak_Helmet_Officer | Carapace Helmet (Officer) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Light_Flak_Helmet_Officer</defName>
+		<label>Carapace Helmet (Officer)</label>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
+		
+This variant is marked for usage by officers.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>OfficerFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/LightHelmetOfficer/LightHelmetOfficer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>10</Cloth>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/LightHelmetOfficer/LightHelmetOfficer</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderOfficer</li>
+				<li>SpacerMilitary</li>
+				<li>PrestigeCombatGear</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
+		
+This variant is marked for usage by officers.</loreDesc>
+				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard light carapace helmet, but decorated with gold inlay to denote officer rank.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/LightHelmetOfficer/LightHelmetOfficer</originalPath>
+				<greyscalePath>Greyscale/Helmets/LightHelmetOfficer/LightHelmetOfficer</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Heavy_Flak_Helmet | Heavy Carapace Helmet ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Heavy_Flak_Helmet</defName>
+		<label>Heavy Carapace Helmet</label>
+		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/HeavyHelmet/HeavyHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>60</Cloth>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/HeavyHelmet/HeavyHelmet</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderAdvanced</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.</loreDesc>
+				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource efficient. The additional protection still does not provide the same level of protection as a full helmet does. </vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/HeavyHelmet/HeavyHelmet</originalPath>
+				<greyscalePath>Greyscale/Helmets/HeavyHelmet/HeavyHelmet</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Heavy_Flak_Helmet_Medic | Heavy Carapace Helmet (Medic) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Heavy_Flak_Helmet_Medic</defName>
+		<label>Heavy Carapace Helmet (Medic)</label>
+		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
+		
+This variant is marked for usage by Medical staff.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>60</Cloth>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderMedic</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
+		
+This variant is marked for usage by Medical staff.</loreDesc>
+				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but marked with insignia to denote medical personnel.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</originalPath>
+				<greyscalePath>Greyscale/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</greyscalePath>
+			</li>
+					
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Heavy_Flak_Helmet_Support | Heavy Carapace Helmet (Engineer) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Heavy_Flak_Helmet_Support</defName>
+		<label>Heavy Carapace Helmet (Engineer)</label>
+		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
+		
+This variant is marked for usage by Engineering staff.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>60</Cloth>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderEngineer</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
+		
+This variant is marked for usage by Engineering staff.</loreDesc>
+				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but marked with insignia to denote engineers.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</originalPath>
+				<greyscalePath>Greyscale/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</greyscalePath>
+			</li>
+			
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Heavy_Flak_Helmet_Thermal | Heavy Carapace Helmet (Thermal) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Heavy_Flak_Helmet_Thermal</defName>
+		<label>Heavy Carapace Helmet (Thermal)</label>
+		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
+		
+This variant is modified for usage on extreme cold worlds.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>ThermalHelmets</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+			<Insulation_Cold>12</Insulation_Cold>
+			<Insulation_Heat>0.2</Insulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>100</Cloth>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderAdvanced</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
+		
+This variant is modified for usage on extreme cold worlds.</loreDesc>
+				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Lined with thermal material to protect the wearer in extreme temperatures.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</originalPath>
+				<greyscalePath>Greyscale/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Heavy_Flak_Helmet_Officer | Heavy Carapace Helmet (Officer) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Heavy_Flak_Helmet_Officer</defName>
+		<label>Heavy Carapace Helmet (Officer)</label>
+		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
+		
+This variant is marked for usage by Officers.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>OfficerFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>60</Cloth>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>55</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderOfficer</li>
+				<li>SpacerMilitary</li>
+				<li>PrestigeCombatGear</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
+		
+This variant is marked for usage by Officers.</loreDesc>
+				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but decorated with gold inlay to denote officer rank.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</originalPath>
+				<greyscalePath>Greyscale/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Light_Flak_Helmet_Faceshield | Carapace Helmet (Faceshield) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Light_Flak_Helmet_Faceshield</defName>
+		<label>Carapace Helmet (Faceshield)</label>
+		<description>Heavy fighting is a constant, especially on the Hellworld of Acheron. For the last 400 years, Acheron has fought off the Gamma Incursion of Insectoids which have covered approximately 40% of the planet in a new terraformed landscape. This mask covers a variety of issues that would be found in the trenches of Acheron, from additional face protection and fabric keeping ash and spores out of the lungs of the Paladin Regiments. Functional and practical, with only a small amount of plasteel to provide protection from any projectile coming towards the wearer.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>StormtrooperKit</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/LightHelmetMasked/LightHelmetMasked</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<MaxHitPoints>170</MaxHitPoints>
+			<Mass>1.7</Mass>
+			<StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+			<Insulation_Cold>12</Insulation_Cold>
+			<Insulation_Heat>0.2</Insulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+			<RangedCooldownFactor>0.15</RangedCooldownFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>60</Cloth>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/LightHelmetMasked/LightHelmetMasked</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderStormtrooper</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Heavy fighting is a constant, especially on the Hellworld of Acheron. For the last 400 years, Acheron has fought off the Gamma Incursion of Insectoids which have covered approximately 40% of the planet in a new terraformed landscape. This mask covers a variety of issues that would be found in the trenches of Acheron, from additional face protection and fabric keeping ash and spores out of the lungs of the Paladin Regiments. Functional and practical, with only a small amount of plasteel to provide protection from any projectile coming towards the wearer.</loreDesc>
+				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Fitted with a faceshield that provides protection to the face but reducing sight for the wearer.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/LightHelmetMasked/LightHelmetMasked</originalPath>
+				<greyscalePath>Greyscale/Helmets/LightHelmetMasked/LightHelmetMasked</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!--==================== KP_Heavy_Flak_Helmet_Faceshield | Heavy Carapace Helmet (Faceshield) ====================-->
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Heavy_Flak_Helmet_Faceshield</defName>
+		<label>Heavy Carapace Helmet (Faceshield)</label>
+		<description>The greatest battle after the fall of the Great Domain was the seven battles of Deirdre, the last of the Coreworlds to fall. For over 200 years, the planet of Deirdre was assaulted by the Insectoid and Mechanoid forces which saw the once beautiful planet become a Deathworld. The Domain Honor Guard eventually falling into despair and reorganizing into the Company of Sorrows, determined to keep the planet free. This helmet is a testament to that, a reinforced faceshield to ensure that soldiers who often fought in both ranged and melee could be protected against all threats.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>StormtrooperKit</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Fallback/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<MaxHitPoints>220</MaxHitPoints>
+			<Mass>2.7</Mass>
+			<StuffEffectMultiplierArmor>1.30</StuffEffectMultiplierArmor>
+			<Insulation_Cold>12</Insulation_Cold>
+			<Insulation_Heat>0.2</Insulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.15</MoveSpeed>
+			<RangedCooldownFactor>0.35</RangedCooldownFactor>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>60</Cloth>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryBasic</li>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>OutlanderStormtrooper</li>
+				<li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>The greatest battle after the fall of the Great Domain was the seven battles of Deirdre, the last of the Coreworlds to fall. For over 200 years, the planet of Deirdre was assaulted by the Insectoid and Mechanoid forces which saw the once beautiful planet become a Deathworld. The Domain Honor Guard eventually falling into despair and reorganizing into the Company of Sorrows, determined to keep the planet free. This helmet is a testament to that, a reinforced faceshield to ensure that soldiers who often fought in both ranged and melee could be protected against all threats.</loreDesc>
+				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Equipped with a faceshield for additional facial protection but reduces sight for the wearer.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</originalPath>
+				<greyscalePath>Greyscale/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

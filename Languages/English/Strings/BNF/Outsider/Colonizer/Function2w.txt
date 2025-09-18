@@ -1,0 +1,10 @@
+coln_func_2w->Trade Guild
+coln_func_2w->Logistics Guild
+coln_func_2w->Colonial Trust
+coln_func_2w->Settlement Council
+coln_func_2w->Transit Directorate
+coln_func_2w->Frontier Commission
+coln_func_2w->Outer Registry
+coln_func_2w->Beacon Authority
+coln_func_2w->Prefect Council
+coln_func_2w->Aegis Directorate

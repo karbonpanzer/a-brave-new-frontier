@@ -1,0 +1,12 @@
+org_rel_civil_1w->Canon
+org_rel_civil_1w->Synod
+org_rel_civil_1w->Mission
+org_rel_civil_1w->Sanctuary
+org_rel_civil_1w->Order
+org_rel_civil_1w->Covenant
+org_rel_civil_1w->Diocese
+org_rel_civil_1w->Prelature
+org_rel_civil_1w->Abbey
+org_rel_civil_1w->Brotherhood
+org_rel_civil_1w->Chapter
+org_rel_civil_1w->Consistory

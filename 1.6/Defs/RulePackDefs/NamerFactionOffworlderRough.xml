@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<!--==================== NamerFactionOffworlderRough | Offworlder (Rough) namer ====================-->
+	<RulePackDef>
+		<defName>NamerFactionOffworlderRough</defName>
+		<label>Offworlder (Rough) namer</label>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-&gt;[origin_demonym] [theatre_sg] [il_group]</li>
+				<li>r_name-&gt;[origin_demonym] [theatre_pl] [il_group]</li>
+				<li>r_name-&gt;[origin_place] [theatre_sg] [il_commission]</li>
+				<li>r_name-&gt;[origin_place] [il_commission]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>origin_demonym-&gt;BNF/Outsider/Common/OriginDemonym_All</li>
+				<li>origin_place-&gt;BNF/Outsider/Common/OriginPlace_All</li>
+				<li>theatre_sg-&gt;BNF/Outsider/Common/TheatreSingular</li>
+				<li>theatre_pl-&gt;BNF/Outsider/Common/TheatrePlural</li>
+				<li>il_group-&gt;BNF/Outsider/Interloper/Group1w</li>
+				<li>il_commission-&gt;BNF/Outsider/Interloper/Commission1w</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

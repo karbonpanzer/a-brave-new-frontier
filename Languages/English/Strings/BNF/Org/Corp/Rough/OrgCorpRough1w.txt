@@ -1,0 +1,12 @@
+org_corp_rough_1w->Works
+org_corp_rough_1w->Reclamation
+org_corp_rough_1w->Combine
+org_corp_rough_1w->Syndicate
+org_corp_rough_1w->Freight
+org_corp_rough_1w->Haulage
+org_corp_rough_1w->Salvage
+org_corp_rough_1w->Outfit
+org_corp_rough_1w->Cartage
+org_corp_rough_1w->Dredging
+org_corp_rough_1w->Teamsters
+org_corp_rough_1w->Cutters

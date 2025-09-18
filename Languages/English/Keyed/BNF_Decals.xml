@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BNF_Decal>Decal</BNF_Decal>
+  <BNF_Decal_OpenEditor>Open decal editor</BNF_Decal_OpenEditor>
+  <BNF_Decal_Center>Center</BNF_Decal_Center>
+  <BNF_Decal_Clear>Clear</BNF_Decal_Clear>
+  <BNF_Decal_Size>Size</BNF_Decal_Size>
+  <BNF_Decal_Select>Select a decal on the right.</BNF_Decal_Select>
+</LanguageData>
