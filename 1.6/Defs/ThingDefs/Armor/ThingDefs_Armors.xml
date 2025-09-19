@@ -182,7 +182,10 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<originalPath>Original/Armor/LightArmorMedic/LightArmorMedic</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmorMedic/LightArmorMedic</greyscalePath>
 			</li>
-		
+			<li Class="BNF.StyleSwitcher.BNFRemovableExtension">
+			    <group>medic</group>
+			    <label>Medic variants</label>
+			</li>		
 		</modExtensions>
 	</ThingDef>
 
@@ -265,7 +268,10 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 				<originalPath>Original/Armor/LightArmorSupport/LightArmorSupport</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmorSupport/LightArmorSupport</greyscalePath>
 			</li>
-			
+			<li Class="BNF.StyleSwitcher.BNFRemovableExtension">
+			    <group>support</group>
+			    <label>Support variants</label>
+			</li>			
 		</modExtensions>
 	</ThingDef>
 
@@ -426,7 +432,10 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<originalPath>Original/Armor/HeavyArmorMedic/HeavyArmorMedic</originalPath>
 				<greyscalePath>Greyscale/Armor/HeavyArmorMedic/HeavyArmorMedic</greyscalePath>
 			</li>
-				
+			<li Class="BNF.StyleSwitcher.BNFRemovableExtension">
+			    <group>medic</group>
+			    <label>Medic variants</label>
+			</li>				
 		</modExtensions>
 	</ThingDef>
 
@@ -509,7 +518,10 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 				<originalPath>Original/Armor/HeavyArmorSupport/HeavyArmorSupport</originalPath>
 				<greyscalePath>Greyscale/Armor/HeavyArmorSupport/HeavyArmorSupport</greyscalePath>
 			</li>
-			
+			<li Class="BNF.StyleSwitcher.BNFRemovableExtension">
+			    <group>support</group>
+			    <label>Support variants</label>
+			</li>				
 		</modExtensions>
 	</ThingDef>
 

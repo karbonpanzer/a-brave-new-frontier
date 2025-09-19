@@ -1,4 +1,5 @@
 using System;
+using System.Reflection;
 using UnityEngine;
 using Verse;
 
@@ -6,149 +7,183 @@ namespace BNF.StyleSwitcher
 {
     public class BNFMod : Mod
     {
-        public static BNFMod Instance { get; private set; } = null!; // non-null after ctor
-        public static BNFSettings Settings => Instance.settings;      // always non-null
+        public static BNFMod Instance { get; private set; } = null!;
+        public BNFSettings settings = null!;
 
-        private BNFSettings settings;
+        // Static accessor used by other classes
+        public static BNFSettings Settings => Instance?.settings ?? new BNFSettings();
 
         public BNFMod(ModContentPack content) : base(content)
         {
             Instance = this;
             settings = GetSettings<BNFSettings>() ?? new BNFSettings();
+
+            // Try to apply runtime removals at startup if BNFPatcher exists.
+            TryApplyRemovalsViaReflection(settings);
         }
 
-        public override string SettingsCategory() => "BNF - Settings";
+        public override string SettingsCategory() => "A Brave New Frontier - Style Switcher";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            var list = new Listing_Standard();
-            list.Begin(inRect);
+            var listing = new Listing_Standard();
+            listing.Begin(inRect);
 
-            // Header and short description (matches other mod settings style)
-            list.Label("BNF - Style Switcher");
-            list.Gap(4f);
-            list.Label("Choose which style is active for item descriptions and textures. Each pair is mutually exclusive. Use Save to persist changes. Textures may require a reload of the save to appear on map objects.");
-            list.Gap(8f);
+            listing.Label("BNF - Style Switcher");
+            listing.Gap(4f);
+            listing.Label("Manage description & texture styles, and optionally remove marked armor groups (Medic/Support). Use Save to persist changes.");
+            listing.Gap(8f);
 
-            // Master toggles (keeps original behaviour exposed)
-            list.CheckboxLabeled("Enable description switching", ref settings.EnableDescriptionSwitch);
-            list.Gap(4f);
-            list.CheckboxLabeled("Enable texture switching", ref settings.EnableTextureSwitch);
-            list.Gap(8f);
+            // Master toggles
+            listing.CheckboxLabeled("Enable description switching", ref settings.EnableDescriptionSwitch);
+            listing.Gap(4f);
+            listing.CheckboxLabeled("Enable texture switching", ref settings.EnableTextureSwitch);
+            listing.Gap(8f);
 
-            // === Descriptions: Vanilla vs Lore ===
-            bool loreIsOn = settings.UseLoreDescriptions; // true = Lore, false = Vanilla
-            DrawRadioPair(
-                list,
-                header: "Descriptions",
-                opt1Label: "Vanilla",
-                opt1Desc: "Use shorter vanilla-style description sentences.",
-                opt2Label: "Lore",
-                opt2Desc: "Use the mod's lore paragraphs (more verbose).",
-                ref loreIsOn,
-                enabled: settings.EnableDescriptionSwitch
-            );
-            // apply in-memory if changed visually, but don't auto-write — Save persists
-            if (loreIsOn != settings.UseLoreDescriptions)
-                settings.UseLoreDescriptions = loreIsOn;
+            // --- Descriptions radio pair (Vanilla / Lore) ---
+            bool useLore = settings.UseLoreDescriptions;
+            if (!"".NullOrEmpty()) { } // noop to avoid analyzer oddities
 
-            list.Gap(8f);
-
-            // === Textures: Original vs Greyscale ===
-            bool greyscaleIsOn = settings.UseGreyscaleTextures; // true = Greyscale, false = Original
-            DrawRadioPair(
-                list,
-                header: "Textures",
-                opt1Label: "Original",
-                opt1Desc: "Use original color textures.",
-                opt2Label: "Greyscale",
-                opt2Desc: "Use greyscale textures (fixes aliasing for some views).",
-                ref greyscaleIsOn,
-                enabled: settings.EnableTextureSwitch
-            );
-            if (greyscaleIsOn != settings.UseGreyscaleTextures)
-                settings.UseGreyscaleTextures = greyscaleIsOn;
-
-            list.Gap(8f);
-
-            // Save / Reset buttons (full-width stacked — consistent with many mods)
-            if (list.ButtonText("Save"))
+            if (!string.IsNullOrEmpty("Descriptions"))
             {
-                WriteSettings();
-            }
-
-            if (list.ButtonText("Reset to defaults"))
-            {
-                settings.ResetToDefaults();
-                // Apply and persist the reset state
-                TryApplyDescriptionsNow(settings);
-                TryApplyTexturesNow(settings);
-                WriteSettings();
-            }
-
-            list.End();
-        }
-
-        // Keep DrawRadioPair consistent with original usage and Widgets.RadioButtonLabeled
-        private static void DrawRadioPair(
-            Listing_Standard listing,
-            string header,
-            string opt1Label, string opt1Desc,
-            string opt2Label, string opt2Desc,
-            ref bool currentIsSecond,
-            bool enabled)
-        {
-            if (!header.NullOrEmpty())
-            {
-                listing.Gap(4f);
-                listing.Label(header);
+                listing.Gap(2f);
+                listing.Label("Descriptions");
             }
 
             float rowH = 28f;
-            GUI.enabled = enabled;
+            bool prevGui = GUI.enabled;
+            GUI.enabled = settings.EnableDescriptionSwitch;
 
-            // Option 1 (selected when currentIsSecond == false)
-            Rect r1 = listing.GetRect(rowH);
-            bool clickFirst = Widgets.RadioButtonLabeled(
-                r1,
-                $"{opt1Label} - {opt1Desc}",
-                !currentIsSecond
-            );
+            Rect rDesc1 = listing.GetRect(rowH);
+            bool selectedDesc1 = !useLore; // Vanilla selected when useLore == false
+            bool clickedDesc1 = Widgets.RadioButtonLabeled(rDesc1, "Vanilla - Use shorter vanilla-style description sentences.", selectedDesc1);
+            if (clickedDesc1 && useLore)
+            {
+                useLore = false;
+            }
 
-            // Option 2 (selected when currentIsSecond == true)
-            Rect r2 = listing.GetRect(rowH);
-            bool clickSecond = Widgets.RadioButtonLabeled(
-                r2,
-                $"{opt2Label} - {opt2Desc}",
-                currentIsSecond
-            );
+            Rect rDesc2 = listing.GetRect(rowH);
+            bool selectedDesc2 = useLore; // Lore selected when useLore == true
+            bool clickedDesc2 = Widgets.RadioButtonLabeled(rDesc2, "Lore - Use the mod's lore paragraphs (more verbose).", selectedDesc2);
+            if (clickedDesc2 && !useLore)
+            {
+                useLore = true;
+            }
 
-            if (clickFirst && currentIsSecond) currentIsSecond = false;
-            else if (clickSecond && !currentIsSecond) currentIsSecond = true;
+            GUI.enabled = prevGui;
 
-            GUI.enabled = true;
+            // Commit selection back to settings
+            if (useLore != settings.UseLoreDescriptions)
+                settings.UseLoreDescriptions = useLore;
+
+            listing.Gap(8f);
+
+            // --- Textures radio pair (Original / Greyscale) ---
+            bool useGreyscale = settings.UseGreyscaleTextures;
+
+            if (!string.IsNullOrEmpty("Textures"))
+            {
+                listing.Gap(2f);
+                listing.Label("Textures");
+            }
+
+            prevGui = GUI.enabled;
+            GUI.enabled = settings.EnableTextureSwitch;
+
+            Rect rTex1 = listing.GetRect(rowH);
+            bool selectedTex1 = !useGreyscale; // Original when false
+            bool clickedTex1 = Widgets.RadioButtonLabeled(rTex1, "Original - Use original color textures.", selectedTex1);
+            if (clickedTex1 && useGreyscale)
+            {
+                useGreyscale = false;
+            }
+
+            Rect rTex2 = listing.GetRect(rowH);
+            bool selectedTex2 = useGreyscale; // Greyscale when true
+            bool clickedTex2 = Widgets.RadioButtonLabeled(rTex2, "Greyscale - Use greyscale textures.", selectedTex2);
+            if (clickedTex2 && !useGreyscale)
+            {
+                useGreyscale = true;
+            }
+
+            GUI.enabled = prevGui;
+
+            if (useGreyscale != settings.UseGreyscaleTextures)
+                settings.UseGreyscaleTextures = useGreyscale;
+
+            listing.Gap(12f);
+
+            // Armor removal UI (master checkbox + discovered groups)
+            BNFArmorRemoval.DrawRemovalSection(listing, settings);
+
+            listing.Gap(10f);
+
+            // Save and Reset
+            if (listing.ButtonText("Save"))
+            {
+                WriteSettings();
+            }
+
+            if (listing.ButtonText("Reset to defaults"))
+            {
+                settings.ResetToDefaults();
+
+                // Apply runtime marks and persist
+                TryApplyRemovalsViaReflection(settings);
+                WriteSettings();
+            }
+
+            listing.End();
         }
 
-        private static void TryApplyDescriptionsNow(BNFSettings s)
-        {
-            try { DescriptionApplier.ApplyAll(s); }
-            catch (Exception e) { Log.Warning($"[BNF] Description apply failed: {e}"); }
-        }
-
-        private static void TryApplyTexturesNow(BNFSettings s)
-        {
-            try { TextureApplier.ApplyAll(s); }
-            catch (Exception e) { Log.Warning($"[BNF] Texture apply failed: {e}"); }
-        }
-
-        // Persist settings and trigger appliers (safe and common pattern)
         public override void WriteSettings()
         {
-            base.WriteSettings(); // writes settings to file
+            base.WriteSettings();
 
-            // Attempt to apply the saved settings to game defs in-memory.
-            TryApplyDescriptionsNow(settings);
-            TryApplyTexturesNow(settings);
+            try { DescriptionApplier.ApplyAll(settings); }
+            catch (Exception e) { Log.Warning($"[BNF] Description apply failed: {e}"); }
+
+            try { TextureApplier.ApplyAll(settings); }
+            catch (Exception e) { Log.Warning($"[BNF] Texture apply failed: {e}"); }
+
+            // Apply runtime removal marks if BNFPatcher exists
+            TryApplyRemovalsViaReflection(settings);
+        }
+
+        /// <summary>
+        /// Safely tries to invoke BNFPatcher.ApplyRemovals(BNFSettings) via reflection.
+        /// This avoids compile-time dependency on BNFPatcher.cs — if that file
+        /// is present in the project the method is called; otherwise this is a no-op.
+        /// </summary>
+        private static void TryApplyRemovalsViaReflection(BNFSettings s)
+        {
+            if (s == null) return;
+
+            try
+            {
+                // Try to find the BNFPatcher type in any loaded assembly
+                Type patcherType = Type.GetType("BNF.StyleSwitcher.BNFPatcher");
+                if (patcherType == null)
+                {
+                    foreach (var a in AppDomain.CurrentDomain.GetAssemblies())
+                    {
+                        patcherType = a.GetType("BNF.StyleSwitcher.BNFPatcher");
+                        if (patcherType != null) break;
+                    }
+                }
+
+                if (patcherType == null) return;
+
+                MethodInfo mi = patcherType.GetMethod("ApplyRemovals", BindingFlags.Public | BindingFlags.Static);
+                if (mi == null) return;
+
+                mi.Invoke(null, new object[] { s });
+                Log.Message("[BNF] BNFPatcher.ApplyRemovals invoked via reflection.");
+            }
+            catch (Exception ex)
+            {
+                Log.Warning($"[BNF] Failed to invoke BNFPatcher.ApplyRemovals: {ex}");
+            }
         }
     }
 }

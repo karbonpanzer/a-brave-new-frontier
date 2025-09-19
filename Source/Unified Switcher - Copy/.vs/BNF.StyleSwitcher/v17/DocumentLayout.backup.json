@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\unified switcher\\bnfmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|solutionrelative:bnfmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\unified switcher\\patches_removearmor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|solutionrelative:patches_removearmor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\unified switcher\\bnfsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|solutionrelative:bnfsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\unified switcher\\bnfmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|solutionrelative:bnfmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\unified switcher\\pathutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,28 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Patches_RemoveArmor.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\Patches_RemoveArmor.cs",
-              "RelativeDocumentMoniker": "Patches_RemoveArmor.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\Patches_RemoveArmor.cs",
-              "RelativeToolTip": "Patches_RemoveArmor.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T13:26:34.619Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BNF.StyleSwitcher.csproj",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\BNF.StyleSwitcher.csproj",
               "RelativeDocumentMoniker": "BNF.StyleSwitcher.csproj",
@@ -79,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "BNFTextureExtension.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\BNFTextureExtension.cs",
               "RelativeDocumentMoniker": "BNFTextureExtension.cs",
@@ -91,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "BNFDescriptionExtension.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\BNFDescriptionExtension.cs",
               "RelativeDocumentMoniker": "BNFDescriptionExtension.cs",
@@ -99,11 +82,12 @@
               "RelativeToolTip": "BNFDescriptionExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T04:12:05.74Z"
+              "WhenOpened": "2025-09-19T04:12:05.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PathUtil.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\PathUtil.cs",
               "RelativeDocumentMoniker": "PathUtil.cs",
@@ -111,24 +95,25 @@
               "RelativeToolTip": "PathUtil.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T04:11:27.829Z"
+              "WhenOpened": "2025-09-19T04:11:27.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BNFSettings.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\BNFSettings.cs",
               "RelativeDocumentMoniker": "BNFSettings.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\BNFSettings.cs",
-              "RelativeToolTip": "BNFSettings.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwEEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\BNFSettings.cs*",
+              "RelativeToolTip": "BNFSettings.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T04:11:06.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "DescriptionApplier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\DescriptionApplier.cs",
               "RelativeDocumentMoniker": "DescriptionApplier.cs",
@@ -136,11 +121,12 @@
               "RelativeToolTip": "DescriptionApplier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T22:09:53.513Z"
+              "WhenOpened": "2025-09-18T22:09:53.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "TextureApplier.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\TextureApplier.cs",
               "RelativeDocumentMoniker": "TextureApplier.cs",
@@ -152,13 +138,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BNFMod.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\BNFMod.cs",
               "RelativeDocumentMoniker": "BNFMod.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\BNFMod.cs*",
-              "RelativeToolTip": "BNFMod.cs*",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAgwL0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher\\BNFMod.cs",
+              "RelativeToolTip": "BNFMod.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAiwJoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T22:09:29.949Z",
               "EditorCaption": ""

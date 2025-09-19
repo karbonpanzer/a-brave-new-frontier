@@ -167,7 +167,10 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<originalPath>Original/Helmets/LightHelmetMedic/LightHelmetMedic</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetMedic/LightHelmetMedic</greyscalePath>
 			</li>
-					
+			<li Class="BNF.StyleSwitcher.BNFRemovableExtension">
+			    <group>medic</group>
+			    <label>Medic variants</label>
+			</li>					
 		</modExtensions>
 	</ThingDef>
 
@@ -247,7 +250,10 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 				<originalPath>Original/Helmets/LightHelmetSupport/LightHelmetSupport</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetSupport/LightHelmetSupport</greyscalePath>
 			</li>
-		
+			<li Class="BNF.StyleSwitcher.BNFRemovableExtension">
+			    <group>support</group>
+			    <label>Support variants</label>
+			</li>			
 		</modExtensions>
 	</ThingDef>
 
@@ -565,7 +571,10 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<originalPath>Original/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</greyscalePath>
 			</li>
-					
+			<li Class="BNF.StyleSwitcher.BNFRemovableExtension">
+			    <group>medic</group>
+			    <label>Medic variants</label>
+			</li>					
 		</modExtensions>
 	</ThingDef>
 
@@ -645,7 +654,10 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 				<originalPath>Original/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</greyscalePath>
 			</li>
-			
+			<li Class="BNF.StyleSwitcher.BNFRemovableExtension">
+			    <group>support</group>
+			    <label>Support variants</label>
+			</li>				
 		</modExtensions>
 	</ThingDef>
 
