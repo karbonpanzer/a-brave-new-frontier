@@ -24,9 +24,17 @@ namespace BNF.StyleSwitcher
             var list = new Listing_Standard();
             list.Begin(inRect);
 
-            list.Label("Choose which style is active for item descriptions and textures. " +
-                       "Each pair is mutually exclusive.");
-            list.Gap(6f);
+            // Header and short description (matches other mod settings style)
+            list.Label("BNF - Style Switcher");
+            list.Gap(4f);
+            list.Label("Choose which style is active for item descriptions and textures. Each pair is mutually exclusive. Use Save to persist changes. Textures may require a reload of the save to appear on map objects.");
+            list.Gap(8f);
+
+            // Master toggles (keeps original behaviour exposed)
+            list.CheckboxLabeled("Enable description switching", ref settings.EnableDescriptionSwitch);
+            list.Gap(4f);
+            list.CheckboxLabeled("Enable texture switching", ref settings.EnableTextureSwitch);
+            list.Gap(8f);
 
             // === Descriptions: Vanilla vs Lore ===
             bool loreIsOn = settings.UseLoreDescriptions; // true = Lore, false = Vanilla
@@ -34,18 +42,15 @@ namespace BNF.StyleSwitcher
                 list,
                 header: "Descriptions",
                 opt1Label: "Vanilla",
-                opt1Desc: "Use a more vanilla styled descriptions for items, rather than a paragraph of writing, this is a single sentence.",
+                opt1Desc: "Use shorter vanilla-style description sentences.",
                 opt2Label: "Lore",
-                opt2Desc: "Use the lore that I built up for this mod for descriptions which while flavorful is not everyones taste.",
+                opt2Desc: "Use the mod's lore paragraphs (more verbose).",
                 ref loreIsOn,
-                enabled: true
+                enabled: settings.EnableDescriptionSwitch
             );
-
+            // apply in-memory if changed visually, but don't auto-write — Save persists
             if (loreIsOn != settings.UseLoreDescriptions)
-            {
                 settings.UseLoreDescriptions = loreIsOn;
-                TryApplyDescriptionsNow(settings);
-            }
 
             list.Gap(8f);
 
@@ -55,27 +60,36 @@ namespace BNF.StyleSwitcher
                 list,
                 header: "Textures",
                 opt1Label: "Original",
-                opt1Desc: "Use the original color textures which possess aliasing issues which can be noticed if using camera+.",
+                opt1Desc: "Use original color textures.",
                 opt2Label: "Greyscale",
-                opt2Desc: "Use the greyscaled textures which fix the aliasing issues but you lack those brass and browns in the textures.",
+                opt2Desc: "Use greyscale textures (fixes aliasing for some views).",
                 ref greyscaleIsOn,
-                enabled: true
+                enabled: settings.EnableTextureSwitch
             );
-
             if (greyscaleIsOn != settings.UseGreyscaleTextures)
-            {
                 settings.UseGreyscaleTextures = greyscaleIsOn;
-                TryApplyTexturesNow(settings);
+
+            list.Gap(8f);
+
+            // Save / Reset buttons (full-width stacked — consistent with many mods)
+            if (list.ButtonText("Save"))
+            {
+                WriteSettings();
             }
 
-            list.Gap(6f);
-            list.Label("After making your selection, just reload the save and it will load new textures. Descriptions however will automatically do it.");
+            if (list.ButtonText("Reset to defaults"))
+            {
+                settings.ResetToDefaults();
+                // Apply and persist the reset state
+                TryApplyDescriptionsNow(settings);
+                TryApplyTexturesNow(settings);
+                WriteSettings();
+            }
 
             list.End();
-
-            settings.Write(); // persist on close
         }
 
+        // Keep DrawRadioPair consistent with original usage and Widgets.RadioButtonLabeled
         private static void DrawRadioPair(
             Listing_Standard listing,
             string header,
@@ -97,7 +111,7 @@ namespace BNF.StyleSwitcher
             Rect r1 = listing.GetRect(rowH);
             bool clickFirst = Widgets.RadioButtonLabeled(
                 r1,
-                $"{opt1Label} — {opt1Desc}",
+                $"{opt1Label} - {opt1Desc}",
                 !currentIsSecond
             );
 
@@ -105,7 +119,7 @@ namespace BNF.StyleSwitcher
             Rect r2 = listing.GetRect(rowH);
             bool clickSecond = Widgets.RadioButtonLabeled(
                 r2,
-                $"{opt2Label} — {opt2Desc}",
+                $"{opt2Label} - {opt2Desc}",
                 currentIsSecond
             );
 
@@ -125,6 +139,16 @@ namespace BNF.StyleSwitcher
         {
             try { TextureApplier.ApplyAll(s); }
             catch (Exception e) { Log.Warning($"[BNF] Texture apply failed: {e}"); }
+        }
+
+        // Persist settings and trigger appliers (safe and common pattern)
+        public override void WriteSettings()
+        {
+            base.WriteSettings(); // writes settings to file
+
+            // Attempt to apply the saved settings to game defs in-memory.
+            TryApplyDescriptionsNow(settings);
+            TryApplyTexturesNow(settings);
         }
     }
 }
