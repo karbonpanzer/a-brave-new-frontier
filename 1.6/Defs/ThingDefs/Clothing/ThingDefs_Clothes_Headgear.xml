@@ -1,28 +1,35 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-	<!--==================== KP_Field_Hat_Desert | Field Hat (Arid) ====================-->
+	<!--==================== Field Hat (Arid) ====================-->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>KP_Field_Hat_Desert</defName>
 		<label>Field Hat (Arid)</label>
 		<description>Based on an Old Earth design from the 3rd Era of Imperialism. This headgear is designed to protect the wearer from the worst heat they can find in the Rim. Providing not only cool headwear but also protecting the wearer from the worst that the sun can provide. Originally designed for usage on Spiceworld Regiments, it is now found in more worlds than the uniform that it came from.</description>
+
 		<techLevel>Industrial</techLevel>
+
 		<recipeMaker>
 			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
 		</recipeMaker>
+
 		<graphicData>
 			<texPath>Fallback/Headgear/FieldHatDesert/FieldHatDesert</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
 		</graphicData>
+
 		<costStuffCount>35</costStuffCount>
+
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
+
 		<thingCategories Inherit="False">
 			<li>KP_Headgear</li>
 		</thingCategories>
+
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1600</WorkToMake>
@@ -32,6 +39,7 @@
 			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
+
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -52,6 +60,7 @@
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 		</apparel>
+
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
@@ -72,6 +81,7 @@
 				</li>
 			</options>
 		</colorGenerator>
+
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>Based on an Old Earth design from the 3rd Era of Imperialism. This headgear is designed to protect the wearer from the worst heat they can find in the Rim. Providing not only cool headwear but also protecting the wearer from the worst that the sun can provide. Originally designed for usage on Spiceworld Regiments, it is now found in more worlds than the uniform that it came from.</loreDesc>
@@ -84,26 +94,36 @@
 		</modExtensions>
 	</ThingDef>
 
-	<!--==================== KP_Field_Hat_Temperate | Field Hat (Temperate) ====================-->
+	<!--==================== Field Hat (Temperate) ====================-->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>KP_Field_Hat_Temperate</defName>
 		<label>Field Hat (Temperate)</label>
 		<description>A common headwear of the Great Domain Infantry, a basic headwear that follows the Old Earth design of the 21st Century. Providing basic protection from the elements, the most important thing about the headwear is its strict adherence to military code. Though many find themselves abandoning this headwear in favor of other choices which provide specific benefits rather than aesthetic ones.</description>
+
 		<techLevel>Industrial</techLevel>
+
 		<recipeMaker>
 			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
 		</recipeMaker>
+
 		<graphicData>
 			<texPath>Fallback/Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
 		</graphicData>
+
 		<costStuffCount>35</costStuffCount>
+
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
+
+		<thingCategories>
+			<li>KP_Headgear</li>
+		</thingCategories>
+
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1600</WorkToMake>
@@ -113,9 +133,7 @@
 			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
-		<thingCategories Inherit="False">
-			<li>KP_Headgear</li>
-		</thingCategories>
+
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -136,6 +154,7 @@
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 		</apparel>
+
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
@@ -156,6 +175,7 @@
 				</li>
 			</options>
 		</colorGenerator>
+
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>A common headwear of the Great Domain Infantry, a basic headwear that follows the Old Earth design of the 21st Century. Providing basic protection from the elements, the most important thing about the headwear is its strict adherence to military code. Though many find themselves abandoning this headwear in favor of other choices which provide specific benefits rather than aesthetic ones.</loreDesc>
@@ -168,29 +188,36 @@
 		</modExtensions>
 	</ThingDef>
 
-	<!--==================== KP_Field_Hat_Winter | Field Hat (Boreal) ====================-->
+	<!--==================== Field Hat (Boreal) ====================-->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>KP_Field_Hat_Winter</defName>
 		<label>Field Hat (Boreal)</label>
 		<description>Like many of the Great Domain’s designs, this one is based on the headwear of the warriors of Old Earth. A fur lined headwear designed to keep the wearer warm, other than that it is a very basic design. Such simplicity was the reason for its usage by the Great Domain, its simplicity allowed it to be constructed in even the most barren of environments, though like many things some are better than others.</description>
+
 		<techLevel>Industrial</techLevel>
+
 		<recipeMaker>
 			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
 		</recipeMaker>
+
 		<graphicData>
 			<texPath>Fallback/Headgear/FieldHatWinter/FieldHatWinter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
 		</graphicData>
+
 		<costStuffCount>35</costStuffCount>
+
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
+
 		<thingCategories Inherit="False">
 			<li>KP_Headgear</li>
 		</thingCategories>
+
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1600</WorkToMake>
@@ -200,6 +227,7 @@
 			<StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
+
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -220,6 +248,7 @@
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 		</apparel>
+
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
@@ -240,6 +269,7 @@
 				</li>
 			</options>
 		</colorGenerator>
+
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>Like many of the Great Domain’s designs, this one is based on the headwear of the warriors of Old Earth. A fur lined headwear designed to keep the wearer warm, other than that it is a very basic design. Such simplicity was the reason for its usage by the Great Domain, its simplicity allowed it to be constructed in even the most barren of environments, though like many things some are better than others.</loreDesc>
@@ -252,29 +282,36 @@
 		</modExtensions>
 	</ThingDef>
 
-	<!--==================== KP_Field_Hat_Arctic | Field Hat (Polar) ====================-->
+	<!--==================== Field Hat (Polar) ====================-->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>KP_Field_Hat_Arctic</defName>
 		<label>Field Hat (Polar)</label>
 		<description>Though a similar design to other cold weather gear, this one is more than it appears. This headwear features the same mesh heating network as the Polar Uniform, though with a few modifications, mainly it can be powered by both dead skin cells and shed hair to ensure comfortable warmth during the coldest of environments. Much like its companion piece, this one requires additional research for it to be produced.</description>
+
 		<techLevel>Industrial</techLevel>
+
 		<recipeMaker>
 			<researchPrerequisite>ArcticUniforms</researchPrerequisite>
 		</recipeMaker>
+
 		<graphicData>
 			<texPath>Fallback/Headgear/FieldHatArctic/FieldHatArctic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
 		</graphicData>
+
 		<costStuffCount>100</costStuffCount>
+
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
+
 		<thingCategories Inherit="False">
 			<li>KP_Headgear</li>
 		</thingCategories>
+
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>3000</WorkToMake>
@@ -284,6 +321,7 @@
 			<StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
+
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
@@ -304,6 +342,7 @@
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 		</apparel>
+
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
@@ -324,6 +363,7 @@
 				</li>
 			</options>
 		</colorGenerator>
+
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>Though a similar design to other cold weather gear, this one is more than it appears. This headwear features the same mesh heating network as the Polar Uniform, though with a few modifications, mainly it can be powered by both dead skin cells and shed hair to ensure comfortable warmth during the coldest of environments. Much like its companion piece, this one requires additional research for it to be produced.</loreDesc>
@@ -336,29 +376,36 @@
 		</modExtensions>
 	</ThingDef>
 
-	<!--==================== KP_Officer_Cap | Officer Cap ====================-->
+	<!--==================== Officer Cap ====================-->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>KP_Officer_Cap</defName>
 		<label>Officer Cap</label>
 		<description>Based on an Old Earth symbol of authority, this headwear was said to exude an air of authority over ones subordinates. Its ability to drawn a stronger response from soldiers has not been measured though some still see it as a true sign of authority and power. Though many of it’s wearers also have mentioned the lack of warmth from it and the discomfort of the tight headband.</description>
+
 		<techLevel>Industrial</techLevel>
+
 		<recipeMaker>
 			<researchPrerequisite>OfficerUniforms</researchPrerequisite>
 		</recipeMaker>
+
 		<graphicData>
 			<texPath>Fallback/Headgear/OfficerCap/OfficerCap</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
 		</graphicData>
+
 		<costStuffCount>35</costStuffCount>
+
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
+
 		<thingCategories Inherit="False">
 			<li>KP_Headgear</li>
 		</thingCategories>
+
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToMake>1600</WorkToMake>
@@ -368,6 +415,7 @@
 			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
+
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -389,6 +437,7 @@
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 		</apparel>
+
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
@@ -410,6 +459,7 @@
 				</li>
 			</options>
 		</colorGenerator>
+
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>Based on an Old Earth symbol of authority, this headwear was said to exude an air of authority over ones subordinates. Its ability to drawn a stronger response from soldiers has not been measured though some still see it as a true sign of authority and power. Though many of it’s wearers also have mentioned the lack of warmth from it and the discomfort of the tight headband.</loreDesc>

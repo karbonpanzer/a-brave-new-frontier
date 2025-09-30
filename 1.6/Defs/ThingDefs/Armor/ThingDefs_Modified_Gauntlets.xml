@@ -1,20 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-	<!--==================== KP_Talon_Gauntlets | Aquila Carapace Gauntlets ====================-->
+	<!--==================== Bladed Carapace Gauntlets ====================-->
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Talon_Gauntlets</defName>
 		<label>Bladed Carapace Gauntlets</label>
 		<description>After decades of fighting in the Trench-Cities of Meridia, the Trenchdogs eventualy found a compromise from ancient Earth. With a torch and a few pieces of plasteel, they added blades to their gauntlets which provided not only protection but an offensive form of fighting. The Trench Dance as the Trenchdogs call it was a form of combat which focus on the usage of these gauntlets to not only kill but kill quietly to avoid detection.</description>
+
 		<techLevel>Spacer</techLevel>
+
 		<recipeMaker>
 			<researchPrerequisite>StormtrooperKit</researchPrerequisite>
 		</recipeMaker>
+
 		<graphicData>
 			<texPath>Fallback/Armor/ArmoredGloves/ArmoredGloves</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+
 		<uiIconScale>2</uiIconScale>
+
 		<statBases>
 			<WorkToMake>5500</WorkToMake>
 			<MarketValue>100</MarketValue>
@@ -23,6 +28,7 @@
 			<StuffEffectMultiplierArmor>1.15</StuffEffectMultiplierArmor>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
@@ -32,17 +38,22 @@
 				<range>1.3</range>
 			</li>
 		</verbs>
+
 		<thingCategories>
 			<li>ApparelArmor</li>
 		</thingCategories>
+
 		<costList>
 			<Cloth>10</Cloth>
 			<Plasteel>5</Plasteel>
 		</costList>
+
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
+
 		<costStuffCount>10</costStuffCount>
+
 		<apparel>
 			<bodyPartGroups>
 				<li>Hands</li>
@@ -61,7 +72,9 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
+
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>After decades of fighting in the Trench-Cities of Meridia, the Trenchdogs eventualy found a compromise from ancient Earth. With a torch and a few pieces of plasteel, they added blades to their gauntlets which provided not only protection but an offensive form of fighting. The Trench Dance as the Trenchdogs call it was a form of combat which focus on the usage of these gauntlets to not only kill but kill quietly to avoid detection. </loreDesc>
@@ -74,21 +87,26 @@
 		</modExtensions>
 	</ThingDef>
 
-	<!--==================== KP_Tauran_Gauntlets | Tauran Carapace Gauntlets ====================-->
+	<!--==================== Reinforced Carapace Gauntlets ====================-->
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Tauran_Gauntlets</defName>
 		<label>Reinforced Carapace Gauntlets</label>
 		<description>On the hiveworld of Malachos, the Last Battalion have fought for centuries agains the Sorne Strain. In the last remaining city of Kharos which has been besieged for hundreds of years, during the Hard Years many were forced into melee with the Insectoids. Their gauntlets have been modified to pierce the chitin of the insectoids with relative ease. Though they have to use combat drug to enhance their strength, these gauntlets were powerful enough to break chitin. The loving name of this for centuries have been called "Shellcrackers."</description>
+
 		<techLevel>Spacer</techLevel>
+
 		<recipeMaker>
 			<researchPrerequisite>StormtrooperKit</researchPrerequisite>
 		</recipeMaker>
+
 		<graphicData>
 			<texPath>Fallback/Armor/ArmoredGloves/ArmoredGloves</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+
 		<uiIconScale>2</uiIconScale>
+
 		<statBases>
 			<WorkToMake>5500</WorkToMake>
 			<MarketValue>100</MarketValue>
@@ -97,6 +115,7 @@
 			<StuffEffectMultiplierArmor>1.15</StuffEffectMultiplierArmor>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
@@ -106,17 +125,22 @@
 				<range>1.4</range>
 			</li>
 		</verbs>
+
 		<thingCategories>
 			<li>ApparelArmor</li>
 		</thingCategories>
+
 		<costList>
 			<Cloth>10</Cloth>
 			<Plasteel>5</Plasteel>
 		</costList>
+
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
+
 		<costStuffCount>10</costStuffCount>
+
 		<apparel>
 			<bodyPartGroups>
 				<li>Hands</li>
@@ -135,7 +159,9 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
+
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>On the hiveworld of Malachos, the Last Battalion have fought for centuries agains the Sorne Strain. In the last remaining city of Kharos which has been besieged for hundreds of years, during the Hard Years many were forced into melee with the Insectoids. Their gauntlets have been modified to pierce the chitin of the insectoids with relative ease. Though they have to use combat drug to enhance their strength, these gauntlets were powerful enough to break chitin. The loving name of this for centuries have been called "Shellcrackers."</loreDesc>
@@ -147,5 +173,4 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 </Defs>

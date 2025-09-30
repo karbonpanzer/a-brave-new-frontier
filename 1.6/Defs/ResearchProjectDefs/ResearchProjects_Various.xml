@@ -1,5 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
+	<!--==================== LateIndustrialFlakArmor | Carapace Armor and Helmets ====================-->
+	<ResearchProjectDef>
+		<defName>LateIndustrialFlakArmor</defName>
+		<label>Carapace Armor and Helmets</label>
+		<description>Older Flak Armors have become quickly outdated in the massive conflicts in the Rim, time for an upgrade to match the times.</description>
+		<baseCost>1600</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>FlakArmor</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
 	<!--==================== LateIndustrialUniforms | Frontier Uniforms ====================-->
 	<ResearchProjectDef>
 		<defName>LateIndustrialUniforms</defName>
@@ -15,19 +30,21 @@
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
-	<!--==================== OfficerUniforms | Officer Uniforms ====================-->
+	<!--==================== SurplusWeaponsInfantry | Surplus Infantry Weaponry ====================-->
 	<ResearchProjectDef>
-		<defName>OfficerUniforms</defName>
-		<label>Officer Uniforms</label>
-		<description>Officers need to have more than one uniform, because if one gets dirty it will ruin his image of respect in the unit.</description>
+		<defName>SurplusWeaponsInfantry</defName>
+		<label>Surplus Infantry Weaponry</label>
+		<description>The latest batch of outdated and obsolete equipment have reached the Rimworlds. Equipment made before the Mechanoid and Insectoid Wars when humanity still loved fighting itself over petty squabbles.</description>
 		<baseCost>1500</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>LateIndustrialUniforms</li>
+			<li>GasOperation</li>
+			<li>PrecisionRifling</li>
+			<li>Smithing</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>3</researchViewY>
+		<researchViewX>0</researchViewX>
+		<researchViewY>6</researchViewY>
 	</ResearchProjectDef>
 
 	<!--==================== LateIndustrialKitSupport | Support Kit ====================-->
@@ -60,19 +77,50 @@
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
-	<!--==================== LateIndustrialFlakArmor | Carapace Armor and Helmets ====================-->
+	<!--==================== OfficerUniforms | Officer Uniforms ====================-->
 	<ResearchProjectDef>
-		<defName>LateIndustrialFlakArmor</defName>
-		<label>Carapace Armor and Helmets</label>
-		<description>Older Flak Armors have become quickly outdated in the massive conflicts in the Rim, time for an upgrade to match the times.</description>
-		<baseCost>1600</baseCost>
+		<defName>OfficerUniforms</defName>
+		<label>Officer Uniforms</label>
+		<description>Officers need to have more than one uniform, because if one gets dirty it will ruin his image of respect in the unit.</description>
+		<baseCost>1500</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>FlakArmor</li>
+			<li>LateIndustrialUniforms</li>
 		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<!--==================== ArcticUniforms | Polar Uniforms ====================-->
+	<ResearchProjectDef>
+		<defName>ArcticUniforms</defName>
+		<label>Polar Uniforms</label>
+		<description>Harsher weathers require more specialized uniforms that can handle the environment, this one is for avoiding freezing to death in the middle of a glacier.</description>
+		<baseCost>1500</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LateIndustrialUniforms</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<!--==================== SurplusWeaponsExperimental | Surplus Experimental Weaponry ====================-->
+	<ResearchProjectDef>
+		<defName>SurplusWeaponsExperimental</defName>
+		<label>Surplus Experimental Weaponry</label>
+		<description>The former cutting edge technology from advanced rail guns to primitive charge based weapons. This is surplus that still packs a punch and still drives a hard bargain from many.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>SurplusWeaponsInfantry</li>
+			<li>ChargedShot</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>6</researchViewY>
 	</ResearchProjectDef>
 
 	<!--==================== SpecializedFlakArmor | Specialized Flak Armor and Helmets ====================-->
@@ -107,22 +155,6 @@
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
-	<!--==================== ThermalHelmets | Thermal Helmets ====================-->
-	<ResearchProjectDef>
-		<defName>ThermalHelmets</defName>
-		<label>Thermal Helmets</label>
-		<description>The Polar Cold of the planet is a quick killer, which is why these helmets are wrapped to keep their wearer warm.</description>
-		<baseCost>800</baseCost>
-		<tab>ABraveNewFrontier</tab>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>SpecializedFlakArmor</li>
-			<li>ArcticUniforms</li>
-		</prerequisites>
-		<researchViewX>3</researchViewX>
-		<researchViewY>4</researchViewY>
-	</ResearchProjectDef>
-
 	<!--==================== HeavyFlakArmor | Heavy Carapace Armor and Helmets ====================-->
 	<ResearchProjectDef>
 		<defName>HeavyFlakArmor</defName>
@@ -138,19 +170,19 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
-	<!--==================== ModifiedGauntlets | Modified Gauntlets ====================-->
+	<!--==================== VanguardKit | Vanguard Carapace Armor ====================-->
 	<ResearchProjectDef>
-		<defName>ModifiedGauntlets</defName>
-		<label>Modified Gauntlets</label>
-		<description>.</description>
-		<baseCost>2000</baseCost>
+		<defName>VanguardKit</defName>
+		<label>Vanguard Carapace Armor</label>
+		<description>Equipment commonly seen in the hands of Scout and Vanguard divisions, light and durable though lacking protection.</description>
+		<baseCost>1200</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>SpecializedFlakArmor</li>
 		</prerequisites>
 		<researchViewX>3</researchViewX>
-		<researchViewY>4</researchViewY>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 	<!--==================== OfficerFlakArmor | Officer Carapace Armor ====================-->
@@ -169,67 +201,34 @@
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
-	<!--==================== VanguardKit | Vanguard Carapace Armor ====================-->
+	<!--==================== ThermalHelmets | Thermal Helmets ====================-->
 	<ResearchProjectDef>
-		<defName>VanguardKit</defName>
-		<label>Vanguard Carapace Armor</label>
-		<description>Equipment commonly seen in the hands of Scout and Vanguard divisions, light and durable though lacking protection.</description>
-		<baseCost>1200</baseCost>
+		<defName>ThermalHelmets</defName>
+		<label>Thermal Helmets</label>
+		<description>The Polar Cold of the planet is a quick killer, which is why these helmets are wrapped to keep their wearer warm.</description>
+		<baseCost>800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>SpecializedFlakArmor</li>
+			<li>ArcticUniforms</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<!--==================== ModifiedGauntlets | Modified Gauntlets ====================-->
+	<ResearchProjectDef>
+		<defName>ModifiedGauntlets</defName>
+		<label>Modified Gauntlets</label>
+		<description>.</description>
+		<baseCost>2000</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>SpecializedFlakArmor</li>
 		</prerequisites>
 		<researchViewX>3</researchViewX>
-		<researchViewY>1</researchViewY>
-	</ResearchProjectDef>
-
-	<!--==================== ArcticUniforms | Polar Uniforms ====================-->
-	<ResearchProjectDef>
-		<defName>ArcticUniforms</defName>
-		<label>Polar Uniforms</label>
-		<description>Harsher weathers require more specialized uniforms that can handle the environment, this one is for avoiding freezing to death in the middle of a glacier.</description>
-		<baseCost>1500</baseCost>
-		<tab>ABraveNewFrontier</tab>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>LateIndustrialUniforms</li>
-		</prerequisites>
-		<researchViewX>1</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
-
-	<!--==================== SurplusWeaponsInfantry | Surplus Infantry Weaponry ====================-->
-	<ResearchProjectDef>
-		<defName>SurplusWeaponsInfantry</defName>
-		<label>Surplus Infantry Weaponry</label>
-		<description>The latest batch of outdated and obsolete equipment have reached the Rimworlds. Equipment made before the Mechanoid and Insectoid Wars when humanity still loved fighting itself over petty squabbles.</description>
-		<baseCost>1500</baseCost>
-		<tab>ABraveNewFrontier</tab>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>GasOperation</li>
-			<li>PrecisionRifling</li>
-			<li>Smithing</li>
-		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>6</researchViewY>
-	</ResearchProjectDef>
-
-	<!--==================== SurplusWeaponsExperimental | Surplus Experimental Weaponry ====================-->
-	<ResearchProjectDef>
-		<defName>SurplusWeaponsExperimental</defName>
-		<label>Surplus Experimental Weaponry</label>
-		<description>The former cutting edge technology from advanced rail guns to primitive charge based weapons. This is surplus that still packs a punch and still drives a hard bargain from many.</description>
-		<baseCost>1800</baseCost>
-		<tab>ABraveNewFrontier</tab>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>SurplusWeaponsInfantry</li>
-			<li>ChargedShot</li>
-		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>6</researchViewY>
-	</ResearchProjectDef>
-
 </Defs>
