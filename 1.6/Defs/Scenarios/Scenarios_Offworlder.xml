@@ -2,13 +2,13 @@
 <Defs>
 	<ScenarioDef ParentName="ScenarioBase">
 		<defName>KP_Outlanders</defName>
-		<label>Outlanders</label>
-		<description>After months of negotiation, you have been tasked with founding a Coreworld-backed colonial franchise. Like all colonial efforts you are to act as an extension of your franchise’s backer, exploring the world and exploiting its resources. It is your duty now to ensure profits rise with this venture, otherwise you will have your contracts revoked and your lives taken into collections.</description>
+		<label>Scouting Settlers</label>
+		<description>After years of cryptosleep you have arrived to the Rimworlds. You are not marooned to this world but it was your goal to arrive here, you are a member of the scouting team. It is here that you will start your new life as colonists and develop your colony for the arrival of other colonists who will be arriving after you. Now you must build a place for the arriving colonists who will rely on your for their respite.</description>
 
 		<scenario>
-			<name>Colonial Franchise</name>
-			<summary>A group of offworld contractors sent there by a coreworld organization. Strong Start.</summary>
-			<description>After months of negotiation, you have been tasked with founding a Coreworld-backed colonial franchise. Like all colonial efforts you are to act as an extension of your franchise’s backer, exploring the world and exploiting its resources. It is your duty now to ensure profits rise with this venture, otherwise you will have your contracts revoked and your lives taken into collections.
+			<name>Scouting Settlers</name>
+			<summary>A group of offworld settlers, sent as scouts ahead of their larger group. Starts with equipment but lack of materials.</summary>
+			<description>After years of cryptosleep you have arrived to the Rimworlds. You are not marooned to this world but it was your goal to arrive here, you are a member of the scouting team. It is here that you will start your new life as colonists and develop your colony for the arrival of other colonists who will be arriving after you. Now you must build a place for the arriving colonists who will rely on your for their respite.
 
 Note: Since you start with spacer level equipment, it will be an easy start against threats but your lack of materials will make starting hard.</description>
 

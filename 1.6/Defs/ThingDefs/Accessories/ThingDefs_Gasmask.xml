@@ -57,7 +57,7 @@
 				<li>Eyes</li>
 				<li>Mouth</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Fallback/Gasmask/gas_mask/gasmask</wornGraphicPath>
+			<wornGraphicPath>Fallback/Gasmask/gas_mask/gasmask</wornGraphicPath>
 			<renderSkipFlags>
 				<li>None</li>
 			</renderSkipFlags>
