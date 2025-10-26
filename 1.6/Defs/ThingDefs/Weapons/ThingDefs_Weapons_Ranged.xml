@@ -71,8 +71,10 @@
 		</verbs>
 
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
-			<li>AssaultRifle</li>
+			<li>BNF_Anti_Armor_Infantry</li>
+			<li>BNF_Heavy_Gunner</li>
+			<li>BNF_Marine</li>
+			<li>BNF_Commando</li>
 		</weaponTags>
 
 		<tools>

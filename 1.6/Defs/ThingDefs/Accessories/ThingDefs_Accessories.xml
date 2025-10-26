@@ -56,9 +56,7 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderAdvanced</li>
+				<li>BNF_Medic</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

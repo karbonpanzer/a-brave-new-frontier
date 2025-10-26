@@ -75,6 +75,10 @@
 				<cooldownTime>1.5</cooldownTime>
 			</li>
 		</tools>
+		<weaponTags>
+			<li>BNF_TrenchCommander</li>
+			<li>BNF_Trench_Shocktrooper</li>
+		</weaponTags>
 
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">

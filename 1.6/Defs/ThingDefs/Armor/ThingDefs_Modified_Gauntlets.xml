@@ -63,10 +63,8 @@
 				<li>Middle</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>SpacerMilitary</li>
-				<li>OffworlderShocktrooper</li>
+				<li>BNF_Trench_Shocktrooper</li>
+				<li>BNF_Heavy_Infantry</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

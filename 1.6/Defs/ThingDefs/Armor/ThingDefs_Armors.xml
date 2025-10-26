@@ -15,7 +15,11 @@
 				<li>Middle</li>
 			</layers>
 			<tags>
-				<li>KP_CarapaceArmors</li>
+				<li>BNF_Infantry</li>
+				<li>BNF_Heavy_Infantry</li>
+				<li>BNF_Ranger</li>
+				<li>BNF_Marine</li>
+				<li>BNF_Trench_Shocktrooper</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

@@ -49,9 +49,15 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderBasic</li>
+				<li>BNF_HighCommander</li>
+				<li>BNF_InfantryCommander</li>
+				<li>BNF_RangerCommander</li>
+				<li>BNF_TrenchCommander</li>
+				<li>BNF_SubCommander</li>
+				<li>BNF_Representative</li>
+				<li>BNF_Command</li>
+				<li>BNF_CommandSenior</li>
+				<li>BNF_CommandLight</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

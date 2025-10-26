@@ -7,7 +7,8 @@
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<tags>
-				<li>KP_CarapaceHelmets</li>
+				<li>BNF_Trench_Shocktrooper</li>
+				<li>BNF_Marine</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
