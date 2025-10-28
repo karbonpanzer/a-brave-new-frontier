@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adds BNFWeaponExtension (with displayName) to ranged weapon ThingDefs -->
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Retro_Rifle"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Retro Rifle</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Autoloader_Rifle"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Heavy &quot;Autoloader&quot; Rifle</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Super_Shotgun"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Super-Shotgun</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Assault_Pistol"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Assault Pistol</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Gun_HyperSMG"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Hyper-SMG</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Hyperblaster"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Hyperblaster</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Chemrail_Rifle"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Chem-Rail Rifle</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Slab_Revolver"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Slab Revolver</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Service_Rifle"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Service Rifle</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Flechette_Rifle"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Flechette Rifle</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Assault_LMG"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Assault LMG</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Compact_PDW"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Compact PDW</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_Coreburner"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Coreburner</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="KP_TwinLancer_Rifle"]</xpath>
+    <value>
+      <modExtensions>
+        <li Class="BNF.StyleSwitcher.BNFWeaponExtension">
+          <displayName>Twin Lancer Rifle</displayName>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+</Patch>

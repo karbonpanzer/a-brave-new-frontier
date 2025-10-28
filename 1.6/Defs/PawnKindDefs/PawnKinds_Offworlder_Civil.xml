@@ -26,8 +26,10 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Settler</li>
+      <li>BNF_Uniform</li>
     </apparelTags>
+    <apparelRequired>
+    </apparelRequired>
 
     <apparelMoney>
       <min>200</min>
@@ -64,8 +66,10 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Trader</li>
+      <li>BNF_Uniform</li>
     </apparelTags>
+    <apparelRequired>
+    </apparelRequired>
 
     <apparelMoney>
       <min>300</min>
@@ -103,19 +107,20 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Representative</li>
-      <li>BNF_CommandSenior</li>
+      <li>BNF_Uniform_Officer</li>
+      <li>BNF_Armor_Officer</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Officer_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet_Officer</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1000</min>
       <max>1500</max>
     </apparelMoney>
-
-    <apparelRequired>
-      <li>KP_Officer_Uniform</li>
-      <li>KP_Officer_Flak_Armor</li>
-    </apparelRequired>
 
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>
@@ -156,8 +161,14 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Volunteer</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Conscript</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Scout_Flak_Armor</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>800</min>
@@ -193,8 +204,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Infantry</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Light</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Light_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1000</min>
@@ -230,8 +250,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Heavy_Infantry</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1200</min>
@@ -267,8 +296,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Anti_Armor_Infantry</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1100</min>
@@ -304,8 +342,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Gunner</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1100</min>
@@ -341,8 +388,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Heavy_Gunner</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1300</min>
@@ -378,8 +434,15 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Ranger</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Scout</li>
+      <li>BNF_Accessories_Scout</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Scout_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet</li>
+      <li>KP_Webbing_Scout</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1100</min>
@@ -415,8 +478,15 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Heavy_Ranger</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Scout</li>
+      <li>BNF_Accessories_Scout</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Scout_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet</li>
+      <li>KP_Webbing_Scout</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1300</min>
@@ -427,117 +497,6 @@
 
     <initialWillRange>5~7</initialWillRange>
     <initialResistanceRange>35~45</initialResistanceRange>
-  </PawnKindDef>
-
-  <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Civil_Scout</defName>
-    <label>Scout</label>
-
-    <combatPower>135</combatPower>
-    <itemQuality>Normal</itemQuality>
-    <isFighter>true</isFighter>
-
-    <gearHealthRange>
-      <min>0.6</min>
-      <max>2.0</max>
-    </gearHealthRange>
-
-    <weaponTags>
-      <li>BNF_Scout</li>
-    </weaponTags>
-
-    <weaponMoney>
-      <min>550</min>
-      <max>700</max>
-    </weaponMoney>
-
-    <apparelTags>
-      <li>BNF_Ranger</li>
-    </apparelTags>
-
-    <apparelMoney>
-      <min>1000</min>
-      <max>1500</max>
-    </apparelMoney>
-
-    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-
-    <initialWillRange>4~6</initialWillRange>
-    <initialResistanceRange>30~40</initialResistanceRange>
-  </PawnKindDef>
-
-  <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Civil_Marine</defName>
-    <label>Marine</label>
-
-    <combatPower>170</combatPower>
-    <itemQuality>Normal</itemQuality>
-    <isFighter>true</isFighter>
-
-    <gearHealthRange>
-      <min>0.6</min>
-      <max>2.0</max>
-    </gearHealthRange>
-
-    <weaponTags>
-      <li>BNF_Marine</li>
-    </weaponTags>
-
-    <weaponMoney>
-      <min>700</min>
-      <max>900</max>
-    </weaponMoney>
-
-    <apparelTags>
-      <li>BNF_Marine</li>
-    </apparelTags>
-
-    <apparelMoney>
-      <min>1200</min>
-      <max>1700</max>
-    </apparelMoney>
-
-    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-
-    <initialWillRange>4~6</initialWillRange>
-    <initialResistanceRange>30~40</initialResistanceRange>
-  </PawnKindDef>
-
-  <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Civil_Commando</defName>
-    <label>Commando</label>
-
-    <combatPower>180</combatPower>
-    <itemQuality>Normal</itemQuality>
-    <isFighter>true</isFighter>
-
-    <gearHealthRange>
-      <min>0.6</min>
-      <max>2.0</max>
-    </gearHealthRange>
-
-    <weaponTags>
-      <li>BNF_Commando</li>
-    </weaponTags>
-
-    <weaponMoney>
-      <min>700</min>
-      <max>900</max>
-    </weaponMoney>
-
-    <apparelTags>
-      <li>BNF_Shock</li>
-    </apparelTags>
-
-    <apparelMoney>
-      <min>1200</min>
-      <max>1700</max>
-    </apparelMoney>
-
-    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-
-    <initialWillRange>4~6</initialWillRange>
-    <initialResistanceRange>30~40</initialResistanceRange>
   </PawnKindDef>
 
   <!-- ==================== TRENCH & SPECIAL UNITS ==================== -->
@@ -564,8 +523,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Trench_Raider</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Light_Shocktrooper</li>
+      <li>BNF_Accessories_Shocktrooper</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Light_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet_Faceshield</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Webbing_Shocktrooper</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1200</min>
@@ -600,8 +568,19 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Trench_Infantry</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy_Shocktrooper</li>
+      <li>BNF_Armor_Gauntlets_Modified</li>
+      <li>BNF_Accessories_Shocktrooper</li>
     </apparelTags>
+    
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet_Faceshield</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Talon_Gauntlets</li>
+      <li>KP_Webbing_Shocktrooper</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1000</min>
@@ -636,8 +615,19 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Trench_Shocktrooper</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy_Shocktrooper</li>
+      <li>BNF_Armor_Gauntlets_Modified</li>
+      <li>BNF_Accessories_Shocktrooper</li>
     </apparelTags>
+    
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet_Faceshield</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Talon_Gauntlets</li>
+      <li>KP_Webbing_Shocktrooper</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1300</min>
@@ -672,8 +662,19 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Lansquenets</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy_Shocktrooper</li>
+      <li>BNF_Armor_Gauntlets_Modified</li>
+      <li>BNF_Accessories_Shocktrooper</li>
     </apparelTags>
+    
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet_Faceshield</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Talon_Gauntlets</li>
+      <li>KP_Webbing_Shocktrooper</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1300</min>
@@ -708,8 +709,14 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Trench_Dog</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Conscript</li>
+      <li>BNF_Accessories_Shocktrooper</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Scout_Flak_Armor</li>
+      <li>KP_Webbing_Shocktrooper</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>800</min>
@@ -747,8 +754,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Medic</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Light_Medic</li>
+      <li>BNF_Accessories_Medic</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Light_Flak_Armor_Medic</li>
+      <li>KP_Light_Flak_Helmet_Medic</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Pouches_Medic</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1000</min>
@@ -784,8 +800,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Heavy_Medic</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy_Medic</li>
+      <li>BNF_Accessories_Medic</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor_Medic</li>
+      <li>KP_Heavy_Flak_Helmet_Medic</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Pouches_Medic</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1200</min>
@@ -821,8 +846,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Engineer</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Light_Engineer</li>
+      <li>BNF_Accessories_Engineer</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Light_Flak_Armor_Support</li>
+      <li>KP_Light_Flak_Helmet_Support</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Pouches_Support</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1000</min>
@@ -858,8 +892,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Heavy_Engineer</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy_Engineer</li>
+      <li>BNF_Accessories_Engineer</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor_Support</li>
+      <li>KP_Heavy_Flak_Helmet_Support</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Pouches_Support</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1200</min>
@@ -895,8 +938,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Conflagrator</li>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Heavy</li>
+      <li>BNF_Accessories_Shocktrooper</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Armored_Gloves</li>
+      <li>KP_Webbing_Shocktrooper</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1100</min>
@@ -936,9 +988,14 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Ranger</li>
-      <li>BNF_Command</li>
+      <li>BNF_Uniform_Officer</li>
+      <li>BNF_Armor_Officer_Scout</li>
+      <li>BNF_Accessories_Scout</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Scout_Officer_Flak_Armor</li>
+      <li>KP_Webbing_Scout</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1200</min>
@@ -976,9 +1033,15 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Infantry</li>
-      <li>BNF_Command</li>
+      <li>BNF_Uniform_Officer</li>
+      <li>BNF_Armor_Officer</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Officer_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet_Officer</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1200</min>
@@ -1016,9 +1079,17 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Shock</li>
-      <li>BNF_Command</li>
+      <li>BNF_Uniform_Officer</li>
+      <li>BNF_Armor_Officer</li>
+      <li>BNF_Armor_Gauntlets_Modified</li>
+      <li>BNF_Accessories_Shocktrooper</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Officer_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet_Officer</li>
+      <li>KP_Talon_Gauntlets</li>
+      <li>KP_Webbing_Shocktrooper</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1300</min>
@@ -1056,9 +1127,15 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Infantry</li>
-      <li>BNF_CommandLight</li>
+      <li>BNF_Uniform_Officer</li>
+      <li>BNF_Armor_Officer</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Officer_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet_Officer</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1000</min>
@@ -1095,9 +1172,15 @@
     </weaponMoney>
 
     <apparelTags>
-      <li>BNF_Infantry</li>
-      <li>BNF_CommandSenior</li>
+      <li>BNF_Uniform_Officer</li>
+      <li>BNF_Armor_Officer</li>
+      <li>BNF_Accessories_Infantry</li>
     </apparelTags>
+    <apparelRequired>
+      <li>KP_Officer_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet_Officer</li>
+      <li>KP_Webbing_Magazine</li>
+    </apparelRequired>
 
     <apparelMoney>
       <min>1400</min>

@@ -56,7 +56,7 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>BNF_Medic</li>
+				<li>BNF_Accessories_Infantry</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -153,9 +153,7 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderAdvanced</li>
+				<li>BNF_Accessories_Infantry</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -252,9 +250,7 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderScout</li>
+				<li>BNF_Accessories_Scout</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -351,9 +347,7 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderShocktrooper</li>
+				<li>BNF_Accessories_Shocktrooper</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -449,9 +443,7 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderAdvanced</li>
+				<li>BNF_Accessories_Infantry</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -549,9 +541,7 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderEngineer</li>
+				<li>BNF_Accessories_Engineer</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -649,9 +639,7 @@
 				<li>Shell</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderMedic</li>
+				<li>BNF_Accessories_Medic</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

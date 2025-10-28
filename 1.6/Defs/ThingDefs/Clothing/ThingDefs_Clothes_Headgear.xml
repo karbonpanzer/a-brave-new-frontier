@@ -49,15 +49,7 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>BNF_HighCommander</li>
-				<li>BNF_InfantryCommander</li>
-				<li>BNF_RangerCommander</li>
-				<li>BNF_TrenchCommander</li>
-				<li>BNF_SubCommander</li>
-				<li>BNF_Representative</li>
-				<li>BNF_Command</li>
-				<li>BNF_CommandSenior</li>
-				<li>BNF_CommandLight</li>
+				<li>BNF_Uniform</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -149,9 +141,7 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderBasic</li>
+				<li>BNF_Uniform</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -243,9 +233,7 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderBasic</li>
+				<li>BNF_Uniform</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -337,9 +325,7 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderBasic</li>
+				<li>BNF_Uniform</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -431,10 +417,7 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>PrestigeCombatGear</li>
-				<li>OffworlderBasic</li>
+				<li>BNF_Uniform_Officer</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

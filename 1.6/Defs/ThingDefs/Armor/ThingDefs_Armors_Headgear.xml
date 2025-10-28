@@ -6,10 +6,6 @@
 
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
-			<tags>
-				<li>BNF_Trench_Shocktrooper</li>
-				<li>BNF_Marine</li>
-			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
@@ -81,10 +77,8 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderAdvanced</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Light</li>
+				<li>BNF_Armor_Scout</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -170,10 +164,7 @@ This variant is marked for usage by Medical staff.</description>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderMedic</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Light_Medic</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -261,10 +252,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderEngineer</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Light_Engineer</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -356,10 +344,7 @@ This variant is modified for usage on extremely cold worlds.</description>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderAdvanced</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Light</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -447,11 +432,7 @@ This variant is marked for usage by officers.</description>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderOfficer</li>
-				<li>SpacerMilitary</li>
-				<li>PrestigeCombatGear</li>
+				<li>BNF_Armor_Officer</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -537,10 +518,7 @@ This variant is marked for usage by officers.</loreDesc>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderAdvanced</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Heavy</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -626,10 +604,7 @@ This variant is marked for usage by Medical staff.</description>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderMedic</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Heavy_Medic</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -717,10 +692,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderEngineer</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Heavy_Engineer</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -812,10 +784,7 @@ This variant is modified for usage on extreme cold worlds.</description>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderAdvanced</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Heavy</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -905,11 +874,7 @@ This variant is marked for usage by Officers.</description>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderOfficer</li>
-				<li>SpacerMilitary</li>
-				<li>PrestigeCombatGear</li>
+				<li>BNF_Armor_Heavy_Officer</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -1000,10 +965,7 @@ This variant is marked for usage by Officers.</loreDesc>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderStormtrooper</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Light_Shocktrooper</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -1092,10 +1054,7 @@ This variant is marked for usage by Officers.</loreDesc>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialMilitaryBasic</li>
-				<li>IndustrialMilitaryAdvanced</li>
-				<li>OutlanderStormtrooper</li>
-				<li>SpacerMilitary</li>
+				<li>BNF_Armor_Heavy_Shocktrooper</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
