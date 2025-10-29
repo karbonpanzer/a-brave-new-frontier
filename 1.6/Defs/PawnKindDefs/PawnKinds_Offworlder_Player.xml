@@ -13,8 +13,7 @@
 		</backstoryCategories>
 
 		<apparelTags>
-			<li>OutlanderBasic</li>
-			<li>OutlanderAdvanced</li>
+			<li>BNF_Uniform</li>
 		</apparelTags>
 
 		<gearHealthRange>
@@ -25,9 +24,10 @@
 		<itemQuality>Normal</itemQuality>
 
 		<apparelMoney>
-			<min>400</min>
-			<max>800</max>
+			<min>500</min>
+			<max>1000</max>
 		</apparelMoney>
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
 
 		<backstoryCryptosleepCommonality>0.5</backstoryCryptosleepCommonality>
 
