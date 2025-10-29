@@ -3,8 +3,8 @@
 	<!--==================== KP_Offworlder_Player | New Franchise ====================-->
 	<FactionDef ParentName="PlayerFactionBase">
 		<defName>KP_Offworlder_Player</defName>
-		<label>New Franchise</label>
-		<description>A offworlder group sponsored by coreworld governments and corporations.</description>
+		<label>Colonial Settlers</label>
+		<description>A offworlder group sent to colonize this world by choice.</description>
 		<colorSpectrum>
 			<li>(0, 0.737, 0.847)</li>
 		</colorSpectrum>

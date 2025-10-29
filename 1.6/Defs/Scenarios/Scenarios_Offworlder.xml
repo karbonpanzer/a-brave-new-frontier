@@ -110,6 +110,11 @@ Note: Since you start with spacer level equipment, it will be an easy start agai
 					<thingDef>Steel</thingDef>
 					<count>150</count>
 				</li>
+				
+				<li Class="ScenPart_StartingResearch">
+				  <def>StartingResearch</def>
+				  <project>LateIndustrialUniforms</project>
+				</li>
 			</parts>
 		</scenario>
 	</ScenarioDef>
