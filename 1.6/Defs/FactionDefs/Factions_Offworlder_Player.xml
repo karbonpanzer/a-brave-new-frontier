@@ -19,11 +19,15 @@
 		<factionNameMaker>NamerFactionOffworlderCivil</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOffworlderCivil</settlementNameMaker>
 		<backstoryFilters>
-			<li>
-				<categories>
-					<li>Outlander</li>
-				</categories>
-			</li>
+		  <li>
+			<categories>
+			  <!-- Your custom spawnCategories as plain strings -->
+			  <li>BNF_Child_Offworlder</li>
+			  <li>BNF_Adult_Offworlder</li>
+			  <!-- Keep a vanilla fallback so generation never runs dry -->
+			  <li>Outlander</li>
+			</categories>
+		  </li>
 		</backstoryFilters>
 		<factionIconPath>UI/FactionIcons/OffworlderCivilOutpost</factionIconPath>
 		<startingResearchTags>

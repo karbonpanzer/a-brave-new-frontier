@@ -1,0 +1,179 @@
+<Defs>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Frontier ranger</title>
+    <defName>BNF_FrontierRanger</defName>
+    <titleShort>Ranger</titleShort>
+    <baseDesc>Before joining the colony, [PAWN_nameDef] lived alone on the frontier, tracking smugglers and beasts across dust plains and frozen ridges. [PAWN_pronoun] learned to read weather, wind, and footprints better than faces. Years of silence made [PAWN_pronoun] wary of crowds but unmatched in survival instinct.</baseDesc>
+    <spawnCategories>
+      <li>Adult_Offworlder</li>
+      <li>Outlander</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>+4</Shooting>
+      <Animals>+3</Animals>
+      <Social>-3</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Trench sapper</title>
+    <defName>BNF_TrenchSapper</defName>
+    <titleShort>Sapper</titleShort>
+    <baseDesc>[PAWN_nameDef] spent years beneath the earth, carving tunnels under enemy lines and setting shaped charges. The constant rumble of artillery became background noise. When peace came, [PAWN_pronoun] still built foxholes before sleeping — just in case.</baseDesc>
+    <spawnCategories>
+      <li>Adult_Offworlder</li>
+      <li>Militia</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>+3</Construction>
+      <Mining>+4</Mining>
+      <Artistic>-2</Artistic>
+    </skillGains>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+  </BackstoryDef>
+
+	<BackstoryDef>
+	  <slot>Adulthood</slot>
+	  <title>Quartermaster sergeant</title>
+	  <defName>BNF_Quartermaster</defName>
+	  <titleShort>Quartermaster</titleShort>
+	  <baseDesc>Every bullet, every bandage - [PAWN_nameDef] knew where it came from and where it was going. Years in logistics turned [PAWN_pronoun] into a walking inventory, but that precision never left room for patience. When things went missing, someone always paid for it.</baseDesc>
+	  <spawnCategories>
+		<li>RoughOffworld</li>
+		<li>CivilOffworld</li>
+	  </spawnCategories>
+	  <skillGains>
+		<Intellectual>+3</Intellectual>
+		<Social>+2</Social>
+		<!-- removed Shooting -2 to avoid conflict with Violent disable -->
+	  </skillGains>
+	  <workDisables>
+		<li>Violent</li>
+	  </workDisables>
+	</BackstoryDef>
+
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Trench medic</title>
+    <defName>BNF_TrenchMedic</defName>
+    <titleShort>Medic</titleShort>
+    <baseDesc>There were days when the blood never washed off. [PAWN_nameDef] tended the wounded by lamplight, sewing skin with trembling hands while the guns thundered overhead. Compassion hardened into efficiency — quick hands, empty heart.</baseDesc>
+    <spawnCategories>
+      <li>Adult_Offworlder</li>
+      <li>Medic</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>+5</Medicine>
+      <Melee>+1</Melee>
+      <Social>-3</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Armory artificer</title>
+    <defName>BNF_ArmoryArtificer</defName>
+    <titleShort>Artificer</titleShort>
+    <baseDesc>[PAWN_nameDef] could turn scrap metal into a working rifle faster than most could find the safety switch. In the regiment’s armory, [PAWN_pronoun] built weapons out of boredom and repaired them out of habit. Noise didn’t bother [PAWN_objective]; people did.</baseDesc>
+    <spawnCategories>
+      <li>Adult_Offworlder</li>
+      <li>RoughOffworld</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>+5</Crafting>
+      <Construction>+2</Construction>
+      <Social>-2</Social>
+    </skillGains>
+  </BackstoryDef>
+
+	<BackstoryDef>
+	  <slot>Adulthood</slot>
+	  <title>Field chaplain</title>
+	  <defName>BNF_FieldChaplain</defName>
+	  <titleShort>Chaplain</titleShort>
+	  <baseDesc>Between bombardments, [PAWN_nameDef] spoke of peace. Few listened, but [PAWN_pronoun] stayed - tending to the shaken, burying the dead, and keeping faith alive where nothing else could grow. Even now, [PAWN_pronoun] can’t touch a weapon without flinching.</baseDesc>
+	  <spawnCategories>
+		<li>Adult_Offworlder</li>
+	  </spawnCategories>
+	  <skillGains>
+		<Social>+4</Social>
+		<Intellectual>+2</Intellectual>
+		<!-- removed Shooting -2 to avoid conflict with Violent disable -->
+	  </skillGains>
+	  <workDisables>
+		<li>Violent</li>
+	  </workDisables>
+	</BackstoryDef>
+
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Colony engineer</title>
+    <defName>BNF_ColonyEngineer</defName>
+    <titleShort>Engineer</titleShort>
+    <baseDesc>Settlements rose and fell under [PAWN_nameDef]’s hands. From crude barricades to geothermal plants, [PAWN_pronoun] built them all. The work was loud and dangerous — just how [PAWN_pronoun] liked it. Talking wasn’t part of the job description.</baseDesc>
+    <spawnCategories>
+      <li>Adult_Offworlder</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>+5</Construction>
+      <Crafting>+3</Crafting>
+      <Social>-3</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Recon scout</title>
+    <defName>BNF_ReconScout</defName>
+    <titleShort>Scout</titleShort>
+    <baseDesc>[PAWN_nameDef] moved like a ghost ahead of the lines, reporting movement, sabotage, and weather. Sleep came in ten-minute bursts, and meals were whatever didn’t move faster than [PAWN_objective]. In groups, [PAWN_pronoun] still keeps to the edges.</baseDesc>
+    <spawnCategories>
+      <li>Adult_Offworlder</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>+3</Shooting>
+      <Animals>+2</Animals>
+      <Social>-2</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Broadcast operator</title>
+    <defName>BNF_BroadcastOperator</defName>
+    <titleShort>Operator</titleShort>
+    <baseDesc>The signal never stopped. [PAWN_nameDef] sat in dim rooms with flickering monitors, rerouting transmissions and decoding garbled distress calls. Even after leaving the post, [PAWN_pronoun] swears [PAWN_pronoun] can still hear the static at night.</baseDesc>
+    <spawnCategories>
+      <li>Adult_Offworlder</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>+3</Intellectual>
+      <Social>+1</Social>
+      <Artistic>-1</Artistic>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Surveyor</title>
+    <defName>BNF_Surveyor</defName>
+    <titleShort>Surveyor</titleShort>
+    <baseDesc>[PAWN_nameDef] mapped uncharted worlds for the Offworld League, spending months in drop-pods with only scanners and silence for company. [PAWN_pronoun] learned patience, precision, and the comfort of solitude — all of which make teamwork difficult now.</baseDesc>
+    <spawnCategories>
+      <li>Adult_Offworlder</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>+4</Intellectual>
+      <Mining>+2</Mining>
+      <Social>-2</Social>
+    </skillGains>
+  </BackstoryDef>
+
+</Defs>

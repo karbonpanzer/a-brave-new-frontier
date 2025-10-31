@@ -42,18 +42,15 @@
 			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
 		</disallowedMemes>
 		<backstoryFilters>
-			<li>
-				<categories>
-					<li>Outlander</li>
-				</categories>
-				<commonality>0.05</commonality>
-			</li>
-			<li>
-				<categories>
-					<li>Offworld</li>
-				</categories>
-				<commonality>0.95</commonality>
-			</li>
+		  <li>
+			<categories>
+			  <!-- Your custom spawnCategories as plain strings -->
+			  <li>BNF_Child_Offworlder</li>
+			  <li>BNF_Adult_Offworlder</li>
+			  <!-- Keep a vanilla fallback so generation never runs dry -->
+			  <li>Outlander</li>
+			</categories>
+		  </li>
 		</backstoryFilters>
 		<xenotypeSet>
 			<xenotypeChances>
