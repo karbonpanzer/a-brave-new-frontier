@@ -1569,4 +1569,48 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  </skillGains>
 	</BackstoryDef>
 
+	<BackstoryDef>
+		<slot>Adulthood</slot>
+		<title>Frontier biographer</title>
+		<defName>BNF_FrontierBiographer</defName>
+		<titleShort>Biographer</titleShort>
+		<baseDesc>Every frontier needs someone to remember it kindly. Fascinated with the old tales of gunslingers and drifters, [PAWN_nameDef] left [PAWN_possessive] quiet home to chase the heroes of [PAWN_possessive] childhood stories. The legends turned out smaller in person, their glory mostly written by men like [PAWN_objective]. So [PAWN_pronoun] began writing again—this time selling the truth to those who still believed in myth. The Rim, after all, never runs out of stories that sell themselves.</baseDesc>
+		<spawnCategories>
+			<li>Outlander</li>
+			<li>Frontier</li>
+		</spawnCategories>
+		<skillGains>
+			<Social>+3</Social>
+			<Intellectual>+4</Intellectual>
+			<Artistic>+2</Artistic>
+			<Shooting>-2</Shooting>
+		</skillGains>
+		<workDisables>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</BackstoryDef>
+	
+	<BackstoryDef>
+		<slot>Adulthood</slot>
+		<title>Fast food grifter</title>
+		<defName>BNF_FastFoodGrifter</defName>
+		<titleShort>Grifter</titleShort>
+		<baseDesc>Ration queues taught [PAWN_nameDef] everything [PAWN_pronoun] needed to know about desperation and performance. A counterfeit meal ticket here, a sympathetic clerk there; survival came plated with grease and guilt. [PAWN_possessive] revolution never made it past the dining counter, but the stories did. These days [PAWN_pronoun] still eats on credit, paid in charm, memory, and whatever passes for conviction on the Rim.</baseDesc>
+		<spawnCategories>
+			<li>Outsider</li>
+			<li>Outlander</li>
+			<li>Frontier</li>
+		</spawnCategories>
+		<skillGains>
+			<Social>+5</Social>
+			<Intellectual>+2</Intellectual>
+			<Construction>-1</Construction>
+			<Crafting>-2</Crafting>
+		</skillGains>
+		<workDisables>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</BackstoryDef>
+	
+
 </Defs>
