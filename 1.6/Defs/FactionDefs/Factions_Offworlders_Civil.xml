@@ -3,10 +3,10 @@
 	<!--==================== KP_Offworlder_Civil | civil offworlders ====================-->
 	<FactionDef ParentName="FactionBase">
 		<defName>KP_Offworlder_Civil</defName>
-		<label>civil offworlders</label>
+		<label>civil coreworld expedition</label>
 		<description>Interstellar traders and diplomats backed by core-world governments and megacorporations. Driven by exploration and peace, yet armed against the dangers of the Rim.</description>
-		<pawnSingular>offworlder</pawnSingular>
-		<pawnsPlural>offworlders</pawnsPlural>
+		<pawnSingular>expeditionary</pawnSingular>
+		<pawnsPlural>expeditionaries</pawnsPlural>
 		<listOrderPriority>13</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
