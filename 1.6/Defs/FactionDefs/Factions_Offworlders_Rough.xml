@@ -4,10 +4,10 @@
 	<!--==================== KP_Offworlder_Rough | rough offworlders ====================-->
 	<FactionDef ParentName="FactionBase">
 		<defName>KP_Offworlder_Rough</defName>
-		<label>rough farlander expedition</label>
+		<label>rough coreworld expedition</label>
 		<description>A corporate-backed paramilitary force turned raiders. Driven by greed, they enslave and plunder under the guise of profit.</description>
-		<pawnSingular>farlander</pawnSingular>
-		<pawnsPlural>farlanders</pawnsPlural>
+		<pawnSingular>expeditionary</pawnSingular>
+		<pawnsPlural>expeditionaries</pawnsPlural>
 		<listOrderPriority>14</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
