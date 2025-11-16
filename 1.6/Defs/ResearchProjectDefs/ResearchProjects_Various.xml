@@ -234,7 +234,7 @@
 	<ResearchProjectDef>
 		<defName>ExperimentalWeaponry</defName>
 		<label>Experimental Weaponry</label>
-		<description>Craft prototype weapons built around uncommon mechanisms or hybrid energy systems.</description>
+		<description>Craft prototype weapons built around unique mechanisms and systems.</description>
 		<baseCost>1800</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -276,7 +276,7 @@
 	<ResearchProjectDef>
 		<defName>AntiInsectoidWeaponry</defName>
 		<label>Anti-Insectoid Weaponry</label>
-		<description>Craft weapons suited for rapid fire or shredding attacks against lightly armored biological targets.</description>
+		<description>Craft weapons suited for rapid fire or shredding attacks against chitinous targets.</description>
 		<baseCost>1800</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
