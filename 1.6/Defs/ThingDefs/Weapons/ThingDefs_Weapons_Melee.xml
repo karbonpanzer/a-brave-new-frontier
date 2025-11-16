@@ -17,7 +17,7 @@
 		<techLevel>Industrial</techLevel>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>ExpeditionaryWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -112,7 +112,7 @@
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>SurplusWeaponsExperimental</researchPrerequisite>
+			<researchPrerequisite>AntiMechanoidWeaponry</researchPrerequisite>
 			<recipeUsers>
 				<li>FueledSmithy</li>
 				<li>ElectricSmithy</li>
@@ -201,7 +201,7 @@
 		<techLevel>Industrial</techLevel>
 
 		<recipeMaker>
-			<researchPrerequisite>StormtrooperKit</researchPrerequisite>
+			<researchPrerequisite>TrenchWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -282,7 +282,7 @@
 		<techLevel>Industrial</techLevel>
 
 		<recipeMaker>
-			<researchPrerequisite>StormtrooperKit</researchPrerequisite>
+			<researchPrerequisite>TrenchWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -361,7 +361,7 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>AntiInsectoidWeaponry</researchPrerequisite>
 			<recipeUsers>
 				<li>TableMachining</li>
 			</recipeUsers>
@@ -462,7 +462,7 @@
 			<skillRequirements>
 				<Crafting>9</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>SurplusWeaponsExperimental</researchPrerequisite>
+			<researchPrerequisite>ImprovisedWeaponry</researchPrerequisite>
 			<recipeUsers>
 				<li>TableMachining</li>
 			</recipeUsers>
@@ -574,7 +574,7 @@
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>SurplusWeaponsExperimental</researchPrerequisite>
+			<researchPrerequisite>ImprovisedWeaponry</researchPrerequisite>
 			<recipeUsers>
 				<li>TableMachining</li>
 			</recipeUsers>

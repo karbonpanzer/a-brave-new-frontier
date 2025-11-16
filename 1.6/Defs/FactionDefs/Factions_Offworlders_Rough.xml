@@ -4,7 +4,7 @@
 	<!--==================== KP_Offworlder_Rough | rough offworlders ====================-->
 	<FactionDef ParentName="FactionBase">
 		<defName>KP_Offworlder_Rough</defName>
-		<label>rough coreworld expedition</label>
+		<label>rough colonial expedition</label>
 		<description>A corporate-backed paramilitary force turned raiders. Driven by greed, they enslave and plunder under the guise of profit.</description>
 		<pawnSingular>expeditionary</pawnSingular>
 		<pawnsPlural>expeditionaries</pawnsPlural>
@@ -16,7 +16,7 @@
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>commissar</leaderTitle>
-		<factionIconPath>UI/FactionIcons/OffworlderRoughOutpost</factionIconPath>
+		<factionIconPath>UI/FactionIcons/OffworlderRoughOutpostIII</factionIconPath>
 		<factionNameMaker>NamerFactionOffworlderRough</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOffworlderRough</settlementNameMaker>
 		<colorSpectrum>

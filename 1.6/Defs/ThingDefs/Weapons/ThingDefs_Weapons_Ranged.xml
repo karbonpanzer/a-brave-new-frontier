@@ -31,7 +31,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>AdvancedBallisticWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -137,7 +137,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>AdvancedBallisticWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -245,7 +245,7 @@
 		</weaponClasses>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>AntiMechanoidWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -347,7 +347,7 @@
 		<soundInteract>Interact_Autopistol</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>TrenchWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -447,7 +447,7 @@
 		<soundInteract>Interact_SMG</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsExperimental</researchPrerequisite>
+			<researchPrerequisite>ExperimentalWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -555,7 +555,7 @@
 		<soundInteract>Interact_ChargeLance</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsExperimental</researchPrerequisite>
+			<researchPrerequisite>ExperimentalWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -652,7 +652,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsExperimental</researchPrerequisite>
+			<researchPrerequisite>ExperimentalWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -765,7 +765,7 @@
 		<soundInteract>Interact_Revolver</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>ImprovisedWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -869,7 +869,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>ExpeditionaryWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -976,7 +976,7 @@
 			<recipeUsers>
 				<li>TableMachining</li>
 			</recipeUsers>
-			<researchPrerequisite>SurplusWeaponsExperimental</researchPrerequisite>
+			<researchPrerequisite>AdvancedBallisticWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
@@ -1079,7 +1079,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>AntiInsectoidWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -1190,7 +1190,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>ExpeditionaryWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -1301,6 +1301,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 
 		<recipeMaker>
+			<researchPrerequisite>AntiInsectoidWeaponry</researchPrerequisite>		
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
@@ -1414,7 +1415,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 
 		<recipeMaker>
-			<researchPrerequisite>SurplusWeaponsInfantry</researchPrerequisite>
+			<researchPrerequisite>AntiMechanoidWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>

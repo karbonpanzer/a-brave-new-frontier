@@ -4,7 +4,7 @@
 	<ResearchProjectDef>
 		<defName>LateIndustrialFlakArmor</defName>
 		<label>Carapace Armor and Helmets</label>
-		<description>Older Flak Armors have become quickly outdated in the massive conflicts in the Rim, time for an upgrade to match the times.</description>
+		<description>Craft armor and helmets that provide stronger protection than flak gear and cover more of the body.</description>
 		<baseCost>1600</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -19,7 +19,7 @@
 	<ResearchProjectDef>
 		<defName>LateIndustrialUniforms</defName>
 		<label>Frontier Uniforms</label>
-		<description>Discover the means of protecting your infantry for all forms of weather, whether it is heat or cold.</description>
+		<description>Tailor garments that provide light protection and insulation for a variety of climates.</description>
 		<baseCost>1200</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -30,28 +30,11 @@
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
-	<!--==================== SurplusWeaponsInfantry | Surplus Infantry Weaponry ====================-->
-	<ResearchProjectDef>
-		<defName>SurplusWeaponsInfantry</defName>
-		<label>Surplus Infantry Weaponry</label>
-		<description>The latest batch of outdated and obsolete equipment have reached the Rimworlds. Equipment made before the Mechanoid and Insectoid Wars when humanity still loved fighting itself over petty squabbles.</description>
-		<baseCost>1500</baseCost>
-		<tab>ABraveNewFrontier</tab>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>GasOperation</li>
-			<li>PrecisionRifling</li>
-			<li>Smithing</li>
-		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>6</researchViewY>
-	</ResearchProjectDef>
-
 	<!--==================== LateIndustrialKitSupport | Support Kit ====================-->
 	<ResearchProjectDef>
 		<defName>LateIndustrialKitSupport</defName>
 		<label>Support Kit</label>
-		<description>The expanding conflicts require more and more specialized and support roles entering the field, Doctors and Engineers are now needed.</description>
+		<description>Craft equipment that assist the work of support roles such as engineers and medics.</description>
 		<baseCost>1000</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -66,7 +49,7 @@
 	<ResearchProjectDef>
 		<defName>LateIndustrialKitInfantry</defName>
 		<label>Infantry Kit</label>
-		<description>The Infantry need more than what they can hold in their pockets, time to get them some belts, webbing, and bandoleers to really help the wars.</description>
+		<description>Craft equipment that improves reload speed and general combat readiness.</description>
 		<baseCost>1000</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -81,7 +64,7 @@
 	<ResearchProjectDef>
 		<defName>OfficerUniforms</defName>
 		<label>Officer Uniforms</label>
-		<description>Officers need to have more than one uniform, because if one gets dirty it will ruin his image of respect in the unit.</description>
+		<description>Tailor garments with officer markings that offer the same protection as standard apparel.</description>
 		<baseCost>1500</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -96,7 +79,7 @@
 	<ResearchProjectDef>
 		<defName>ArcticUniforms</defName>
 		<label>Polar Uniforms</label>
-		<description>Harsher weathers require more specialized uniforms that can handle the environment, this one is for avoiding freezing to death in the middle of a glacier.</description>
+		<description>Tailor heavily insulated garments designed for survival and work in extreme cold.</description>
 		<baseCost>1500</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -107,27 +90,11 @@
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 
-	<!--==================== SurplusWeaponsExperimental | Surplus Experimental Weaponry ====================-->
-	<ResearchProjectDef>
-		<defName>SurplusWeaponsExperimental</defName>
-		<label>Surplus Experimental Weaponry</label>
-		<description>The former cutting edge technology from advanced rail guns to primitive charge based weapons. This is surplus that still packs a punch and still drives a hard bargain from many.</description>
-		<baseCost>1800</baseCost>
-		<tab>ABraveNewFrontier</tab>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>SurplusWeaponsInfantry</li>
-			<li>ChargedShot</li>
-		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>6</researchViewY>
-	</ResearchProjectDef>
-
 	<!--==================== SpecializedFlakArmor | Specialized Flak Armor and Helmets ====================-->
 	<ResearchProjectDef>
 		<defName>SpecializedFlakArmor</defName>
 		<label>Specialized Flak Armor and Helmets</label>
-		<description>With some grease paint, you can make the armor match the person that it is assigned to, whether that's an engineer or medic.</description>
+		<description>Craft armor variants with role markings for engineers and medics without changing protective strength.</description>
 		<baseCost>1800</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -143,7 +110,7 @@
 	<ResearchProjectDef>
 		<defName>StormtrooperKit</defName>
 		<label>Stormtrooper Kit</label>
-		<description>Reinforced and modified armor seen on many attrition worlds, for the cruelist fighters.</description>
+		<description>Craft specilized equipment for heavy frontline use by shocktroopers.</description>
 		<baseCost>1800</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -159,7 +126,7 @@
 	<ResearchProjectDef>
 		<defName>HeavyFlakArmor</defName>
 		<label>Heavy Carapace Armor and Helmets</label>
-		<description>Infantry in the field have come up with a means of making their armor thicker and more durable, with some spare plasteel plates and a welding torch.</description>
+		<description>Craft heavy armor and helmets that add additional plating for improved protection at increased material cost.</description>
 		<baseCost>2000</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -174,7 +141,7 @@
 	<ResearchProjectDef>
 		<defName>VanguardKit</defName>
 		<label>Vanguard Carapace Armor</label>
-		<description>Equipment commonly seen in the hands of Scout and Vanguard divisions, light and durable though lacking protection.</description>
+		<description>Craft lightweight armor that improves mobility at the cost of reduced protection.</description>
 		<baseCost>1200</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -189,7 +156,7 @@
 	<ResearchProjectDef>
 		<defName>OfficerFlakArmor</defName>
 		<label>Officer Carapace Armor</label>
-		<description>The War Department has approved the field construction of Officer-grade reinforced armor, high quality armor at a fair price.</description>
+		<description>Craft armor sets with officer markings that provide standard protection with added visual identification.</description>
 		<baseCost>2400</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -205,7 +172,7 @@
 	<ResearchProjectDef>
 		<defName>ThermalHelmets</defName>
 		<label>Thermal Helmets</label>
-		<description>The Polar Cold of the planet is a quick killer, which is why these helmets are wrapped to keep their wearer warm.</description>
+		<description>Tailor insulated garments that provide warmth and wind protection in extreme cold.</description>
 		<baseCost>800</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
@@ -221,14 +188,117 @@
 	<ResearchProjectDef>
 		<defName>ModifiedGauntlets</defName>
 		<label>Modified Gauntlets</label>
-		<description>.</description>
+		<description>Craft reinforced armor for the hands to improve protection and close-combat capability.</description>
 		<baseCost>2000</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>SpecializedFlakArmor</li>
+			<li>StormtrooperKit</li>
 		</prerequisites>
 		<researchViewX>3</researchViewX>
-		<researchViewY>4</researchViewY>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
+
+
+
+	<ResearchProjectDef>
+		<defName>ExpeditionaryWeaponry</defName>
+		<label>Expeditionary Weaponry</label>
+		<description>Craft dependable expeditionary firearms and compact sidearms suited for general use.</description>
+		<baseCost>1500</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>GasOperation</li>
+			<li>PrecisionRifling</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AdvancedBallisticWeaponry</defName>
+		<label>Advanced Ballistic Weaponry</label>
+		<description>Craft high-performance ballistic weapons with improved accuracy and penetration.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ExpeditionaryWeaponry</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>	
+
+	<ResearchProjectDef>
+		<defName>ExperimentalWeaponry</defName>
+		<label>Experimental Weaponry</label>
+		<description>Craft prototype weapons built around uncommon mechanisms or hybrid energy systems.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ExpeditionaryWeaponry</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>TrenchWeaponry</defName>
+		<label>Trench Weaponry</label>
+		<description>Craft short-range firearms and heavy melee tools suited for close-quarters fighting.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ExpeditionaryWeaponry</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>7</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AntiMechanoidWeaponry</defName>
+		<label>Anti-Mechanoid Weaponry</label>
+		<description>Craft weapons specialized for penetrating or disabling armored mechanical targets.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AdvancedBallisticWeaponry</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>AntiInsectoidWeaponry</defName>
+		<label>Anti-Insectoid Weaponry</label>
+		<description>Craft weapons suited for rapid fire or shredding attacks against lightly armored biological targets.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ExperimentalWeaponry</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>	
+	
+	<ResearchProjectDef>
+		<defName>ImprovisedWeaponry</defName>
+		<label>Improvised Weaponry</label>
+		<description>Craft makeshift weapons often used when industrial equipment is limited or unavailable.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>TrenchWeaponry</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>7</researchViewY>
+	</ResearchProjectDef>	
+	
 </Defs>
