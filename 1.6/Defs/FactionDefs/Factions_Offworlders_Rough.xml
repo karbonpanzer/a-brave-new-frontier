@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-	<!--==================== KP_Offworlder_Rough | rough offworlders ====================-->
 	<FactionDef ParentName="FactionBase">
 		<defName>KP_Offworlder_Rough</defName>
 		<label>rough colonial expedition</label>
@@ -44,10 +43,8 @@
 		<backstoryFilters>
 		  <li>
 			<categories>
-			  <!-- Your custom spawnCategories as plain strings -->
 			  <li>BNF_Child_Offworlder</li>
 			  <li>BNF_Adult_Offworlder</li>
-			  <!-- Keep a vanilla fallback so generation never runs dry -->
 			  <li>Outlander</li>
 			</categories>
 		  </li>
@@ -79,12 +76,10 @@
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
 		<pawnGroupMakers>
-		  <!-- COMBAT PROFILE A: line infantry with light specialists -->
 		  <li>
 			<kindDef>Combat</kindDef>
 			<commonality>45</commonality>
 			<options>
-			  <!-- line + light -->
 			  <Offworlder_Rough_Conscript>6</Offworlder_Rough_Conscript>
 			  <Offworlder_Rough_Infantry>12</Offworlder_Rough_Infantry>
 			  <Offworlder_Rough_Heavy_Infantry>6</Offworlder_Rough_Heavy_Infantry>
@@ -93,42 +88,34 @@
 			  <Offworlder_Rough_Heavy_Gunner>3</Offworlder_Rough_Heavy_Gunner>
 			  <Offworlder_Rough_Ranger>5</Offworlder_Rough_Ranger>
 			  <Offworlder_Rough_Heavy_Ranger>2</Offworlder_Rough_Heavy_Ranger>
-			  <!-- support -->
 			  <Offworlder_Rough_Medic>3</Offworlder_Rough_Medic>
 			  <Offworlder_Rough_Engineer>3</Offworlder_Rough_Engineer>
-			  <!-- officers (low incidence anchors) -->
 			  <Offworlder_Rough_Ranger_Commander>1</Offworlder_Rough_Ranger_Commander>
 			  <Offworlder_Rough_Infantry_Commander>1</Offworlder_Rough_Infantry_Commander>
 			  <Offworlder_Rough_Sub_Commander>1</Offworlder_Rough_Sub_Commander>
 			</options>
 		  </li>
 
-		  <!-- COMBAT PROFILE B: trench and assault bias -->
 		  <li>
 			<kindDef>Combat</kindDef>
 			<commonality>35</commonality>
 			<options>
-			  <!-- trench & assault -->
 			  <Offworlder_Rough_Trench_Infantry>8</Offworlder_Rough_Trench_Infantry>
 			  <Offworlder_Rough_Trench_Raider>6</Offworlder_Rough_Trench_Raider>
 			  <Offworlder_Rough_Trench_Shocktrooper>6</Offworlder_Rough_Trench_Shocktrooper>
 			  <Offworlder_Rough_Lansquenets>3</Offworlder_Rough_Lansquenets>
 			  <Offworlder_Rough_Trench_Dog>3</Offworlder_Rough_Trench_Dog>
-			  <!-- fire and suppression -->
 			  <Offworlder_Rough_Conflagrator>4</Offworlder_Rough_Conflagrator>
 			  <Offworlder_Rough_Gunner>4</Offworlder_Rough_Gunner>
 			  <Offworlder_Rough_Heavy_Gunner>3</Offworlder_Rough_Heavy_Gunner>
-			  <!-- support -->
 			  <Offworlder_Rough_Heavy_Medic>2</Offworlder_Rough_Heavy_Medic>
 			  <Offworlder_Rough_Heavy_Engineer>2</Offworlder_Rough_Heavy_Engineer>
-			  <!-- officers (low incidence anchors) -->
 			  <Offworlder_Rough_Trench_Commander>1</Offworlder_Rough_Trench_Commander>
 			  <Offworlder_Rough_Infantry_Commander>1</Offworlder_Rough_Infantry_Commander>
 			  <Offworlder_Rough_High_Commander>1</Offworlder_Rough_High_Commander>
 			</options>
 		  </li>
 
-		  <!-- PEACEFUL: civ presence with light escorts -->
 		  <li>
 			<kindDef>Peaceful</kindDef>
 			<commonality>20</commonality>
@@ -136,7 +123,6 @@
 			  <Offworlder_Rough_Settler>12</Offworlder_Rough_Settler>
 			  <Offworlder_Rough_Trader>8</Offworlder_Rough_Trader>
 			  <Offworlder_Rough_Representative>2</Offworlder_Rough_Representative>
-			  <!-- light guards -->
 			  <Offworlder_Rough_Ranger>4</Offworlder_Rough_Ranger>
 			  <Offworlder_Rough_Infantry>6</Offworlder_Rough_Infantry>
 			  <Offworlder_Rough_Medic>2</Offworlder_Rough_Medic>
@@ -145,7 +131,6 @@
 			</options>
 		  </li>
 
-		  <!-- TRADER: formal caravan with mixed guards -->
 		  <li>
 			<kindDef>Trader</kindDef>
 			<traders>
@@ -155,14 +140,12 @@
 			  <Muffalo>8</Muffalo>
 			</carriers>
 			<guards>
-			  <!-- replace old single Commander with mixed professional guards -->
 			  <Offworlder_Rough_Infantry>6</Offworlder_Rough_Infantry>
 			  <Offworlder_Rough_Ranger>4</Offworlder_Rough_Ranger>
 			  <Offworlder_Rough_Sub_Commander>1</Offworlder_Rough_Sub_Commander>
 			</guards>
 		  </li>
 
-		  <!-- SETTLEMENT: civilian majority, leadership present -->
 		  <li>
 			<kindDef>Settlement</kindDef>
 			<options>
@@ -172,7 +155,6 @@
 			  <Offworlder_Rough_Infantry>8</Offworlder_Rough_Infantry>
 			  <Offworlder_Rough_Ranger>6</Offworlder_Rough_Ranger>
 			  <Offworlder_Rough_Representative>1</Offworlder_Rough_Representative>
-			  <!-- one of the commanders appears rarely -->
 			  <Offworlder_Rough_Infantry_Commander>1</Offworlder_Rough_Infantry_Commander>
 			  <Offworlder_Rough_Ranger_Commander>1</Offworlder_Rough_Ranger_Commander>
 			  <Offworlder_Rough_Trench_Commander>1</Offworlder_Rough_Trench_Commander>

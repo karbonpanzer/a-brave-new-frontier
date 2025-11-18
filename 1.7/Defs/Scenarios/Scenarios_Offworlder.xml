@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ScenarioDef ParentName="ScenarioBase">
+		<defName>BNF_Outlanders</defName>
+		<label>Expedition</label>
+		<description>After years of cryptosleep you have arrived to the Rimworlds. You are not marooned to this world but it was your goal to arrive here, you are a member of the scouting team. It is here that you will start your new life as colonists and develop your colony for the arrival of other colonists who will be arriving after you. Now you must build a place for the arriving colonists who will rely on your for their respite.</description>
+		<scenario>
+			<name>Expedition</name>
+			<summary>A group of offworld settlers, sent as scouts ahead of their larger group. Starts with equipment but lack of materials.</summary>
+			<description>After years of cryptosleep you have arrived to the Rimworlds. You are not marooned to this world but it was your goal to arrive here, you are a member of the scouting team. It is here that you will start your new life as colonists and develop your colony for the arrival of other colonists who will be arriving after you. Now you must build a place for the arriving colonists who will rely on your for their respite.
+Note: Since you start with spacer level equipment, it will be an easy start against threats but your lack of materials will make starting hard.</description>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>KP_Offworlder_Player</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>5</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<visible>false</visible>
+					<context>PlayerStarter</context>
+					<chance>0.5</chance>
+					<hediff>CryptosleepSickness</hediff>
+					<hideOffMap>true</hideOffMap>
+					<severityRange>1~1</severityRange>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>After months of negotiation, you have been tasked with founding a Coreworld-backed colonial franchise. Like all colonial efforts you are to act as an extension of your franchise’s backer, exploring the world and exploiting its resources. It is your duty now to ensure profits rise with this venture, otherwise you will have your contracts revoked and your lives taken into collections.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>KP_Assault_Pistol</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>KP_Super_Shotgun</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>KP_Trench_Spike</thingDef>
+					<count>2</count>
+					<stuff>Steel</stuff>
+					<quality>Normal</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>KP_Light_Flak_Armor</thingDef>
+					<count>2</count>
+					<stuff>Steel</stuff>
+					<quality>Normal</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>KP_Light_Flak_Helmet</thingDef>
+					<count>2</count>
+					<stuff>Steel</stuff>
+					<quality>Normal</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>400</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>80</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>40</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Steel</thingDef>
+					<count>150</count>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+				  <def>StartingResearch</def>
+				  <project>LateIndustrialUniforms</project>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

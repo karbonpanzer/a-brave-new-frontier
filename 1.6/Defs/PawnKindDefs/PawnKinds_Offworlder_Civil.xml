@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ==================== CORE CIVIL ==================== -->
 
   <PawnKindDef ParentName="OutlanderBase">
     <defName>Offworlder_Civil_Settler</defName>
@@ -137,7 +136,6 @@
     <initialResistanceRange>25~35</initialResistanceRange>
   </PawnKindDef>
 
-  <!-- ==================== LINE & SPECIALISTS ==================== -->
 
   <PawnKindDef ParentName="OutlanderBase">
     <defName>Offworlder_Civil_Conscript</defName>
@@ -499,7 +497,6 @@
     <initialResistanceRange>35~45</initialResistanceRange>
   </PawnKindDef>
 
-  <!-- ==================== TRENCH & SPECIAL UNITS ==================== -->
 
   <PawnKindDef ParentName="OutlanderBase">
     <defName>Offworlder_Civil_Trench_Raider</defName>
@@ -729,7 +726,6 @@
     <initialResistanceRange>20~30</initialResistanceRange>
   </PawnKindDef>
 
-  <!-- ==================== SUPPORT ==================== -->
 
   <PawnKindDef ParentName="OutlanderBase">
     <defName>Offworlder_Civil_Medic</defName>
@@ -961,7 +957,6 @@
     <initialResistanceRange>30~40</initialResistanceRange>
   </PawnKindDef>
 
-  <!-- ==================== COMMAND TIERS ==================== -->
 
   <PawnKindDef ParentName="OutlanderBase">
     <defName>Offworlder_Civil_Ranger_Commander</defName>

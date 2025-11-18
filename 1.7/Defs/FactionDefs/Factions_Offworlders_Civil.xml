@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<FactionDef ParentName="FactionBase">
+		<defName>BNF_Offworlder_Civil</defName>
+		<label>civil colonial expedition</label>
+		<description>Interstellar traders and diplomats backed by core-world governments and megacorporations. Driven by exploration and peace, yet armed against the dangers of the Rim.</description>
+		<pawnSingular>expeditionary</pawnSingular>
+		<pawnsPlural>expeditionaries</pawnsPlural>
+		<listOrderPriority>13</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>representative</leaderTitle>
+		<factionIconPath>UI/FactionIcons/OffworlderCivilOutpostIII</factionIconPath>
+		<factionNameMaker>NamerFactionOffworlderCivil</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOffworlderCivil</settlementNameMaker>
+		<colorSpectrum>
+			<li>(0.65, 0.55, 0.85)</li>
+			<li>(0.75, 0.70, 0.90)</li>
+			<li>(0.80, 0.80, 0.95)</li>
+			<li>(0.60, 0.65, 0.90)</li>
+			<li>(0.70, 0.75, 0.95)</li>
+		</colorSpectrum>
+		<permanentEnemy>false</permanentEnemy>
+		<techLevel>Spacer</techLevel>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+		</disallowedMemes>
+		<backstoryFilters>
+		  <li>
+			<categories>
+			  <li>BNF_Child_Offworlder</li>
+			  <li>BNF_Adult_Offworlder</li>
+			  <li>Outlander</li>
+			</categories>
+		  </li>
+		</backstoryFilters>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Starjack MayRequire="Ludeon.RimWorld.Odyssey">0.12</Starjack>
+				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0.06</Hussar>
+				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0.04</Dirtmole>
+				<Impid MayRequire="Ludeon.RimWorld.Biotech">0.02</Impid>
+				<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0.02</Pigskin>
+				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0.02</Highmate>
+			</xenotypeChances>
+		</xenotypeSet>
+		<allowedArrivalTemperatureRange>-40~50</allowedArrivalTemperatureRange>
+		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_Exotic</li>
+		</caravanTraderKinds>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,      40)</li>
+				<li>(70,     60)</li>
+				<li>(700,   120)</li>
+				<li>(1300,  200)</li>
+				<li>(100000,10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+		  <li>
+			<kindDef>Combat</kindDef>
+			<commonality>45</commonality>
+			<options>
+			  <Offworlder_Civil_Conscript>6</Offworlder_Civil_Conscript>
+			  <Offworlder_Civil_Infantry>12</Offworlder_Civil_Infantry>
+			  <Offworlder_Civil_Heavy_Infantry>6</Offworlder_Civil_Heavy_Infantry>
+			  <Offworlder_Civil_Anti_Armor_Infantry>4</Offworlder_Civil_Anti_Armor_Infantry>
+			  <Offworlder_Civil_Gunner>6</Offworlder_Civil_Gunner>
+			  <Offworlder_Civil_Heavy_Gunner>3</Offworlder_Civil_Heavy_Gunner>
+			  <Offworlder_Civil_Ranger>5</Offworlder_Civil_Ranger>
+			  <Offworlder_Civil_Heavy_Ranger>2</Offworlder_Civil_Heavy_Ranger>
+			  <Offworlder_Civil_Medic>3</Offworlder_Civil_Medic>
+			  <Offworlder_Civil_Engineer>3</Offworlder_Civil_Engineer>
+			  <Offworlder_Civil_Ranger_Commander>1</Offworlder_Civil_Ranger_Commander>
+			  <Offworlder_Civil_Infantry_Commander>1</Offworlder_Civil_Infantry_Commander>
+			  <Offworlder_Civil_Sub_Commander>1</Offworlder_Civil_Sub_Commander>
+			</options>
+		  </li>
+		  <li>
+			<kindDef>Combat</kindDef>
+			<commonality>35</commonality>
+			<options>
+			  <Offworlder_Civil_Trench_Infantry>8</Offworlder_Civil_Trench_Infantry>
+			  <Offworlder_Civil_Trench_Raider>6</Offworlder_Civil_Trench_Raider>
+			  <Offworlder_Civil_Trench_Shocktrooper>6</Offworlder_Civil_Trench_Shocktrooper>
+			  <Offworlder_Civil_Lansquenets>3</Offworlder_Civil_Lansquenets>
+			  <Offworlder_Civil_Trench_Dog>3</Offworlder_Civil_Trench_Dog>
+			  <Offworlder_Civil_Conflagrator>4</Offworlder_Civil_Conflagrator>
+			  <Offworlder_Civil_Gunner>4</Offworlder_Civil_Gunner>
+			  <Offworlder_Civil_Heavy_Gunner>3</Offworlder_Civil_Heavy_Gunner>
+			  <Offworlder_Civil_Heavy_Medic>2</Offworlder_Civil_Heavy_Medic>
+			  <Offworlder_Civil_Heavy_Engineer>2</Offworlder_Civil_Heavy_Engineer>
+			  <Offworlder_Civil_Trench_Commander>1</Offworlder_Civil_Trench_Commander>
+			  <Offworlder_Civil_Infantry_Commander>1</Offworlder_Civil_Infantry_Commander>
+			  <Offworlder_Civil_High_Commander>1</Offworlder_Civil_High_Commander>
+			</options>
+		  </li>
+		  <li>
+			<kindDef>Peaceful</kindDef>
+			<commonality>20</commonality>
+			<options>
+			  <Offworlder_Civil_Settler>12</Offworlder_Civil_Settler>
+			  <Offworlder_Civil_Trader>8</Offworlder_Civil_Trader>
+			  <Offworlder_Civil_Representative>2</Offworlder_Civil_Representative>
+			  <Offworlder_Civil_Ranger>4</Offworlder_Civil_Ranger>
+			  <Offworlder_Civil_Infantry>6</Offworlder_Civil_Infantry>
+			  <Offworlder_Civil_Medic>2</Offworlder_Civil_Medic>
+			  <Offworlder_Civil_Engineer>2</Offworlder_Civil_Engineer>
+			  <Offworlder_Civil_Sub_Commander>1</Offworlder_Civil_Sub_Commander>
+			</options>
+		  </li>
+		  <li>
+			<kindDef>Trader</kindDef>
+			<traders>
+			  <Offworlder_Civil_Trader>1</Offworlder_Civil_Trader>
+			</traders>
+			<carriers>
+			  <Muffalo>8</Muffalo>
+			</carriers>
+			<guards>
+			  <Offworlder_Civil_Infantry>6</Offworlder_Civil_Infantry>
+			  <Offworlder_Civil_Ranger>4</Offworlder_Civil_Ranger>
+			  <Offworlder_Civil_Sub_Commander>1</Offworlder_Civil_Sub_Commander>
+			</guards>
+		  </li>
+		  <li>
+			<kindDef>Settlement</kindDef>
+			<options>
+			  <Offworlder_Civil_Settler>20</Offworlder_Civil_Settler>
+			  <Offworlder_Civil_Engineer>4</Offworlder_Civil_Engineer>
+			  <Offworlder_Civil_Medic>4</Offworlder_Civil_Medic>
+			  <Offworlder_Civil_Infantry>8</Offworlder_Civil_Infantry>
+			  <Offworlder_Civil_Ranger>6</Offworlder_Civil_Ranger>
+			  <Offworlder_Civil_Representative>1</Offworlder_Civil_Representative>
+			  <Offworlder_Civil_Infantry_Commander>1</Offworlder_Civil_Infantry_Commander>
+			  <Offworlder_Civil_Ranger_Commander>1</Offworlder_Civil_Ranger_Commander>
+			  <Offworlder_Civil_Trench_Commander>1</Offworlder_Civil_Trench_Commander>
+			</options>
+		  </li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>25</configurationListOrderPriority>
+	</FactionDef>
+</Defs>

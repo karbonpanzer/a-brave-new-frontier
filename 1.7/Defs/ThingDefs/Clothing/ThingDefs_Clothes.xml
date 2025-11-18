@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Field_Uniform_Desert</defName>
+		<label>Frontier Uniform (Arid)</label>
+		<description>From the dense jungles to the dry deserts, this uniform is designed to be proficient at both. While being made from common textiles, it retains a composition that allows a high level of comfort in any form of heat. This was initially used on the Spiceworlds of the Great Domain, the planets themselves being low static desert worlds perfect to produce advanced circuitry needed for the first generation of Mechanoids. While the Great Domain has fallen, this uniforms remains as a memory of a time long past, when humanity dominated all worlds they encountered.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Clothes/FieldUniformDesert/FieldUniformDesert</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories Inherit="False">
+			<li>KP_Uniforms</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<Mass>1.8</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.10</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Clothes/FieldUniformDesert/FieldUniformDesert</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>BNF_Uniform</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>From the dense jungles to the dry deserts, this uniform is designed to be proficient at both. While being made from common textiles, it retains a composition that allows a high level of comfort in any form of heat. This was initially used on the Spiceworlds of the Great Domain, the planets themselves being low static desert worlds perfect to produce advanced circuitry needed for the first generation of Mechanoids. While the Great Domain has fallen, this uniforms remains as a memory of a time long past, when humanity dominated all worlds they encountered.</loreDesc>
+				<vanillaDesc>Duty uniform tuned for hot, dry climates. Breathable composition sheds heat while providing light protection. Offers poor insulation in cold weather.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Clothes/FieldUniformDesert/FieldUniformDesert</originalPath>
+				<greyscalePath>Greyscale/Clothes/FieldUniformDesert/FieldUniformDesert</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Field_Uniform_Temperate</defName>
+		<label>Frontier Uniform (Temperate)</label>
+		<description>This was the first symbol of the Great Domain, a uniform designed not for the perils of the Rim. Instead, this uniform was the symbol of the expansion of humanity, as it was these worlds that settled the New Earths. The planets that were closest in composition to Earth that made them ripe for settlement in the early years. Perfect for the temperate environments that were common on Earth which are now finding usage on the more palatable Rimworlds. The popularity of this uniform is still found after centuries of usage, even outside of military organizations.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Clothes/FieldUniformTemperate/FieldUniformTemperate</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories Inherit="False">
+			<li>KP_Uniforms</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<Mass>1.8</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.10</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Clothes/FieldUniformTemperate/FieldUniformTemperate</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>BNF_Uniform</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>This was the first symbol of the Great Domain, a uniform designed not for the perils of the Rim. Instead, this uniform was the symbol of the expansion of humanity, as it was these worlds that settled the New Earths. The planets that were closest in composition to Earth that made them ripe for settlement in the early years. Perfect for the temperate environments that were common on Earth which are now finding usage on the more palatable Rimworlds. The popularity of this uniform is still found after centuries of usage, even outside of military organizations.</loreDesc>
+				<vanillaDesc>Standard frontier duty uniform. Balanced composition gives light protection and moderate insulation without restricting movement. Suitable for most seasons but not for climate extremes.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Clothes/FieldUniformTemperate/FieldUniformTemperate</originalPath>
+				<greyscalePath>Greyscale/Clothes/FieldUniformTemperate/FieldUniformTemperate</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Field_Uniform_Winter</defName>
+		<label>Frontier Uniform (Boreal)</label>
+		<description>As the Great Domain expanded its borders, it found itself settling on worlds that provided a harder living than what many were used too. On the coldest worlds of Rim, this is a common sight. Dense textiles mixed with wool and composite fibers that allow a certain level of warmth without creating discomfort. This design still remains top of the line on many worlds due to the simplicity of the design and the ease of creation. Even now many paramilitaries are using this uniform and see no reason to replace or even redesign them, a time-tested design from the Old World.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Clothes/FieldUniformWinter/FieldUniformWinter</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories Inherit="False">
+			<li>KP_Uniforms</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<Mass>1.8</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.10</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Clothes/FieldUniformWinter/FieldUniformWinter</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>BNF_Uniform</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>5</weight>
+					<only>(0.25,0.27,0.34)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.48,0.49,0.51)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.81,0.80,0.84)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.85,0.86,0.86)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>As the Great Domain expanded its borders, it found itself settling on worlds that provided a harder living than what many were used too. On the coldest worlds of Rim, this is a common sight. Dense textiles mixed with wool and composite fibers that allow a certain level of warmth without creating discomfort. This design still remains top of the line on many worlds due to the simplicity of the design and the ease of creation. Even now many paramilitaries are using this uniform and see no reason to replace or even redesign them, a time-tested design from the Old World.</loreDesc>
+				<vanillaDesc>Cold-weather field uniform for boreal zones. Insulated composition blocks wind and retains warmth while keeping bulk modest. Less comfortable in warm conditions.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Clothes/FieldUniformWinter/FieldUniformWinter</originalPath>
+				<greyscalePath>Greyscale/Clothes/FieldUniformWinter/FieldUniformWinter</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Field_Uniform_Arctic</defName>
+		<label>Frontier Uniform (Polar)</label>
+		<description>While many worlds in the Great Domain were settled for the resources they provided for the whole of humanity, during the Final War many less habitable planets were being occupied. These worlds became the first Fortressworlds, planets dedicated to holding the line against the Mechs and the Bugs. This uniform is heavily modified from the original template, featuring a mesh heating network powered by dead skin cells.  This keeps the wearer warm in the coldest of environments without stressing any infrastructure on a planet. Though the methods of creating such a uniform are a significantly more complex process, though worth it for the cold.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>ArcticUniforms</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Clothes/FieldUniformArctic/FieldUniformArctic</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<costStuffCount>150</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories Inherit="False">
+			<li>KP_Uniforms</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5400</WorkToMake>
+			<Mass>2.8</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.10</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Clothes/FieldUniformArctic/FieldUniformArctic</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>BNF_Uniform</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>5</weight>
+					<only>(0.25,0.27,0.34)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.48,0.49,0.51)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.81,0.80,0.84)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.85,0.86,0.86)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>While many worlds in the Great Domain were settled for the resources they provided for the whole of humanity, during the Final War many less habitable planets were being occupied. These worlds became the first Fortressworlds, planets dedicated to holding the line against the Mechs and the Bugs. This uniform is heavily modified from the original template, featuring a mesh heating network powered by dead skin cells.  This keeps the wearer warm in the coldest of environments without stressing any infrastructure on a planet. Though the methods of creating such a uniform are a significantly more complex process, though worth it for the cold.</loreDesc>
+				<vanillaDesc>Extreme-cold field uniform with heavy insulation. Thick composition maximizes warmth and wind blocking at the cost of added bulk. Unsuitable for warm climates.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Clothes/FieldUniformArctic/FieldUniformArctic</originalPath>
+				<greyscalePath>Greyscale/Clothes/FieldUniformArctic/FieldUniformArctic</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Officer_Uniform</defName>
+		<label>Frontier Officer Uniform</label>
+		<description>Distinction is an important aspect of an army, from the hero of the ancient world to the home-grown heroes. This uniform serves as a symbol of that distinction, a heavy coat designed with comfort and protection in mind, comfortable in both hot and cold though costly to produce. Such was the case for the Great Domain that this uniform is rarely seen outside of professional armies, often in the hands of remnant armies of the Great Domain. Though its rarity does not prohibit its usage, it is still found even among the most remote worlds of the Rim.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>OfficerUniforms</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Clothes/OfficerUniform/OfficerUniform</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories Inherit="False">
+			<li>KP_Uniforms</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<Mass>1.8</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Clothes/OfficerUniform/OfficerUniform</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>BNF_Uniform_Officer</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.9,0.9,0.9)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33,1)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65,1)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Distinction is an important aspect of an army, from the hero of the ancient world to the home-grown heroes. This uniform serves as a symbol of that distinction, a heavy coat designed with comfort and protection in mind, comfortable in both hot and cold though costly to produce. Such was the case for the Great Domain that this uniform is rarely seen outside of professional armies, often in the hands of remnant armies of the Great Domain. Though its rarity does not prohibit its usage, it is still found even among the most remote worlds of the Rim.</loreDesc>
+				<vanillaDesc>Tailored officer variant of the frontier uniform. Provides the same light protection and mobility as the standard set with refined cut and rank insignia. Balanced insulation for temperate conditions.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Clothes/OfficerUniform/OfficerUniform</originalPath>
+				<greyscalePath>Greyscale/Clothes/OfficerUniform/OfficerUniform</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Officer_Uniform_Winter</defName>
+		<label>Frontier Officer Uniform (Polar)</label>
+		<description>While the Officer Uniform is a strong contender for a perfect uniform for the Rim, it has come up short in one aspect, the cold. In polar environments the Officer uniform fails to maintain a warm temperature for the wearer. The solution was simple, a modified form of the mesh heating network found in the Polar Uniforms that now functions off a kinetic battery which was more effective due to the layers of the uniform. Though issues have still arisen with this variant, many prefer faulty item that can work rather than hoping for something else to keep them warm.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>OfficerUniforms</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories Inherit="False">
+			<li>KP_Uniforms</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<Mass>2.8</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>3</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Fallback/Clothes/OfficerUniformWinter/OfficerUniformWinter</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>BNF_Uniform_Officer</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.9,0.9,0.9)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33,1)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65,1)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>While the Officer Uniform is a strong contender for a perfect uniform for the Rim, it has come up short in one aspect, the cold. In polar environments the Officer uniform fails to maintain a warm temperature for the wearer. The solution was simple, a modified form of the mesh heating network found in the Polar Uniforms that now functions off a kinetic battery which was more effective due to the layers of the uniform. Though issues have still arisen with this variant, many prefer faulty item that can work rather than hoping for something else to keep them warm.</loreDesc>
+				<vanillaDesc>Officer variant built for polar service. Heavy insulated composition and a windproof shell retain warmth in severe cold. Same light protection as the officer uniform, optimized for extreme climates.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Clothes/OfficerUniformWinter/OfficerUniformWinter</originalPath>
+				<greyscalePath>Greyscale/Clothes/OfficerUniformWinter/OfficerUniformWinter</greyscalePath>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<FactionDef ParentName="FactionBase">
+		<defName>BNF_Offworlder_Rough</defName>
+		<label>rough colonial expedition</label>
+		<description>A corporate-backed paramilitary force turned raiders. Driven by greed, they enslave and plunder under the guise of profit.</description>
+		<pawnSingular>expeditionary</pawnSingular>
+		<pawnsPlural>expeditionaries</pawnsPlural>
+		<listOrderPriority>14</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>commissar</leaderTitle>
+		<factionIconPath>UI/FactionIcons/OffworlderRoughOutpostIII</factionIconPath>
+		<factionNameMaker>NamerFactionOffworlderRough</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOffworlderRough</settlementNameMaker>
+		<colorSpectrum>
+			<li>(0.50, 0.10, 0.10)</li>
+			<li>(0.40, 0.05, 0.05)</li>
+			<li>(0.60, 0.15, 0.15)</li>
+			<li>(0.45, 0.08, 0.08)</li>
+			<li>(0.55, 0.12, 0.12)</li>
+		</colorSpectrum>
+		<permanentEnemy>true</permanentEnemy>
+		<techLevel>Spacer</techLevel>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+		</requiredMemes>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+		</disallowedMemes>
+		<backstoryFilters>
+		  <li>
+			<categories>
+			  <li>BNF_Child_Offworlder</li>
+			  <li>BNF_Adult_Offworlder</li>
+			  <li>Outlander</li>
+			</categories>
+		  </li>
+		</backstoryFilters>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Starjack MayRequire="Ludeon.RimWorld.Odyssey">0.12</Starjack>
+				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0.04</Hussar>
+				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0.08</Dirtmole>
+				<Impid MayRequire="Ludeon.RimWorld.Biotech">0.08</Impid>
+				<Waster MayRequire="Ludeon.RimWorld.Biotech">0.06</Waster>
+				<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0.01</Sanguophage>
+			</xenotypeChances>
+		</xenotypeSet>
+		<allowedArrivalTemperatureRange>-40~50</allowedArrivalTemperatureRange>
+		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_Exotic</li>
+		</caravanTraderKinds>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,      40)</li>
+				<li>(70,     60)</li>
+				<li>(700,   120)</li>
+				<li>(1300,  200)</li>
+				<li>(100000,10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+		  <li>
+			<kindDef>Combat</kindDef>
+			<commonality>45</commonality>
+			<options>
+			  <Offworlder_Rough_Conscript>6</Offworlder_Rough_Conscript>
+			  <Offworlder_Rough_Infantry>12</Offworlder_Rough_Infantry>
+			  <Offworlder_Rough_Heavy_Infantry>6</Offworlder_Rough_Heavy_Infantry>
+			  <Offworlder_Rough_Anti_Armor_Infantry>4</Offworlder_Rough_Anti_Armor_Infantry>
+			  <Offworlder_Rough_Gunner>6</Offworlder_Rough_Gunner>
+			  <Offworlder_Rough_Heavy_Gunner>3</Offworlder_Rough_Heavy_Gunner>
+			  <Offworlder_Rough_Ranger>5</Offworlder_Rough_Ranger>
+			  <Offworlder_Rough_Heavy_Ranger>2</Offworlder_Rough_Heavy_Ranger>
+			  <Offworlder_Rough_Medic>3</Offworlder_Rough_Medic>
+			  <Offworlder_Rough_Engineer>3</Offworlder_Rough_Engineer>
+			  <Offworlder_Rough_Ranger_Commander>1</Offworlder_Rough_Ranger_Commander>
+			  <Offworlder_Rough_Infantry_Commander>1</Offworlder_Rough_Infantry_Commander>
+			  <Offworlder_Rough_Sub_Commander>1</Offworlder_Rough_Sub_Commander>
+			</options>
+		  </li>
+		  <li>
+			<kindDef>Combat</kindDef>
+			<commonality>35</commonality>
+			<options>
+			  <Offworlder_Rough_Trench_Infantry>8</Offworlder_Rough_Trench_Infantry>
+			  <Offworlder_Rough_Trench_Raider>6</Offworlder_Rough_Trench_Raider>
+			  <Offworlder_Rough_Trench_Shocktrooper>6</Offworlder_Rough_Trench_Shocktrooper>
+			  <Offworlder_Rough_Lansquenets>3</Offworlder_Rough_Lansquenets>
+			  <Offworlder_Rough_Trench_Dog>3</Offworlder_Rough_Trench_Dog>
+			  <Offworlder_Rough_Conflagrator>4</Offworlder_Rough_Conflagrator>
+			  <Offworlder_Rough_Gunner>4</Offworlder_Rough_Gunner>
+			  <Offworlder_Rough_Heavy_Gunner>3</Offworlder_Rough_Heavy_Gunner>
+			  <Offworlder_Rough_Heavy_Medic>2</Offworlder_Rough_Heavy_Medic>
+			  <Offworlder_Rough_Heavy_Engineer>2</Offworlder_Rough_Heavy_Engineer>
+			  <Offworlder_Rough_Trench_Commander>1</Offworlder_Rough_Trench_Commander>
+			  <Offworlder_Rough_Infantry_Commander>1</Offworlder_Rough_Infantry_Commander>
+			  <Offworlder_Rough_High_Commander>1</Offworlder_Rough_High_Commander>
+			</options>
+		  </li>
+		  <li>
+			<kindDef>Peaceful</kindDef>
+			<commonality>20</commonality>
+			<options>
+			  <Offworlder_Rough_Settler>12</Offworlder_Rough_Settler>
+			  <Offworlder_Rough_Trader>8</Offworlder_Rough_Trader>
+			  <Offworlder_Rough_Representative>2</Offworlder_Rough_Representative>
+			  <Offworlder_Rough_Ranger>4</Offworlder_Rough_Ranger>
+			  <Offworlder_Rough_Infantry>6</Offworlder_Rough_Infantry>
+			  <Offworlder_Rough_Medic>2</Offworlder_Rough_Medic>
+			  <Offworlder_Rough_Engineer>2</Offworlder_Rough_Engineer>
+			  <Offworlder_Rough_Sub_Commander>1</Offworlder_Rough_Sub_Commander>
+			</options>
+		  </li>
+		  <li>
+			<kindDef>Trader</kindDef>
+			<traders>
+			  <Offworlder_Rough_Trader>1</Offworlder_Rough_Trader>
+			</traders>
+			<carriers>
+			  <Muffalo>8</Muffalo>
+			</carriers>
+			<guards>
+			  <Offworlder_Rough_Infantry>6</Offworlder_Rough_Infantry>
+			  <Offworlder_Rough_Ranger>4</Offworlder_Rough_Ranger>
+			  <Offworlder_Rough_Sub_Commander>1</Offworlder_Rough_Sub_Commander>
+			</guards>
+		  </li>
+		  <li>
+			<kindDef>Settlement</kindDef>
+			<options>
+			  <Offworlder_Rough_Settler>20</Offworlder_Rough_Settler>
+			  <Offworlder_Rough_Engineer>4</Offworlder_Rough_Engineer>
+			  <Offworlder_Rough_Medic>4</Offworlder_Rough_Medic>
+			  <Offworlder_Rough_Infantry>8</Offworlder_Rough_Infantry>
+			  <Offworlder_Rough_Ranger>6</Offworlder_Rough_Ranger>
+			  <Offworlder_Rough_Representative>1</Offworlder_Rough_Representative>
+			  <Offworlder_Rough_Infantry_Commander>1</Offworlder_Rough_Infantry_Commander>
+			  <Offworlder_Rough_Ranger_Commander>1</Offworlder_Rough_Ranger_Commander>
+			  <Offworlder_Rough_Trench_Commander>1</Offworlder_Rough_Trench_Commander>
+			</options>
+		  </li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>25</configurationListOrderPriority>
+	</FactionDef>
+</Defs>

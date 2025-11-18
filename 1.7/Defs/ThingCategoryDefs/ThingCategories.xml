@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>BNF_Uniforms</defName>
+		<label>Frontier Uniforms</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>BNF_Headgear</defName>
+		<label>Frontier Headgear</label>
+		<parent>KP_Uniforms</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>BNF_Accessories</defName>
+		<label>Frontier Accessories</label>
+		<parent>KP_Uniforms</parent>
+	</ThingCategoryDef>
+
+</Defs>

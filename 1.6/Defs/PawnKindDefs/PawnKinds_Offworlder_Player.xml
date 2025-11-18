@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-	<!--==================== KP_Offwolder_Player | Offworlder ====================-->
 	<PawnKindDef ParentName="BasePlayerPawnKind">
 		<defName>KP_Offwolder_Player</defName>
 		<label>Offworlder</label>
@@ -27,6 +26,9 @@
 			<min>500</min>
 			<max>1000</max>
 		</apparelMoney>
+		
+		<apparelColor>(60,80,110)</apparelColor>
+		
 		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
 
 		<backstoryCryptosleepCommonality>0.5</backstoryCryptosleepCommonality>

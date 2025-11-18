@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-	<!--==================== Gas Mask ====================-->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>KP_GasMask_Standalone</defName>
 		<label>Gas Mask</label>
 		<description>.</description>
-
 		<techLevel>Spacer</techLevel>
-
 		<recipeMaker>
 			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -18,12 +15,10 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 		</recipeMaker>
-
 		<graphicData>
 			<texPath>Fallback/Gasmask/gas_mask/gasmask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>4500</WorkToMake>
@@ -35,20 +30,16 @@
 			<Insulation_Heat>1</Insulation_Heat>
 			<EquipDelay>2.5</EquipDelay>
 		</statBases>
-
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.65</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
-
 		<thingCategories Inherit="False">
 			<li>Headgear</li>
 		</thingCategories>
-
 		<costList>
 			<Steel>40</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
-
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<developmentalStageFilter>Child, Adult</developmentalStageFilter>

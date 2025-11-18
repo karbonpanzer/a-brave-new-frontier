@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-	<!--==================== KP_Offworlder_Player | New Franchise ====================-->
 	<FactionDef ParentName="PlayerFactionBase">
 		<defName>KP_Offworlder_Player</defName>
 		<label>Colonial Settlers</label>
@@ -21,14 +20,17 @@
 		<backstoryFilters>
 		  <li>
 			<categories>
-			  <!-- Your custom spawnCategories as plain strings -->
 			  <li>BNF_Child_Offworlder</li>
 			  <li>BNF_Adult_Offworlder</li>
-			  <!-- Keep a vanilla fallback so generation never runs dry -->
 			  <li>Outlander</li>
 			</categories>
 		  </li>
 		</backstoryFilters>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
 		<factionIconPath>UI/FactionIcons/OffworlderPlayerOutpostIII</factionIconPath>
 		<startingResearchTags>
 			<li>ClassicStart</li>
