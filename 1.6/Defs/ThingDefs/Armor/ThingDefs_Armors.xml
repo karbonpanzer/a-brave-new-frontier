@@ -90,7 +90,7 @@
 				<vanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Weaker than power armor in overall protection.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/LightArmor/LightArmor</originalPath>
+				<originalPath>Original/Armor/LightArmor/LightArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmor/LightArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -166,7 +166,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Identical to the standard carapace armor, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/LightArmorMedic/LightArmorMedic</originalPath>
+				<originalPath>Original/Armor/LightArmorMedic/LightArmorMedic</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmorMedic/LightArmorMedic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -241,7 +241,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>A suit of plasteel reinforced plate armor... (same vanilla kept)</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/LightArmorSupport/LightArmorSupport</originalPath>
+				<originalPath>Original/Armor/LightArmorSupport/LightArmorSupport</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmorSupport/LightArmorSupport</greyscalePath>
 			</li>
 		</modExtensions>
@@ -316,7 +316,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>A reinforced variant of standard Carapace armor with additional plating for greater protection. The extra bulk makes it heavier and more resource-intensive to produce. Strong armor, but still not a true substitute for power armor.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/HeavyArmor/HeavyArmor</originalPath>
+				<originalPath>Original/Armor/HeavyArmor/HeavyArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/HeavyArmor/HeavyArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -391,7 +391,7 @@ This variant is marked for usage by Medical staff.</description>
 				<vanillaDesc>A reinforced variant of standard carapace armor with additional plating for greater protection. The extra bulk makes it heavier and more resource-intensive to produce. Identical to the standard heavy carapace armor, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/HeavyArmorMedic/HeavyArmorMedic</originalPath>
+				<originalPath>Original/Armor/HeavyArmorMedic/HeavyArmorMedic</originalPath>
 				<greyscalePath>Greyscale/Armor/HeavyArmorMedic/HeavyArmorMedic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -466,7 +466,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>A reinforced variant of standard carapace armor with additional plating for greater protection. The extra bulk makes it heavier and more resource-intensive to produce. Identical to the standard heavy carapace armor, but marked with insignia to denote engineers.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/HeavyArmorSupport/HeavyArmorSupport</originalPath>
+				<originalPath>Original/Armor/HeavyArmorSupport/HeavyArmorSupport</originalPath>
 				<greyscalePath>Greyscale/Armor/HeavyArmorSupport/HeavyArmorSupport</greyscalePath>
 			</li>
 		</modExtensions>
@@ -541,7 +541,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>A higher-quality variant of carapace armor, produced with refined methods for greater durability without extra weight. Features gold inlay as a symbol of rank and authority. Solid protection, but more ceremonial than frontline gear.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/OfficerArmor/OfficerArmor</originalPath>
+				<originalPath>Original/Armor/OfficerArmor/OfficerArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/OfficerArmor/OfficerArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -616,7 +616,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>A lighter variant of carapace armor that sacrifices protection for mobility. Shoulder plating is removed and chest coverage reduced to cut weight. Favored by scouts who need speed and maneuverability over full defense.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/ScoutArmor/ScoutArmor</originalPath>
+				<originalPath>Original/Armor/ScoutArmor/ScoutArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/ScoutArmor/ScoutArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -690,7 +690,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>A lighter officer carapace variant with removed shoulder plates to cut weight. Retains its gold inlay and status as a symbol of rank. Offers good protection with higher mobility, though the exposed shoulders make it a risky choice.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/OfficerScoutArmor/OfficerScoutArmor</originalPath>
+				<originalPath>Original/Armor/OfficerScoutArmor/OfficerScoutArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/OfficerScoutArmor/OfficerScoutArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -768,7 +768,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>Armored greaves that protect the lower legs. Provide solid defense against melee and projectile strikes to the shins and feet. Add weight that slightly reduces mobility but complete the carapace armor set.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/ArmoredBoots/ArmoredBoots</originalPath>
+				<originalPath>Original/Armor/ArmoredBoots/ArmoredBoots</originalPath>
 				<greyscalePath>Greyscale/Armor/ArmoredBoots/ArmoredBoots</greyscalePath>
 			</li>
 		</modExtensions>
@@ -846,7 +846,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>Armored gauntlets that shield the hands. Adds hand protection at the cost of fine manipulation and work speed. Designed to pair with carapace armor.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/ArmoredGloves/ArmoredGloves</originalPath>
+				<originalPath>Original/Armor/ArmoredGloves/ArmoredGloves</originalPath>
 				<greyscalePath>Greyscale/Armor/ArmoredGloves/ArmoredGloves</greyscalePath>
 			</li>
 		</modExtensions>

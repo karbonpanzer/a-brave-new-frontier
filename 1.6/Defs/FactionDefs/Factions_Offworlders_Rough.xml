@@ -4,7 +4,7 @@
 	<FactionDef ParentName="FactionBase">
 		<defName>KP_Offworlder_Rough</defName>
 		<label>rough colonial expedition</label>
-		<description>A corporate-backed paramilitary force turned raiders. Driven by greed, they enslave and plunder under the guise of profit.</description>
+		<description>A loose confederation of pirates, criminals, and all manner of unsavory person arrived to this world in search of resources to exploit. Having spent years travelling to this world in a stolen fleet with stolen technology, they are limited to the technology of what they have pilfered in their years of travel.\n\nThey are concerned with what loot they are able to aquire from the inhabitants of this world. they prefer violence to diplomacy and will kill to obtain what they want.</description>
 		<pawnSingular>expeditionary</pawnSingular>
 		<pawnsPlural>expeditionaries</pawnsPlural>
 		<listOrderPriority>14</listOrderPriority>
@@ -80,19 +80,12 @@
 			<kindDef>Combat</kindDef>
 			<commonality>45</commonality>
 			<options>
-			  <Offworlder_Rough_Conscript>6</Offworlder_Rough_Conscript>
-			  <Offworlder_Rough_Infantry>12</Offworlder_Rough_Infantry>
-			  <Offworlder_Rough_Heavy_Infantry>6</Offworlder_Rough_Heavy_Infantry>
-			  <Offworlder_Rough_Anti_Armor_Infantry>4</Offworlder_Rough_Anti_Armor_Infantry>
-			  <Offworlder_Rough_Gunner>6</Offworlder_Rough_Gunner>
-			  <Offworlder_Rough_Heavy_Gunner>3</Offworlder_Rough_Heavy_Gunner>
-			  <Offworlder_Rough_Ranger>5</Offworlder_Rough_Ranger>
-			  <Offworlder_Rough_Heavy_Ranger>2</Offworlder_Rough_Heavy_Ranger>
+			  <Offworlder_Rough_Infantry>18</Offworlder_Rough_Infantry>
+			  <Offworlder_Rough_Heavy_Infantry>19</Offworlder_Rough_Heavy_Infantry>
+			  <Offworlder_Rough_Ranger>7</Offworlder_Rough_Ranger>
 			  <Offworlder_Rough_Medic>3</Offworlder_Rough_Medic>
 			  <Offworlder_Rough_Engineer>3</Offworlder_Rough_Engineer>
-			  <Offworlder_Rough_Ranger_Commander>1</Offworlder_Rough_Ranger_Commander>
-			  <Offworlder_Rough_Infantry_Commander>1</Offworlder_Rough_Infantry_Commander>
-			  <Offworlder_Rough_Sub_Commander>1</Offworlder_Rough_Sub_Commander>
+			  <Offworlder_Rough_Commander>3</Offworlder_Rough_Commander>
 			</options>
 		  </li>
 
@@ -100,19 +93,11 @@
 			<kindDef>Combat</kindDef>
 			<commonality>35</commonality>
 			<options>
-			  <Offworlder_Rough_Trench_Infantry>8</Offworlder_Rough_Trench_Infantry>
-			  <Offworlder_Rough_Trench_Raider>6</Offworlder_Rough_Trench_Raider>
-			  <Offworlder_Rough_Trench_Shocktrooper>6</Offworlder_Rough_Trench_Shocktrooper>
-			  <Offworlder_Rough_Lansquenets>3</Offworlder_Rough_Lansquenets>
-			  <Offworlder_Rough_Trench_Dog>3</Offworlder_Rough_Trench_Dog>
-			  <Offworlder_Rough_Conflagrator>4</Offworlder_Rough_Conflagrator>
-			  <Offworlder_Rough_Gunner>4</Offworlder_Rough_Gunner>
-			  <Offworlder_Rough_Heavy_Gunner>3</Offworlder_Rough_Heavy_Gunner>
+			  <Offworlder_Rough_Trench_Shocktrooper>30</Offworlder_Rough_Trench_Shocktrooper>
+			  <Offworlder_Rough_Heavy_Infantry>7</Offworlder_Rough_Heavy_Infantry>
 			  <Offworlder_Rough_Heavy_Medic>2</Offworlder_Rough_Heavy_Medic>
 			  <Offworlder_Rough_Heavy_Engineer>2</Offworlder_Rough_Heavy_Engineer>
-			  <Offworlder_Rough_Trench_Commander>1</Offworlder_Rough_Trench_Commander>
-			  <Offworlder_Rough_Infantry_Commander>1</Offworlder_Rough_Infantry_Commander>
-			  <Offworlder_Rough_High_Commander>1</Offworlder_Rough_High_Commander>
+			  <Offworlder_Rough_Commander>3</Offworlder_Rough_Commander>
 			</options>
 		  </li>
 
@@ -127,7 +112,7 @@
 			  <Offworlder_Rough_Infantry>6</Offworlder_Rough_Infantry>
 			  <Offworlder_Rough_Medic>2</Offworlder_Rough_Medic>
 			  <Offworlder_Rough_Engineer>2</Offworlder_Rough_Engineer>
-			  <Offworlder_Rough_Sub_Commander>1</Offworlder_Rough_Sub_Commander>
+			  <Offworlder_Rough_Commander>1</Offworlder_Rough_Commander>
 			</options>
 		  </li>
 
@@ -142,8 +127,8 @@
 			<guards>
 			  <Offworlder_Rough_Infantry>6</Offworlder_Rough_Infantry>
 			  <Offworlder_Rough_Ranger>4</Offworlder_Rough_Ranger>
-			  <Offworlder_Rough_Sub_Commander>1</Offworlder_Rough_Sub_Commander>
-			</guards>
+			  <Offworlder_Rough_Commander>1</Offworlder_Rough_Commander>
+			  </guards>
 		  </li>
 
 		  <li>
@@ -155,9 +140,7 @@
 			  <Offworlder_Rough_Infantry>8</Offworlder_Rough_Infantry>
 			  <Offworlder_Rough_Ranger>6</Offworlder_Rough_Ranger>
 			  <Offworlder_Rough_Representative>1</Offworlder_Rough_Representative>
-			  <Offworlder_Rough_Infantry_Commander>1</Offworlder_Rough_Infantry_Commander>
-			  <Offworlder_Rough_Ranger_Commander>1</Offworlder_Rough_Ranger_Commander>
-			  <Offworlder_Rough_Trench_Commander>1</Offworlder_Rough_Trench_Commander>
+			  <Offworlder_Rough_Commander>3</Offworlder_Rough_Commander>
 			</options>
 		  </li>
 		</pawnGroupMakers>

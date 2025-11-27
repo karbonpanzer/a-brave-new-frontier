@@ -79,7 +79,7 @@
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequete protection against melee and small arms fire while remaining light. It is inferior to full helmet protection though, its ease of production makes it more accessible.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/LightHelmet/LightHelmet</originalPath>
+				<originalPath>Original/Helmets/LightHelmet/LightHelmet</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmet/LightHelmet</greyscalePath>
 			</li>
 		</modExtensions>
@@ -152,7 +152,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard carapace helmet, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/LightHelmetMedic/LightHelmetMedic</originalPath>
+				<originalPath>Original/Helmets/LightHelmetMedic/LightHelmetMedic</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetMedic/LightHelmetMedic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -225,7 +225,7 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard carapace helmet, but marked with insignia to denote engineers.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/LightHelmetSupport/LightHelmetSupport</originalPath>
+				<originalPath>Original/Helmets/LightHelmetSupport/LightHelmetSupport</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetSupport/LightHelmetSupport</greyscalePath>
 			</li>
 		</modExtensions>
@@ -302,7 +302,7 @@ This variant is modified for usage on extremely cold worlds.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Lined with thermal material to improve insulation in harsh climates.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/LightHelmetThermal/LightHelmetThermal</originalPath>
+				<originalPath>Original/Helmets/LightHelmetThermal/LightHelmetThermal</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetThermal/LightHelmetThermal</greyscalePath>
 			</li>
 		</modExtensions>
@@ -375,7 +375,7 @@ This variant is marked for usage by officers.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard light carapace helmet, but decorated with gold inlay to denote officer rank.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/LightHelmetOfficer/LightHelmetOfficer</originalPath>
+				<originalPath>Original/Helmets/LightHelmetOfficer/LightHelmetOfficer</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetOfficer/LightHelmetOfficer</greyscalePath>
 			</li>
 		</modExtensions>
@@ -446,7 +446,7 @@ This variant is marked for usage by officers.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource efficient. The additional protection still does not provide the same level of protection as a full helmet does. </vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/HeavyHelmet/HeavyHelmet</originalPath>
+				<originalPath>Original/Helmets/HeavyHelmet/HeavyHelmet</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmet/HeavyHelmet</greyscalePath>
 			</li>
 		</modExtensions>
@@ -519,7 +519,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</originalPath>
+				<originalPath>Original/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -592,7 +592,7 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but marked with insignia to denote engineers.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</originalPath>
+				<originalPath>Original/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</greyscalePath>
 			</li>
 		</modExtensions>
@@ -669,7 +669,7 @@ This variant is modified for usage on extreme cold worlds.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Lined with thermal material to protect the wearer in extreme temperatures.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</originalPath>
+				<originalPath>Original/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</greyscalePath>
 			</li>
 		</modExtensions>
@@ -743,7 +743,7 @@ This variant is marked for usage by Officers.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but decorated with gold inlay to denote officer rank.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</originalPath>
+				<originalPath>Original/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</greyscalePath>
 			</li>
 		</modExtensions>
@@ -819,7 +819,7 @@ This variant is marked for usage by Officers.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Fitted with a faceshield that provides protection to the face but reducing sight for the wearer.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/LightHelmetMasked/LightHelmetMasked</originalPath>
+				<originalPath>Original/Helmets/LightHelmetMasked/LightHelmetMasked</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetMasked/LightHelmetMasked</greyscalePath>
 			</li>
 		</modExtensions>
@@ -895,7 +895,7 @@ This variant is marked for usage by Officers.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Equipped with a faceshield for additional facial protection but reduces sight for the wearer.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</originalPath>
+				<originalPath>Original/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</greyscalePath>
 			</li>
 		</modExtensions>

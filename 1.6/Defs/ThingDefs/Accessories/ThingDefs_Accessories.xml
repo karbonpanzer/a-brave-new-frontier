@@ -52,6 +52,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -79,7 +80,7 @@
 				<vanillaDesc>Webbing rig designed for magazine-fed weapons. Allows soldiers to reload quickly and keep a steady rate of fire. Bulky, but the extra ammunition offsets the weight.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Accessories/MagazineBandoleer/MagazineBandoleer</originalPath>
+				<originalPath>Original/Accessories/MagazineBandoleer/MagazineBandoleer</originalPath>
 				<greyscalePath>Greyscale/Accessories/MagazineBandoleer/MagazineBandoleer</greyscalePath>
 			</li>
 		</modExtensions>
@@ -137,6 +138,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -164,7 +166,7 @@
 				<vanillaDesc>Traditional webbing built for clip-fed rifles. Improves reload speed and helps maintain fire in combat. Cumbersome, but reliable for older weapon types.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Accessories/AmmoBandoleer/AmmoBandoleer</originalPath>
+				<originalPath>Original/Accessories/AmmoBandoleer/AmmoBandoleer</originalPath>
 				<greyscalePath>Greyscale/Accessories/AmmoBandoleer/AmmoBandoleer</greyscalePath>
 			</li>
 		</modExtensions>
@@ -222,6 +224,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -249,7 +252,7 @@
 				<vanillaDesc>Scout webbing configured with rations, haversack, and ammunition for long missions. Enhances stealth in the field, making it easier to approach unseen. Light and versatile, ideal for reconnaissance.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Accessories/ScoutWebbing/ScoutWebbing</originalPath>
+				<originalPath>Original/Accessories/ScoutWebbing/ScoutWebbing</originalPath>
 				<greyscalePath>Greyscale/Accessories/ScoutWebbing/ScoutWebbing</greyscalePath>
 			</li>
 		</modExtensions>
@@ -307,6 +310,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -334,7 +338,7 @@
 				<vanillaDesc>Assault webbing designed for soldiers in brutal frontline combat. Chemical reserves and weapon access help them endure punishing conditions. Raises pain tolerance, keeping the wearer in the fight longer.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</originalPath>
+				<originalPath>Original/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</originalPath>
 				<greyscalePath>Greyscale/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</greyscalePath>
 			</li>
 		</modExtensions>
@@ -391,6 +395,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -418,7 +423,7 @@
 				<vanillaDesc>Standard-issue pouches carried by infantry for centuries. Hold ammunition, canteen, and small tools like knives or bayonets. Improves firing cadence modestly while keeping kit organized.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Accessories/InfantryPouches/InfantryPouches</originalPath>
+				<originalPath>Original/Accessories/InfantryPouches/InfantryPouches</originalPath>
 				<greyscalePath>Greyscale/Accessories/InfantryPouches/InfantryPouches</greyscalePath>
 			</li>
 		</modExtensions>
@@ -477,6 +482,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -504,7 +510,7 @@
 				<vanillaDesc>Utility pouches configured for engineers and builders. Include tools and supplies to speed construction and repairs. Essential gear for supporting units in the field.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Accessories/SupportPouches/SupportPouches</originalPath>
+				<originalPath>Original/Accessories/SupportPouches/SupportPouches</originalPath>
 				<greyscalePath>Greyscale/Accessories/SupportPouches/SupportPouches</greyscalePath>
 			</li>
 		</modExtensions>
@@ -563,6 +569,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -590,7 +597,7 @@
 				<vanillaDesc>Medical kit pouches carried by frontline medics. Packed with supplies for fast treatment and improved tend quality. Lightweight and accessible for emergencies.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Accessories/MedicPouches/MedicPouches</originalPath>
+				<originalPath>Original/Accessories/MedicPouches/MedicPouches</originalPath>
 				<greyscalePath>Greyscale/Accessories/MedicPouches/MedicPouches</greyscalePath>
 			</li>
 		</modExtensions>

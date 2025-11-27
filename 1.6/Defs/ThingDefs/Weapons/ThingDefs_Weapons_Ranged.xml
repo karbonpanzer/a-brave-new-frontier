@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>KP_Bullet_Retro_Rifle</defName>
 		<label>retro rifle bullets</label>
@@ -643,21 +642,20 @@
 		<defName>KP_Slab_Revolver_Rocket</defName>
 		<label>slab micro-rocket</label>
 		<graphicData>
-		<graphicClass>Graphic_Single</graphicClass>
-		<texPath>Fallback/Projectile/MicroRocket</texPath>
-		<drawSize>0.6</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Projectile/MicroRocket</texPath>
+			<drawSize>0.6</drawSize>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-		<flyOverhead>false</flyOverhead>
-		<damageDef>Bomb</damageDef>
-		<damageAmountBase>16</damageAmountBase>
-		<armorPenetrationBase>0.06</armorPenetrationBase>
-		<speed>36</speed>
-		<explosionRadius>1.5</explosionRadius>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBase>0.06</armorPenetrationBase>
+			<speed>36</speed>
+			<explosionRadius>1.5</explosionRadius>
 		</projectile>
 	</ThingDef>
-
 
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>KP_Slab_Revolver</defName>
@@ -733,7 +731,7 @@
 				<vanillaDesc>An experimental revolver designed for usage in space. Firing a micro-rocket tipped with an explosive allows greater usage compared to convention munitions. Though being a firearm meant for usage in space, it has found a home among the Rimworlds.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
+	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>KP_Bullet_Service_Rifle</defName>
@@ -919,8 +917,7 @@
 				<vanillaDesc>A rare firearm which uses shredder flechettes rather than conventional bullets. Lacking the armor penetration and range of other rifles, this performs best at close range where it shreds flesh and bone with ease. It rarity is only matched by the brutality which it creates in the battlefield.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
-	
+	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>KP_Bullet_AssaultLMG</defName>
@@ -1117,7 +1114,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>BNF_Coreburner_Pellet</defName>
 		<label>incendiary pellet</label>
@@ -1146,7 +1143,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<researchPrerequisite>AntiInsectoidWeaponry</researchPrerequisite>		
+			<researchPrerequisite>AntiInsectoidWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
@@ -1216,8 +1213,8 @@
 				<vanillaDesc>A short-range, rapid-chain shotgun that fires incendiary pellets. Extremely effective up close and may ignite targets and scenery.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
-	
+	</ThingDef>
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>KP_Bullet_TwinLancer</defName>
 		<label>twin lancer round</label>
@@ -1270,7 +1267,7 @@
 			<RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
-		    <li>
+			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>KP_Bullet_TwinLancer</defaultProjectile>
@@ -1281,7 +1278,7 @@
 				<soundCast>Shot_SniperRifle</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
-		    </li>
+			</li>
 		</verbs>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
@@ -1315,6 +1312,5 @@
 				<vanillaDesc>A heavy twin-barreled sniper rifle firing two powerful slugs in quick succession. Immensely damaging against armor, but slow to fire and cumbersome to carry. Its range makes it perfect for defensive usage but not as an offensive weapon.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
-	
+	</ThingDef>
 </Defs>

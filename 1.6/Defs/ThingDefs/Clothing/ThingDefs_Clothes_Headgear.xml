@@ -76,7 +76,7 @@
 				<vanillaDesc>Lightweight headwear tuned for hot, dry climates. Breathable composition vents heat while offering basic head protection. Poor insulation makes it unsuitable for colder environments.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Headgear/FieldHatDesert/FieldHatDesert</originalPath>
+				<originalPath>Original/Headgear/FieldHatDesert/FieldHatDesert</originalPath>
 				<greyscalePath>Greyscale/Headgear/FieldHatDesert/FieldHatDesert</greyscalePath>
 			</li>
 		</modExtensions>
@@ -158,7 +158,7 @@
 				<vanillaDesc>Standard issue frontier headwear. Balanced composition gives modest protection and comfort in a range of conditions. Suitable for most seasons but not for climate extremes.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Headgear/FieldHatTemperate/FieldHatTemperate</originalPath>
+				<originalPath>Original/Headgear/FieldHatTemperate/FieldHatTemperate</originalPath>
 				<greyscalePath>Greyscale/Headgear/FieldHatTemperate/FieldHatTemperate</greyscalePath>
 			</li>
 		</modExtensions>
@@ -240,7 +240,7 @@
 				<vanillaDesc>Cold-weather headwear for boreal zones. Insulated composition retains warmth and blocks wind while remaining light. Less comfortable in hot conditions.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Headgear/FieldHatWinter/FieldHatWinter</originalPath>
+				<originalPath>Original/Headgear/FieldHatWinter/FieldHatWinter</originalPath>
 				<greyscalePath>Greyscale/Headgear/FieldHatWinter/FieldHatWinter</greyscalePath>
 			</li>
 		</modExtensions>
@@ -322,7 +322,7 @@
 				<vanillaDesc>Extreme-cold headwear with heavy insulation. Thick composition maximizes warmth and wind resistance at the cost of bulk. Lined with thermal material to retain warmth in polar conditions.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Headgear/FieldHatArctic/FieldHatArctic</originalPath>
+				<originalPath>Original/Headgear/FieldHatArctic/FieldHatArctic</originalPath>
 				<greyscalePath>Greyscale/Headgear/FieldHatArctic/FieldHatArctic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -405,7 +405,7 @@
 				<vanillaDesc>Tailored headwear for frontier officers. Provides modest protection and insulation while displaying rank insignia. Balanced composition makes it suitable for most environments.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Headgear/OfficerCap/OfficerCap</originalPath>
+				<originalPath>Original/Headgear/OfficerCap/OfficerCap</originalPath>
 				<greyscalePath>Greyscale/Headgear/OfficerCap/OfficerCap</greyscalePath>
 			</li>
 		</modExtensions>

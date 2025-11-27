@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
-
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>KP_Trench_Spike</defName>
 		<label>Trench Knife</label>
@@ -377,7 +376,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>KP_ChainGreatsword</defName>
 		<label>Great Chainsword</label>
@@ -472,7 +471,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>KP_Crusher_Hammer</defName>
 		<label>crusher hammer</label>
@@ -544,6 +543,5 @@
 				<vanillaDesc>A massive kinetic hammer that houses a small grav-core. On impact it delivers concussive, armor-crushing blunt force with ease. Its heavy weight prevents it usage by many but the best warriors seen on the Rimworlds.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
-
+	</ThingDef>
 </Defs>

@@ -76,7 +76,7 @@
 				<vanillaDesc>Duty uniform tuned for hot, dry climates. Breathable composition sheds heat while providing light protection. Offers poor insulation in cold weather.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Clothes/FieldUniformDesert/FieldUniformDesert</originalPath>
+				<originalPath>Original/Clothes/FieldUniformDesert/FieldUniformDesert</originalPath>
 				<greyscalePath>Greyscale/Clothes/FieldUniformDesert/FieldUniformDesert</greyscalePath>
 			</li>
 		</modExtensions>
@@ -162,7 +162,7 @@
 				<vanillaDesc>Standard frontier duty uniform. Balanced composition gives light protection and moderate insulation without restricting movement. Suitable for most seasons but not for climate extremes.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Clothes/FieldUniformTemperate/FieldUniformTemperate</originalPath>
+				<originalPath>Original/Clothes/FieldUniformTemperate/FieldUniformTemperate</originalPath>
 				<greyscalePath>Greyscale/Clothes/FieldUniformTemperate/FieldUniformTemperate</greyscalePath>
 			</li>
 		</modExtensions>
@@ -248,7 +248,7 @@
 				<vanillaDesc>Cold-weather field uniform for boreal zones. Insulated composition blocks wind and retains warmth while keeping bulk modest. Less comfortable in warm conditions.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Clothes/FieldUniformWinter/FieldUniformWinter</originalPath>
+				<originalPath>Original/Clothes/FieldUniformWinter/FieldUniformWinter</originalPath>
 				<greyscalePath>Greyscale/Clothes/FieldUniformWinter/FieldUniformWinter</greyscalePath>
 			</li>
 		</modExtensions>
@@ -334,7 +334,7 @@
 				<vanillaDesc>Extreme-cold field uniform with heavy insulation. Thick composition maximizes warmth and wind blocking at the cost of added bulk. Unsuitable for warm climates.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Clothes/FieldUniformArctic/FieldUniformArctic</originalPath>
+				<originalPath>Original/Clothes/FieldUniformArctic/FieldUniformArctic</originalPath>
 				<greyscalePath>Greyscale/Clothes/FieldUniformArctic/FieldUniformArctic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -421,7 +421,7 @@
 				<vanillaDesc>Tailored officer variant of the frontier uniform. Provides the same light protection and mobility as the standard set with refined cut and rank insignia. Balanced insulation for temperate conditions.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Clothes/OfficerUniform/OfficerUniform</originalPath>
+				<originalPath>Original/Clothes/OfficerUniform/OfficerUniform</originalPath>
 				<greyscalePath>Greyscale/Clothes/OfficerUniform/OfficerUniform</greyscalePath>
 			</li>
 		</modExtensions>
@@ -508,7 +508,7 @@
 				<vanillaDesc>Officer variant built for polar service. Heavy insulated composition and a windproof shell retain warmth in severe cold. Same light protection as the officer uniform, optimized for extreme climates.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Clothes/OfficerUniformWinter/OfficerUniformWinter</originalPath>
+				<originalPath>Original/Clothes/OfficerUniformWinter/OfficerUniformWinter</originalPath>
 				<greyscalePath>Greyscale/Clothes/OfficerUniformWinter/OfficerUniformWinter</greyscalePath>
 			</li>
 		</modExtensions>
