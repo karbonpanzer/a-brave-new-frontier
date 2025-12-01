@@ -1,0 +1,1316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs>
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_Retro_Rifle</defName>
+		<label>retro rifle bullets</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Retro_Rifle</defName>
+		<label>Retro Rifle</label>
+		<description>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/RetroRifle</texPath>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>AdvancedBallisticWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>75</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>38000</WorkToMake>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.60</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_Retro_Rifle</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>28.0</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>BNF_Anti_Armor_Infantry</li>
+			<li>BNF_Heavy_Gunner</li>
+			<li>BNF_Marine</li>
+			<li>BNF_Commando</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</loreDesc>
+				<vanillaDesc>A modern rifle styled after ancient designs. Fires quick bursts with modest accuracy and damage. Favored on the Rim by mercenaries and militias for its reliability.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_autoloader_rifle</defName>
+		<label>heavy "autoloader" rifle bullets</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Projectile/Autoloader_16MM</texPath>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>24</damageAmountBase>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Autoloader_Rifle</defName>
+		<label>Heavy "Autoloader" Rifle</label>
+		<description>The Last of the ill-fated “Autoloader” series of rifles, designed in the furnaces of Warworlds during the Inter-Humanity Wars. A 16.5MM Light Cannon was seen as the pinnacle of the Assault Rifle genus, it easily penetrated Human made armor and even capable of disabling light vehicles and aircraft. The massive flaw of this weapon though was weight, light cannons are in fact not light, and these weapons often were used less and less when the Mechanoid threat arrived. Though capable of killing Mechanoids and Insectoids easily, they fell to the wayside when Charge Based Weaponry came into play. An effective alternative to Assault Rifles and Charge Rifles, that is if you can carry it.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/autoloaderrifle</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>AdvancedBallisticWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>115</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>10</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.75</AccuracyLong>
+			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_autoloader_rifle</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>33.0</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<soundCast>KP_Shot_Autoloader_Rifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>The Last of the ill-fated “Autoloader” series of rifles, designed in the furnaces of Warworlds during the Inter-Humanity Wars. A 16.5MM Light Cannon was seen as the pinnacle of the Assault Rifle genus, it easily penetrated Human made armor and even capable of disabling light vehicles and aircraft. The massive flaw of this weapon though was weight, light cannons are in fact not light, and these weapons often used less and were eventually outclassed.</loreDesc>
+				<vanillaDesc>A massive rifle chambered in 16.5mm, more like a light cannon than a gun. Very heavy but able to pierce armor and even disable light vehicles. Deadly if you can handle the weight.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_super_shotgun</defName>
+		<label>super shotgun bullets</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>13</damageAmountBase>
+			<stoppingPower>2</stoppingPower>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Super_Shotgun</defName>
+		<label>Super-Shotgun</label>
+		<description>The name much like the gun was a marketing ploy to get people to buy this unorthodox shotgun. A double barrel pulse action shotgun firing 10 gauge using an experimental caseless ammo system. The main selling point was with two barrels and two tubes, you can have one barrel firing shot from an unrifled barrel while the other fires slugs from a rifled barrel. A cute concept though not groundbreaking. It sold enough to keep the company afloat, but it went gangbusters when Mechanoids invaded. The gun was configured to fire explosive shells and EMP slugs, to counter Mechanoids with shields, though most people like the versatility of shot. Unlike other weapons, this isn’t surplus, its part of expanding the market.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/supershotgun</texPath>
+		</graphicData>
+		<soundInteract>Interact_Shotgun</soundInteract>
+		<weaponClasses>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<recipeMaker>
+			<researchPrerequisite>AntiMechanoidWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<displayPriority>435</displayPriority>
+		</recipeMaker>
+		<costList>
+			<Steel>70</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>5.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.70</AccuracyLong>
+			<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_super_shotgun</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>16.0</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>ShortShots</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>The name much like the gun was a marketing ploy to get people to buy this unorthodox shotgun. A double barrel pulse action shotgun firing 10 gauge using an experimental caseless ammo system. The main selling point was with two barrels and two tubes, you can have one barrel firing shot from an unrifled barrel while the other fires slugs from a rifled barrel. A cute concept though not groundbreaking. It sold enough to keep the company afloat, but it went gangbusters when Mechanoids invaded. The gun was configured to fire explosive shells and EMP slugs, to counter Mechanoids with shields, though most people like the versatility of shot. Unlike other weapons, this isn’t surplus, its part of expanding the market.</loreDesc>
+				<vanillaDesc>An experimental dual-barrel pulse action shotgun. Can fire shot or slug loads, and is adaptable to specialty shells. Extremely powerful at short range, but bulky.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_assault_pistol</defName>
+		<label>assault pistol bullet</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>14</damageAmountBase>
+			<armorPenetrationBase>0.25</armorPenetrationBase>
+			<speed>45</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Assault_Pistol</defName>
+		<label>Assault Pistol</label>
+		<description>The Last Remnant of the Inter-Humanity Wars. Built on the idea of an “Offensive Pistol” for Trench Raiders on worlds consumed by conflicts, good for penetrating human made armor. When the Mechanoids emerged, that concept fell apart with the failure of these pistols to easily penetrate Mechanoid armor. Their use would continue against Insectoids, but the low magazine capacity would leave this pistol in the dust compared to its competitors. Obsolescence would usually leave guns in the hands of gang members and the Third-Worlders but not the Assault Pistol. Now it has a second life in the Rim, in the hands of militias, pirates, and anyone who can afford them in bulk.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/assaultpistol</texPath>
+		</graphicData>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>TrenchWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>2</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_assault_pistol</defaultProjectile>
+				<warmupTime>0.4</warmupTime>
+				<range>25.0</range>
+				<soundCast>Shot_Autopistol</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>SimpleGun</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>The Last Remnant of the Inter-Humanity Wars. Built on the idea of an “Offensive Pistol” for Trench Raiders on worlds consumed by conflicts, good for penetrating human made armor. When the Mechanoids emerged, that concept fell apart with the failure of these pistols to easily penetrate Mechanoid armor. Their use would continue against Insectoids, but the low magazine capacity would leave this pistol in the dust compared to its competitors. Obsolescence would usually leave guns in the hands of gang members and the Third-Worlders but not the Assault Pistol. Now it has a second life in the Rim, in the hands of militias, pirates, and anyone who can afford them in bulk.</loreDesc>
+				<vanillaDesc>A compact sidearm built for trench raiders. Fires fast and hits hard against lightly armored targets. Limited magazine size makes it less useful in extended fights.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_HyperSMG</defName>
+		<label>Hyper-SMG pistol bullet</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Gun_HyperSMG</defName>
+		<label>Hyper-SMG</label>
+		<description>An interesting story surrounds this small submachine gun, a decade spanning project and a strange idea about hit probability and even more ancient technology. This weapon is the final product of PROJECT: VOLLEY, a weapon program to design a gun that would fire many bullets so fast than the soldier firing would only feel the recoil of one of those shots. The highest they were able to get was seven bullets and the bullets had gotten so small by the end of the project to avoid tumbling after exiting the barrel. With the success of this project, they began to sell the gun to any organization that could afford it. Sadly, nobody had any use for a literal bullet hose, so the company failed and now their stock has begun being sold to the Rim, so are you gonna buy some? Please say yes, my family is so hungry.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/hypersmg</texPath>
+		</graphicData>
+		<soundInteract>Interact_SMG</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>ExperimentalWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>45</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>13000</WorkToMake>
+			<Mass>2.7</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.45</AccuracyShort>
+			<AccuracyMedium>0.25</AccuracyMedium>
+			<AccuracyLong>0.10</AccuracyLong>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_HyperSMG</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>17.9</range>
+				<burstShotCount>7</burstShotCount>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<soundCast>Shot_HeavySMG</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>An interesting story surrounds this small submachine gun, a decade spanning project and a strange idea about hit probability and even more ancient technology. This weapon is the final product of PROJECT: VOLLEY, a weapon program to design a gun that would fire many bullets so fast than the soldier firing would only feel the recoil of one of those shots. The highest they were able to get was seven bullets and the bullets had gotten so small by the end of the project to avoid tumbling after exiting the barrel. With the success of this project, they began to sell the gun to any organization that could afford it. Sadly, nobody had any use for a literal bullet hose, so the company failed and now their stock has begun being sold to the Rim, so are you gonna buy some? Please say yes, my family is so hungry.</loreDesc>
+				<vanillaDesc>An experimental submachine gun firing seven rounds in a burst. Extremely fast rate of fire makes it a literal bullet hose. Accurate up close but ineffective at range.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_Hyperblaster</defName>
+		<label>Hyperblaster shot</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>9</damageAmountBase>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
+			<stoppingPower>1</stoppingPower>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Hyperblaster</defName>
+		<label>Hyperblaster</label>
+		<description>A relatively new weapon in comparison to many of its compatriots on the Rim. The Hyperblaster was one of the first charge weapons created during the Human-Mechanoid Wars and it shows. Heavy, clumsy, but packs more wallop than modern Charge weapons due to its very unrefined abilities. These traits are the reason it is called the Hyperblaster rather than its official name or even the other names given to it like Siegebreaker and Quakemaker. Though being replaced by more convenient Charge weapons, the weapon is still in production and will likely continue to do so, because it works, and it works well especially when you have power armored soldiers who can easily carry it.</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/hyperblaster</texPath>
+		</graphicData>
+		<soundInteract>Interact_ChargeLance</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>ExperimentalWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Plasteel>80</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>50000</WorkToMake>
+			<Mass>8.5</Mass>
+			<AccuracyTouch>0.4</AccuracyTouch>
+			<AccuracyShort>0.44</AccuracyShort>
+			<AccuracyMedium>0.30</AccuracyMedium>
+			<AccuracyLong>0.21</AccuracyLong>
+			<RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>SpacerGun</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_Hyperblaster</defaultProjectile>
+				<warmupTime>1.8</warmupTime>
+				<range>27.9</range>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<burstShotCount>12</burstShotCount>
+				<soundCast>Shot_ChargeBlaster</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>A relatively new weapon in comparison to many of its compatriots on the Rim. The Hyperblaster was one of the first charge weapons created during the Human-Mechanoid Wars and it shows. Heavy, clumsy, but packs more wallop than modern Charge weapons due to its very unrefined abilities. These traits are the reason it is called the Hyperblaster rather than its official name or even the other names given to it like Siegebreaker and Quakemaker. Though being replaced by more convenient Charge weapons, the weapon is still in production and will likely continue to do so, because it works, and it works well especially when you have power armored soldiers who can easily carry it.</loreDesc>
+				<vanillaDesc>A charged-shot light machine gun firing unstable energy bolts. Launches a storm of projectiles ideal for suppressing groups. Powerful but heavy and slow to aim.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Chemrail_Rifle</defName>
+		<label>chem-rail impact shell</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Projectile/Chemrail_Round</texPath>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>60</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>1</armorPenetrationBase>
+			<speed>75</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Chemrail_Rifle</defName>
+		<label>Chem-Rail Rifle</label>
+		<description>An example of the steppingstone between chemical ballistic and magnet ballistic weaponry. A solid ferrous bullet is fired through barrel surrounded by magnetic field generating rails, pushing the bullet far past the speed of sound. Sounds like a genius idea, essentially doubling the life span and abilities of any gunpowder firearm through simple upgrade. Turns out that conversion Chem-Rail Rifles have half the lifespan of purpose-built Chem-Rail Rifles, this was by design so the company could sell more guns they produced rather than just selling conversion kits. Of course, they were eventually blown out of the market by Charge weapons, leaving only the aftermarket for many of these guns as their creator company is now playing catch-up.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/chemrailrifle</texPath>
+			<drawSize>1.34</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>ExperimentalWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>160</Steel>
+			<ComponentIndustrial>16</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>8</Mass>
+			<AccuracyTouch>0.3</AccuracyTouch>
+			<AccuracyShort>0.45</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.92</AccuracyLong>
+			<RangedWeapon_Cooldown>3.8</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Chemrail_Rifle</defaultProjectile>
+				<warmupTime>4.6</warmupTime>
+				<range>44.9</range>
+				<soundCast>KP_Shot_ChemRail_Rifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags Inherit="False">
+			<li>SniperRifle</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>An example of the steppingstone between chemical ballistic and magnet ballistic weaponry. A solid ferrous bullet is fired through barrel surrounded by magnetic field generating rails, pushing the bullet far past the speed of sound. Sounds like a genius idea, essentially doubling the life span and abilities of any gunpowder firearm through simple upgrade. Turns out that conversion Chem-Rail Rifles have half the lifespan of purpose-built Chem-Rail Rifles, this was by design so the company could sell more guns they produced rather than just selling conversion kits. Of course, they were eventually blown out of the market by Charge weapons, leaving only the aftermarket for many of these guns as their creator company is now playing catch-up.</loreDesc>
+				<vanillaDesc>A long-range sniper rifle using magnetically accelerated rounds. Extremely powerful with excellent armor penetration. Very heavy and slow to fire.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Slab_Revolver_Rocket</defName>
+		<label>slab micro-rocket</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Projectile/MicroRocket</texPath>
+			<drawSize>0.6</drawSize>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBase>0.06</armorPenetrationBase>
+			<speed>36</speed>
+			<explosionRadius>1.5</explosionRadius>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Slab_Revolver</defName>
+		<label>Slab Revolver</label>
+		<description>An experimental revolver designed for usage in space. Firing a micro-rocket tipped with an explosive allows greater usage compared to convention munitions. Though being a firearm meant for usage in space, it has found a home among the Rimworlds.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/bigiron</texPath>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>ImprovisedWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>2.4</Mass>
+			<AccuracyTouch>0.68</AccuracyTouch>
+			<AccuracyShort>0.66</AccuracyShort>
+			<AccuracyMedium>0.48</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Slab_Revolver_Rocket</defaultProjectile>
+				<warmupTime>1.05</warmupTime>
+				<range>15.0</range>
+				<burstShotCount>1</burstShotCount>
+				<forcedMissRadius>0.9</forcedMissRadius>
+				<soundCast>Shot_Revolver</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>Pistol</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>An ancient design from the pre-Great Domain era of humanity, this revolver was not designed for usage on worlds but in space as a vacuum weapon. While firearms do work in space they lack many things which would have made them optimal for usage, so the Slab Revolver was designed. A massive frame revolver that took .50 caliber micro-rockets with explosive tipped heads, designed with zero g in mind, they added as much weight to the weapon to make it have the same feel as holding a regular revolver in usual gravity. Though space combat is rare for infantry, this weapon has found its home among raiders in the Rimworlds in both space and surface, who enjoy its devastation potential for maiming the enemy even when directly missing them.</loreDesc>
+				<vanillaDesc>An experimental revolver designed for usage in space. Firing a micro-rocket tipped with an explosive allows greater usage compared to convention munitions. Though being a firearm meant for usage in space, it has found a home among the Rimworlds.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_Service_Rifle</defName>
+		<label>service rifle round</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationBase>0.2</armorPenetrationBase>
+			<speed>66</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Service_Rifle</defName>
+		<label>Service Rifle</label>
+		<description>A reliable intermediate rifle used by militias and security forces. Balanced damage, accuracy, and rate of fire make it versatile for general duty. Common on the far Rimworlds due to its cheaper production cost compared to other materials</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/servicerifle</texPath>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>ExpeditionaryWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>65</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>22000</WorkToMake>
+			<Mass>3.6</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.66</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
+			<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_Service_Rifle</defaultProjectile>
+				<warmupTime>0.7</warmupTime>
+				<range>32.0</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>The Service Rifle is a relic of another age, while many attribute it to the Great Domain its origin remains a mystery. A standardized military rifle mass-produced for colonial defense forces and expeditionary armies. While lacking the raw power of heavy rifles or the advanced technology of charge weapons, its reliability, ease of repair, and abundance make it a staple on the Rim. A weapon of soldiers, militias, and mercenaries who need something that simply works at a low cost to their governments.</loreDesc>
+				<vanillaDesc>A reliable intermediate rifle used by militias and security forces. Balanced damage, accuracy, and rate of fire make it versatile for general duty. Common on the far Rimworlds due to its cheaper production cost compared to other materials</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_KP_Flechette</defName>
+		<label>flechette dart</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>6</damageAmountBase>
+			<armorPenetrationBase>0.16</armorPenetrationBase>
+			<stoppingPower>0.2</stoppingPower>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Flechette_Rifle</defName>
+		<label>flechette rifle</label>
+		<description>A rare firearm which uses shredder flechettes rather than conventional bullets. Lacking the armor penetration and range of other rifles, this performs best at close range where it shreds flesh and bone with ease. It rarity is only matched by the brutality which it creates in the battlefield.</description>
+		<graphicData>
+			<texPath>Fallback/Weapons/flechetterifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<researchPrerequisite>AdvancedBallisticWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>24000</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.82</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.58</AccuracyMedium>
+			<AccuracyLong>0.28</AccuracyLong>
+			<RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>65</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_KP_Flechette</defaultProjectile>
+				<warmupTime>0.9</warmupTime>
+				<range>27.0</range>
+				<burstShotCount>6</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>Shot_HeavySMG</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Based on an ancient design from humanities past, this rifle was recently designed on the world of Sisu. Sisu is a fortressworld on the very edge of the Coreworlds, it is here where the longest single war in human history has occured, the War of Sisu, which has raged for 1,371 years. The world has fought not against the mechanoids or insectoids, but against the Black King, a rogue AI which used an army of clones made for the conquest of the stars during the Great Domain Era. The Black King has ground his forces against the Sisunians for centuries with few gains. This rifle was designed to fight humans who lack armor and in this aspect it functions very well, shredding flesh with ease. The design has been exported throughout the Rimworlds, with many adopting them for defensive weapons.</loreDesc>
+				<vanillaDesc>A rare firearm which uses shredder flechettes rather than conventional bullets. Lacking the armor penetration and range of other rifles, this performs best at close range where it shreds flesh and bone with ease. It rarity is only matched by the brutality which it creates in the battlefield.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_AssaultLMG</defName>
+		<label>assault LMG round</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<drawSize>0.6</drawSize>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>22</damageAmountBase>
+			<armorPenetrationBase>0.30</armorPenetrationBase>
+			<speed>80</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Assault_LMG</defName>
+		<label>assault LMG</label>
+		<description>A compact belt-fed squad support gun. Fires long, fast bursts for heavy suppression. Very effective at medium range but inaccurate and burns through ammunition.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/assaultlmg</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>AntiInsectoidWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>120</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Plasteel>8</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>42000</WorkToMake>
+			<Mass>12.0</Mass>
+			<AccuracyTouch>0.50</AccuracyTouch>
+			<AccuracyShort>0.62</AccuracyShort>
+			<AccuracyMedium>0.48</AccuracyMedium>
+			<AccuracyLong>0.34</AccuracyLong>
+			<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_AssaultLMG</defaultProjectile>
+				<warmupTime>0.6</warmupTime>
+				<range>28.0</range>
+				<burstShotCount>8</burstShotCount>
+				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<soundCast>Shot_Minigun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<thingSetMakerTags>
+			<li>RewardHighTech</li>
+		</thingSetMakerTags>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>On the warworld of Creiddylad, the Assault LMG serves as a reminder of the sheer viciousness of the Insectoids. Creiddylad is home to the Gamma Breeder, a mutant form of the Insectoid Queens which seems to give birth to legions of insects much quicker than other hives. This has lead to the Creiddylad cities of Gwythyr and Gwyn to form the great bulwark against the Insectoids. At the front of it is the Assault LMG, one of the fastest firing weapons that humanity creates, providing a leaden deterant against insectoids. It was made after partial records of past humanity which allowed them to design a weapon which provided speed and power, though modifications created a inaccurate weapon.</loreDesc>
+				<vanillaDesc>A compact belt-fed squad support gun. Fires long, fast bursts for heavy suppression. Very effective at medium range but inaccurate and burns through ammunition.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_CompactPDW</defName>
+		<label>compact PDW round</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBase>0.12</armorPenetrationBase>
+			<speed>90</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Compact_PDW</defName>
+		<label>compact PDW</label>
+		<description>A compact PDW with an extremely high rate of fire and controllable recoil. Deadly up close, but poor against armor and at long range. Commonly used as both a primary weapon and a sidearm due to its compact size.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/compactpdw</texPath>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>ExpeditionaryWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>28</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Plasteel>2</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<Mass>3.4</Mass>
+			<MarketValue>650</MarketValue>
+			<AccuracyTouch>0.70</AccuracyTouch>
+			<AccuracyShort>0.82</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.32</AccuracyLong>
+			<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_CompactPDW</defaultProjectile>
+				<warmupTime>0.15</warmupTime>
+				<range>20.0</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<soundCast>Shot_HeavySMG</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>6</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGun</li>
+			<li>PDW</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>receiver</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+		<thingSetMakerTags>
+			<li>RewardStandardMidTech</li>
+		</thingSetMakerTags>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>A weapon used during the Great Domain Era by the Presidium Guard. Small, compact, and easy to use, allowing even the most unskilled users to use it effectively. The Presidium Guard used it as a concealed weapon when guarding the members of the Presidium during the Dark Time before the collapse of the Great Domain. Nowadays it is used by many in the criminal underworld and has seen modfications to it turning into a holdout weapon by gangsters. This widespread use saw its manufacturing by many in the Rimworlds seeking close quarter protection and concealibility.</loreDesc>
+				<vanillaDesc>A compact PDW with an extremely high rate of fire and controllable recoil. Deadly up close, but poor against armor and at long range. Commonly used as both a primary weapon and a sidearm due to its compact size.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>BNF_Coreburner_Pellet</defName>
+		<label>incendiary pellet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.6</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>7</damageAmountBase>
+			<armorPenetrationBase>0</armorPenetrationBase>
+			<stoppingPower>0.6</stoppingPower>
+			<speed>45</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_Coreburner</defName>
+		<label>coreburner</label>
+		<description>An incendiary chain shotgun. Multiple flaming pellets per trigger pull, likely to ignite targets and surroundings.</description>
+		<graphicData>
+			<texPath>Fallback/Weapons/coreburner</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>AntiInsectoidWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>2</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>7</Mass>
+			<MarketValue>1500</MarketValue>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.56</AccuracyMedium>
+			<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BNF_Coreburner_Pellet</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>13</range>
+				<soundCast>Shot_Shotgun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>1.2</muzzleFlashScale>
+				<burstShotCount>6</burstShotCount>
+				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGun</li>
+			<li>Shotgun</li>
+		</weaponTags>
+		<thingSetMakerTags>
+			<li>RewardStandardMidTech</li>
+		</thingSetMakerTags>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<label>receiver</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>A compact chain-fed incendiary firearm meant to set light to cover and flesh alike. The feed mechanism's rapid bursts of flaming pellets are lethal up close and dangerous to flammable surroundings.</loreDesc>
+				<vanillaDesc>A short-range, rapid-chain shotgun that fires incendiary pellets. Extremely effective up close and may ignite targets and scenery.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>KP_Bullet_TwinLancer</defName>
+		<label>twin lancer round</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<drawSize>0.9</drawSize>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationBase>0.55</armorPenetrationBase>
+			<speed>120</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>KP_TwinLancer_Rifle</defName>
+		<label>twin lancer rifle</label>
+		<description>A heavy twin-barreled sniper rifle firing two powerful slugs in quick succession. Immensely damaging against armor, but slow to fire and cumbersome to carry. Its range makes it perfect for defensive usage but not as an offensive weapon.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Weapons/twinlancerrifle</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>AntiMechanoidWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>36</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>5.5</Mass>
+			<MarketValue>3200</MarketValue>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.88</AccuracyShort>
+			<AccuracyMedium>0.92</AccuracyMedium>
+			<AccuracyLong>0.96</AccuracyLong>
+			<RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>KP_Bullet_TwinLancer</defaultProjectile>
+				<warmupTime>1.4</warmupTime>
+				<range>65</range>
+				<burstShotCount>2</burstShotCount>
+				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+				<soundCast>Shot_SniperRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>SniperRifle</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>frame</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<thingSetMakerTags>
+			<li>RewardHighTech</li>
+			<li>RewardUnique</li>
+		</thingSetMakerTags>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Considered an older brother to the Super-Shotgun, the Twin-Lancer Rifle was designed as a anti-Mechanoid weapon. The Two barrels provided a means to easily take down mechanoids with two hypervelocity anti-armor rounds piercing within miliseconds of each other. This provided effective on the world of Okeus, where the locals of the world had developed the rifle at first to hunt their local fauna such as the razorbacks and the stonetossers. These animals had natural armor which made conventional weapons unusable. So they developed the Twin-Lancer which provided a perfect weapon when the Mechfleet 781 arrived. A simple change allowed the weapon to serve as well against Mechanoids as it did the armorered fauna, now the weapon is found anywhere where it can work.</loreDesc>
+				<vanillaDesc>A heavy twin-barreled sniper rifle firing two powerful slugs in quick succession. Immensely damaging against armor, but slow to fire and cumbersome to carry. Its range makes it perfect for defensive usage but not as an offensive weapon.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

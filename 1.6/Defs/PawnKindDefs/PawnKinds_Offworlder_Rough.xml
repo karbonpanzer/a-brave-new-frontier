@@ -434,6 +434,7 @@
     <label>company marshall</label>
     <minGenerationAge>32</minGenerationAge>
     <combatPower>245</combatPower>
+	<factionLeader>true</factionLeader>
     <itemQuality>Excellent</itemQuality>
     <isFighter>true</isFighter>
     <gearHealthRange>

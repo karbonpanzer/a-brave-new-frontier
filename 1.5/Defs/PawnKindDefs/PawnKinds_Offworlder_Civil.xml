@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  
+  <!-- Civilian -->
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Settler</defName>
-    <label>claim-jumper</label>
+    <defName>Offworlder_Civil_Settler</defName>
+    <label>Settler</label>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -36,8 +36,8 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Trader</defName>
-    <label>fence</label>
+    <defName>Offworlder_Civil_Trader</defName>
+    <label>Trader</label>
     <trader>true</trader>
     <combatPower>50</combatPower>
     <itemQuality>Normal</itemQuality>
@@ -69,10 +69,11 @@
     <initialResistanceRange>15~25</initialResistanceRange>
   </PawnKindDef>
 
-  
+  <!-- Military -->
+
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Infantry</defName>
-    <label>mercenary</label>
+    <defName>Offworlder_Civil_Infantry</defName>
+    <label>Infantry</label>
     <combatPower>150</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
@@ -97,7 +98,7 @@
       <li>KP_Light_Flak_Helmet</li>
       <li>KP_Armored_Boots</li>
       <li>KP_Armored_Gloves</li>
-      <li>KP_Webbing_Magazine</li>
+      <li>KP_Webbing_Ammo</li>
     </apparelRequired>
     <apparelMoney>
       <min>1000</min>
@@ -109,8 +110,8 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Heavy_Infantry</defName>
-    <label>veteran mercenary</label>
+    <defName>Offworlder_Civil_Heavy_Infantry</defName>
+    <label>Heavy Infantry</label>
     <combatPower>175</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
@@ -121,7 +122,8 @@
     <weaponTags>
       <li>BNF_Heavy_Infantry</li>
 	  <li>BNF_Anti_Armor_Infantry</li>
-	  <li>BNF_Gunner</li><li>BNF_Heavy_Gunner</li>
+	  <li>BNF_Gunner</li>
+	  <li>BNF_Heavy_Gunner</li>
 	</weaponTags>
     <weaponMoney>
       <min>700</min>
@@ -149,8 +151,8 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Ranger</defName>
-    <label>stalker</label>
+    <defName>Offworlder_Civil_Ranger</defName>
+    <label>Ranger</label>
     <combatPower>155</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
@@ -161,7 +163,7 @@
     <weaponTags>
       <li>BNF_Ranger</li>
 	  <li>BNF_Heavy_Ranger</li>
-	</weaponTags>
+    </weaponTags>
     <weaponMoney>
       <min>650</min>
       <max>850</max>
@@ -186,8 +188,8 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Trench_Shocktrooper</defName>
-    <label>raider</label>
+    <defName>Offworlder_Civil_Trench_Raider</defName>
+    <label>Trench Raider</label>
     <combatPower>170</combatPower>
     <isFighter>true</isFighter>
     <gearHealthRange>
@@ -195,12 +197,7 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_Trench_Shocktrooper</li>
-	  <li>BNF_Trench_Raider</li>
-	  <li>BNF_Trench_Infantry</li>
-	  <li>BNF_Lansquenets</li>
-	  <li>BNF_Trench_Dog</li>
-      <li>BNF_Conflagrator</li>
+      <li>BNF_Trench_Raider</li>
     </weaponTags>
     <weaponMoney>
       <min>700</min>
@@ -208,14 +205,14 @@
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
-	  <li>BNF_Armor_Heavy_Shocktrooper</li>
+      <li>BNF_Armor_Light_Shocktrooper</li>
       <li>BNF_Accessories_Shocktrooper</li>
     </apparelTags>
     <apparelRequired>
-      <li>KP_Heavy_Flak_Armor</li>
-      <li>KP_Heavy_Flak_Helmet_Faceshield</li>
+      <li>KP_Light_Flak_Armor</li>
+      <li>KP_Light_Flak_Helmet_Faceshield</li>
       <li>KP_Armored_Boots</li>
-      <li>KP_Talon_Gauntlets</li>
+      <li>KP_Armored_Gloves</li>
       <li>KP_Webbing_Shocktrooper</li>
     </apparelRequired>
     <apparelMoney>
@@ -228,8 +225,47 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Medic</defName>
-    <label>corpsman</label>
+    <defName>Offworlder_Civil_Trench_Shocktrooper</defName>
+    <label>Trench Shocktrooper</label>
+    <combatPower>190</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>BNF_Trench_Shocktrooper</li>
+	  <li>BNF_Trench_Raider</li>
+	  <li>BNF_Trench_Infantry</li>
+	  <li>BNF_Lansquenets</li>
+	  <li>BNF_Trench_Dog</li>
+	  <li>BNF_Conflagrator</li>
+	</weaponTags>
+    <weaponMoney>
+      <min>800</min>
+      <max>1000</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>BNF_Uniform</li><li>BNF_Armor_Heavy_Shocktrooper</li><li>BNF_Armor_Gauntlets_Modified</li><li>BNF_Accessories_Shocktrooper</li><li>BNF_Armor_Light_Shocktrooper</li><li>BNF_Armor_Conscript</li><li>BNF_Armor_Heavy</li></apparelTags>
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet_Faceshield</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Talon_Gauntlets</li>
+      <li>KP_Webbing_Shocktrooper</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>1300</min>
+      <max>1800</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+    <initialWillRange>5~7</initialWillRange>
+    <initialResistanceRange>35~45</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Civil_Medic</defName>
+    <label>Medic</label>
     <combatPower>120</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
@@ -246,9 +282,9 @@
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
-	  <li>BNF_Armor_Light_Medic</li>
-	  <li>BNF_Accessories_Medic</li>
-	</apparelTags>
+      <li>BNF_Armor_Light_Medic</li>
+      <li>BNF_Accessories_Medic</li>
+    </apparelTags>
     <apparelRequired>
       <li>KP_Light_Flak_Armor_Medic</li>
       <li>KP_Light_Flak_Helmet_Medic</li>
@@ -266,8 +302,8 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Heavy_Medic</defName>
-    <label>veteran corpsman</label>
+    <defName>Offworlder_Civil_Heavy_Medic</defName>
+    <label>Heavy Medic</label>
     <combatPower>150</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
@@ -304,8 +340,8 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Engineer</defName>
-    <label>technic</label>
+    <defName>Offworlder_Civil_Engineer</defName>
+    <label>Engineer</label>
     <combatPower>120</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
@@ -342,8 +378,8 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Heavy_Engineer</defName>
-    <label>veteran technic</label>
+    <defName>Offworlder_Civil_Heavy_Engineer</defName>
+    <label>Heavy Engineer</label>
     <combatPower>150</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
@@ -379,10 +415,10 @@
     <initialResistanceRange>35~45</initialResistanceRange>
   </PawnKindDef>
 
-  
+  <!-- Leadership -->
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Representative</defName>
-    <label>commissar</label>
+    <defName>Offworlder_Civil_Representative</defName>
+    <label>Representative</label>
 	<combatPower>120</combatPower>
 	<factionLeader>true</factionLeader>
 	<minGenerationAge>30</minGenerationAge>
@@ -430,41 +466,49 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Commander</defName>
-    <label>company marshall</label>
-    <minGenerationAge>32</minGenerationAge>
-    <combatPower>245</combatPower>
+    <defName>Offworlder_Civil_Commander</defName>
+    <label>Infantry Commander</label>
+    <minGenerationAge>30</minGenerationAge>
+    <combatPower>215</combatPower>
 	<factionLeader>true</factionLeader>
-    <itemQuality>Excellent</itemQuality>
-    <isFighter>true</isFighter>
+    <itemQuality>Good</itemQuality>
+    <isFighter>false</isFighter>
     <gearHealthRange>
       <min>1.0</min>
       <max>1.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_HighCommander</li>
-    </weaponTags>
+      <li>BNF_InfantryCommander</li>
+	  <li>BNF_TrenchCommander</li>
+	  <li>BNF_RangerCommander</li>
+	  <li>BNF_HighCommander</li>
+	  <li>BNF_SubCommander</li>
+	</weaponTags>
     <weaponMoney>
-      <min>1300</min>
-      <max>1700</max>
+      <min>1100</min>
+      <max>1400</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform_Officer</li>
-      <li>BNF_Armor_Officer</li>
-      <li>BNF_Accessories_Infantry</li>
-    </apparelTags>
+	  <li>BNF_Armor_Officer</li>
+	  <li>BNF_Accessories_Infantry</li>
+	  <li>BNF_Armor_Gauntlets_Modified</li>
+	  <li>BNF_Accessories_Shocktrooper</li>
+	  <li>BNF_Armor_Officer_Scout</li>
+	  <li>BNF_Accessories_Scout</li>
+	</apparelTags>
     <apparelRequired>
       <li>KP_Officer_Flak_Armor</li>
       <li>KP_Light_Flak_Helmet_Officer</li>
       <li>KP_Webbing_Magazine</li>
     </apparelRequired>
     <apparelMoney>
-      <min>1400</min>
-      <max>1900</max>
+      <min>1200</min>
+      <max>1600</max>
     </apparelMoney>
-    <apparelAllowHeadgearChance>0.85</apparelAllowHeadgearChance>
-    <initialWillRange>3~5</initialWillRange>
-    <initialResistanceRange>20~30</initialResistanceRange>
+    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>15~25</initialResistanceRange>
   </PawnKindDef>
-  
+
 </Defs>

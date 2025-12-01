@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<RulePackDef>
+		<defName>NamerSettlementOffworlderRough</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name-&gt;New [new_townform]</li>
+				<li>name-&gt;New [newable_abstract]</li>
+				<li>name-&gt;[townroot][townsuffix]</li>
+				<li>name-&gt;[townroot] [rough_second]</li>
+				<li>name-&gt;[townroot]'s [rough_second]</li>
+				<li>name-&gt;[townroot][townsuffix]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>new_townform</keyword>
+					<path>BNF/Settlement/Common/NewTownform</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>newable_abstract</keyword>
+					<path>BNF/Settlement/Common/Newable_Abstract</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>townroot</keyword>
+					<path>BNF/Settlement/Common/TownRoot_Common</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>townsuffix</keyword>
+					<path>BNF/Settlement/Common/TownSuffix_Common</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>rough_second</keyword>
+					<path>BNF/Settlement/Rough/SecondWord_Rough</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>
