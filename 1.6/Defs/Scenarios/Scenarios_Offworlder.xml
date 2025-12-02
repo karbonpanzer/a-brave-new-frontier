@@ -3,12 +3,12 @@
 	<ScenarioDef ParentName="ScenarioBase">
 		<defName>KP_Outlanders</defName>
 		<label>Expedition</label>
-		<description>After years of cryptosleep you have arrived to the Rimworlds. Arriving as the first wave of the colonial fleet, it is on this world were opportunities await. It is here that you will start your new life as colonist and develop your colony for the arrival of other coloniststhe rest of the expedition.</description>
+		<description>After years of cryptosleep you have arrived to the Rimworlds. Arriving as the first wave of the colonial fleet, it is on this world were opportunities await. It is here that you will start your new life as colonist and develop your colony for the arrival of the rest of the expedition.</description>
 
 		<scenario>
 			<name>Expedition</name>
 			<summary>A group of offworld settlers, sent as scouts ahead of their larger group.</summary>
-			<description>After years of cryptosleep you have arrived to the Rimworlds. Arriving as the first wave of the colonial fleet, it is on this world were opportunities await. It is here that you will start your new life as colonist and develop your colony for the arrival of other coloniststhe rest of the expedition.
+			<description>After years of cryptosleep you have arrived to the Rimworlds. Arriving as the first wave of the colonial fleet, it is on this world were opportunities await. It is here that you will start your new life as colonist and develop your colony for the arrival of the rest of the expedition.
 
 Note: Since you start with spacer level equipment, it will be an easy start against threats but your lack of materials will make starting hard.</description>
 

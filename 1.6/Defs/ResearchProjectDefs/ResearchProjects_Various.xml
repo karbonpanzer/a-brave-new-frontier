@@ -30,7 +30,7 @@
 
 	<ResearchProjectDef>
 		<defName>LateIndustrialKitSupport</defName>
-		<label>Support Kit</label>
+		<label>Support Kits</label>
 		<description>Craft equipment that assist the work of support roles such as engineers and medics.</description>
 		<baseCost>1000</baseCost>
 		<tab>ABraveNewFrontier</tab>

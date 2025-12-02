@@ -223,7 +223,7 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>A heavy, double-edged trench sword crafted for the brutal realities of trench combat. Short enough to use in confined spaces yet sturdy enough to deliver devastating cuts and thrusts.</loreDesc>
+				<loreDesc>The origin of the trench sword is a mystery, many variatns have existed over the centuries with not a single direct source. This model is from the war-world of Hersilia which has existed in a civil war since the Great Domain existed. The planet which in the distant past was a lush green world is now know as the great wastes, miles of trenches, tunnels, and fortifications now scar its surface. The reason for the war forgotten but not the centuries of hatred between the Remunians and Sybinites, the last cultures on the world. This sword reflects that fight, a blade seen on both sides and used without question.</loreDesc>
 				<vanillaDesc>A short, double-edged sword made for close quarters. Balances cutting and thrusting power for maximum damage in tight environments.</vanillaDesc>
 			</li>
 		</modExtensions>
@@ -284,7 +284,7 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>A compact trench mace handcrafted to crush armor and bone in close quarters. Short handle for confined spaces and a heavy head to maximize blunt trauma.</loreDesc>
+				<loreDesc>A commonly found bar mace which while not unique posseses a history of the design. Originally from the Hell-world of Iblis, it was once used as a tool of oppression for the spicefields on the world which were controlled by a few spice guilds. However, after the invasion of Iblis in the 45th century by the Great Pirate Fleet of the Pirate King Mynos, the weapon turned from tool of oppression into a symbol of resistance. Iblis lacked the armaments needed to fight the Great Pirate Fleet, firearms were rare under the authority of the spice guilds, but the maces were not. Both members of the spice guild and the slaves they employed fought against the pirates and eventually overcame them after the capture of a pirate corvette and its usage in a suicide mission which killed King Mynos liberated the world. Now its design has become widespread after the world of Iblis was abandoned after the destruction of the spice crop during the war.</loreDesc>
 				<vanillaDesc>A heavy, compact blunt weapon that deals massive blunt damage in tight melee fights. Slow but devastating.</vanillaDesc>
 			</li>
 		</modExtensions>

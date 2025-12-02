@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>BNF_FlakHelmetL_Gasmask</defName>
 		<label>Carapace Helmet (Gasmask)</label>
-		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</description>
+		<description>.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
@@ -73,7 +73,7 @@
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>BNF_FlakHelmetH_Gasmask</defName>
 		<label>Heavy Carapace Helmet (Gasmask)</label>
-		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</description>
+		<description>.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
