@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
-
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>BNF_Trench_Spike</defName>
+		<defName>KP_Trench_Spike</defName>
 		<label>Trench Knife</label>
 		<description>Originally an ancient design from the Inter-Humanity Wars, now finds new life in the Rim. When warfare eventually fell into stagnation and trenches, this ancient weapon was again found in the hands of those in the trenches. Often hand-made by Army Blacksmiths, they come in a variety of shapes, sizes, and materials yet this design is the most popular. Unlike many weapons though, this one still found use against Insectoids. The spike blade would easily penetrate the chitin of an Insectoid and many veterans found themselves brave enough to do so.</description>
 		<graphicData>
@@ -79,7 +78,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>BNF_ElectroGlaive</defName>
+		<defName>KP_ElectroGlaive</defName>
 		<label>Thunder Glaive</label>
 		<description>On the world Eku, during the fall of the Great Domain many found themselves under attack by the Mechanoids. Eku was not a frontier world, instead it had been settled centuries before by a movement of neo-Luddites seeking a closer harmony with nature. In the 42nd centuries after centuries of peace, they were invaded by the 9th Tetramid Fleet, forcing their world into a war they could not fight. Eventually a group of warriors emerged called the Stalkers, a sect of an order which developed this weapon with the goal of not only fighting Mechanoids but breaking them. A reinforced glaive with EMP emitters integrated into the blade which not only cuts through flesh and steel but can disable Mechanoids temporarily.</description>
 		<graphicData>
@@ -162,7 +161,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>BNF_Trench_Sword</defName>
+		<defName>KP_Trench_Sword</defName>
 		<label>Trench Sword</label>
 		<description>A heavy, double-edged trench sword with a short blade and a handguard. Designed for brutal, close-quarters fighting.</description>
 		<graphicData>
@@ -224,14 +223,14 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>A heavy, double-edged trench sword crafted for the brutal realities of trench combat. Short enough to use in confined spaces yet sturdy enough to deliver devastating cuts and thrusts.</loreDesc>
+				<loreDesc>The origin of the trench sword is a mystery, many variatns have existed over the centuries with not a single direct source. This model is from the war-world of Hersilia which has existed in a civil war since the Great Domain existed. The planet which in the distant past was a lush green world is now know as the great wastes, miles of trenches, tunnels, and fortifications now scar its surface. The reason for the war forgotten but not the centuries of hatred between the Remunians and Sybinites, the last cultures on the world. This sword reflects that fight, a blade seen on both sides and used without question.</loreDesc>
 				<vanillaDesc>A short, double-edged sword made for close quarters. Balances cutting and thrusting power for maximum damage in tight environments.</vanillaDesc>
 			</li>
 		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>BNF_Trench_Mace</defName>
+		<defName>KP_Trench_Mace</defName>
 		<label>Trench Mace</label>
 		<description>A compact trench mace with a tapered head for crushing armor and bone. Heavy and slow, but devastating on impact.</description>
 		<graphicData>
@@ -285,14 +284,14 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>A compact trench mace handcrafted to crush armor and bone in close quarters. Short handle for confined spaces and a heavy head to maximize blunt trauma.</loreDesc>
+				<loreDesc>A commonly found bar mace which while not unique posseses a history of the design. Originally from the Hell-world of Iblis, it was once used as a tool of oppression for the spicefields on the world which were controlled by a few spice guilds. However, after the invasion of Iblis in the 45th century by the Great Pirate Fleet of the Pirate King Mynos, the weapon turned from tool of oppression into a symbol of resistance. Iblis lacked the armaments needed to fight the Great Pirate Fleet, firearms were rare under the authority of the spice guilds, but the maces were not. Both members of the spice guild and the slaves they employed fought against the pirates and eventually overcame them after the capture of a pirate corvette and its usage in a suicide mission which killed King Mynos liberated the world. Now its design has become widespread after the world of Iblis was abandoned after the destruction of the spice crop during the war.</loreDesc>
 				<vanillaDesc>A heavy, compact blunt weapon that deals massive blunt damage in tight melee fights. Slow but devastating.</vanillaDesc>
 			</li>
 		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>BNF_ChainSword</defName>
+		<defName>KP_ChainSword</defName>
 		<label>Chainsword</label>
 		<description>A motorised sword with serrated teeth mounted along the blade. When activated these teeth chew through flesh, bone, and armor with ease. Though it also has issues with weight and lacking the range and speed of other weapons.</description>
 		<graphicData>
@@ -377,9 +376,9 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>BNF_ChainGreatsword</defName>
+		<defName>KP_ChainGreatsword</defName>
 		<label>Great Chainsword</label>
 		<description>A massive motorised greatsword with spinning teeth. Brutal cutting power that easily tears through flesh and armor while providing a great reach against targets. It is very heavy and often recommended that it usage to remain with those who can use it effectively</description>
 		<graphicData>
@@ -472,9 +471,9 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>BNF_Crusher_Hammer</defName>
+		<defName>KP_Crusher_Hammer</defName>
 		<label>crusher hammer</label>
 		<description>A massive kinetic hammer that houses a small grav-core. On impact it delivers concussive, armor-crushing blunt force with ease. Its heavy weight prevents it usage by many but the best warriors seen on the Rimworlds.</description>
 		<graphicData>
@@ -544,6 +543,5 @@
 				<vanillaDesc>A massive kinetic hammer that houses a small grav-core. On impact it delivers concussive, armor-crushing blunt force with ease. Its heavy weight prevents it usage by many but the best warriors seen on the Rimworlds.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
-
+	</ThingDef>
 </Defs>

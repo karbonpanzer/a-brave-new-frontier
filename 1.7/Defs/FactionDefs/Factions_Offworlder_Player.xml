@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 	<FactionDef ParentName="PlayerFactionBase">
-		<defName>BNF_Offworlder_Player</defName>
+		<defName>KP_Offworlder_Player</defName>
 		<label>Colonial Settlers</label>
 		<description>A offworlder group sent to colonize this world by choice.</description>
 		<colorSpectrum>

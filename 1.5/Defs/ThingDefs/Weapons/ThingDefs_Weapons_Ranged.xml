@@ -1209,7 +1209,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>A compact chain-fed incendiary firearm meant to set light to cover and flesh alike. The feed mechanism's rapid bursts of flaming pellets are lethal up close and dangerous to flammable surroundings.</loreDesc>
+				<loreDesc>Deep in the Coreworlds lies a burned ruin, a planet undesired by man, machine, and even insect. This is the doomed world of Opportunity, here is where the last world of the Borea sector stood their ground against  the insectoid threat of the Hades Hive Cluster. This world fought against the insectoid threat for decades until the last remnants of humanity decided to do the unthinkable, they ignited their atmosphere, dooming all but a select few sequestered into bunkers. The plan worked and of the few insects that survived, they were met with the Coreburner, a heavily modfified shotgun firing incendiary shells of pure hellfire. Opportunity was soon abandoned, left as a dead husk, untouched by all who fought for it.</loreDesc>
 				<vanillaDesc>A short-range, rapid-chain shotgun that fires incendiary pellets. Extremely effective up close and may ignite targets and scenery.</vanillaDesc>
 			</li>
 		</modExtensions>

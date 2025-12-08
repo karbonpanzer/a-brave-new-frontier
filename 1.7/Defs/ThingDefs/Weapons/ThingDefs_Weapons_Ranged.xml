@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
-
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_Retro_Rifle</defName>
+		<defName>KP_Bullet_Retro_Rifle</defName>
 		<label>retro rifle bullets</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -15,8 +14,9 @@
 			<speed>65</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Retro_Rifle</defName>
+		<defName>KP_Retro_Rifle</defName>
 		<label>Retro Rifle</label>
 		<description>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</description>
 		<graphicData>
@@ -94,7 +94,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_autoloader_rifle</defName>
+		<defName>KP_Bullet_autoloader_rifle</defName>
 		<label>heavy "autoloader" rifle bullets</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -107,8 +107,9 @@
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Autoloader_Rifle</defName>
+		<defName>KP_Autoloader_Rifle</defName>
 		<label>Heavy "Autoloader" Rifle</label>
 		<description>The Last of the ill-fated “Autoloader” series of rifles, designed in the furnaces of Warworlds during the Inter-Humanity Wars. A 16.5MM Light Cannon was seen as the pinnacle of the Assault Rifle genus, it easily penetrated Human made armor and even capable of disabling light vehicles and aircraft. The massive flaw of this weapon though was weight, light cannons are in fact not light, and these weapons often were used less and less when the Mechanoid threat arrived. Though capable of killing Mechanoids and Insectoids easily, they fell to the wayside when Charge Based Weaponry came into play. An effective alternative to Assault Rifles and Charge Rifles, that is if you can carry it.</description>
 		<graphicData>
@@ -185,7 +186,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_super_shotgun</defName>
+		<defName>KP_Bullet_super_shotgun</defName>
 		<label>super shotgun bullets</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -199,8 +200,9 @@
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Super_Shotgun</defName>
+		<defName>KP_Super_Shotgun</defName>
 		<label>Super-Shotgun</label>
 		<description>The name much like the gun was a marketing ploy to get people to buy this unorthodox shotgun. A double barrel pulse action shotgun firing 10 gauge using an experimental caseless ammo system. The main selling point was with two barrels and two tubes, you can have one barrel firing shot from an unrifled barrel while the other fires slugs from a rifled barrel. A cute concept though not groundbreaking. It sold enough to keep the company afloat, but it went gangbusters when Mechanoids invaded. The gun was configured to fire explosive shells and EMP slugs, to counter Mechanoids with shields, though most people like the versatility of shot. Unlike other weapons, this isn’t surplus, its part of expanding the market.</description>
 		<graphicData>
@@ -277,7 +279,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_assault_pistol</defName>
+		<defName>KP_Bullet_assault_pistol</defName>
 		<label>assault pistol bullet</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -291,8 +293,9 @@
 			<speed>45</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Assault_Pistol</defName>
+		<defName>KP_Assault_Pistol</defName>
 		<label>Assault Pistol</label>
 		<description>The Last Remnant of the Inter-Humanity Wars. Built on the idea of an “Offensive Pistol” for Trench Raiders on worlds consumed by conflicts, good for penetrating human made armor. When the Mechanoids emerged, that concept fell apart with the failure of these pistols to easily penetrate Mechanoid armor. Their use would continue against Insectoids, but the low magazine capacity would leave this pistol in the dust compared to its competitors. Obsolescence would usually leave guns in the hands of gang members and the Third-Worlders but not the Assault Pistol. Now it has a second life in the Rim, in the hands of militias, pirates, and anyone who can afford them in bulk.</description>
 		<graphicData>
@@ -365,7 +368,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_HyperSMG</defName>
+		<defName>KP_Bullet_HyperSMG</defName>
 		<label>Hyper-SMG pistol bullet</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -378,8 +381,9 @@
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Gun_HyperSMG</defName>
+		<defName>KP_Gun_HyperSMG</defName>
 		<label>Hyper-SMG</label>
 		<description>An interesting story surrounds this small submachine gun, a decade spanning project and a strange idea about hit probability and even more ancient technology. This weapon is the final product of PROJECT: VOLLEY, a weapon program to design a gun that would fire many bullets so fast than the soldier firing would only feel the recoil of one of those shots. The highest they were able to get was seven bullets and the bullets had gotten so small by the end of the project to avoid tumbling after exiting the barrel. With the success of this project, they began to sell the gun to any organization that could afford it. Sadly, nobody had any use for a literal bullet hose, so the company failed and now their stock has begun being sold to the Rim, so are you gonna buy some? Please say yes, my family is so hungry.</description>
 		<graphicData>
@@ -454,7 +458,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_Hyperblaster</defName>
+		<defName>KP_Bullet_Hyperblaster</defName>
 		<label>Hyperblaster shot</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -471,8 +475,9 @@
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Hyperblaster</defName>
+		<defName>KP_Hyperblaster</defName>
 		<label>Hyperblaster</label>
 		<description>A relatively new weapon in comparison to many of its compatriots on the Rim. The Hyperblaster was one of the first charge weapons created during the Human-Mechanoid Wars and it shows. Heavy, clumsy, but packs more wallop than modern Charge weapons due to its very unrefined abilities. These traits are the reason it is called the Hyperblaster rather than its official name or even the other names given to it like Siegebreaker and Quakemaker. Though being replaced by more convenient Charge weapons, the weapon is still in production and will likely continue to do so, because it works, and it works well especially when you have power armored soldiers who can easily carry it.</description>
 		<techLevel>Industrial</techLevel>
@@ -555,8 +560,9 @@
 			<speed>75</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Chemrail_Rifle</defName>
+		<defName>KP_Chemrail_Rifle</defName>
 		<label>Chem-Rail Rifle</label>
 		<description>An example of the steppingstone between chemical ballistic and magnet ballistic weaponry. A solid ferrous bullet is fired through barrel surrounded by magnetic field generating rails, pushing the bullet far past the speed of sound. Sounds like a genius idea, essentially doubling the life span and abilities of any gunpowder firearm through simple upgrade. Turns out that conversion Chem-Rail Rifles have half the lifespan of purpose-built Chem-Rail Rifles, this was by design so the company could sell more guns they produced rather than just selling conversion kits. Of course, they were eventually blown out of the market by Charge weapons, leaving only the aftermarket for many of these guns as their creator company is now playing catch-up.</description>
 		<graphicData>
@@ -633,25 +639,26 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Slab_Revolver_Rocket</defName>
+		<defName>KP_Slab_Revolver_Rocket</defName>
 		<label>slab micro-rocket</label>
 		<graphicData>
-		<graphicClass>Graphic_Single</graphicClass>
-		<texPath>Fallback/Projectile/MicroRocket</texPath>
-		<drawSize>0.6</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Fallback/Projectile/MicroRocket</texPath>
+			<drawSize>0.6</drawSize>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-		<flyOverhead>false</flyOverhead>
-		<damageDef>Bomb</damageDef>
-		<damageAmountBase>16</damageAmountBase>
-		<armorPenetrationBase>0.06</armorPenetrationBase>
-		<speed>36</speed>
-		<explosionRadius>1.5</explosionRadius>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBase>0.06</armorPenetrationBase>
+			<speed>36</speed>
+			<explosionRadius>1.5</explosionRadius>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Slab_Revolver</defName>
+		<defName>KP_Slab_Revolver</defName>
 		<label>Slab Revolver</label>
 		<description>An experimental revolver designed for usage in space. Firing a micro-rocket tipped with an explosive allows greater usage compared to convention munitions. Though being a firearm meant for usage in space, it has found a home among the Rimworlds.</description>
 		<graphicData>
@@ -724,10 +731,10 @@
 				<vanillaDesc>An experimental revolver designed for usage in space. Firing a micro-rocket tipped with an explosive allows greater usage compared to convention munitions. Though being a firearm meant for usage in space, it has found a home among the Rimworlds.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
+	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_Service_Rifle</defName>
+		<defName>KP_Bullet_Service_Rifle</defName>
 		<label>service rifle round</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -741,8 +748,9 @@
 			<speed>66</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Service_Rifle</defName>
+		<defName>KP_Service_Rifle</defName>
 		<label>Service Rifle</label>
 		<description>A reliable intermediate rifle used by militias and security forces. Balanced damage, accuracy, and rate of fire make it versatile for general duty. Common on the far Rimworlds due to its cheaper production cost compared to other materials</description>
 		<graphicData>
@@ -834,8 +842,9 @@
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Flechette_Rifle</defName>
+		<defName>KP_Flechette_Rifle</defName>
 		<label>flechette rifle</label>
 		<description>A rare firearm which uses shredder flechettes rather than conventional bullets. Lacking the armor penetration and range of other rifles, this performs best at close range where it shreds flesh and bone with ease. It rarity is only matched by the brutality which it creates in the battlefield.</description>
 		<graphicData>
@@ -908,11 +917,10 @@
 				<vanillaDesc>A rare firearm which uses shredder flechettes rather than conventional bullets. Lacking the armor penetration and range of other rifles, this performs best at close range where it shreds flesh and bone with ease. It rarity is only matched by the brutality which it creates in the battlefield.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
-	
+	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_AssaultLMG</defName>
+		<defName>KP_Bullet_AssaultLMG</defName>
 		<label>assault LMG round</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -927,8 +935,9 @@
 			<speed>80</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Assault_LMG</defName>
+		<defName>KP_Assault_LMG</defName>
 		<label>assault LMG</label>
 		<description>A compact belt-fed squad support gun. Fires long, fast bursts for heavy suppression. Very effective at medium range but inaccurate and burns through ammunition.</description>
 		<graphicData>
@@ -1009,7 +1018,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_CompactPDW</defName>
+		<defName>KP_Bullet_CompactPDW</defName>
 		<label>compact PDW round</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1024,8 +1033,9 @@
 			<speed>90</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Compact_PDW</defName>
+		<defName>KP_Compact_PDW</defName>
 		<label>compact PDW</label>
 		<description>A compact PDW with an extremely high rate of fire and controllable recoil. Deadly up close, but poor against armor and at long range. Commonly used as both a primary weapon and a sidearm due to its compact size.</description>
 		<graphicData>
@@ -1104,7 +1114,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>BNF_Coreburner_Pellet</defName>
 		<label>incendiary pellet</label>
@@ -1121,8 +1131,9 @@
 			<speed>45</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Coreburner</defName>
+		<defName>KP_Coreburner</defName>
 		<label>coreburner</label>
 		<description>An incendiary chain shotgun. Multiple flaming pellets per trigger pull, likely to ignite targets and surroundings.</description>
 		<graphicData>
@@ -1132,7 +1143,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<researchPrerequisite>AntiInsectoidWeaponry</researchPrerequisite>		
+			<researchPrerequisite>AntiInsectoidWeaponry</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
@@ -1198,14 +1209,14 @@
 		</tools>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>A compact chain-fed incendiary firearm meant to set light to cover and flesh alike. The feed mechanism's rapid bursts of flaming pellets are lethal up close and dangerous to flammable surroundings.</loreDesc>
+				<loreDesc>Deep in the Coreworlds lies a burned ruin, a planet undesired by man, machine, and even insect. This is the doomed world of Opportunity, here is where the last world of the Borea sector stood their ground against  the insectoid threat of the Hades Hive Cluster. This world fought against the insectoid threat for decades until the last remnants of humanity decided to do the unthinkable, they ignited their atmosphere, dooming all but a select few sequestered into bunkers. The plan worked and of the few insects that survived, they were met with the Coreburner, a heavily modfified shotgun firing incendiary shells of pure hellfire. Opportunity was soon abandoned, left as a dead husk, untouched by all who fought for it.</loreDesc>
 				<vanillaDesc>A short-range, rapid-chain shotgun that fires incendiary pellets. Extremely effective up close and may ignite targets and scenery.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
-	
+	</ThingDef>
+
 	<ThingDef ParentName="BaseBullet">
-		<defName>BNF_Bullet_TwinLancer</defName>
+		<defName>KP_Bullet_TwinLancer</defName>
 		<label>twin lancer round</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1220,8 +1231,9 @@
 			<speed>120</speed>
 		</projectile>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_TwinLancer_Rifle</defName>
+		<defName>KP_TwinLancer_Rifle</defName>
 		<label>twin lancer rifle</label>
 		<description>A heavy twin-barreled sniper rifle firing two powerful slugs in quick succession. Immensely damaging against armor, but slow to fire and cumbersome to carry. Its range makes it perfect for defensive usage but not as an offensive weapon.</description>
 		<graphicData>
@@ -1255,7 +1267,7 @@
 			<RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
-		    <li>
+			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>KP_Bullet_TwinLancer</defaultProjectile>
@@ -1266,7 +1278,7 @@
 				<soundCast>Shot_SniperRifle</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
-		    </li>
+			</li>
 		</verbs>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
@@ -1300,6 +1312,5 @@
 				<vanillaDesc>A heavy twin-barreled sniper rifle firing two powerful slugs in quick succession. Immensely damaging against armor, but slow to fire and cumbersome to carry. Its range makes it perfect for defensive usage but not as an offensive weapon.</vanillaDesc>
 			</li>
 		</modExtensions>
-	</ThingDef>	
-	
+	</ThingDef>
 </Defs>

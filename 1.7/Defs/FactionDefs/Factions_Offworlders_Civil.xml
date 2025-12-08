@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 	<FactionDef ParentName="FactionBase">
-		<defName>BNF_Offworlder_Civil</defName>
+		<defName>KP_Offworlder_Civil</defName>
 		<label>civil colonial expedition</label>
-		<description>Interstellar traders and diplomats backed by core-world governments and megacorporations. Driven by exploration and peace, yet armed against the dangers of the Rim.</description>
+		<description>These people are a new arrival to this world, arriving from various worlds seeking opportunity. Some have spent years to centuries in their travels, limiting them to the technology of their time but many have brought technology from their homeworlds.\n\nThey are concerned with their colonies but desire strong connections with the people of their world, pursing trade, exploration, and peace with their neighbors.</description>
 		<pawnSingular>expeditionary</pawnSingular>
 		<pawnsPlural>expeditionaries</pawnsPlural>
 		<listOrderPriority>13</listOrderPriority>
@@ -79,40 +79,27 @@
 			<kindDef>Combat</kindDef>
 			<commonality>45</commonality>
 			<options>
-			  <Offworlder_Civil_Conscript>6</Offworlder_Civil_Conscript>
-			  <Offworlder_Civil_Infantry>12</Offworlder_Civil_Infantry>
-			  <Offworlder_Civil_Heavy_Infantry>6</Offworlder_Civil_Heavy_Infantry>
-			  <Offworlder_Civil_Anti_Armor_Infantry>4</Offworlder_Civil_Anti_Armor_Infantry>
-			  <Offworlder_Civil_Gunner>6</Offworlder_Civil_Gunner>
-			  <Offworlder_Civil_Heavy_Gunner>3</Offworlder_Civil_Heavy_Gunner>
-			  <Offworlder_Civil_Ranger>5</Offworlder_Civil_Ranger>
-			  <Offworlder_Civil_Heavy_Ranger>2</Offworlder_Civil_Heavy_Ranger>
+			  <Offworlder_Civil_Infantry>18</Offworlder_Civil_Infantry>
+			  <Offworlder_Civil_Heavy_Infantry>19</Offworlder_Civil_Heavy_Infantry>
+			  <Offworlder_Civil_Ranger>7</Offworlder_Civil_Ranger>
 			  <Offworlder_Civil_Medic>3</Offworlder_Civil_Medic>
 			  <Offworlder_Civil_Engineer>3</Offworlder_Civil_Engineer>
-			  <Offworlder_Civil_Ranger_Commander>1</Offworlder_Civil_Ranger_Commander>
-			  <Offworlder_Civil_Infantry_Commander>1</Offworlder_Civil_Infantry_Commander>
-			  <Offworlder_Civil_Sub_Commander>1</Offworlder_Civil_Sub_Commander>
+			  <Offworlder_Civil_Commander>3</Offworlder_Civil_Commander>
 			</options>
 		  </li>
+
 		  <li>
 			<kindDef>Combat</kindDef>
 			<commonality>35</commonality>
 			<options>
-			  <Offworlder_Civil_Trench_Infantry>8</Offworlder_Civil_Trench_Infantry>
-			  <Offworlder_Civil_Trench_Raider>6</Offworlder_Civil_Trench_Raider>
-			  <Offworlder_Civil_Trench_Shocktrooper>6</Offworlder_Civil_Trench_Shocktrooper>
-			  <Offworlder_Civil_Lansquenets>3</Offworlder_Civil_Lansquenets>
-			  <Offworlder_Civil_Trench_Dog>3</Offworlder_Civil_Trench_Dog>
-			  <Offworlder_Civil_Conflagrator>4</Offworlder_Civil_Conflagrator>
-			  <Offworlder_Civil_Gunner>4</Offworlder_Civil_Gunner>
-			  <Offworlder_Civil_Heavy_Gunner>3</Offworlder_Civil_Heavy_Gunner>
+			  <Offworlder_Civil_Trench_Shocktrooper>30</Offworlder_Civil_Trench_Shocktrooper>
+			  <Offworlder_Civil_Heavy_Infantry>7</Offworlder_Civil_Heavy_Infantry>
 			  <Offworlder_Civil_Heavy_Medic>2</Offworlder_Civil_Heavy_Medic>
 			  <Offworlder_Civil_Heavy_Engineer>2</Offworlder_Civil_Heavy_Engineer>
-			  <Offworlder_Civil_Trench_Commander>1</Offworlder_Civil_Trench_Commander>
-			  <Offworlder_Civil_Infantry_Commander>1</Offworlder_Civil_Infantry_Commander>
-			  <Offworlder_Civil_High_Commander>1</Offworlder_Civil_High_Commander>
+			  <Offworlder_Civil_Commander>3</Offworlder_Civil_Commander>
 			</options>
 		  </li>
+
 		  <li>
 			<kindDef>Peaceful</kindDef>
 			<commonality>20</commonality>
@@ -124,9 +111,10 @@
 			  <Offworlder_Civil_Infantry>6</Offworlder_Civil_Infantry>
 			  <Offworlder_Civil_Medic>2</Offworlder_Civil_Medic>
 			  <Offworlder_Civil_Engineer>2</Offworlder_Civil_Engineer>
-			  <Offworlder_Civil_Sub_Commander>1</Offworlder_Civil_Sub_Commander>
+			  <Offworlder_Civil_Commander>1</Offworlder_Civil_Commander>
 			</options>
 		  </li>
+
 		  <li>
 			<kindDef>Trader</kindDef>
 			<traders>
@@ -138,9 +126,10 @@
 			<guards>
 			  <Offworlder_Civil_Infantry>6</Offworlder_Civil_Infantry>
 			  <Offworlder_Civil_Ranger>4</Offworlder_Civil_Ranger>
-			  <Offworlder_Civil_Sub_Commander>1</Offworlder_Civil_Sub_Commander>
+			  <Offworlder_Civil_Commander>1</Offworlder_Civil_Commander>
 			</guards>
 		  </li>
+
 		  <li>
 			<kindDef>Settlement</kindDef>
 			<options>
@@ -150,9 +139,7 @@
 			  <Offworlder_Civil_Infantry>8</Offworlder_Civil_Infantry>
 			  <Offworlder_Civil_Ranger>6</Offworlder_Civil_Ranger>
 			  <Offworlder_Civil_Representative>1</Offworlder_Civil_Representative>
-			  <Offworlder_Civil_Infantry_Commander>1</Offworlder_Civil_Infantry_Commander>
-			  <Offworlder_Civil_Ranger_Commander>1</Offworlder_Civil_Ranger_Commander>
-			  <Offworlder_Civil_Trench_Commander>1</Offworlder_Civil_Trench_Commander>
+			  <Offworlder_Civil_Commander>3</Offworlder_Civil_Commander>
 			</options>
 		  </li>
 		</pawnGroupMakers>
@@ -160,4 +147,5 @@
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
 		<configurationListOrderPriority>25</configurationListOrderPriority>
 	</FactionDef>
+
 </Defs>

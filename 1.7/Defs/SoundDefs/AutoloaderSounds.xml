@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 	<SoundDef>
-		<defName>BNF_Shot_Autoloader_Rifle</defName>
+		<defName>KP_Shot_Autoloader_Rifle</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>10</maxSimultaneous>
 		<subSounds>

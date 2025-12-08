@@ -410,5 +410,86 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+	
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>BNF_OfficerCap_Polar</defName>
+		<label>Officer Cap (Polar)</label>
+		<description>The traditional tailored headwear for an officer. Modified to have thermal materials to surround the head and maintain warmth even in the coldest environments. A balanced approach to both maintaining comfort and displaying of ones rank.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>ArcticUniforms</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Original/Headgear/OfficerCapArctic/OfficerCapArctic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories Inherit="False">
+			<li>KP_Headgear</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>3000</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Original/Headgear/OfficerCapArctic/OfficerCapArctic</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>BNF_Uniform</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Though a symbol of Old Earth authority, keeping your nose and ears attached to your head is a great start. This features a modified mesh heating network as the common polar weather gear, maintaining the user is a consistent state of warmth. Though used by an officer it still functions with bio-checmical reactions using the shed hair and dead skin cells of the user. While many would consider it uncouth, it is either maintaining class with a frostbitten nose or staying warm in the mesh oven around your head.</loreDesc>
+				<vanillaDesc>The traditional tailored headwear for an officer. Modified to have thermal materials to surround the head and maintain warmth even in the coldest environments. A balanced approach to both maintaining comfort and displaying of ones rank.</vanillaDesc>
+			</li>
+			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
+				<originalPath>Original/Headgear/OfficerCapArctic/OfficerCapArctic</originalPath>
+			</li>
+		</modExtensions>
+	</ThingDef>	
 
 </Defs>

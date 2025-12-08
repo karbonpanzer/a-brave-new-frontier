@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 	<ThingDef ParentName="HatMakeableBase">
-		<defName>BNF_GasMask_Standalone</defName>
+		<defName>KP_GasMask_Standalone</defName>
 		<label>Gas Mask</label>
 		<description>.</description>
 		<techLevel>Spacer</techLevel>
