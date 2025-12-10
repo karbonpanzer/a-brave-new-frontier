@@ -70,7 +70,7 @@
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>.</loreDesc>
-				<vanillaDesc>.</vanillaDesc>
+				<vanillaDesc>A copy of the common carapace helmet which uses leather with some reinforcements. A leather helmet with steel plates installed to protect the wearer from most blunt trauma favored by those in law enforcement. The center of the helmet shows that it finds it main usage by law enforcement.</vanillaDesc>
 			</li>
 		</modExtensions>
 	</ThingDef>	
@@ -148,7 +148,7 @@
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>Justice is a concept that defies the colonial experience. Lawlessness is anathema to the civlization being brought to the Rimworlds by the expeditions. Justice now comes in a convient belt form which allows them to subdue, pacify, and protect your families from all threats foreign. Despite your utter lack of real skills and borderline to actual psychopathy, you can use physical violence to gain the respect of the community. Also, the body cams were smashed before you go your belt so there is no recording to submit to evidence during your brutality trial.</loreDesc>
-				<vanillaDesc>A belt often found in usage by various law enforcement agencies on expedition colonies. A simple belt which contains everything from magazines, to handcuffs, to a truncheon. Its utility is is perfect subduing both friend and foe.</vanillaDesc>
+				<vanillaDesc>A copy of the common carapace armor that uses leather instead of metals. A lightweight piece of armor which is more effective being used by law enforcement than on the front lines. Though made from leather, it still has an identifier of a member of law enforcement.</vanillaDesc>
 			</li>
 		</modExtensions>
 	</ThingDef>		
