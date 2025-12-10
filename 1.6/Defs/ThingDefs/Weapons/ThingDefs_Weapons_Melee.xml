@@ -66,7 +66,8 @@
 			</li>
 		</tools>
 		<weaponTags>
-			<li>BNF_TrenchCommander</li>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Infantry</li>				
 			<li>BNF_Trench_Shocktrooper</li>
 		</weaponTags>
 		<modExtensions>
@@ -152,6 +153,11 @@
 		<thingSetMakerTags>
 			<li>RewardStandardMidTech</li>
 		</thingSetMakerTags>
+		<weaponTags>
+			<li>IndustrialMeleeAdvanced</li>
+			<li>BNF_Heavy_Infantry</li>				
+			<li>BNF_Trench_Shocktrooper</li>
+		</weaponTags>		
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>On the world Eku, during the fall of the Great Domain many found themselves under attack by the Mechanoids. Eku was not a frontier world, instead it had been settled centuries before by a movement of neo-Luddites seeking a closer harmony with nature. In the 42nd centuries after centuries of peace, they were invaded by the 9th Tetramid Fleet, forcing their world into a war they could not fight. Eventually a group of warriors emerged called the Stalkers, a sect of an monastic order which developed this weapon with the goal of not only fighting Mechanoids but breaking them. A reinforced glaive with EMP emitters integrated into the blade which not only cuts through flesh and steel but can disable Mechanoids temporarily.</loreDesc>
@@ -221,6 +227,11 @@
 			<li>WeaponMelee</li>
 			<li>Melee</li>
 		</tradeTags>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Infantry</li>				
+			<li>BNF_Trench_Shocktrooper</li>
+		</weaponTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>The origin of the trench sword is a mystery, many variatns have existed over the centuries with not a single direct source. This model is from the war-world of Hersilia which has existed in a civil war since the Great Domain existed. The planet which in the distant past was a lush green world is now know as the great wastes, miles of trenches, tunnels, and fortifications now scar its surface. The reason for the war forgotten but not the centuries of hatred between the Remunians and Sybinites, the last cultures on the world. This sword reflects that fight, a blade seen on both sides and used without question.</loreDesc>
@@ -282,6 +293,11 @@
 			<li>WeaponMelee</li>
 			<li>Melee</li>
 		</tradeTags>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Infantry</li>				
+			<li>BNF_Trench_Shocktrooper</li>			
+		</weaponTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>A commonly found bar mace which while not unique posseses a history of the design. Originally from the Hell-world of Iblis, it was once used as a tool of oppression for the spicefields on the world which were controlled by a few spice guilds. However, after the invasion of Iblis in the 45th century by the Great Pirate Fleet of the Pirate King Mynos, the weapon turned from tool of oppression into a symbol of resistance. Iblis lacked the armaments needed to fight the Great Pirate Fleet, firearms were rare under the authority of the spice guilds, but the maces were not. Both members of the spice guild and the slaves they employed fought against the pirates and eventually overcame them after the capture of a pirate corvette and its usage in a suicide mission which killed King Mynos liberated the world. Now its design has become widespread after the world of Iblis was abandoned after the destruction of the spice crop during the war.</loreDesc>
@@ -363,9 +379,14 @@
 			</li>
 		</tools>
 		<tradeTags>
-			<li>WeaponMelee</li>
+			<li>IndustrialMeleeAdvanced</li>
 			<li>Melee</li>
 		</tradeTags>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Infantry</li>				
+			<li>BNF_Trench_Shocktrooper</li>
+		</weaponTags>
 		<thingSetMakerTags>
 			<li>RewardStandardMidTech</li>
 		</thingSetMakerTags>
@@ -458,9 +479,14 @@
 			</li>
 		</tools>
 		<tradeTags>
-			<li>WeaponMelee</li>
+			<li>IndustrialMeleeAdvanced</li>
 			<li>Melee</li>
 		</tradeTags>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Infantry</li>				
+			<li>BNF_Trench_Shocktrooper</li>
+		</weaponTags>		
 		<thingSetMakerTags>
 			<li>RewardStandardHighTech</li>
 		</thingSetMakerTags>
@@ -515,6 +541,11 @@
 			<li>WeaponMelee</li>
 			<li>Melee</li>
 		</tradeTags>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Infantry</li>				
+			<li>BNF_Trench_Shocktrooper</li>
+		</weaponTags>		
 		<thingSetMakerTags>
 			<li>RewardHighTech</li>
 		</thingSetMakerTags>

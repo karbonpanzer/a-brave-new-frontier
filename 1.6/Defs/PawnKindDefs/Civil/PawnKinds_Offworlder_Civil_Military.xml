@@ -52,8 +52,6 @@
     <weaponTags>
       <li>BNF_Heavy_Infantry</li>
 	  <li>BNF_Anti_Armor_Infantry</li>
-	  <li>BNF_Gunner</li>
-	  <li>BNF_Heavy_Gunner</li>
 	</weaponTags>
     <weaponMoney>
       <min>700</min>
@@ -92,7 +90,6 @@
     </gearHealthRange>
     <weaponTags>
       <li>BNF_Ranger</li>
-	  <li>BNF_Heavy_Ranger</li>
     </weaponTags>
     <weaponMoney>
       <min>650</min>
@@ -127,7 +124,7 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_Trench_Raider</li>
+      <li>BNF_TrenchShocktrooper</li>
     </weaponTags>
     <weaponMoney>
       <min>700</min>
@@ -165,18 +162,20 @@
     </gearHealthRange>
     <weaponTags>
       <li>BNF_Trench_Shocktrooper</li>
-	  <li>BNF_Trench_Raider</li>
-	  <li>BNF_Trench_Infantry</li>
-	  <li>BNF_Lansquenets</li>
-	  <li>BNF_Trench_Dog</li>
-	  <li>BNF_Conflagrator</li>
 	</weaponTags>
     <weaponMoney>
       <min>800</min>
       <max>1000</max>
     </weaponMoney>
     <apparelTags>
-      <li>BNF_Uniform</li><li>BNF_Armor_Heavy_Shocktrooper</li><li>BNF_Armor_Gauntlets_Modified</li><li>BNF_Accessories_Shocktrooper</li><li>BNF_Armor_Light_Shocktrooper</li><li>BNF_Armor_Conscript</li><li>BNF_Armor_Heavy</li></apparelTags>
+      <li>BNF_Uniform</li>
+	  <li>BNF_Armor_Heavy_Shocktrooper</li>
+	  <li>BNF_Armor_Gauntlets_Modified</li>
+	  <li>BNF_Accessories_Shocktrooper</li>
+	  <li>BNF_Armor_Light_Shocktrooper</li>
+	  <li>BNF_Armor_Conscript</li>
+	  <li>BNF_Armor_Heavy</li>
+	</apparelTags>
     <apparelRequired>
       <li>KP_Heavy_Flak_Armor</li>
       <li>KP_Heavy_Flak_Helmet_Faceshield</li>
