@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>BNF_Helmet_Police</defName>
+		<label>Riot Helmet</label>
+		<description>.</description>
+		<recipeMaker>
+			<researchPrerequisite>RiotKit</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Original/Helmets/RiotHelmet/RiotHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeUsers Inherit="false">
+			<li>TableMachining</li>
+		</recipeUsers>
+		<costStuffCount>70</costStuffCount>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+		    <WorkToMake>12000</WorkToMake>
+		    <MaxHitPoints>150</MaxHitPoints>
+		    <Mass>3.5</Mass>
+		    <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+		    <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
+		    <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		    <EquipDelay>4</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Original/Helmets/RiotHelmet/RiotHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Infantry</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>.</loreDesc>
+				<vanillaDesc>.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
+	<ThingDef ParentName="KP_CarapaceArmors">
+		<defName>BNF_Armor_Police</defName>
+		<label>Riot Armor</label>
+		<description>.</description>
+		<recipeMaker>
+			<researchPrerequisite>RiotKit</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Original/Armor/RiotArmor/RiotArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeUsers Inherit="false">
+			<li>TableMachining</li>
+		</recipeUsers>
+        <costStuffCount>200</costStuffCount>
+		<costList>
+			<Steel>30</Steel>
+		</costList>
+		<stuffCategories>
+		    <li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<statBases>
+		    <WorkToMake>38000</WorkToMake>
+		    <MaxHitPoints>280</MaxHitPoints>
+		    <Mass>18</Mass>
+		    <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+		    <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
+		    <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		    <EquipDelay>20</EquipDelay>
+		</statBases>
+		<thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Original/Armor/RiotArmor/RiotArmor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Infantry</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Justice is a concept that defies the colonial experience. Lawlessness is anathema to the civlization being brought to the Rimworlds by the expeditions. Justice now comes in a convient belt form which allows them to subdue, pacify, and protect your families from all threats foreign. Despite your utter lack of real skills and borderline to actual psychopathy, you can use physical violence to gain the respect of the community. Also, the body cams were smashed before you go your belt so there is no recording to submit to evidence during your brutality trial.</loreDesc>
+				<vanillaDesc>A belt often found in usage by various law enforcement agencies on expedition colonies. A simple belt which contains everything from magazines, to handcuffs, to a truncheon. Its utility is is perfect subduing both friend and foe.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>		
+	
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Belt_Police</defName>
+		<label>Police Belt</label>
+		<description>Justice is a concept that defies the colonial experience. Lawlessness is anathema to the civlization being brought to the Rimworlds by the expeditions. Justice now comes in a convient belt form which allows them to subdue, pacify, and protect your families from all threats foreign. Despite your utter lack of real skills and borderline to actual psychopathy, you can use physical violence to gain the respect of the community. Also, the body cams were smashed before you go your belt so there is no recording to submit to evidence during your brutality trial.</description>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Original/Accessories/PoliceBelt/PoliceBelt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ArrestSuccessChance>0.10</ArrestSuccessChance>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Original/Accessories/PoliceBelt/PoliceBelt</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Infantry</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Justice is a concept that defies the colonial experience. Lawlessness is anathema to the civlization being brought to the Rimworlds by the expeditions. Justice now comes in a convient belt form which allows them to subdue, pacify, and protect your families from all threats foreign. Despite your utter lack of real skills and borderline to actual psychopathy, you can use physical violence to gain the respect of the community. Also, the body cams were smashed before you go your belt so there is no recording to submit to evidence during your brutality trial.</loreDesc>
+				<vanillaDesc>A belt often found in usage by various law enforcement agencies on expedition colonies. A simple belt which contains everything from magazines, to handcuffs, to a truncheon. Its utility is is perfect subduing both friend and foe.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+</Defs>

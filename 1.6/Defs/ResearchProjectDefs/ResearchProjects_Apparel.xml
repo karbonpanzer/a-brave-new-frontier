@@ -185,5 +185,19 @@
 		<researchViewX>3</researchViewX>
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>RiotKit</defName>
+		<label>Riot Kit</label>
+		<description>Craft streamlined armor and equipment for protecting the colony from crime.</description>
+		<baseCost>2000</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>SpecializedFlakArmor</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>	
 
 </Defs>

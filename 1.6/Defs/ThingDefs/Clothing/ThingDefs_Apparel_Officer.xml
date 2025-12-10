@@ -281,8 +281,8 @@
 			<li>KP_Headgear</li>
 		</thingCategories>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
-			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToMake>3500</WorkToMake>
 			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
