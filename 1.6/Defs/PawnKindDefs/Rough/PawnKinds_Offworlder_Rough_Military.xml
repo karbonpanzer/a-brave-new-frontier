@@ -12,7 +12,8 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_Infantry</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>BNF_Infantry</li>	  
     </weaponTags>
     <weaponMoney>
       <min>600</min>
@@ -50,8 +51,8 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_Heavy_Infantry</li>
-	  <li>BNF_Anti_Armor_Infantry</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>BNF_HInfantry</li>		  
 	</weaponTags>
     <weaponMoney>
       <min>700</min>
@@ -89,8 +90,8 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_Ranger</li>
-	  <li>BNF_Heavy_Ranger</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>BNF_Ranger</li>		  
 	</weaponTags>
     <weaponMoney>
       <min>650</min>
@@ -116,7 +117,7 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="OutlanderBase">
-    <defName>Offworlder_Rough_Trench_Shocktrooper</defName>
+    <defName>Offworlder_Rough_Trench_Raider</defName>
     <label>raider</label>
     <combatPower>170</combatPower>
     <isFighter>true</isFighter>
@@ -125,7 +126,8 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_TrenchShocktrooper</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>BNF_Raider</li>		  
     </weaponTags>
     <weaponMoney>
       <min>700</min>
@@ -151,6 +153,44 @@
     <initialWillRange>5~7</initialWillRange>
     <initialResistanceRange>35~45</initialResistanceRange>
   </PawnKindDef>
+  
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Rough_Trench_Shocktrooper</defName>
+    <label>heavy raider</label>
+    <combatPower>170</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>BNF_HRaider</li>	  
+    </weaponTags>
+    <weaponMoney>
+      <min>700</min>
+      <max>900</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>BNF_Uniform</li>
+	  <li>BNF_Armor_Heavy_Shocktrooper</li>
+      <li>BNF_Accessories_Shocktrooper</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>KP_Heavy_Flak_Armor</li>
+      <li>KP_Heavy_Flak_Helmet_Faceshield</li>
+      <li>KP_Armored_Boots</li>
+      <li>KP_Talon_Gauntlets</li>
+      <li>KP_Webbing_Shocktrooper</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>1200</min>
+      <max>1700</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+    <initialWillRange>5~7</initialWillRange>
+    <initialResistanceRange>35~45</initialResistanceRange>
+  </PawnKindDef>  
 
   <PawnKindDef ParentName="OutlanderBase">
     <defName>Offworlder_Rough_Medic</defName>
@@ -163,7 +203,8 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_Medic</li>
+      <li>IndustrialGunAdvanced</li>
+      <li>BNF_InfantrySupport</li>	  
     </weaponTags>
     <weaponMoney>
       <min>500</min>
@@ -201,7 +242,8 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_Heavy_Medic</li>
+      <li>IndustrialGunAdvanced</li>
+      <li>BNF_FrontlineSupport</li>	 	  
     </weaponTags>
     <weaponMoney>
       <min>600</min>
@@ -239,7 +281,8 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_Engineer</li>
+      <li>IndustrialGunAdvanced</li>
+      <li>BNF_InfantrySupport</li>	 	  
     </weaponTags>
     <weaponMoney>
       <min>500</min>
@@ -277,7 +320,8 @@
       <max>2.0</max>
     </gearHealthRange>
     <weaponTags>
-      <li>BNF_Heavy_Engineer</li>
+      <li>IndustrialGunAdvanced</li>
+      <li>BNF_FrontlineSupport</li>	 	  
     </weaponTags>
     <weaponMoney>
       <min>600</min>

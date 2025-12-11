@@ -12,7 +12,7 @@
       <max>2.0</max>
     </gearHealthRange>
 	<weaponTags>
-	  <li>BNF_Settler</li>
+	  <li>BNF_Civilian</li>
 	  <li>SimpleGun</li>
 	  <li>Pistol</li>
 	</weaponTags>
@@ -46,7 +46,7 @@
       <max>1.0</max>
     </gearHealthRange>
 	<weaponTags>
-	  <li>BNF_Trader</li>
+	  <li>BNF_Civilian</li>
 	  <li>Pistol</li>
 	  <li>SimpleGun</li>
 	</weaponTags>

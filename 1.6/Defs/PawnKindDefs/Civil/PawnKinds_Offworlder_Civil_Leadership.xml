@@ -63,8 +63,9 @@
       <max>1.0</max>
     </gearHealthRange>
     <weaponTags>
-	  <li>BNF_HighCommander</li>
-	</weaponTags>
+      <li>IndustrialGunAdvanced</li>	
+      <li>BNF_Commander</li>
+    </weaponTags>
     <weaponMoney>
       <min>1100</min>
       <max>1400</max>
