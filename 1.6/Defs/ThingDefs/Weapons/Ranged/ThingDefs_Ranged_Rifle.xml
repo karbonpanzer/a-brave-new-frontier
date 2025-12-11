@@ -116,7 +116,7 @@
 		<description>The Last of the ill-fated “Autoloader” series of rifles, designed in the furnaces of Warworlds during the Inter-Humanity Wars. A 16.5MM Light Cannon was seen as the pinnacle of the Assault Rifle genus, it easily penetrated Human made armor and even capable of disabling light vehicles and aircraft. The massive flaw of this weapon though was weight, light cannons are in fact not light, and these weapons often were used less and less when the Mechanoid threat arrived. Though capable of killing Mechanoids and Insectoids easily, they fell to the wayside when Charge Based Weaponry came into play. An effective alternative to Assault Rifles and Charge Rifles, that is if you can carry it.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/autoloaderrifle</texPath>
+			<texPath>Fallback/Weapons/autoloaderrifle_alt</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
