@@ -32,9 +32,6 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<costList>
 			<Cloth>10</Cloth>
 			<Plasteel>5</Plasteel>
@@ -105,9 +102,6 @@ This variant is marked for usage by Medical staff.</description>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<costList>
 			<Cloth>10</Cloth>
 			<Plasteel>5</Plasteel>
@@ -178,9 +172,6 @@ This variant is marked for usage by Engineering staff.</description>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<costList>
 			<Cloth>10</Cloth>
 			<Plasteel>5</Plasteel>
@@ -255,9 +246,6 @@ This variant is modified for usage on extremely cold worlds.</description>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<costList>
 			<Cloth>80</Cloth>
 			<Plasteel>5</Plasteel>
@@ -328,9 +316,6 @@ This variant is marked for usage by officers.</description>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<costList>
 			<Cloth>10</Cloth>
 			<Plasteel>5</Plasteel>
@@ -405,9 +390,6 @@ This variant is marked for usage by officers.</loreDesc>
 			<MoveSpeed>-0.10</MoveSpeed>
 			<RangedCooldownFactor>0.15</RangedCooldownFactor>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<costList>
 			<Cloth>60</Cloth>
 			<Plasteel>10</Plasteel>

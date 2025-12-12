@@ -31,9 +31,6 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<costList>
 			<Cloth>10</Cloth>
 			<Plasteel>5</Plasteel>
@@ -100,9 +97,6 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.01</MoveSpeed>
 		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<costList>
 			<Cloth>60</Cloth>
 			<Plasteel>20</Plasteel>
