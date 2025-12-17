@@ -264,7 +264,8 @@
 		<description>The traditional tailored headwear for an officer. Modified to have thermal materials to surround the head and maintain warmth even in the coldest environments. A balanced approach to both maintaining comfort and displaying of ones rank.</description>
 		<techLevel>Industrial</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>ArcticUniforms</researchPrerequisite>
+			<researchPrerequisite>OfficerUniforms</researchPrerequisite>		
+			<researchPrerequisite>ArcticUniforms</researchPrerequisite>		
 		</recipeMaker>
 		<graphicData>
 			<texPath>Original/Headgear/OfficerCapArctic/OfficerCapArctic</texPath>

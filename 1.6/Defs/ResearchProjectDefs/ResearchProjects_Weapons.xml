@@ -13,8 +13,8 @@
 			<li>PrecisionRifling</li>
 			<li>Smithing</li>
 		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>5</researchViewY>
+		<researchViewX>4</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
@@ -27,8 +27,8 @@
 		<prerequisites>
 			<li>ExpeditionaryWeaponry</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>5</researchViewY>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>	
 
 	<ResearchProjectDef>
@@ -41,8 +41,8 @@
 		<prerequisites>
 			<li>ExpeditionaryWeaponry</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>6</researchViewY>
+		<researchViewX>5</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -55,8 +55,8 @@
 		<prerequisites>
 			<li>ExpeditionaryWeaponry</li>
 		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>7</researchViewY>
+		<researchViewX>5</researchViewX>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
@@ -69,8 +69,8 @@
 		<prerequisites>
 			<li>AdvancedBallisticWeaponry</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
-		<researchViewY>5</researchViewY>
+		<researchViewX>6</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
@@ -83,8 +83,8 @@
 		<prerequisites>
 			<li>ExperimentalWeaponry</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
-		<researchViewY>6</researchViewY>
+		<researchViewX>6</researchViewX>
+		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>	
 	
 	<ResearchProjectDef>
@@ -97,8 +97,8 @@
 		<prerequisites>
 			<li>TrenchWeaponry</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
-		<researchViewY>7</researchViewY>
+		<researchViewX>6</researchViewX>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>	
 	
 </Defs>

@@ -76,7 +76,8 @@
 This variant is marked for usage by Medical staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
+			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>	
+			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>	
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -146,7 +147,8 @@ This variant is marked for usage by Medical staff.</loreDesc>
 This variant is marked for usage by Engineering staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
+			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>	
+			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>			
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -216,7 +218,7 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 This variant is modified for usage on extreme cold worlds.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>ThermalHelmets</researchPrerequisite>
+			<researchPrerequisite>ThermalHelmets</researchPrerequisite>		
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -290,7 +292,7 @@ This variant is modified for usage on extreme cold worlds.</loreDesc>
 This variant is marked for usage by Officers.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>OfficerFlakArmor</researchPrerequisite>
+			<researchPrerequisite>OfficerFlakArmor</researchPrerequisite>			
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -360,7 +362,7 @@ This variant is marked for usage by Officers.</loreDesc>
 		<description>The greatest battle after the fall of the Great Domain was the seven battles of Deirdre, the last of the Coreworlds to fall. For over 200 years, the planet of Deirdre was assaulted by the Insectoid and Mechanoid forces which saw the once beautiful planet become a Deathworld. The Domain Honor Guard eventually falling into despair and reorganizing into the Company of Sorrows, determined to keep the planet free. This helmet is a testament to that, a reinforced faceshield to ensure that soldiers who often fought in both ranged and melee could be protected against all threats.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>StormtrooperKit</researchPrerequisite>
+			<researchPrerequisite>ModifiedHelmet</researchPrerequisite>			
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>

@@ -105,6 +105,7 @@ This variant is marked for usage by Medical staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
+			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>			
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -181,6 +182,7 @@ This variant is marked for usage by Engineering staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
+			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>			
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>

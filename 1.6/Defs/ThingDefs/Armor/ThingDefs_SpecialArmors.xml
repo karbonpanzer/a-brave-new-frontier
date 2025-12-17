@@ -82,7 +82,7 @@
 		<description>The most important part of any army is the ability to acquire intelligence on their enemies. The Vanguard Carapace Armor was designed on several planets though the most famous and its namesake would be by the Alexandrian Vanguard. During the First War of Alexandria against the Mechanoids, the most important factor in combat was speed. While not being heavy standard Carapace Armor is bulky and could be lightened. The Vanguard did so through removal of the shoulder plates and the “shaving” of certain areas until it only protected the chest of the wearer.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>VanguardKit</researchPrerequisite>
+			<researchPrerequisite>VanguardArmor</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -157,7 +157,8 @@
 		<description>Based on the ancient warriors of Old Earth, the Centurions of the Holyworld of Sabbath are an elite force of warriors. Quick, decisive, and often brutal, the Centurions of Sabbath have served as the last line of defense for the Beaconist Holyworld. Often this armor is found in Rimworlds are from the Heralds of Sabbath, Centurion forces sent to recover Beaconist relics to further their quest for the source. As with the tradition of Centurions, they often serve as officers of a squad of lesser legionaries though the position is filled with veneration.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>VanguardKit</researchPrerequisite>
+			<researchPrerequisite>VanguardArmor</researchPrerequisite>		
+			<researchPrerequisite>OfficerFlakArmor</researchPrerequisite>			
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>5</Crafting>
