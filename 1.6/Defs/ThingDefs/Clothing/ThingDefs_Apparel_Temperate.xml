@@ -11,7 +11,7 @@
 		</recipeMaker>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Clothes/FieldUniformTemperate/FieldUniformTemperate</texPath>
+			<texPath>Clothes/FieldUniformTemperate/FieldUniformTemperate</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.8</drawSize>
 		</graphicData>
@@ -43,7 +43,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Clothes/FieldUniformTemperate/FieldUniformTemperate</wornGraphicPath>
+			<wornGraphicPath>Clothes/FieldUniformTemperate/FieldUniformTemperate</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
@@ -81,7 +81,7 @@
 				<vanillaDesc>Standard frontier duty uniform. Balanced composition gives light protection and moderate insulation without restricting movement. Suitable for most seasons but not for climate extremes.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Clothes/FieldUniformTemperate/FieldUniformTemperate</originalPath>
+				<originalPath>Clothes/FieldUniformTemperate/FieldUniformTemperate</originalPath>
 				<greyscalePath>Greyscale/Clothes/FieldUniformTemperate/FieldUniformTemperate</greyscalePath>
 			</li>
 		</modExtensions>
@@ -96,7 +96,7 @@
 			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
+			<texPath>Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
@@ -122,7 +122,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Headgear/FieldHatTemperate/FieldHatTemperate</wornGraphicPath>
+			<wornGraphicPath>Headgear/FieldHatTemperate/FieldHatTemperate</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -163,7 +163,7 @@
 				<vanillaDesc>Standard issue frontier headwear. Balanced composition gives modest protection and comfort in a range of conditions. Suitable for most seasons but not for climate extremes.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Headgear/FieldHatTemperate/FieldHatTemperate</originalPath>
+				<originalPath>Headgear/FieldHatTemperate/FieldHatTemperate</originalPath>
 				<greyscalePath>Greyscale/Headgear/FieldHatTemperate/FieldHatTemperate</greyscalePath>
 			</li>
 		</modExtensions>

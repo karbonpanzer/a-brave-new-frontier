@@ -17,7 +17,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/HeavyHelmet/HeavyHelmet</texPath>
+			<texPath>Helmets/HeavyHelmet/HeavyHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -44,7 +44,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/HeavyHelmet/HeavyHelmet</wornGraphicPath>
+			<wornGraphicPath>Helmets/HeavyHelmet/HeavyHelmet</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -63,7 +63,7 @@
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource efficient. The additional protection still does not provide the same level of protection as a full helmet does. </vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/HeavyHelmet/HeavyHelmet</originalPath>
+				<originalPath>Helmets/HeavyHelmet/HeavyHelmet</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmet/HeavyHelmet</greyscalePath>
 			</li>
 		</modExtensions>
@@ -87,7 +87,7 @@ This variant is marked for usage by Medical staff.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</texPath>
+			<texPath>Helmets/HeavyHelmetMedic/HeavyHelmetMedic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -114,7 +114,7 @@ This variant is marked for usage by Medical staff.</description>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</wornGraphicPath>
+			<wornGraphicPath>Helmets/HeavyHelmetMedic/HeavyHelmetMedic</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -134,7 +134,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</originalPath>
+				<originalPath>Helmets/HeavyHelmetMedic/HeavyHelmetMedic</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetMedic/HeavyHelmetMedic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -158,7 +158,7 @@ This variant is marked for usage by Engineering staff.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</texPath>
+			<texPath>Helmets/HeavyHelmetSupport/HeavyHelmetSupport</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -185,7 +185,7 @@ This variant is marked for usage by Engineering staff.</description>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</wornGraphicPath>
+			<wornGraphicPath>Helmets/HeavyHelmetSupport/HeavyHelmetSupport</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -205,7 +205,7 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but marked with insignia to denote engineers.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</originalPath>
+				<originalPath>Helmets/HeavyHelmetSupport/HeavyHelmetSupport</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetSupport/HeavyHelmetSupport</greyscalePath>
 			</li>
 		</modExtensions>
@@ -228,7 +228,7 @@ This variant is modified for usage on extreme cold worlds.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</texPath>
+			<texPath>Helmets/HeavyHelmetThermal/HeavyHelmetThermal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -259,7 +259,7 @@ This variant is modified for usage on extreme cold worlds.</description>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</wornGraphicPath>
+			<wornGraphicPath>Helmets/HeavyHelmetThermal/HeavyHelmetThermal</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -279,7 +279,7 @@ This variant is modified for usage on extreme cold worlds.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Lined with thermal material to protect the wearer in extreme temperatures.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</originalPath>
+				<originalPath>Helmets/HeavyHelmetThermal/HeavyHelmetThermal</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</greyscalePath>
 			</li>
 		</modExtensions>
@@ -302,7 +302,7 @@ This variant is marked for usage by Officers.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</texPath>
+			<texPath>Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -330,7 +330,7 @@ This variant is marked for usage by Officers.</description>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</wornGraphicPath>
+			<wornGraphicPath>Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -350,7 +350,7 @@ This variant is marked for usage by Officers.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but decorated with gold inlay to denote officer rank.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</originalPath>
+				<originalPath>Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetOfficer/HeavyHelmetOfficer</greyscalePath>
 			</li>
 		</modExtensions>
@@ -372,7 +372,7 @@ This variant is marked for usage by Officers.</loreDesc>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</texPath>
+			<texPath>Helmets/HeavyHelmetMasked/HeavyHelmetMasked</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -404,7 +404,7 @@ This variant is marked for usage by Officers.</loreDesc>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</wornGraphicPath>
+			<wornGraphicPath>Helmets/HeavyHelmetMasked/HeavyHelmetMasked</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -423,7 +423,7 @@ This variant is marked for usage by Officers.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Equipped with a faceshield for additional facial protection but reduces sight for the wearer.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</originalPath>
+				<originalPath>Helmets/HeavyHelmetMasked/HeavyHelmetMasked</originalPath>
 				<greyscalePath>Greyscale/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</greyscalePath>
 			</li>
 		</modExtensions>

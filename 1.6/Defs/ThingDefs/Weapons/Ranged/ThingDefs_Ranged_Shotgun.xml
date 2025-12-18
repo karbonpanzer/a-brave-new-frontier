@@ -23,7 +23,7 @@
 		<description>The name much like the gun was a marketing ploy to get people to buy this unorthodox shotgun. A double barrel pulse action shotgun firing 10 gauge using an experimental caseless ammo system. The main selling point was with two barrels and two tubes, you can have one barrel firing shot from an unrifled barrel while the other fires slugs from a rifled barrel. A cute concept though not groundbreaking. It sold enough to keep the company afloat, but it went gangbusters when Mechanoids invaded. The gun was configured to fire explosive shells and EMP slugs, to counter Mechanoids with shields, though most people like the versatility of shot. Unlike other weapons, this isn’t surplus, its part of expanding the market.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/supershotgun</texPath>
+			<texPath>Weapons/supershotgun</texPath>
 		</graphicData>
 		<soundInteract>Interact_Shotgun</soundInteract>
 		<weaponClasses>
@@ -121,7 +121,7 @@
 		<label>coreburner</label>
 		<description>An incendiary chain shotgun. Multiple flaming pellets per trigger pull, likely to ignite targets and surroundings.</description>
 		<graphicData>
-			<texPath>Fallback/Weapons/coreburner</texPath>
+			<texPath>Weapons/coreburner</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.1</drawSize>
 		</graphicData>

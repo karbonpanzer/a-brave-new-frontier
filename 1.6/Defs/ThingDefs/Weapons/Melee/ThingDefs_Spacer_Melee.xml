@@ -7,7 +7,7 @@
 		<description>On the world Eku, during the fall of the Great Domain many found themselves under attack by the Mechanoids. Eku was not a frontier world, instead it had been settled centuries before by a movement of neo-Luddites seeking a closer harmony with nature. In the 42nd centuries after centuries of peace, they were invaded by the 9th Tetramid Fleet, forcing their world into a war they could not fight. Eventually a group of warriors emerged called the Stalkers, a sect of an order which developed this weapon with the goal of not only fighting Mechanoids but breaking them. A reinforced glaive with EMP emitters integrated into the blade which not only cuts through flesh and steel but can disable Mechanoids temporarily.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/electroglaive</texPath>
+			<texPath>Weapons/electroglaive</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>2.0</drawSize>
 		</graphicData>
@@ -98,7 +98,7 @@
 		<description>A motorised sword with serrated teeth mounted along the blade. When activated these teeth chew through flesh, bone, and armor with ease. Though it also has issues with weight and lacking the range and speed of other weapons.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/chainsword</texPath>
+			<texPath>Weapons/chainsword</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
 		</graphicData>
@@ -193,7 +193,7 @@
 		<description>A massive motorised greatsword with spinning teeth. Brutal cutting power that easily tears through flesh and armor while providing a great reach against targets. It is very heavy and often recommended that it usage to remain with those who can use it effectively</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/chaingreatsword</texPath>
+			<texPath>Weapons/chaingreatsword</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.6</drawSize>
 		</graphicData>
@@ -293,7 +293,7 @@
 		<description>A massive kinetic hammer that houses a small grav-core. On impact it delivers concussive, armor-crushing blunt force with ease. Its heavy weight prevents it usage by many but the best warriors seen on the Rimworlds.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/gravhammer</texPath>
+			<texPath>Weapons/gravhammer</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.8</drawSize>
 		</graphicData>

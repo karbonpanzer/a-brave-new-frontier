@@ -9,7 +9,7 @@
 			<researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Accessories/InfantryPouches/InfantryPouches</texPath>
+			<texPath>Accessories/InfantryPouches/InfantryPouches</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -41,7 +41,7 @@
 				<li>Torso</li>
 				<li>Waist</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Accessories/InfantryPouches/InfantryPouches</wornGraphicPath>
+			<wornGraphicPath>Accessories/InfantryPouches/InfantryPouches</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -80,7 +80,7 @@
 				<vanillaDesc>Standard-issue pouches carried by infantry for centuries. Hold ammunition, canteen, and small tools like knives or bayonets. Improves firing cadence modestly while keeping kit organized.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Accessories/InfantryPouches/InfantryPouches</originalPath>
+				<originalPath>Accessories/InfantryPouches/InfantryPouches</originalPath>
 				<greyscalePath>Greyscale/Accessories/InfantryPouches/InfantryPouches</greyscalePath>
 			</li>
 		</modExtensions>
@@ -94,7 +94,7 @@
 			<researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Accessories/SupportPouches/SupportPouches</texPath>
+			<texPath>Accessories/SupportPouches/SupportPouches</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -128,7 +128,7 @@
 				<li>Torso</li>
 				<li>Waist</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Accessories/SupportPouches/SupportPouches</wornGraphicPath>
+			<wornGraphicPath>Accessories/SupportPouches/SupportPouches</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -167,7 +167,7 @@
 				<vanillaDesc>Utility pouches configured for engineers and builders. Include tools and supplies to speed construction and repairs. Essential gear for supporting units in the field.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Accessories/SupportPouches/SupportPouches</originalPath>
+				<originalPath>Accessories/SupportPouches/SupportPouches</originalPath>
 				<greyscalePath>Greyscale/Accessories/SupportPouches/SupportPouches</greyscalePath>
 			</li>
 		</modExtensions>
@@ -181,7 +181,7 @@
 			<researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Accessories/MedicPouches/MedicPouches</texPath>
+			<texPath>Accessories/MedicPouches/MedicPouches</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -215,7 +215,7 @@
 				<li>Torso</li>
 				<li>Waist</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Accessories/MedicPouches/MedicPouches</wornGraphicPath>
+			<wornGraphicPath>Accessories/MedicPouches/MedicPouches</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -254,7 +254,7 @@
 				<vanillaDesc>Medical kit pouches carried by frontline medics. Packed with supplies for fast treatment and improved tend quality. Lightweight and accessible for emergencies.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Accessories/MedicPouches/MedicPouches</originalPath>
+				<originalPath>Accessories/MedicPouches/MedicPouches</originalPath>
 				<greyscalePath>Greyscale/Accessories/MedicPouches/MedicPouches</greyscalePath>
 			</li>
 		</modExtensions>

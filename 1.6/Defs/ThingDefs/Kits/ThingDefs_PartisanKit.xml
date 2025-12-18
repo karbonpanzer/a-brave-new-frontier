@@ -306,92 +306,14 @@
 			<speed>65</speed>
 		</projectile>
 	</ThingDef>
-
-	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Rifle_Partisan</defName>
-		<label>Partisan Rifle</label>
-		<description>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</description>
-		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Original/Weapons/PartisanRifle</texPath>
-		</graphicData>
-		<soundInteract>Interact_Rifle</soundInteract>
-		<recipeMaker>
-			<researchPrerequisite>AdvancedBallisticWeaponry</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>8</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>TableMachining</li>
-			</recipeUsers>
-		</recipeMaker>
-		<costList>
-			<Steel>75</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
-		</costList>
-		<statBases>
-			<WorkToMake>38000</WorkToMake>
-			<Mass>4.5</Mass>
-			<AccuracyTouch>0.60</AccuracyTouch>
-			<AccuracyShort>0.60</AccuracyShort>
-			<AccuracyMedium>0.55</AccuracyMedium>
-			<AccuracyLong>0.45</AccuracyLong>
-			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
-		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>BNF_Bullet_PartisanRifle</defaultProjectile>
-				<warmupTime>1.0</warmupTime>
-				<range>28.0</range>
-				<burstShotCount>4</burstShotCount>
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Shot_AssaultRifle</soundCast>
-				<soundCastTail>GunTail_Medium</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
-		<weaponTags>
-			<li>IndustrialGun</li>			
-			<li>IndustrialGunAdvanced</li>
-			<li>AssaultRifle</li>			
-			<li>BNF_Partisan</li>		
-		</weaponTags>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>10</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
-		<modExtensions>
-			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</loreDesc>
-				<vanillaDesc>A modern rifle styled after ancient designs. Fires quick bursts with modest accuracy and damage. Favored on the Rim by mercenaries and militias for its reliability.</vanillaDesc>
-			</li>
-		</modExtensions>
-	</ThingDef>
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BNF_Rifle_PartisanB</defName>
-		<label>Partisan Rifle</label>
-		<description>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</description>
+		<defName>BNF_Rifle_ServiceB</defName>
+		<label>Service Rifle (Bayonet)</label>
+		<description>Once considered the right arm of the free worlds, the partisan Rifle emerged during the great schisms. Before the mechanoid threat, separatists groups armed themselves with this ancient design. After centuries of fighting the Domain, the Bugs, and the Bots, the design has been further streamlined. parts made with polymers or woods changes to shaped steel, fine crafted metal turned to mass production stamps, and quality turned to quantity. Despite this. it is a favorite among mercenaries and colonial militias, some groups have even modified them to take bayonets and other ancient modifications. Now the weapon represents the worlds striving for freedom.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Original/Weapons/PartisanRifleBayonet</texPath>
+			<texPath>Weapons/servicerifleb</texPath>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<equippedAngleOffset>35</equippedAngleOffset>		
@@ -466,8 +388,8 @@
 		</tools>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</loreDesc>
-				<vanillaDesc>A modern rifle styled after ancient designs. Fires quick bursts with modest accuracy and damage. Favored on the Rim by mercenaries and militias for its reliability.</vanillaDesc>
+				<loreDesc>Once considered the right arm of the free worlds, the partisan Rifle emerged during the great schisms. Before the mechanoid threat, separatists groups armed themselves with this ancient design. After centuries of fighting the Domain, the Bugs, and the Bots, the design has been further streamlined. parts made with polymers or woods changes to shaped steel, fine crafted metal turned to mass production stamps, and quality turned to quantity. Despite this. it is a favorite among mercenaries and colonial militias, some groups have even modified them to take bayonets and other ancient modifications. Now the weapon represents the worlds striving for freedom.</loreDesc>
+				<vanillaDesc>A simplified rifle design built using simpler parts. Light, cheap. and decently accurate, this rifle is considered a favorite in resource poor communities. A simplified design make it so even the poorest colonies are well armed.</vanillaDesc>
 			</li>
 		</modExtensions>
 	</ThingDef>

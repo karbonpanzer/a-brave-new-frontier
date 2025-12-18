@@ -11,7 +11,7 @@
 		</recipeMaker>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Clothes/FieldUniformWinter/FieldUniformWinter</texPath>
+			<texPath>Clothes/FieldUniformWinter/FieldUniformWinter</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.8</drawSize>
 		</graphicData>
@@ -43,7 +43,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Clothes/FieldUniformWinter/FieldUniformWinter</wornGraphicPath>
+			<wornGraphicPath>Clothes/FieldUniformWinter/FieldUniformWinter</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
@@ -81,7 +81,7 @@
 				<vanillaDesc>Cold-weather field uniform for boreal zones. Insulated composition blocks wind and retains warmth while keeping bulk modest. Less comfortable in warm conditions.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Clothes/FieldUniformWinter/FieldUniformWinter</originalPath>
+				<originalPath>Clothes/FieldUniformWinter/FieldUniformWinter</originalPath>
 				<greyscalePath>Greyscale/Clothes/FieldUniformWinter/FieldUniformWinter</greyscalePath>
 			</li>
 		</modExtensions>
@@ -96,7 +96,7 @@
 			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Headgear/FieldHatWinter/FieldHatWinter</texPath>
+			<texPath>Headgear/FieldHatWinter/FieldHatWinter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
@@ -122,7 +122,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Headgear/FieldHatWinter/FieldHatWinter</wornGraphicPath>
+			<wornGraphicPath>Headgear/FieldHatWinter/FieldHatWinter</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -163,7 +163,7 @@
 				<vanillaDesc>Cold-weather headwear for boreal zones. Insulated composition retains warmth and blocks wind while remaining light. Less comfortable in hot conditions.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Headgear/FieldHatWinter/FieldHatWinter</originalPath>
+				<originalPath>Headgear/FieldHatWinter/FieldHatWinter</originalPath>
 				<greyscalePath>Greyscale/Headgear/FieldHatWinter/FieldHatWinter</greyscalePath>
 			</li>
 		</modExtensions>

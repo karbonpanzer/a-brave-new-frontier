@@ -21,7 +21,7 @@
 		<description>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/RetroRifle</texPath>
+			<texPath>Weapons/RetroRifle</texPath>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -100,7 +100,7 @@
 		<label>heavy "autoloader" rifle bullets</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Projectile/Autoloader_16MM</texPath>
+			<texPath>Projectile/Autoloader_16MM</texPath>
 		</graphicData>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
@@ -116,7 +116,7 @@
 		<description>The Last of the ill-fated “Autoloader” series of rifles, designed in the furnaces of Warworlds during the Inter-Humanity Wars. A 16.5MM Light Cannon was seen as the pinnacle of the Assault Rifle genus, it easily penetrated Human made armor and even capable of disabling light vehicles and aircraft. The massive flaw of this weapon though was weight, light cannons are in fact not light, and these weapons often were used less and less when the Mechanoid threat arrived. Though capable of killing Mechanoids and Insectoids easily, they fell to the wayside when Charge Based Weaponry came into play. An effective alternative to Assault Rifles and Charge Rifles, that is if you can carry it.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/autoloaderrifle_alt</texPath>
+			<texPath>Weapons/autoloaderrifle_alt</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -216,7 +216,7 @@
 		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/hyperblaster</texPath>
+			<texPath>Weapons/hyperblaster</texPath>
 		</graphicData>
 		<soundInteract>Interact_ChargeLance</soundInteract>
 		<recipeMaker>
@@ -303,7 +303,7 @@
 		<description>A reliable intermediate rifle used by militias and security forces. Balanced damage, accuracy, and rate of fire make it versatile for general duty. Common on the far Rimworlds due to its cheaper production cost compared to other materials</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/servicerifle</texPath>
+			<texPath>Weapons/servicerifle</texPath>
 			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -405,7 +405,7 @@
 		<label>flechette rifle</label>
 		<description>A rare firearm which uses shredder flechettes rather than conventional bullets. Lacking the armor penetration and range of other rifles, this performs best at close range where it shreds flesh and bone with ease. It rarity is only matched by the brutality which it creates in the battlefield.</description>
 		<graphicData>
-			<texPath>Fallback/Weapons/flechetterifle</texPath>
+			<texPath>Weapons/flechetterifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.2</drawSize>
 		</graphicData>
@@ -504,7 +504,7 @@
 		<description>A compact belt-fed squad support gun. Fires long, fast bursts for heavy suppression. Very effective at medium range but inaccurate and burns through ammunition.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/assaultlmg</texPath>
+			<texPath>Weapons/assaultlmg</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

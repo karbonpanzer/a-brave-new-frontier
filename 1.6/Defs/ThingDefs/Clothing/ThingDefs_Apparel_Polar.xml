@@ -11,7 +11,7 @@
 		</recipeMaker>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Clothes/FieldUniformArctic/FieldUniformArctic</texPath>
+			<texPath>Clothes/FieldUniformArctic/FieldUniformArctic</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.8</drawSize>
 		</graphicData>
@@ -43,7 +43,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Clothes/FieldUniformArctic/FieldUniformArctic</wornGraphicPath>
+			<wornGraphicPath>Clothes/FieldUniformArctic/FieldUniformArctic</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
@@ -81,7 +81,7 @@
 				<vanillaDesc>Extreme-cold field uniform with heavy insulation. Thick composition maximizes warmth and wind blocking at the cost of added bulk. Unsuitable for warm climates.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Clothes/FieldUniformArctic/FieldUniformArctic</originalPath>
+				<originalPath>Clothes/FieldUniformArctic/FieldUniformArctic</originalPath>
 				<greyscalePath>Greyscale/Clothes/FieldUniformArctic/FieldUniformArctic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -96,7 +96,7 @@
 			<researchPrerequisite>ArcticUniforms</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Headgear/FieldHatArctic/FieldHatArctic</texPath>
+			<texPath>Headgear/FieldHatArctic/FieldHatArctic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
@@ -122,7 +122,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Headgear/FieldHatArctic/FieldHatArctic</wornGraphicPath>
+			<wornGraphicPath>Headgear/FieldHatArctic/FieldHatArctic</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -163,7 +163,7 @@
 				<vanillaDesc>Extreme-cold headwear with heavy insulation. Thick composition maximizes warmth and wind resistance at the cost of bulk. Lined with thermal material to retain warmth in polar conditions.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Headgear/FieldHatArctic/FieldHatArctic</originalPath>
+				<originalPath>Headgear/FieldHatArctic/FieldHatArctic</originalPath>
 				<greyscalePath>Greyscale/Headgear/FieldHatArctic/FieldHatArctic</greyscalePath>
 			</li>
 		</modExtensions>

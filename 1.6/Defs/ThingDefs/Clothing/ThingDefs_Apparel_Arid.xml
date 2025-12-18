@@ -10,7 +10,7 @@
 		</recipeMaker>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Clothes/FieldUniformDesert/FieldUniformDesert</texPath>
+			<texPath>Clothes/FieldUniformDesert/FieldUniformDesert</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.8</drawSize>
 		</graphicData>
@@ -42,7 +42,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Clothes/FieldUniformDesert/FieldUniformDesert</wornGraphicPath>
+			<wornGraphicPath>Clothes/FieldUniformDesert/FieldUniformDesert</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
@@ -76,7 +76,7 @@
 				<vanillaDesc>Duty uniform tuned for hot, dry climates. Breathable composition sheds heat while providing light protection. Offers poor insulation in cold weather.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Clothes/FieldUniformDesert/FieldUniformDesert</originalPath>
+				<originalPath>Clothes/FieldUniformDesert/FieldUniformDesert</originalPath>
 				<greyscalePath>Greyscale/Clothes/FieldUniformDesert/FieldUniformDesert</greyscalePath>
 			</li>
 		</modExtensions>
@@ -91,7 +91,7 @@
 			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Headgear/FieldHatDesert/FieldHatDesert</texPath>
+			<texPath>Headgear/FieldHatDesert/FieldHatDesert</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
@@ -117,7 +117,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Headgear/FieldHatDesert/FieldHatDesert</wornGraphicPath>
+			<wornGraphicPath>Headgear/FieldHatDesert/FieldHatDesert</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -158,7 +158,7 @@
 				<vanillaDesc>Lightweight headwear tuned for hot, dry climates. Breathable composition vents heat while offering basic head protection. Poor insulation makes it unsuitable for colder environments.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Headgear/FieldHatDesert/FieldHatDesert</originalPath>
+				<originalPath>Headgear/FieldHatDesert/FieldHatDesert</originalPath>
 				<greyscalePath>Greyscale/Headgear/FieldHatDesert/FieldHatDesert</greyscalePath>
 			</li>
 		</modExtensions>

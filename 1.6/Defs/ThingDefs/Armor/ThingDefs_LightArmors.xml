@@ -17,7 +17,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Armor/LightArmor/LightArmor</texPath>
+			<texPath>Armor/LightArmorVariants/LightArmor/LightArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -50,7 +50,7 @@
 				<li>Shoulders</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Armor/LightArmor/LightArmor</wornGraphicPath>
+			<wornGraphicPath>Armor/LightArmorVariants/LightArmor/LightArmor</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -69,7 +69,7 @@
 				<vanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Weaker than power armor in overall protection.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/LightArmorVariants/LightArmor/LightArmor</originalPath>
+				<originalPath>Armor/LightArmorVariants/LightArmor/LightArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmor/LightArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -92,7 +92,7 @@ This variant is marked for usage by Medical staff.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Armor/LightArmorMedic/LightArmorMedic</texPath>
+			<texPath>Armor/LightArmorVariants/LightArmorMedic/LightArmorMedic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -125,7 +125,7 @@ This variant is marked for usage by Medical staff.</description>
 				<li>Shoulders</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Armor/LightArmorMedic/LightArmorMedic</wornGraphicPath>
+			<wornGraphicPath>Armor/LightArmorVariants/LightArmorMedic/LightArmorMedic</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -145,7 +145,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Identical to the standard carapace armor, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/LightArmorVariants/LightArmorMedic/LightArmorMedic</originalPath>
+				<originalPath>Armor/LightArmorVariants/LightArmorMedic/LightArmorMedic</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmorMedic/LightArmorMedic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -168,7 +168,7 @@ This variant is marked for usage by Engineering staff.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Armor/LightArmorSupport/LightArmorSupport</texPath>
+			<texPath>Armor/LightArmorVariants/LightArmorSupport/LightArmorSupport</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -201,7 +201,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<li>Shoulders</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Armor/LightArmorSupport/LightArmorSupport</wornGraphicPath>
+			<wornGraphicPath>Armor/LightArmorVariants/LightArmorSupport/LightArmorSupport</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -220,7 +220,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>A suit of plasteel reinforced plate armor... (same vanilla kept)</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/LightArmorVariants/LightArmorSupport/LightArmorSupport</originalPath>
+				<originalPath>Armor/LightArmorVariants/LightArmorSupport/LightArmorSupport</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmorSupport/LightArmorSupport</greyscalePath>
 			</li>
 		</modExtensions>

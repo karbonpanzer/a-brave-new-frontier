@@ -11,7 +11,7 @@
 		</recipeMaker>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Clothes/OfficerUniform/OfficerUniform</texPath>
+			<texPath>Clothes/OfficerUniform/OfficerUniform</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.8</drawSize>
 		</graphicData>
@@ -43,7 +43,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Clothes/OfficerUniform/OfficerUniform</wornGraphicPath>
+			<wornGraphicPath>Clothes/OfficerUniform/OfficerUniform</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
@@ -82,7 +82,7 @@
 				<vanillaDesc>Tailored officer variant of the frontier uniform. Provides the same light protection and mobility as the standard set with refined cut and rank insignia. Balanced insulation for temperate conditions.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Clothes/OfficerUniform/OfficerUniform</originalPath>
+				<originalPath>Clothes/OfficerUniform/OfficerUniform</originalPath>
 				<greyscalePath>Greyscale/Clothes/OfficerUniform/OfficerUniform</greyscalePath>
 			</li>
 		</modExtensions>
@@ -98,7 +98,7 @@
 		</recipeMaker>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
+			<texPath>Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.8</drawSize>
 		</graphicData>
@@ -130,7 +130,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Clothes/OfficerUniformWinter/OfficerUniformWinter</wornGraphicPath>
+			<wornGraphicPath>Clothes/OfficerUniformWinter/OfficerUniformWinter</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>OnSkin</li>
@@ -169,7 +169,7 @@
 				<vanillaDesc>Officer variant built for polar service. Heavy insulated composition and a windproof shell retain warmth in severe cold. Same light protection as the officer uniform, optimized for extreme climates.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Clothes/OfficerUniformWinter/OfficerUniformWinter</originalPath>
+				<originalPath>Clothes/OfficerUniformWinter/OfficerUniformWinter</originalPath>
 				<greyscalePath>Greyscale/Clothes/OfficerUniformWinter/OfficerUniformWinter</greyscalePath>
 			</li>
 		</modExtensions>
@@ -184,7 +184,7 @@
 			<researchPrerequisite>OfficerUniforms</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Headgear/OfficerCap/OfficerCap</texPath>
+			<texPath>Headgear/OfficerCap/OfficerCap</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
@@ -210,7 +210,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Headgear/OfficerCap/OfficerCap</wornGraphicPath>
+			<wornGraphicPath>Headgear/OfficerCap/OfficerCap</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -252,7 +252,7 @@
 				<vanillaDesc>Tailored headwear for frontier officers. Provides modest protection and insulation while displaying rank insignia. Balanced composition makes it suitable for most environments.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Headgear/OfficerCap/OfficerCap</originalPath>
+				<originalPath>Headgear/OfficerCap/OfficerCap</originalPath>
 				<greyscalePath>Greyscale/Headgear/OfficerCap/OfficerCap</greyscalePath>
 			</li>
 		</modExtensions>
@@ -335,7 +335,7 @@
 				<vanillaDesc>The traditional tailored headwear for an officer. Modified to have thermal materials to surround the head and maintain warmth even in the coldest environments. A balanced approach to both maintaining comfort and displaying of ones rank.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Headgear/OfficerCapArctic/OfficerCapArctic</originalPath>
+				<originalPath>Headgear/OfficerCapArctic/OfficerCapArctic</originalPath>
 			</li>
 		</modExtensions>
 	</ThingDef>

@@ -17,7 +17,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Armor/OfficerArmor/OfficerArmor</texPath>
+			<texPath>Armor/OfficerArmorVariants/OfficerArmor/OfficerArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -51,7 +51,7 @@
 				<li>Shoulders</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Armor/OfficerArmor/OfficerArmor</wornGraphicPath>
+			<wornGraphicPath>Armor/OfficerArmorVariants/OfficerArmor/OfficerArmor</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -70,7 +70,7 @@
 				<vanillaDesc>A higher-quality variant of carapace armor, produced with refined methods for greater durability without extra weight. Features gold inlay as a symbol of rank and authority. Solid protection, but more ceremonial than frontline gear.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/OfficerArmorVariants/OfficerArmor/OfficerArmor</originalPath>
+				<originalPath>Armor/OfficerArmorVariants/OfficerArmor/OfficerArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/OfficerArmor/OfficerArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -92,7 +92,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Armor/ScoutArmor/ScoutArmor</texPath>
+			<texPath>Armor/ScoutArmorVariants/ScoutArmor/ScoutArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -125,7 +125,7 @@
 				<li>Torso</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Armor/ScoutArmor/ScoutArmor</wornGraphicPath>
+			<wornGraphicPath>Armor/ScoutArmorVariants/ScoutArmor/ScoutArmor</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -145,7 +145,7 @@
 				<vanillaDesc>A lighter variant of carapace armor that sacrifices protection for mobility. Shoulder plating is removed and chest coverage reduced to cut weight. Favored by scouts who need speed and maneuverability over full defense.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/ScoutArmorVariants/ScoutArmor/ScoutArmor</originalPath>
+				<originalPath>Armor/ScoutArmorVariants/ScoutArmor/ScoutArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/ScoutArmor/ScoutArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -168,7 +168,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Armor/OfficerScoutArmor/OfficerScoutArmor</texPath>
+			<texPath>Armor/OfficerArmorVariants/OfficerScoutArmor/OfficerScoutArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -201,7 +201,7 @@
 				<li>Torso</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Armor/OfficerScoutArmor/OfficerScoutArmor</wornGraphicPath>
+			<wornGraphicPath>Armor/OfficerArmorVariants/OfficerScoutArmor/OfficerScoutArmor</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Middle</li>
@@ -220,165 +220,10 @@
 				<vanillaDesc>A lighter officer carapace variant with removed shoulder plates to cut weight. Retains its gold inlay and status as a symbol of rank. Offers good protection with higher mobility, though the exposed shoulders make it a risky choice.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/OfficerArmorVariants/OfficerScoutArmor/OfficerScoutArmor</originalPath>
+				<originalPath>Armor/OfficerArmorVariants/OfficerScoutArmor/OfficerScoutArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/OfficerScoutArmor/OfficerScoutArmor</greyscalePath>
 			</li>
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
-		<defName>KP_Armored_Boots</defName>
-		<label>Carapace Greaves</label>
-		<description>The initial run of Carapace Armor often had protection for the thighs of soldiers but did not protect the leg from the knee down. This was chosen because of the need to keep soldiers mobile and moving fast. After decades of fighting Mechanoids and Insectoids in addition to humanity, the battle-smiths of the planet of Hastings created the Carapace Greaves. Built to the same standard of Carapace Armor, which allows protection but has the trade-off of heavy equipment slowing down soldiers, though the Dragonguard of Hastings preferred the heavy armor over nothing.</description>
-		<techLevel>Spacer</techLevel>
-		<recipeMaker>
-			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>5</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>TableMachining</li>
-			</recipeUsers>
-		</recipeMaker>
-		<graphicData>
-			<texPath>Fallback/Armor/ArmoredBoots/ArmoredBoots</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<uiIconScale>2</uiIconScale>
-		<statBases>
-			<WorkToMake>5000</WorkToMake>
-			<MarketValue>100</MarketValue>
-			<MaxHitPoints>80</MaxHitPoints>
-			<Mass>2.5</Mass>
-			<StuffEffectMultiplierArmor>1.00</StuffEffectMultiplierArmor>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>-0.10</MoveSpeed>
-		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
-		<costList>
-			<Cloth>10</Cloth>
-			<Plasteel>5</Plasteel>
-		</costList>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>10</costStuffCount>
-		<apparel>
-			<bodyPartGroups>
-				<li>Feet</li>
-			</bodyPartGroups>
-			<useWornGraphicMask>True</useWornGraphicMask>
-			<layers>
-				<li>Middle</li>
-			</layers>
-			<tags>
-				<li>BNF_Armor_Light</li>
-                <li>BNF_Armor_Heavy</li>
-				<li>BNF_Armor_Light_Medic</li>
-				<li>BNF_Armor_Heavy_Medic</li>
-				<li>BNF_Armor_Light_Engineer</li>
-				<li>BNF_Armor_Heavy_Engineer</li>
-				<li>BNF_Armor_Light_Shocktrooper</li>				
-				<li>BNF_Armor_Heavy_Shocktrooper</li>				
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-		<modExtensions>
-			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>The initial run of Carapace Armor often had protection for the thighs of soldiers but did not protect the leg from the knee down. This was chosen because of the need to keep soldiers mobile and moving fast. After decades of fighting Mechanoids and Insectoids in addition to humanity, the battle-smiths of the planet of Hastings created the Carapace Greaves. Built to the same standard of Carapace Armor, which allows protection but has the trade-off of heavy equipment slowing down soldiers, though the Dragonguard of Hastings preferred the heavy armor over nothing.</loreDesc>
-				<vanillaDesc>Armored greaves that protect the lower legs. Provide solid defense against melee and projectile strikes to the shins and feet. Add weight that slightly reduces mobility but complete the carapace armor set.</vanillaDesc>
-			</li>
-			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/ArmoredBoots/ArmoredBoots</originalPath>
-				<greyscalePath>Greyscale/Armor/ArmoredBoots/ArmoredBoots</greyscalePath>
-			</li>
-		</modExtensions>
-	</ThingDef>
-
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
-		<defName>KP_Armored_Gloves</defName>
-		<label>Carapace Gauntlets</label>
-		<description>Originally the Carapace Armor system did not include armor for hands. Many soldiers often complained about the lack of dexterity when handling their equipment, which left many of these gauntlets abandoned on the battlefields. Though when armies found themselves fighting the Insectoids during the War for Ramaal, many soldiers found the additional armor beneficial after seeing many of their allies dismembered. Bulky, cumbersome, and heavy, these gauntlets provide a level of protection that has kept many soldiers safe.</description>
-		<techLevel>Spacer</techLevel>
-		<recipeMaker>
-			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>5</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="false">
-				<li>TableMachining</li>
-			</recipeUsers>
-		</recipeMaker>
-		<graphicData>
-			<texPath>Fallback/Armor/ArmoredGloves/ArmoredGloves</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<uiIconScale>2</uiIconScale>
-		<statBases>
-			<WorkToMake>5000</WorkToMake>
-			<MarketValue>100</MarketValue>
-			<MaxHitPoints>60</MaxHitPoints>
-			<Mass>1.5</Mass>
-			<StuffEffectMultiplierArmor>1.00</StuffEffectMultiplierArmor>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
-		<equippedStatOffsets>
-			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
-		</equippedStatOffsets>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
-		<costList>
-			<Cloth>10</Cloth>
-			<Plasteel>5</Plasteel>
-		</costList>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>10</costStuffCount>
-		<apparel>
-			<bodyPartGroups>
-				<li>Hands</li>
-			</bodyPartGroups>
-			<useWornGraphicMask>True</useWornGraphicMask>
-			<layers>
-				<li>Middle</li>
-			</layers>
-			<tags>
-				<li>BNF_Armor_Light</li>
-                <li>BNF_Armor_Heavy</li>
-				<li>BNF_Armor_Light_Medic</li>
-				<li>BNF_Armor_Heavy_Medic</li>
-				<li>BNF_Armor_Light_Engineer</li>
-				<li>BNF_Armor_Heavy_Engineer</li>
-				<li>BNF_Armor_Light_Shocktrooper</li>				
-				<li>BNF_Armor_Heavy_Shocktrooper</li>				
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-		<modExtensions>
-			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Originally the Carapace Armor system did not include armor for hands. Many soldiers often complained about the lack of dexterity when handling their equipment, which left many of these gauntlets abandoned on the battlefields. Though when armies found themselves fighting the Insectoids during the War for Ramaal, many soldiers found the additional armor beneficial after seeing many of their allies dismembered. Bulky, cumbersome, and heavy, these gauntlets provide a level of protection that has kept many soldiers safe.</loreDesc>
-				<vanillaDesc>Armored gauntlets that shield the hands. Adds hand protection at the cost of fine manipulation and work speed. Designed to pair with carapace armor.</vanillaDesc>
-			</li>
-			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/Accessories/ArmoredGloves/ArmoredGloves</originalPath>
-				<greyscalePath>Greyscale/Armor/ArmoredGloves/ArmoredGloves</greyscalePath>
-			</li>
-		</modExtensions>
-	</ThingDef>
 </Defs>

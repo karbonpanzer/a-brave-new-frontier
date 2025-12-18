@@ -18,7 +18,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/LightHelmet/LightHelmet</texPath>
+			<texPath>Helmets/LightHelmet/LightHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -45,7 +45,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+			<wornGraphicPath>Helmets/LightHelmet/LightHelmet</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -65,7 +65,7 @@
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequete protection against melee and small arms fire while remaining light. It is inferior to full helmet protection though, its ease of production makes it more accessible.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/LightHelmet/LightHelmet</originalPath>
+				<originalPath>Helmets/LightHelmet/LightHelmet</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmet/LightHelmet</greyscalePath>
 			</li>
 		</modExtensions>
@@ -88,7 +88,7 @@ This variant is marked for usage by Medical staff.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/LightHelmetMedic/LightHelmetMedic</texPath>
+			<texPath>Helmets/LightHelmetMedic/LightHelmetMedic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -115,7 +115,7 @@ This variant is marked for usage by Medical staff.</description>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/LightHelmetMedic/LightHelmetMedic</wornGraphicPath>
+			<wornGraphicPath>Helmets/LightHelmetMedic/LightHelmetMedic</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -135,7 +135,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard carapace helmet, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/LightHelmetMedic/LightHelmetMedic</originalPath>
+				<originalPath>Helmets/LightHelmetMedic/LightHelmetMedic</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetMedic/LightHelmetMedic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -158,7 +158,7 @@ This variant is marked for usage by Engineering staff.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/LightHelmetSupport/LightHelmetSupport</texPath>
+			<texPath>Helmets/LightHelmetSupport/LightHelmetSupport</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -185,7 +185,7 @@ This variant is marked for usage by Engineering staff.</description>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/LightHelmetSupport/LightHelmetSupport</wornGraphicPath>
+			<wornGraphicPath>Helmets/LightHelmetSupport/LightHelmetSupport</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -205,7 +205,7 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard carapace helmet, but marked with insignia to denote engineers.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/LightHelmetSupport/LightHelmetSupport</originalPath>
+				<originalPath>Helmets/LightHelmetSupport/LightHelmetSupport</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetSupport/LightHelmetSupport</greyscalePath>
 			</li>
 		</modExtensions>
@@ -228,7 +228,7 @@ This variant is modified for usage on extremely cold worlds.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/LightHelmetThermal/LightHelmetThermal</texPath>
+			<texPath>Helmets/LightHelmetThermal/LightHelmetThermal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -259,7 +259,7 @@ This variant is modified for usage on extremely cold worlds.</description>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/LightHelmetThermal/LightHelmetThermal</wornGraphicPath>
+			<wornGraphicPath>Helmets/LightHelmetThermal/LightHelmetThermal</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -279,7 +279,7 @@ This variant is modified for usage on extremely cold worlds.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Lined with thermal material to improve insulation in harsh climates.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/LightHelmetThermal/LightHelmetThermal</originalPath>
+				<originalPath>Helmets/LightHelmetThermal/LightHelmetThermal</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetThermal/LightHelmetThermal</greyscalePath>
 			</li>
 		</modExtensions>
@@ -302,7 +302,7 @@ This variant is marked for usage by officers.</description>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/LightHelmetOfficer/LightHelmetOfficer</texPath>
+			<texPath>Helmets/LightHelmetOfficer/LightHelmetOfficer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -329,7 +329,7 @@ This variant is marked for usage by officers.</description>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/LightHelmetOfficer/LightHelmetOfficer</wornGraphicPath>
+			<wornGraphicPath>Helmets/LightHelmetOfficer/LightHelmetOfficer</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -349,7 +349,7 @@ This variant is marked for usage by officers.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard light carapace helmet, but decorated with gold inlay to denote officer rank.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/LightHelmetOfficer/LightHelmetOfficer</originalPath>
+				<originalPath>Helmets/LightHelmetOfficer/LightHelmetOfficer</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetOfficer/LightHelmetOfficer</greyscalePath>
 			</li>
 		</modExtensions>
@@ -371,7 +371,7 @@ This variant is marked for usage by officers.</loreDesc>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Helmets/LightHelmetMasked/LightHelmetMasked</texPath>
+			<texPath>Helmets/LightHelmetMasked/LightHelmetMasked</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -403,7 +403,7 @@ This variant is marked for usage by officers.</loreDesc>
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Helmets/LightHelmetMasked/LightHelmetMasked</wornGraphicPath>
+			<wornGraphicPath>Helmets/LightHelmetMasked/LightHelmetMasked</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Overhead</li>
@@ -422,7 +422,7 @@ This variant is marked for usage by officers.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Fitted with a faceshield that provides protection to the face but reducing sight for the wearer.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Helmets/LightHelmetMasked/LightHelmetMasked</originalPath>
+				<originalPath>Helmets/LightHelmetMasked/LightHelmetMasked</originalPath>
 				<greyscalePath>Greyscale/Helmets/LightHelmetMasked/LightHelmetMasked</greyscalePath>
 			</li>
 		</modExtensions>

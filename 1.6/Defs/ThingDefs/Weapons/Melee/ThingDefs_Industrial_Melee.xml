@@ -6,7 +6,7 @@
 		<description>Originally an ancient design from the Inter-Humanity Wars, now finds new life in the Rim. When warfare eventually fell into stagnation and trenches, this ancient weapon was again found in the hands of those in the trenches. Often hand-made by Army Blacksmiths, they come in a variety of shapes, sizes, and materials yet this design is the most popular. Unlike many weapons though, this one still found use against Insectoids. The spike blade would easily penetrate the chitin of an Insectoid and many veterans found themselves brave enough to do so.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/trenchspike</texPath>
+			<texPath>Weapons/trenchspike</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.7</drawSize>
 		</graphicData>
@@ -87,7 +87,7 @@
 		<description>A heavy, double-edged trench sword with a short blade and a handguard. Designed for brutal, close-quarters fighting.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/trenchsword</texPath>
+			<texPath>Weapons/trenchsword</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>
@@ -164,7 +164,7 @@
 		<description>A compact trench mace with a tapered head for crushing armor and bone. Heavy and slow, but devastating on impact.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Fallback/Weapons/trenchmace</texPath>
+			<texPath>Weapons/trenchmace</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>

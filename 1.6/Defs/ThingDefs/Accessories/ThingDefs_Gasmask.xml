@@ -16,7 +16,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Fallback/Gasmask/gas_mask/gasmask</texPath>
+			<texPath>Gasmask/gas_mask/gasmask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -48,7 +48,7 @@
 				<li>Eyes</li>
 				<li>Mouth</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Fallback/Gasmask/gas_mask/gasmask</wornGraphicPath>
+			<wornGraphicPath>Gasmask/gas_mask/gasmask</wornGraphicPath>
 			<renderSkipFlags>
 				<li>None</li>
 			</renderSkipFlags>
