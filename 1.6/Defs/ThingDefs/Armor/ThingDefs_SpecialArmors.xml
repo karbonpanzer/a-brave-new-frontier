@@ -70,7 +70,7 @@
 				<vanillaDesc>A higher-quality variant of carapace armor, produced with refined methods for greater durability without extra weight. Features gold inlay as a symbol of rank and authority. Solid protection, but more ceremonial than frontline gear.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/OfficerArmor/OfficerArmor</originalPath>
+				<originalPath>Original/Armor/OfficerArmorVariants/OfficerArmor/OfficerArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/OfficerArmor/OfficerArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -78,7 +78,7 @@
 
 	<ThingDef ParentName="KP_CarapaceArmors">
 		<defName>KP_Scout_Flak_Armor</defName>
-		<label>Vanguard Carapace Armor</label>
+		<label>Scout Carapace Armor</label>
 		<description>The most important part of any army is the ability to acquire intelligence on their enemies. The Vanguard Carapace Armor was designed on several planets though the most famous and its namesake would be by the Alexandrian Vanguard. During the First War of Alexandria against the Mechanoids, the most important factor in combat was speed. While not being heavy standard Carapace Armor is bulky and could be lightened. The Vanguard did so through removal of the shoulder plates and the “shaving” of certain areas until it only protected the chest of the wearer.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -145,7 +145,7 @@
 				<vanillaDesc>A lighter variant of carapace armor that sacrifices protection for mobility. Shoulder plating is removed and chest coverage reduced to cut weight. Favored by scouts who need speed and maneuverability over full defense.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/ScoutArmor/ScoutArmor</originalPath>
+				<originalPath>Original/Armor/ScoutArmorVariants/ScoutArmor/ScoutArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/ScoutArmor/ScoutArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -153,7 +153,7 @@
 
 	<ThingDef ParentName="KP_CarapaceArmors">
 		<defName>KP_Scout_Officer_Flak_Armor</defName>
-		<label>Centurion Carapace Armor (Officer)</label>
+		<label>Scout Carapace Armor (Officer)</label>
 		<description>Based on the ancient warriors of Old Earth, the Centurions of the Holyworld of Sabbath are an elite force of warriors. Quick, decisive, and often brutal, the Centurions of Sabbath have served as the last line of defense for the Beaconist Holyworld. Often this armor is found in Rimworlds are from the Heralds of Sabbath, Centurion forces sent to recover Beaconist relics to further their quest for the source. As with the tradition of Centurions, they often serve as officers of a squad of lesser legionaries though the position is filled with veneration.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -220,7 +220,7 @@
 				<vanillaDesc>A lighter officer carapace variant with removed shoulder plates to cut weight. Retains its gold inlay and status as a symbol of rank. Offers good protection with higher mobility, though the exposed shoulders make it a risky choice.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/OfficerScoutArmor/OfficerScoutArmor</originalPath>
+				<originalPath>Original/Armor/OfficerArmorVariants/OfficerScoutArmor/OfficerScoutArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/OfficerScoutArmor/OfficerScoutArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -376,7 +376,7 @@
 				<vanillaDesc>Armored gauntlets that shield the hands. Adds hand protection at the cost of fine manipulation and work speed. Designed to pair with carapace armor.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/ArmoredGloves/ArmoredGloves</originalPath>
+				<originalPath>Original/Armor/Accessories/ArmoredGloves/ArmoredGloves</originalPath>
 				<greyscalePath>Greyscale/Armor/ArmoredGloves/ArmoredGloves</greyscalePath>
 			</li>
 		</modExtensions>

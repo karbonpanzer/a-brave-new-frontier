@@ -64,7 +64,7 @@
 				<vanillaDesc>Carapace-based gauntlets with built-in cutting edges. When worn, they let the wearer deliver precise slashes even if they're holding another weapon.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/ArmoredGloves/ArmoredGloves</originalPath>
+				<originalPath>OriginalFixed/Armor/Accessories/ArmoredGloves/ArmoredGloves</originalPath>
 				<greyscalePath>Greyscale/Armor/ArmoredGloves/ArmoredGloves</greyscalePath>
 			</li>
 		</modExtensions>
@@ -134,7 +134,7 @@
 				<vanillaDesc>Carapace-based gauntlets reinforced with hydraulic actuators. When worn, they let the wearer deliver crushing blows even if they’re holding another weapon.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>OriginalFixed/Armor/ArmoredGloves/ArmoredGloves</originalPath>
+				<originalPath>OriginalFixed/Armor/Accessories/ArmoredGloves/ArmoredGloves</originalPath>
 				<greyscalePath>Greyscale/Armor/ArmoredGloves/ArmoredGloves</greyscalePath>
 			</li>
 		</modExtensions>

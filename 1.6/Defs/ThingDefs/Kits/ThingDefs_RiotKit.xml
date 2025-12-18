@@ -81,7 +81,7 @@
 		<label>Riot Armor</label>
 		<description>A reverse engineered form of carapace armor. Instead of using a metallic blend and alloys in its construction, it uses the vastly cheaper and less protective leathers. Though no world holds the claim to being the only source of this armor, most worlds use it for police forces. Those brave men and women who spend their time taking brides, brutalizing minorities, and wasting the public's money on overtime consisting of them taking 8 shits before noon. Don't worry though, because the government still has to pay your pension.</description>
 		<graphicData>
-			<texPath>Original/Armor/RiotArmor/RiotArmor</texPath>
+			<texPath>Original/Armor/SpecialArmorVariants/RiotArmor/RiotArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -121,7 +121,7 @@
 				<li>Shoulders</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Original/Armor/RiotArmor/RiotArmor</wornGraphicPath>
+			<wornGraphicPath>Original/Armor/SpecialArmorVariants/RiotArmor/RiotArmor</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>

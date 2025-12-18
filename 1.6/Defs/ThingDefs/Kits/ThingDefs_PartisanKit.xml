@@ -72,4 +72,469 @@
 		</colorGenerator>
 	</ThingDef>
 	
+	<ThingDef ParentName="KP_CarapaceArmors">
+		<defName>BNF_LArmor_Partisan</defName>
+		<label>Carapace Armor (Partisan)</label>
+		<description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Original/Armor/LightArmorVariants/LightArmorPartisan/LightArmorPartisan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<MarketValue>550</MarketValue>
+			<MaxHitPoints>140</MaxHitPoints>
+			<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+			<Mass>7.0</Mass>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.04</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>60</Cloth>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Original/Armor/LightArmorVariants/LightArmorPartisan/LightArmorPartisan</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>BNF_Partisan</li>			
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage</loreDesc>
+				<vanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Weaker than power armor in overall protection.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
+	<ThingDef ParentName="KP_CarapaceArmors">
+		<defName>BNF_SArmor_Partisan</defName>
+		<label>Scout Carapace Armor (Partisan)</label>
+		<description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Original/Armor/ScoutArmorVariants/ScoutArmorPartisan/ScoutArmorPartisan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<MarketValue>550</MarketValue>
+			<MaxHitPoints>140</MaxHitPoints>
+			<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+			<Mass>7.0</Mass>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.04</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<costList>
+			<Cloth>60</Cloth>
+			<Plasteel>10</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Original/Armor/ScoutArmorVariants/ScoutArmorPartisan/ScoutArmorPartisan</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>BNF_Partisan</li>			
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage</loreDesc>
+				<vanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Weaker than power armor in overall protection.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Webbing_Partisan</defName>
+		<label>Partisan Bandoleer</label>
+		<description>A more modern form of webbing, seen often on the Rim. This configuration is suited towards magazine-based firearms that are more common among armies in the Rim. The generalized design makes this webbing versatile for all magazine sizes, ensuring a universal system for magazine storage. Bulky but providing more than enough ammunition to make up for the additional weight.</description>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Original/Accessories/PartisanBandoleer/PartisanBandoleer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<equippedStatOffsets>
+			<RangedCooldownFactor>-0.35</RangedCooldownFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Original/Accessories/PartisanBandoleer/PartisanBandoleer</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Infantry</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>A more modern form of webbing, seen often on the Rim. This configuration is suited towards magazine-based firearms that are more common among armies in the Rim. The generalized design makes this webbing versatile for all magazine sizes, ensuring a universal system for magazine storage. Bulky but providing more than enough ammunition to make up for the additional weight.</loreDesc>
+				<vanillaDesc>Webbing rig designed for magazine-fed weapons. Allows soldiers to reload quickly and keep a steady rate of fire. Bulky, but the extra ammunition offsets the weight.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>BNF_Bullet_PartisanRifle</defName>
+		<label>partisan rifle bullets</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>BNF_Rifle_Partisan</defName>
+		<label>Partisan Rifle</label>
+		<description>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Original/Weapons/PartisanRifle</texPath>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>AdvancedBallisticWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>75</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>38000</WorkToMake>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.60</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BNF_Bullet_PartisanRifle</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>28.0</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGun</li>			
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>			
+			<li>BNF_Partisan</li>		
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</loreDesc>
+				<vanillaDesc>A modern rifle styled after ancient designs. Fires quick bursts with modest accuracy and damage. Favored on the Rim by mercenaries and militias for its reliability.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>BNF_Rifle_PartisanB</defName>
+		<label>Partisan Rifle</label>
+		<description>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Original/Weapons/PartisanRifleBayonet</texPath>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<equippedAngleOffset>35</equippedAngleOffset>		
+		<recipeMaker>
+			<researchPrerequisite>AdvancedBallisticWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Steel>75</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>38000</WorkToMake>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.60</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BNF_Bullet_PartisanRifle</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>28.0</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>IndustrialGun</li>			
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>			
+			<li>BNF_Partisan</li>		
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>14</power>
+				<armorPenetration>0.15</armorPenetration>
+				<cooldownTime>1.5</cooldownTime>
+			</li>			
+		</tools>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Nostalgia is a hell of a thing. People appreciate a classic or at least the idea of a classic, so many companies put our various “retro” themed weaponry. The “Retro” Weapon market leads to many interesting designs that feel old but are in fact very new. This model being built of a famous weapon used centuries ago during humanity’s Dark Age. Though not a direct copy this imitation still sells well enough and maintains enough aspects of the original that many don’t notice the difference. Often found in the hands of the middle-class mercenary or with people who assumed this would be more useful than a classic car on the Rim.</loreDesc>
+				<vanillaDesc>A modern rifle styled after ancient designs. Fires quick bursts with modest accuracy and damage. Favored on the Rim by mercenaries and militias for its reliability.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>BNF_Blade_Bayonet</defName>
+		<label>Bayonet</label>
+		<description>Originally an ancient design from the Inter-Humanity Wars, now finds new life in the Rim. When warfare eventually fell into stagnation and trenches, this ancient weapon was again found in the hands of those in the trenches. Often hand-made by Army Blacksmiths, they come in a variety of shapes, sizes, and materials yet this design is the most popular. Unlike many weapons though, this one still found use against Insectoids. The spike blade would easily penetrate the chitin of an Insectoid and many veterans found themselves brave enough to do so.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Original/Weapons/bayonet</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>ExpeditionaryWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>6400</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>14</power>
+				<armorPenetration>0.15</armorPenetration>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Infantry</li>				
+			<li>BNF_Ranger</li>
+            <li>BNF_Raider</li>
+            <li>BNF_InfantrySupport</li>
+			<li>BNF_Civilian</li>			
+		</weaponTags>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Originally an ancient design from the Inter-Humanity Wars, now finds new life in the Rim. When warfare eventually fell into stagnation and trenches, this ancient weapon was again found in the hands of those in the trenches. Often hand-made by Army Blacksmiths, they come in a variety of shapes, sizes, and materials yet this design is the most popular. Unlike many weapons though, this one still found use against Insectoids. The spike blade would easily penetrate the chitin of an Insectoid and many veterans found themselves brave enough to do so.</loreDesc>
+				<vanillaDesc>A brutal melee weapon of blade and spike. Cuts and pierces with ease, able to puncture insectoid chitin. Light, cheap, and deadly in close combat.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
 </Defs>

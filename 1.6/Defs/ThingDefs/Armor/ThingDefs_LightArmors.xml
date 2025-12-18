@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-
 	<ThingDef ParentName="KP_CarapaceArmors">
 		<defName>KP_Light_Flak_Armor</defName>
 		<label>Carapace Armor</label>
@@ -70,7 +69,7 @@
 				<vanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Weaker than power armor in overall protection.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/LightArmor/LightArmor</originalPath>
+				<originalPath>Original/Armor/LightArmorVariants/LightArmor/LightArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmor/LightArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -146,7 +145,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Identical to the standard carapace armor, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/LightArmorMedic/LightArmorMedic</originalPath>
+				<originalPath>Original/Armor/LightArmorVariants/LightArmorMedic/LightArmorMedic</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmorMedic/LightArmorMedic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -221,7 +220,7 @@ This variant is marked for usage by Engineering staff.</description>
 				<vanillaDesc>A suit of plasteel reinforced plate armor... (same vanilla kept)</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/LightArmorSupport/LightArmorSupport</originalPath>
+				<originalPath>Original/Armor/LightArmorVariants/LightArmorSupport/LightArmorSupport</originalPath>
 				<greyscalePath>Greyscale/Armor/LightArmorSupport/LightArmorSupport</greyscalePath>
 			</li>
 		</modExtensions>

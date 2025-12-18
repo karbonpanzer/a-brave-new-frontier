@@ -91,7 +91,7 @@
 				<vanillaDesc>A reinforced variant of standard Carapace armor with additional plating for greater protection. The extra bulk makes it heavier and more resource-intensive to produce. Strong armor, but still not a true substitute for power armor.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/HeavyArmor/HeavyArmor</originalPath>
+				<originalPath>Original/Armor/HeavyArmorVariants/HeavyArmor/HeavyArmor</originalPath>
 				<greyscalePath>Greyscale/Armor/HeavyArmor/HeavyArmor</greyscalePath>
 			</li>
 		</modExtensions>
@@ -168,7 +168,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A reinforced variant of standard carapace armor with additional plating for greater protection. The extra bulk makes it heavier and more resource-intensive to produce. Identical to the standard heavy carapace armor, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/HeavyArmorMedic/HeavyArmorMedic</originalPath>
+				<originalPath>Original/Armor/HeavyArmorVariants/HeavyArmorMedic/HeavyArmorMedic</originalPath>
 				<greyscalePath>Greyscale/Armor/HeavyArmorMedic/HeavyArmorMedic</greyscalePath>
 			</li>
 		</modExtensions>
@@ -245,7 +245,7 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 				<vanillaDesc>A reinforced variant of standard carapace armor with additional plating for greater protection. The extra bulk makes it heavier and more resource-intensive to produce. Identical to the standard heavy carapace armor, but marked with insignia to denote engineers.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-				<originalPath>Original/Armor/HeavyArmorSupport/HeavyArmorSupport</originalPath>
+				<originalPath>Original/Armor/HeavyArmorVariants/HeavyArmorSupport/HeavyArmorSupport</originalPath>
 				<greyscalePath>Greyscale/Armor/HeavyArmorSupport/HeavyArmorSupport</greyscalePath>
 			</li>
 		</modExtensions>
