@@ -15,7 +15,7 @@
 			</recipeUsers>
 		</recipeMaker>	
 		<graphicData>
-			<texPath>Original/Helmets/RiotHelmet/RiotHelmet</texPath>
+			<texPath>Helmets/RiotHelmet/RiotHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -39,7 +39,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Original/Helmets/RiotHelmet/RiotHelmet</wornGraphicPath>
+			<wornGraphicPath>Helmets/RiotHelmet/RiotHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -81,7 +81,7 @@
 		<label>Riot Armor</label>
 		<description>A reverse engineered form of carapace armor. Instead of using a metallic blend and alloys in its construction, it uses the vastly cheaper and less protective leathers. Though no world holds the claim to being the only source of this armor, most worlds use it for police forces. Those brave men and women who spend their time taking brides, brutalizing minorities, and wasting the public's money on overtime consisting of them taking 8 shits before noon. Don't worry though, because the government still has to pay your pension.</description>
 		<graphicData>
-			<texPath>Original/Armor/SpecialArmorVariants/RiotArmor/RiotArmor</texPath>
+			<texPath>Armor/SpecialArmorVariants/RiotArmor/RiotArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -121,7 +121,7 @@
 				<li>Shoulders</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Original/Armor/SpecialArmorVariants/RiotArmor/RiotArmor</wornGraphicPath>
+			<wornGraphicPath>Armor/SpecialArmorVariants/RiotArmor/RiotArmor</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -166,7 +166,7 @@
 			<researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Original/Accessories/PoliceBelt/PoliceBelt</texPath>
+			<texPath>Accessories/PoliceBelt/PoliceBelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -199,7 +199,7 @@
 				<li>Torso</li>
 				<li>Waist</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Original/Accessories/PoliceBelt/PoliceBelt</wornGraphicPath>
+			<wornGraphicPath>Accessories/PoliceBelt/PoliceBelt</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -242,7 +242,7 @@
 		<description>For centuries humanity has sought a means of bringing justice to those who reject civilization or at least brutalize them. The baton, an ancient weapon from Earth was the most refined method of justice. Even now many still use them against the enemies of civilization, theives, murderers, anti-war protestors, and people who look different, the true scum of humanity. This ancient tradition continues on the Rimworlds, where thumbheaded men and women use this tool to enact justice on those who remind them that they peaked in high school. The tool of justice remains in the hands of those who deserve it, the most short tempered, bigotted, stupid, and tiny peckered people you have ever met.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Original/Weapons/baton</texPath>
+			<texPath>Weapons/baton</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>

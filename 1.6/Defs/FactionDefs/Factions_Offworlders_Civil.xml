@@ -15,14 +15,10 @@
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>representative</leaderTitle>
 		<factionIconPath>UI/FactionIcons/OffworlderCivilOutpostIII</factionIconPath>
-		<factionNameMaker>NamerFactionOffworlderCivil</factionNameMaker>
-		<settlementNameMaker>NamerSettlementOffworlderCivil</settlementNameMaker>
+		<factionNameMaker>BNF_Faction_Civil</factionNameMaker>
+		<settlementNameMaker>BNF_Settlement_Civil</settlementNameMaker>
 		<colorSpectrum>
-			<li>(0.65, 0.55, 0.85)</li>
-			<li>(0.75, 0.70, 0.90)</li>
 			<li>(0.80, 0.80, 0.95)</li>
-			<li>(0.60, 0.65, 0.90)</li>
-			<li>(0.70, 0.75, 0.95)</li>
 		</colorSpectrum>
 		<permanentEnemy>false</permanentEnemy>
 		<techLevel>Spacer</techLevel>

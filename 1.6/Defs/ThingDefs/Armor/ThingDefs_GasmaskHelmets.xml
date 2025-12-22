@@ -17,7 +17,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Original/Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
+			<texPath>Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -44,7 +44,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Original/Helmets/LightHelmetGasmask/LightHelmetGasmask</wornGraphicPath>
+			<wornGraphicPath>Helmets/LightHelmetGasmask/LightHelmetGasmask</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<immuneToToxGasExposure>true</immuneToToxGasExposure>
 			<layers>
@@ -83,7 +83,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Original/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</texPath>
+			<texPath>Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -110,7 +110,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Original/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</wornGraphicPath>
+			<wornGraphicPath>Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<immuneToToxGasExposure>true</immuneToToxGasExposure>			
 			<layers>

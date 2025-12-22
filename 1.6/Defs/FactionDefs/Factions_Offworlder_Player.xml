@@ -5,7 +5,7 @@
 		<label>Colonial Settlers</label>
 		<description>A offworlder group sent to colonize this world by choice.</description>
 		<colorSpectrum>
-			<li>(0, 0.737, 0.847)</li>
+            <li>(0, 0.737, 0.847)</li>
 		</colorSpectrum>
 		<isPlayer>true</isPlayer>
 		<basicMemberKind>KP_Offwolder_Player</basicMemberKind>
@@ -15,8 +15,8 @@
 		<allowedCultures>
 			<li>Astropolitan</li>
 		</allowedCultures>
-		<factionNameMaker>NamerFactionOffworlderCivil</factionNameMaker>
-		<settlementNameMaker>NamerSettlementOffworlderCivil</settlementNameMaker>
+		<factionNameMaker>BNF_Faction_Civil</factionNameMaker>
+		<settlementNameMaker>BNF_Settlement_Civil</settlementNameMaker>
 		<backstoryFilters>
 		  <li>
 			<categories>

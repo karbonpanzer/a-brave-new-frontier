@@ -16,14 +16,10 @@
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>commissar</leaderTitle>
 		<factionIconPath>UI/FactionIcons/OffworlderRoughOutpostIII</factionIconPath>
-		<factionNameMaker>NamerFactionOffworlderRough</factionNameMaker>
-		<settlementNameMaker>NamerSettlementOffworlderRough</settlementNameMaker>
+		<factionNameMaker>BNF_Faction_Rough</factionNameMaker>
+		<settlementNameMaker>BNF_Settlement_Rough</settlementNameMaker>
 		<colorSpectrum>
-			<li>(0.50, 0.10, 0.10)</li>
-			<li>(0.40, 0.05, 0.05)</li>
 			<li>(0.60, 0.15, 0.15)</li>
-			<li>(0.45, 0.08, 0.08)</li>
-			<li>(0.55, 0.12, 0.12)</li>
 		</colorSpectrum>
 		<permanentEnemy>true</permanentEnemy>
 		<techLevel>Spacer</techLevel>
