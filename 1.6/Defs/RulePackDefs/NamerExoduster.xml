@@ -1,0 +1,38 @@
+<Defs>
+
+  <RulePackDef>
+    <defName>BNF_PawnNamerExoduster</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>BNF_Exoduster_FirstM->Names/Exoduster_FirstM</li>
+        <li>BNF_Exoduster_FirstF->Names/Exoduster_FirstF</li>		
+        <li>BNF_Exoduster_Last->Names/Exoduster_Last</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>BNF_Namer_Exoduster_Male</defName>
+    <include>
+      <li>BNF_PawnNamerExoduster</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=2)->[BNF_Exoduster_FirstM] [BNF_Exoduster_Last]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>BNF_Namer_Exoduster_Female</defName>
+    <include>
+      <li>BNF_PawnNamerExoduster</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=2)->[BNF_Exoduster_FirstF] [BNF_Exoduster_Last]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

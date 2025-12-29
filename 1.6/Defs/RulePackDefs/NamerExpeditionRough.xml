@@ -88,8 +88,7 @@
         <li>townname_fixed->Names/ExpeditionTowns</li>
         <li>expedition_prefix->Words/Adjectives/Expedition_Prefix</li>			
         <li>concept_angsty->Words/Nouns/Concepts_Angsty</li>
-        <li>concept_badass->Words/Nouns/Concepts_Badass</li>	
-        <li>expedition_topicalnoun->Words/Nouns/Expedition_TopicalNoun</li>		
+        <li>concept_badass->Words/Nouns/Concepts_Badass</li>		
         <li>communities_expedition->Words/Nouns/CommunitiesExpedition</li>	
         <li>political_union_expedition->Words/Nouns/PoliticalUnions_Expedition</li>			
       </rulesFiles>

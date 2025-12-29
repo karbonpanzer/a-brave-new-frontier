@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+	<Patch>
+	  <Operation Class="PatchOperationFindMod">
+		<mods>
+		  <li>Odyssey</li>
+		</mods>
+
+		  <match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+		  <value> 
+		 
+		<ThingDef ParentName="ArmorHelmetMakeableBase">
+			<defName>BNF_Helmet_EVA</defName>
+			<label>EVA Helmet</label>
+			<description>.</description>
+			<techLevel>Spacer</techLevel>
+		   <recipeMaker>
+			  <researchPrerequisite>OrbitalTech</researchPrerequisite>
+			  <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			  <displayPriority>237</displayPriority>
+			  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			  <workSkill>Crafting</workSkill>
+			  <effectWorking>Smith</effectWorking>
+			  <soundWorking>Recipe_Smith</soundWorking>
+			  <recipeUsers>
+				<li>TableMachining</li>
+			  </recipeUsers>
+			</recipeMaker>
+			<graphicData>
+				<texPath>Helmets/EVAMask/EVAMask</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<statBases>
+			  <WorkToMake>15000</WorkToMake>
+			  <MaxHitPoints>120</MaxHitPoints>
+			  <Mass>1.5</Mass>
+			  <Flammability>0.4</Flammability>
+			  <ArmorRating_Sharp>0.52</ArmorRating_Sharp>
+			  <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+			  <ArmorRating_Heat>0.66</ArmorRating_Heat>
+			  <Insulation_Cold>6</Insulation_Cold>
+			  <Insulation_Heat>4</Insulation_Heat>
+			  <EquipDelay>4</EquipDelay>
+			</statBases>
+			<equippedStatOffsets>
+			  <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+			  <VacuumResistance>0.69</VacuumResistance>
+			</equippedStatOffsets>
+			<smeltable>true</smeltable>
+			<apparel>
+			  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+			  <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			  <immuneToToxGasExposure>true</immuneToToxGasExposure>
+			  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+			  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			  <bodyPartGroups>
+				<li>FullHead</li>
+			  </bodyPartGroups>
+			  <wornGraphicPath>Helmets/EVAMask/EVAMask</wornGraphicPath>
+			  <layers>
+				<li>Overhead</li>
+			  </layers>
+			  <tags>
+				<li>SpacerMilitary</li>
+				<li>Vacsuit</li>
+			  </tags>
+			  <forceEyesVisibleForRotations>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			  </forceEyesVisibleForRotations>
+			  <defaultOutfitTags>
+				<li>Spacefarer</li>
+			  </defaultOutfitTags>
+			</apparel>
+			<tradeTags>
+			  <li>HiTechArmor</li>
+			  <li>Armor</li>
+			</tradeTags>
+			<thingSetMakerTags>
+			  <li>RewardStandardMidFreq</li>
+			</thingSetMakerTags>
+			<costList>
+			  <ComponentIndustrial>2</ComponentIndustrial>
+			  <Steel>40</Steel>
+			</costList>
+			<colorGenerator Class="ColorGenerator_StandardApparel" />
+			<modExtensions>
+				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+					<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</loreDesc>
+					<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequete protection against melee and small arms fire while remaining light. It is inferior to full helmet protection though, its ease of production makes it more accessible.</vanillaDesc>
+				</li>
+			</modExtensions>	
+		</ThingDef>		
+
+		</value>
+	</match>
+  </Operation>
+</Patch>

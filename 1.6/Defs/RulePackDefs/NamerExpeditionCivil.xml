@@ -84,8 +84,7 @@
         <li>cityname_fixed->Names/CityNames</li>		
         <li>townname_fixed->Names/ExpeditionTowns</li>
         <li>expedition_prefix->Words/Adjectives/Expedition_Prefix</li>			
-        <li>concept_positive->Words/Nouns/Concepts_Positive</li>		
-        <li>expedition_topicalnoun->Words/Nouns/Expedition_TopicalNoun</li>			
+        <li>concept_positive->Words/Nouns/Concepts_Positive</li>			
         <li>communities_expedition->Words/Nouns/CommunitiesExpedition</li>	
         <li>political_union_expedition->Words/Nouns/PoliticalUnions_Expedition</li>			
       </rulesFiles>

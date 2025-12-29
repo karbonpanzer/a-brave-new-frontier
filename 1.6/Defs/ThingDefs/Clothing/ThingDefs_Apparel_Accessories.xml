@@ -3,10 +3,11 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>BNF_Headgear_Goggles</defName>
 		<label>goggles</label>
-		<description>A pair of reinforced goggles capable of stopping shrapnel, and possibly a bullet.</description>
+		<description>A pair of standard goggles, the design older than anything besides that manhole cover you found in that crater a few years back. Reinforced glass with a nice comfy leather band which allows you to protect your eyes from both the light of the sun and the dust that seems to be everywhere. Who would want to miss these landscapes and people who think that eating on the ground is the end of the world. Not going to lie, you should have gone to trade school or college because signing on for a 10 year contract for 1/200th of a Thunder Cougar Falcon Bird was a mistake.</description>
 		<graphicData>
 			<texPath>Headgear/Goggles/Goggles</texPath>
 			<graphicClass>Graphic_Single</graphicClass> 
+			<drawSize>1.7</drawSize>			
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
@@ -34,6 +35,7 @@
 				<li>Eyes</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Headgear/Goggles/Goggles</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>			
 		  <layers>
 			<li>EyeCover</li>
 		  </layers>
@@ -59,5 +61,11 @@
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>A pair of standard goggles, the design older than anything besides that manhole cover you found in that crater a few years back. Reinforced glass with a nice comfy leather band which allows you to protect your eyes from both the light of the sun and the dust that seems to be everywhere. Who would want to miss these landscapes and people who think that eating on the ground is the end of the world. Not going to lie, you should have gone to trade school or college because signing on for a 10 year contract for 1/200th of a Thunder Cougar Falcon Bird was a mistake.</loreDesc>
+				<vanillaDesc>Standard eye protection which offers some protection. Though it is mainly worn to protect the wearer's eyes from the sun. The need sees it worn by those in sandy deserts and frozen tundras.</vanillaDesc>
+			</li>
+		</modExtensions>		
     </ThingDef>
 </Defs> 	
