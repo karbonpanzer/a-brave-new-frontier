@@ -12,11 +12,13 @@
         <li>r_name->[nearnameinitial] [political_adjective] [political_union_expedition]</li>
         <li>r_name->[political_union_expedition] of [nearnameinitial]</li>
         <li>r_name->[political_adjective] [political_union_expedition] of [nearnameinitial]</li>
+        <li>r_name->[political_adjective_expedition] [political_union_expedition] of [nearnameinitial]</li>	
         <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
         <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
       </rulesStrings>
       <rulesFiles>
         <li>political_union_expedition->Words/Nouns/PoliticalUnions_Expedition</li>
+        <li>political_adjective_expedition->Words/Adjective/Political_Adjective_Expedition</li>		
         <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
       </rulesFiles>
     </rulePack>

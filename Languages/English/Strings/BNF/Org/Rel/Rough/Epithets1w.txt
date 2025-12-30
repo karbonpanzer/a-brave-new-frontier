@@ -1,8 +1,0 @@
-rel_epithet_rough_1w->Reclaimant
-rel_epithet_rough_1w->Wayfarer
-rel_epithet_rough_1w->Longwatch
-rel_epithet_rough_1w->Sunbreak
-rel_epithet_rough_1w->Penitent
-rel_epithet_rough_1w->Gravesend
-rel_epithet_rough_1w->Ashborne
-rel_epithet_rough_1w->Crosswind

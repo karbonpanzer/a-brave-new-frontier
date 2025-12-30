@@ -1,8 +1,0 @@
-rel_epithet_civil_1w->Longwatch
-rel_epithet_civil_1w->Sunward
-rel_epithet_civil_1w->Pilgrim
-rel_epithet_civil_1w->Vigil
-rel_epithet_civil_1w->Emberkeep
-rel_epithet_civil_1w->Quietus
-rel_epithet_civil_1w->Wardens
-rel_epithet_civil_1w->Reliquary

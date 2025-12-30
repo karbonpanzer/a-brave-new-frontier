@@ -1,8 +1,0 @@
-gov_epithet_rough_1w->Freehold
-gov_epithet_rough_1w->Redmarch
-gov_epithet_rough_1w->Stonewild
-gov_epithet_rough_1w->Dustbelt
-gov_epithet_rough_1w->Ashbelt
-gov_epithet_rough_1w->Ridgeway
-gov_epithet_rough_1w->Breakwater
-gov_epithet_rough_1w->Ironline
