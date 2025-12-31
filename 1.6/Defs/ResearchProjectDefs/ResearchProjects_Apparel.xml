@@ -224,6 +224,20 @@
 		</prerequisites>
 		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AeneidKit</defName>
+		<label>EVA Kit</label>
+		<description>Craft EVA helmets and suits for usage in orbit.</description>
+		<baseCost>500</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>SpecializedFlakArmor</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>	
 
 </Defs>

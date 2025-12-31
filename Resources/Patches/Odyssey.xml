@@ -16,7 +16,7 @@
 			<description>.</description>
 			<techLevel>Spacer</techLevel>
 		   <recipeMaker>
-			  <researchPrerequisite>OrbitalTech</researchPrerequisite>
+			  <researchPrerequisite>AeneidKit</researchPrerequisite>
 			  <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			  <displayPriority>237</displayPriority>
 			  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -50,7 +50,6 @@
 			<smeltable>true</smeltable>
 			<apparel>
 			  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-			  <developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			  <immuneToToxGasExposure>true</immuneToToxGasExposure>
 			  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 			  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
@@ -66,11 +65,6 @@
 				<li>SpacerMilitary</li>
 				<li>Vacsuit</li>
 			  </tags>
-			  <forceEyesVisibleForRotations>
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-			  </forceEyesVisibleForRotations>
 			  <defaultOutfitTags>
 				<li>Spacefarer</li>
 			  </defaultOutfitTags>
@@ -93,8 +87,207 @@
 					<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequete protection against melee and small arms fire while remaining light. It is inferior to full helmet protection though, its ease of production makes it more accessible.</vanillaDesc>
 				</li>
 			</modExtensions>	
-		</ThingDef>		
+		</ThingDef>	
 
+		<ThingDef ParentName="ApparelMakeableBase">
+			<defName>BNF_Clothes_EVA</defName>
+			<label>EVA Suit</label>
+			<techLevel>Spacer</techLevel>			
+			<recipeMaker>
+				<researchPrerequisite>AeneidKit</researchPrerequisite>
+			</recipeMaker>
+			<graphicData>
+				<graphicClass>Graphic_Single</graphicClass>
+				<texPath>Clothes/EVASuit/EVASuit</texPath>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>0.8</drawSize>
+			</graphicData>
+			<costStuffCount>150</costStuffCount>
+			<stuffCategories>
+				<li>Fabric</li>
+				<li>Leathery</li>
+			</stuffCategories>
+			<thingCategories Inherit="False">
+			<li>KP_Uniforms</li>
+			</thingCategories>
+			<statBases>
+				<MaxHitPoints>100</MaxHitPoints>
+				<WorkToMake>5400</WorkToMake>
+				<Mass>5</Mass>
+				<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+				<StuffEffectMultiplierInsulation_Cold>6</StuffEffectMultiplierInsulation_Cold>
+				<StuffEffectMultiplierInsulation_Heat>2</StuffEffectMultiplierInsulation_Heat>
+				<EquipDelay>2</EquipDelay>
+			</statBases>
+			<equippedStatOffsets>
+				<PainShockThreshold>0.10</PainShockThreshold>
+		        <MoveSpeed>-1.25</MoveSpeed>
+			    <VacuumResistance>0.32</VacuumResistance>			
+			</equippedStatOffsets>
+			<apparel>
+				<bodyPartGroups>
+					<li>Torso</li>
+					<li>Neck</li>
+					<li>Shoulders</li>
+					<li>Arms</li>
+					<li>Legs</li>
+				</bodyPartGroups>
+				<wornGraphicPath>Clothes/EVASuit/EVASuit</wornGraphicPath>
+				<useWornGraphicMask>True</useWornGraphicMask>
+				<layers>
+					<li>OnSkin</li>
+				</layers>
+				<tags>
+					<li>BNF_EVA</li>
+				</tags>
+				<defaultOutfitTags>
+					<li>Spacefarer</li>
+				</defaultOutfitTags>
+			</apparel>
+			<colorGenerator Class="ColorGenerator_StandardApparel" />
+			<modExtensions>
+				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+					<loreDesc>While many worlds in the Great Domain were settled for the resources they provided for the whole of humanity, during the Final War many less habitable planets were being occupied. These worlds became the first Fortressworlds, planets dedicated to holding the line against the Mechs and the Bugs. This uniform is heavily modified from the original template, featuring a mesh heating network powered by dead skin cells.  This keeps the wearer warm in the coldest of environments without stressing any infrastructure on a planet. Though the methods of creating such a uniform are a significantly more complex process, though worth it for the cold.</loreDesc>
+					<vanillaDesc>Extreme-cold field uniform with heavy insulation. Thick composition maximizes warmth and wind blocking at the cost of added bulk. Unsuitable for warm climates.</vanillaDesc>
+				</li>
+			</modExtensions>	
+		</ThingDef>	
+
+		<ThingDef ParentName="BaseHumanMakeableGun">
+		  <defName>BNF_Rifle_Phase</defName>
+		  <label>phase rifle</label>
+		  <description>A versatile assault rifle with good range, decent power, and good accuracy.\n\nIt is equipped with an underslung EMP launcher known as the shocker. The shocker fires compact EMP charges and must be reloaded using steel.</description>
+		  <graphicData>
+			<texPath>Weapons/phaserifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		  </graphicData>
+		  <soundInteract>Interact_Rifle</soundInteract>	  
+		  <recipeMaker>
+			<researchPrerequisite>AeneidKit</researchPrerequisite>
+			<skillRequirements>
+			  <Crafting>6</Crafting>
+			</skillRequirements>
+			<displayPriority>60</displayPriority>
+			<recipeUsers>
+			  <li>TableMachining</li>
+			</recipeUsers>
+		  </recipeMaker>
+		  <statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+			<Flammability>0.7</Flammability>
+		  </statBases>
+		  <costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		  </costList>
+		  <verbs>
+			<li>
+			  <verbClass>Verb_Shoot</verbClass>
+			  <hasStandardCommand>true</hasStandardCommand>
+			  <defaultProjectile>Bullet_PhaseRifle</defaultProjectile>
+			  <warmupTime>1.1</warmupTime>
+			  <range>26.9</range>
+			  <burstShotCount>3</burstShotCount>
+			  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			  <soundCast>Shot_ChargeRifle</soundCast>
+			  <soundCastTail>GunTail_Medium</soundCastTail>
+			  <muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		  </verbs>
+		  <weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>
+		  </weaponTags>
+		  <tools>
+			<li>
+			  <label>stock</label>
+			  <capacities>
+				<li>Blunt</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			  <label>barrel</label>
+			  <capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+		  </tools>
+		  <comps>
+			  <li Class="CompProperties_EquippableAbilityReloadable">
+				<abilityDef>PhaseRifleGrenade</abilityDef>
+				<maxCharges>2</maxCharges>
+				<soundReload>Standard_Reload</soundReload>
+				<chargeNoun>grenade</chargeNoun>
+				<ammoDef>Proj_GrenadeEMP</ammoDef>
+				<ammoCountPerCharge>1</ammoCountPerCharge>
+				<baseReloadTicks>60</baseReloadTicks>
+			  </li>
+		  </comps>
+		</ThingDef>
+
+		  <ThingDef ParentName="BaseBullet">
+			<defName>Bullet_PhaseRifle</defName>
+			<label>phase rifle bullet</label>
+			<graphicData>
+			  <texPath>Things/Projectile/Shot_ChargeRifle</texPath>
+			  <graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<projectile>
+			  <damageDef>Bullet</damageDef>
+			  <damageAmountBase>10</damageAmountBase>
+			  <speed>70</speed>
+			</projectile>
+		  </ThingDef>
+		  
+		  <AbilityDef>
+			<defName>PhaseRifleGrenade</defName>
+			<label>underbarrel EMP launcher</label>
+			<description>Use the underbarrel launcher attached to the phase rifle to lauch a EMP grenade.</description>
+			<iconPath>UI/EMPGrenade_a</iconPath>
+			<aiCanUse>true</aiCanUse>
+			<ai_IsIncendiary>false</ai_IsIncendiary>
+			<showOnCharacterCard>false</showOnCharacterCard>
+			<canUseAoeToGetTargets>false</canUseAoeToGetTargets>
+			<statBases>
+			  <Ability_EffectRadius>1.9</Ability_EffectRadius>
+			</statBases>
+			<verbProperties>
+			  <label>throw emp grenade</label>
+			  <verbClass>Verb_CastAbility</verbClass>
+			  <hasStandardCommand>true</hasStandardCommand>
+			  <onlyManualCast>True</onlyManualCast>
+			  <range>29</range>
+			  <warmupTime>0.2</warmupTime>
+			  <noiseRadius>4</noiseRadius>
+			  <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			  <soundCast>Shot_IncendiaryLauncher</soundCast>
+			  <soundCastTail>GunTail_Medium</soundCastTail>
+			  <muzzleFlashScale>14</muzzleFlashScale>
+			  <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+			  <targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			  </targetParams>
+			  <defaultProjectile>Proj_GrenadeEMP</defaultProjectile>
+			  <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</verbProperties>
+			<comps>
+			  <li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>Proj_GrenadeEMP</projectileDef>
+			  </li>
+			</comps>
+		  </AbilityDef>  
+  
 		</value>
 	</match>
   </Operation>

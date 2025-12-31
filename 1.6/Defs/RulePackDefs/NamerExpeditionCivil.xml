@@ -18,7 +18,7 @@
       </rulesStrings>
       <rulesFiles>
         <li>political_union_expedition->Words/Nouns/PoliticalUnions_Expedition</li>
-        <li>political_adjective_expedition->Words/Adjective/Political_Adjective_Expedition</li>		
+        <li>political_adjective_expedition->Words/Adjectives/Political_Adjective_Expedition</li>		
         <li>political_adjective->Words/Adjectives/PoliticalUnions</li>
       </rulesFiles>
     </rulePack>
