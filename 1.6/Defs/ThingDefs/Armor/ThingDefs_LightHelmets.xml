@@ -74,8 +74,7 @@
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Light_Flak_Helmet_Medic</defName>
 		<label>Carapace Helmet (Medic)</label>
-		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
-This variant is marked for usage by Medical staff.</description>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is marked for usage by Medical staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>
@@ -130,8 +129,7 @@ This variant is marked for usage by Medical staff.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
-This variant is marked for usage by Medical staff.</loreDesc>
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard carapace helmet, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
@@ -144,8 +142,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Light_Flak_Helmet_Support</defName>
 		<label>Carapace Helmet (Engineer)</label>
-		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
-This variant is marked for usage by Engineering staff.</description>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is marked for usage by Engineering staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>
@@ -200,8 +197,7 @@ This variant is marked for usage by Engineering staff.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
-This variant is marked for usage by Engineering staff.</loreDesc>
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is marked for usage by Engineering staff.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard carapace helmet, but marked with insignia to denote engineers.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
@@ -214,8 +210,7 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Light_Flak_Helmet_Thermal</defName>
 		<label>Carapace Helmet (Thermal)</label>
-		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
-This variant is modified for usage on extremely cold worlds.</description>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is modified for usage on extremely cold worlds.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>ThermalHelmets</researchPrerequisite>
@@ -274,8 +269,7 @@ This variant is modified for usage on extremely cold worlds.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
-This variant is modified for usage on extremely cold worlds.</loreDesc>
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is modified for usage on extremely cold worlds.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Lined with thermal material to improve insulation in harsh climates.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
@@ -288,8 +282,7 @@ This variant is modified for usage on extremely cold worlds.</loreDesc>
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Light_Flak_Helmet_Officer</defName>
 		<label>Carapace Helmet (Officer)</label>
-		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
-This variant is marked for usage by officers.</description>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is marked for usage by officers.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>OfficerFlakArmor</researchPrerequisite>
@@ -344,8 +337,7 @@ This variant is marked for usage by officers.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.
-This variant is marked for usage by officers.</loreDesc>
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is marked for usage by officers.</loreDesc>
 				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Identical to the standard light carapace helmet, but decorated with gold inlay to denote officer rank.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">

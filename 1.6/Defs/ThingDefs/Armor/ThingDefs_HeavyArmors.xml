@@ -100,8 +100,7 @@
 	<ThingDef ParentName="KP_CarapaceArmors">
 		<defName>KP_Heavy_Flak_Armor_Medic</defName>
 		<label>Heavy Carapace Armor (Medic)</label>
-		<description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.
-This variant is marked for usage by Medical staff.</description>
+		<description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\n This variant is marked for usage by Medical staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
@@ -163,8 +162,7 @@ This variant is marked for usage by Medical staff.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.
-This variant is marked for usage by Medical staff.</loreDesc>
+				<loreDesc>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\nThis variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A reinforced variant of standard carapace armor with additional plating for greater protection. The extra bulk makes it heavier and more resource-intensive to produce. Identical to the standard heavy carapace armor, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
@@ -177,8 +175,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 	<ThingDef ParentName="KP_CarapaceArmors">
 		<defName>KP_Heavy_Flak_Armor_Support</defName>
 		<label>Heavy Carapace Armor (Engineer)</label>
-		<description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.
-This variant is marked for usage by Engineering staff.</description>
+		<description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\nThis variant is marked for usage by Engineering staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
@@ -240,8 +237,7 @@ This variant is marked for usage by Engineering staff.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.
-This variant is marked for usage by Engineering staff.</loreDesc>
+				<loreDesc>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\nThis variant is marked for usage by Engineering staff.</loreDesc>
 				<vanillaDesc>A reinforced variant of standard carapace armor with additional plating for greater protection. The extra bulk makes it heavier and more resource-intensive to produce. Identical to the standard heavy carapace armor, but marked with insignia to denote engineers.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">

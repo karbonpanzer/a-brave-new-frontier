@@ -72,8 +72,7 @@
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Heavy_Flak_Helmet_Medic</defName>
 		<label>Heavy Carapace Helmet (Medic)</label>
-		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
-This variant is marked for usage by Medical staff.</description>
+		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.\n\nThis variant is marked for usage by Medical staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>	
@@ -129,8 +128,7 @@ This variant is marked for usage by Medical staff.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
-This variant is marked for usage by Medical staff.</loreDesc>
+				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.\n\nThis variant is marked for usage by Medical staff.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but marked with insignia to denote medical personnel.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
@@ -143,8 +141,7 @@ This variant is marked for usage by Medical staff.</loreDesc>
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Heavy_Flak_Helmet_Support</defName>
 		<label>Heavy Carapace Helmet (Engineer)</label>
-		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
-This variant is marked for usage by Engineering staff.</description>
+		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.\n\nThis variant is marked for usage by Engineering staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>	
@@ -200,8 +197,7 @@ This variant is marked for usage by Engineering staff.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
-This variant is marked for usage by Engineering staff.</loreDesc>
+				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.\n\nThis variant is marked for usage by Engineering staff.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but marked with insignia to denote engineers.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
@@ -214,8 +210,7 @@ This variant is marked for usage by Engineering staff.</loreDesc>
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Heavy_Flak_Helmet_Thermal</defName>
 		<label>Heavy Carapace Helmet (Thermal)</label>
-		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
-This variant is modified for usage on extreme cold worlds.</description>
+		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.\n\nThis variant is modified for usage on extreme cold worlds.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>ThermalHelmets</researchPrerequisite>		
@@ -274,8 +269,7 @@ This variant is modified for usage on extreme cold worlds.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
-This variant is modified for usage on extreme cold worlds.</loreDesc>
+				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.\n\nThis variant is modified for usage on extreme cold worlds.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Lined with thermal material to protect the wearer in extreme temperatures.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
@@ -288,8 +282,7 @@ This variant is modified for usage on extreme cold worlds.</loreDesc>
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>KP_Heavy_Flak_Helmet_Officer</defName>
 		<label>Heavy Carapace Helmet (Officer)</label>
-		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
-This variant is marked for usage by Officers.</description>
+		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.\n\nThis variant is marked for usage by Officers.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>OfficerFlakArmor</researchPrerequisite>			
@@ -345,8 +338,7 @@ This variant is marked for usage by Officers.</description>
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.
-This variant is marked for usage by Officers.</loreDesc>
+				<loreDesc>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.\n\nThis variant is marked for usage by Officers.</loreDesc>
 				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource-efficient. Identical to the standard heavy carapace helmet, but decorated with gold inlay to denote officer rank.</vanillaDesc>
 			</li>
 			<li Class="BNF.StyleSwitcher.BNFTextureExtension">
