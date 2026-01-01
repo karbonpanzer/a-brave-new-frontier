@@ -1,5 +1,19 @@
 <Defs>
 
+	<RulePackDef>
+			<defName>NamerColonistGlobalMale</defName>
+				<include>
+					<li>BNF_Namer_Exoduster_Male</li>
+				</include>
+	</RulePackDef>
+	
+	<RulePackDef>
+			<defName>NamerColonistGlobalFemale</defName>
+				<include>
+					<li>BNF_Namer_Exoduster_Female</li>
+				</include>
+	</RulePackDef>		
+
   <RulePackDef>
     <defName>BNF_PawnNamerExoduster</defName>
     <rulePack>
