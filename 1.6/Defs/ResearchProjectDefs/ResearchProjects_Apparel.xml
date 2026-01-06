@@ -72,8 +72,8 @@
 
 	<ResearchProjectDef>
 		<defName>ArcticUniforms</defName>
-		<label>Polar Uniforms</label>
-		<description>Tailor heavily insulated garments designed for survival and work in extreme cold.</description>
+		<label>Extreme Weather Uniforms</label>
+		<description>Tailor heavily modified garments designed for survival and work in extreme heat and cold.</description>
 		<baseCost>1500</baseCost>
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>

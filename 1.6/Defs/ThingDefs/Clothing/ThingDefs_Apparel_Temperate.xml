@@ -36,6 +36,7 @@
 			<PainShockThreshold>0.10</PainShockThreshold>
 		</equippedStatOffsets>
 		<apparel>
+			<developmentalStageFilter>Child,Adult</developmentalStageFilter>			
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Neck</li>
@@ -119,6 +120,7 @@
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
 		<apparel>
+			<developmentalStageFilter>Child,Adult</developmentalStageFilter>		
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
