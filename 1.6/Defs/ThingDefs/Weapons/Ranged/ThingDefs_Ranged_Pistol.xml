@@ -20,7 +20,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>KP_Assault_Pistol</defName>
 		<label>Assault Pistol</label>
-		<description>The Last Remnant of the Inter-Humanity Wars. Built on the idea of an “Offensive Pistol” for Trench Raiders on worlds consumed by conflicts, good for penetrating human made armor. When the Mechanoids emerged, that concept fell apart with the failure of these pistols to easily penetrate Mechanoid armor. Their use would continue against Insectoids, but the low magazine capacity would leave this pistol in the dust compared to its competitors. Obsolescence would usually leave guns in the hands of gang members and the Third-Worlders but not the Assault Pistol. Now it has a second life in the Rim, in the hands of militias, pirates, and anyone who can afford them in bulk.</description>
+		<description>The Last Remnant of the Inter-Humanity Wars. Built on the idea of an “Offensive Pistol” for Trench Raiders on worlds consumed by conflicts, good for penetrating human made armor. When the Mechanoids emerged, that concept fell apart with the failure of these pistols to easily penetrate Mechanoid armor. Their use would continue against Insectoids, but the low magazine capacity would leave this pistol in the dust compared to its competitors. Obsolescence would usually leave guns in the hands of gang members and the Third-Worlders but not the Assault Pistol. Now it has a second life in the Rim, in the hands of militias, pirates, and anyone who can afford them in bulk.\n\nOfficial Name: Belicose Mark 17 Assault Pistol.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/assaultpistol</texPath>
@@ -90,7 +90,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>The Last Remnant of the Inter-Humanity Wars. Built on the idea of an “Offensive Pistol” for Trench Raiders on worlds consumed by conflicts, good for penetrating human made armor. When the Mechanoids emerged, that concept fell apart with the failure of these pistols to easily penetrate Mechanoid armor. Their use would continue against Insectoids, but the low magazine capacity would leave this pistol in the dust compared to its competitors. Obsolescence would usually leave guns in the hands of gang members and the Third-Worlders but not the Assault Pistol. Now it has a second life in the Rim, in the hands of militias, pirates, and anyone who can afford them in bulk.</loreDesc>
+				<loreDesc>The Last Remnant of the Inter-Humanity Wars. Built on the idea of an “Offensive Pistol” for Trench Raiders on worlds consumed by conflicts, good for penetrating human made armor. When the Mechanoids emerged, that concept fell apart with the failure of these pistols to easily penetrate Mechanoid armor. Their use would continue against Insectoids, but the low magazine capacity would leave this pistol in the dust compared to its competitors. Obsolescence would usually leave guns in the hands of gang members and the Third-Worlders but not the Assault Pistol. Now it has a second life in the Rim, in the hands of militias, pirates, and anyone who can afford them in bulk.\n\nOfficial Name: Belicose Mark 17 Assault Pistol.</loreDesc>
 				<vanillaDesc>A compact sidearm built for trench raiders. Fires fast and hits hard against lightly armored targets. Limited magazine size makes it less useful in extended fights.</vanillaDesc>
 			</li>
 		</modExtensions>
@@ -114,7 +114,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>KP_Gun_HyperSMG</defName>
 		<label>Hyper-SMG</label>
-		<description>An interesting story surrounds this small submachine gun, a decade spanning project and a strange idea about hit probability and even more ancient technology. This weapon is the final product of PROJECT: VOLLEY, a weapon program to design a gun that would fire many bullets so fast than the soldier firing would only feel the recoil of one of those shots. The highest they were able to get was seven bullets and the bullets had gotten so small by the end of the project to avoid tumbling after exiting the barrel. With the success of this project, they began to sell the gun to any organization that could afford it. Sadly, nobody had any use for a literal bullet hose, so the company failed and now their stock has begun being sold to the Rim, so are you gonna buy some? Please say yes, my family is so hungry.</description>
+		<description>An interesting story surrounds this small submachine gun, a decade spanning project and a strange idea about hit probability and even more ancient technology. This weapon is the final product of PROJECT: VOLLEY, a weapon program to design a gun that would fire many bullets so fast than the soldier firing would only feel the recoil of one of those shots. The highest they were able to get was seven bullets and the bullets had gotten so small by the end of the project to avoid tumbling after exiting the barrel. With the success of this project, they began to sell the gun to any organization that could afford it. Sadly, nobody had any use for a literal bullet hose, so the company failed and now their stock has begun being sold to the Rim, so are you gonna buy some? Please say yes, my family is so hungry.\n\nOfficial Name: Mithras XMP-7, relicensed under Alexandria Armaments as the Type-177 Hyper-SMG.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/hypersmg</texPath>
@@ -185,7 +185,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>An interesting story surrounds this small submachine gun, a decade spanning project and a strange idea about hit probability and even more ancient technology. This weapon is the final product of PROJECT: VOLLEY, a weapon program to design a gun that would fire many bullets so fast than the soldier firing would only feel the recoil of one of those shots. The highest they were able to get was seven bullets and the bullets had gotten so small by the end of the project to avoid tumbling after exiting the barrel. With the success of this project, they began to sell the gun to any organization that could afford it. Sadly, nobody had any use for a literal bullet hose, so the company failed and now their stock has begun being sold to the Rim, so are you gonna buy some? Please say yes, my family is so hungry.</loreDesc>
+				<loreDesc>An interesting story surrounds this small submachine gun, a decade spanning project and a strange idea about hit probability and even more ancient technology. This weapon is the final product of PROJECT: VOLLEY, a weapon program to design a gun that would fire many bullets so fast than the soldier firing would only feel the recoil of one of those shots. The highest they were able to get was seven bullets and the bullets had gotten so small by the end of the project to avoid tumbling after exiting the barrel. With the success of this project, they began to sell the gun to any organization that could afford it. Sadly, nobody had any use for a literal bullet hose, so the company failed and now their stock has begun being sold to the Rim, so are you gonna buy some? Please say yes, my family is so hungry.\n\nOfficial Name: Mithras XMP-7, relicensed under Alexandria Armaments as the Type-177 Hyper-SMG.</loreDesc>
 				<vanillaDesc>An experimental submachine gun firing seven rounds in a burst. Extremely fast rate of fire makes it a literal bullet hose. Accurate up close but ineffective at range.</vanillaDesc>
 			</li>
 		</modExtensions>
@@ -213,7 +213,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>KP_Slab_Revolver</defName>
 		<label>Slab Revolver</label>
-		<description>An experimental revolver designed for usage in space. Firing a micro-rocket tipped with an explosive allows greater usage compared to convention munitions. Though being a firearm meant for usage in space, it has found a home among the Rimworlds.</description>
+		<description>An ancient design from the pre-Great Domain era of humanity, this revolver was not designed for usage on worlds but in space as a vacuum weapon. While firearms do work in space they lack many things which would have made them optimal for usage, so the Slab Revolver was designed. A massive frame revolver that took .50 caliber micro-rockets with explosive tipped heads, designed with zero g in mind, they added as much weight to the weapon to make it have the same feel as holding a regular revolver in usual gravity. Though space combat is rare for infantry, this weapon has found its home among raiders in the Rimworlds in both space and surface, who enjoy its devastation potential for maiming the enemy even when directly missing them.\n\nOfficial Name: Belicose EVA Pistol "Argonaut."</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/bigiron</texPath>
@@ -283,7 +283,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>An ancient design from the pre-Great Domain era of humanity, this revolver was not designed for usage on worlds but in space as a vacuum weapon. While firearms do work in space they lack many things which would have made them optimal for usage, so the Slab Revolver was designed. A massive frame revolver that took .50 caliber micro-rockets with explosive tipped heads, designed with zero g in mind, they added as much weight to the weapon to make it have the same feel as holding a regular revolver in usual gravity. Though space combat is rare for infantry, this weapon has found its home among raiders in the Rimworlds in both space and surface, who enjoy its devastation potential for maiming the enemy even when directly missing them.</loreDesc>
+				<loreDesc>An ancient design from the pre-Great Domain era of humanity, this revolver was not designed for usage on worlds but in space as a vacuum weapon. While firearms do work in space they lack many things which would have made them optimal for usage, so the Slab Revolver was designed. A massive frame revolver that took .50 caliber micro-rockets with explosive tipped heads, designed with zero g in mind, they added as much weight to the weapon to make it have the same feel as holding a regular revolver in usual gravity. Though space combat is rare for infantry, this weapon has found its home among raiders in the Rimworlds in both space and surface, who enjoy its devastation potential for maiming the enemy even when directly missing them.\n\nOfficial Name: Belicose EVA Pistol "Argonaut."</loreDesc>
 				<vanillaDesc>An experimental revolver designed for usage in space. Firing a micro-rocket tipped with an explosive allows greater usage compared to convention munitions. Though being a firearm meant for usage in space, it has found a home among the Rimworlds.</vanillaDesc>
 			</li>
 		</modExtensions>
@@ -309,7 +309,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>KP_Compact_PDW</defName>
 		<label>compact PDW</label>
-		<description>A compact PDW with an extremely high rate of fire and controllable recoil. Deadly up close, but poor against armor and at long range. Commonly used as both a primary weapon and a sidearm due to its compact size.</description>
+		<description>A weapon used during the Great Domain Era by the Presidium Guard. Small, compact, and easy to use, allowing even the most unskilled users to use it effectively. The Presidium Guard used it as a concealed weapon when guarding the members of the Presidium during the Dark Time before the collapse of the Great Domain. Nowadays it is used by many in the criminal underworld and has seen modfications to it turning into a holdout weapon by gangsters. This widespread use saw its manufacturing by many in the Rimworlds seeking close quarter protection and concealibility.\n\nOfficial Name: Micro-Munitions "Protector."</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/compactpdw</texPath>
@@ -385,7 +385,7 @@
 		</thingSetMakerTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>A weapon used during the Great Domain Era by the Presidium Guard. Small, compact, and easy to use, allowing even the most unskilled users to use it effectively. The Presidium Guard used it as a concealed weapon when guarding the members of the Presidium during the Dark Time before the collapse of the Great Domain. Nowadays it is used by many in the criminal underworld and has seen modfications to it turning into a holdout weapon by gangsters. This widespread use saw its manufacturing by many in the Rimworlds seeking close quarter protection and concealibility.</loreDesc>
+				<loreDesc>A weapon used during the Great Domain Era by the Presidium Guard. Small, compact, and easy to use, allowing even the most unskilled users to use it effectively. The Presidium Guard used it as a concealed weapon when guarding the members of the Presidium during the Dark Time before the collapse of the Great Domain. Nowadays it is used by many in the criminal underworld and has seen modfications to it turning into a holdout weapon by gangsters. This widespread use saw its manufacturing by many in the Rimworlds seeking close quarter protection and concealibility.\n\nOfficial Name: Micro-Munitions "Protector."</loreDesc>
 				<vanillaDesc>A compact PDW with an extremely high rate of fire and controllable recoil. Deadly up close, but poor against armor and at long range. Commonly used as both a primary weapon and a sidearm due to its compact size.</vanillaDesc>
 			</li>
 		</modExtensions>

@@ -20,7 +20,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>KP_Super_Shotgun</defName>
 		<label>Super-Shotgun</label>
-		<description>The name much like the gun was a marketing ploy to get people to buy this unorthodox shotgun. A double barrel pulse action shotgun firing 10 gauge using an experimental caseless ammo system. The main selling point was with two barrels and two tubes, you can have one barrel firing shot from an unrifled barrel while the other fires slugs from a rifled barrel. A cute concept though not groundbreaking. It sold enough to keep the company afloat, but it went gangbusters when Mechanoids invaded. The gun was configured to fire explosive shells and EMP slugs, to counter Mechanoids with shields, though most people like the versatility of shot. Unlike other weapons, this isn’t surplus, its part of expanding the market.</description>
+		<description>The name much like the gun was a marketing ploy to get people to buy this unorthodox shotgun. A double barrel pulse action shotgun firing 10 gauge using an experimental caseless ammo system. The main selling point was with two barrels and two tubes, you can have one barrel firing shot from an unrifled barrel while the other fires slugs from a rifled barrel. A cute concept though not groundbreaking. It sold enough to keep the company afloat, but it went gangbusters when Mechanoids invaded. The gun was configured to fire explosive shells and EMP slugs, to counter Mechanoids with shields, though most people like the versatility of shot. Unlike other weapons, this isn’t surplus, its part of expanding the market.\n\nOfficial Name: Millenia Model 72 Assault Shotgun "Super-Shotgun."</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/supershotgun</texPath>
@@ -93,7 +93,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>The name much like the gun was a marketing ploy to get people to buy this unorthodox shotgun. A double barrel pulse action shotgun firing 10 gauge using an experimental caseless ammo system. The main selling point was with two barrels and two tubes, you can have one barrel firing shot from an unrifled barrel while the other fires slugs from a rifled barrel. A cute concept though not groundbreaking. It sold enough to keep the company afloat, but it went gangbusters when Mechanoids invaded. The gun was configured to fire explosive shells and EMP slugs, to counter Mechanoids with shields, though most people like the versatility of shot. Unlike other weapons, this isn’t surplus, its part of expanding the market.</loreDesc>
+				<loreDesc>The name much like the gun was a marketing ploy to get people to buy this unorthodox shotgun. A double barrel pulse action shotgun firing 10 gauge using an experimental caseless ammo system. The main selling point was with two barrels and two tubes, you can have one barrel firing shot from an unrifled barrel while the other fires slugs from a rifled barrel. A cute concept though not groundbreaking. It sold enough to keep the company afloat, but it went gangbusters when Mechanoids invaded. The gun was configured to fire explosive shells and EMP slugs, to counter Mechanoids with shields, though most people like the versatility of shot. Unlike other weapons, this isn’t surplus, its part of expanding the market.\n\nOfficial Name: Millenia Model 72 Assault Shotgun "Super-Shotgun."</loreDesc>
 				<vanillaDesc>An experimental dual-barrel pulse action shotgun. Can fire shot or slug loads, and is adaptable to specialty shells. Extremely powerful at short range, but bulky.</vanillaDesc>
 			</li>
 		</modExtensions>
@@ -119,7 +119,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>KP_Coreburner</defName>
 		<label>coreburner</label>
-		<description>An incendiary chain shotgun. Multiple flaming pellets per trigger pull, likely to ignite targets and surroundings.</description>
+		<description>Deep in the Coreworlds lies a burned ruin, a planet undesired by man, machine, and even insect. This is the doomed world of Opportunity, here is where the last world of the Borea sector stood their ground against  the insectoid threat of the Hades Hive Cluster. This world fought against the insectoid threat for decades until the last remnants of humanity decided to do the unthinkable, they ignited their atmosphere, dooming all but a select few sequestered into bunkers. The plan worked and of the few insects that survived, they were met with the Coreburner, a heavily modfified shotgun firing incendiary shells of pure hellfire. Opportunity was soon abandoned, left as a dead husk, untouched by all who fought for it.\n\nOfficial Name: Tschish-Maxwell Defoliant Shotgun Model A.</description>
 		<graphicData>
 			<texPath>Weapons/coreburner</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -193,7 +193,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Deep in the Coreworlds lies a burned ruin, a planet undesired by man, machine, and even insect. This is the doomed world of Opportunity, here is where the last world of the Borea sector stood their ground against  the insectoid threat of the Hades Hive Cluster. This world fought against the insectoid threat for decades until the last remnants of humanity decided to do the unthinkable, they ignited their atmosphere, dooming all but a select few sequestered into bunkers. The plan worked and of the few insects that survived, they were met with the Coreburner, a heavily modfified shotgun firing incendiary shells of pure hellfire. Opportunity was soon abandoned, left as a dead husk, untouched by all who fought for it.</loreDesc>
+				<loreDesc>Deep in the Coreworlds lies a burned ruin, a planet undesired by man, machine, and even insect. This is the doomed world of Opportunity, here is where the last world of the Borea sector stood their ground against  the insectoid threat of the Hades Hive Cluster. This world fought against the insectoid threat for decades until the last remnants of humanity decided to do the unthinkable, they ignited their atmosphere, dooming all but a select few sequestered into bunkers. The plan worked and of the few insects that survived, they were met with the Coreburner, a heavily modfified shotgun firing incendiary shells of pure hellfire. Opportunity was soon abandoned, left as a dead husk, untouched by all who fought for it.\n\nOfficial Name: Tschish-Maxwell Defoliant Shotgun Model A.</loreDesc>
 				<vanillaDesc>A short-range, rapid-chain shotgun that fires incendiary pellets. Extremely effective up close and may ignite targets and scenery.</vanillaDesc>
 			</li>
 		</modExtensions>

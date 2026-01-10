@@ -90,31 +90,30 @@
 		</ThingDef>	
 
 		<ThingDef ParentName="ApparelMakeableBase">
-			<defName>BNF_Clothes_EVA</defName>
-			<label>EVA Suit</label>
+			<defName>BNF_Armor_EVA</defName>
+			<label>EVA Armor</label>
 			<techLevel>Spacer</techLevel>			
 			<recipeMaker>
 				<researchPrerequisite>AeneidKit</researchPrerequisite>
 			</recipeMaker>
 			<graphicData>
 				<graphicClass>Graphic_Single</graphicClass>
-				<texPath>Clothes/EVASuit/EVASuit</texPath>
+				<texPath>Armor/SpecialArmorVariants/EVAArmor/EVAArmor</texPath>
 				<shaderType>CutoutComplex</shaderType>
 				<drawSize>0.8</drawSize>
 			</graphicData>
 			<costStuffCount>150</costStuffCount>
 			<stuffCategories>
-				<li>Fabric</li>
-				<li>Leathery</li>
+				<li>Metallic</li>
 			</stuffCategories>
 			<thingCategories Inherit="False">
 			<li>KP_Uniforms</li>
 			</thingCategories>
 			<statBases>
-				<MaxHitPoints>100</MaxHitPoints>
-				<WorkToMake>5400</WorkToMake>
-				<Mass>5</Mass>
-				<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+				<MaxHitPoints>200</MaxHitPoints>
+				<WorkToMake>7200</WorkToMake>
+				<Mass>7</Mass>
+				<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
 				<StuffEffectMultiplierInsulation_Cold>6</StuffEffectMultiplierInsulation_Cold>
 				<StuffEffectMultiplierInsulation_Heat>2</StuffEffectMultiplierInsulation_Heat>
 				<EquipDelay>2</EquipDelay>
@@ -132,10 +131,10 @@
 					<li>Arms</li>
 					<li>Legs</li>
 				</bodyPartGroups>
-				<wornGraphicPath>Clothes/EVASuit/EVASuit</wornGraphicPath>
+				<wornGraphicPath>Armor/SpecialArmorVariants/EVAArmor/EVAArmor</wornGraphicPath>
 				<useWornGraphicMask>True</useWornGraphicMask>
 				<layers>
-					<li>OnSkin</li>
+					<li>Middle</li>					
 				</layers>
 				<tags>
 					<li>BNF_EVA</li>
@@ -236,17 +235,20 @@
 		  </comps>
 		</ThingDef>
 
-		  <ThingDef ParentName="BaseBullet">
+		<ThingDef ParentName="BaseBullet">
 			<defName>Bullet_PhaseRifle</defName>
 			<label>phase rifle bullet</label>
 			<graphicData>
-			  <texPath>Things/Projectile/Shot_ChargeRifle</texPath>
-			  <graphicClass>Graphic_Single</graphicClass>
+				<texPath>Things/Projectile/Bullet_Charge_Big</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<shaderType>TransparentPostLight</shaderType>
+				<drawSize>1.05</drawSize>
 			</graphicData>
 			<projectile>
-			  <damageDef>Bullet</damageDef>
-			  <damageAmountBase>10</damageAmountBase>
-			  <speed>70</speed>
+				<damageDef>Bullet</damageDef>
+				<damageAmountBase>13</damageAmountBase>
+				<armorPenetrationBase>0.35</armorPenetrationBase>
+				<speed>70</speed>
 			</projectile>
 		  </ThingDef>
 		  

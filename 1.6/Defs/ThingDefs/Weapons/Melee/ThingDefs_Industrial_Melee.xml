@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>KP_Trench_Spike</defName>
 		<label>Trench Knife</label>
-		<description>Originally an ancient design from the Inter-Humanity Wars, now finds new life in the Rim. When warfare eventually fell into stagnation and trenches, this ancient weapon was again found in the hands of those in the trenches. Often hand-made by Army Blacksmiths, they come in a variety of shapes, sizes, and materials yet this design is the most popular. Unlike many weapons though, this one still found use against Insectoids. The spike blade would easily penetrate the chitin of an Insectoid and many veterans found themselves brave enough to do so.</description>
+		<description>Originally an ancient design from the Inter-Humanity Wars, now finds new life in the Rim. When warfare eventually fell into stagnation and trenches, this ancient weapon was again found in the hands of those in the trenches. Often hand-made by Army Blacksmiths, they come in a variety of shapes, sizes, and materials yet this design is the most popular. Unlike many weapons though, this one still found use against Insectoids. The spike blade would easily penetrate the chitin of an Insectoid and many veterans found themselves brave enough to do so.\n\nOfficial Name: Department of Armaments M7 Trench Spike.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/trenchspike</texPath>
@@ -75,7 +75,7 @@
 		</weaponTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Originally an ancient design from the Inter-Humanity Wars, now finds new life in the Rim. When warfare eventually fell into stagnation and trenches, this ancient weapon was again found in the hands of those in the trenches. Often hand-made by Army Blacksmiths, they come in a variety of shapes, sizes, and materials yet this design is the most popular. Unlike many weapons though, this one still found use against Insectoids. The spike blade would easily penetrate the chitin of an Insectoid and many veterans found themselves brave enough to do so.</loreDesc>
+				<loreDesc>Originally an ancient design from the Inter-Humanity Wars, now finds new life in the Rim. When warfare eventually fell into stagnation and trenches, this ancient weapon was again found in the hands of those in the trenches. Often hand-made by Army Blacksmiths, they come in a variety of shapes, sizes, and materials yet this design is the most popular. Unlike many weapons though, this one still found use against Insectoids. The spike blade would easily penetrate the chitin of an Insectoid and many veterans found themselves brave enough to do so.\n\nOfficial Name: Department of Armaments M7 Trench Spike.</loreDesc>
 				<vanillaDesc>A brutal melee weapon of blade and spike. Cuts and pierces with ease, able to puncture insectoid chitin. Light, cheap, and deadly in close combat.</vanillaDesc>
 			</li>
 		</modExtensions>
@@ -84,7 +84,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>KP_Trench_Sword</defName>
 		<label>Trench Sword</label>
-		<description>A heavy, double-edged trench sword with a short blade and a handguard. Designed for brutal, close-quarters fighting.</description>
+		<description>The origin of the trench sword is a mystery, many variatns have existed over the centuries with not a single direct source. This model is from the war-world of Hersilia which has existed in a civil war since the Great Domain existed. The planet which in the distant past was a lush green world is now know as the great wastes, miles of trenches, tunnels, and fortifications now scar its surface. The reason for the war forgotten but not the centuries of hatred between the Remunians and Sybinites, the last cultures on the world. This sword reflects that fight, a blade seen on both sides and used without question.\n\nOfficial Name: Hersilian Type-3 Sword.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/trenchsword</texPath>
@@ -152,7 +152,7 @@
 		</weaponTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>The origin of the trench sword is a mystery, many variatns have existed over the centuries with not a single direct source. This model is from the war-world of Hersilia which has existed in a civil war since the Great Domain existed. The planet which in the distant past was a lush green world is now know as the great wastes, miles of trenches, tunnels, and fortifications now scar its surface. The reason for the war forgotten but not the centuries of hatred between the Remunians and Sybinites, the last cultures on the world. This sword reflects that fight, a blade seen on both sides and used without question.</loreDesc>
+				<loreDesc>The origin of the trench sword is a mystery, many variatns have existed over the centuries with not a single direct source. This model is from the war-world of Hersilia which has existed in a civil war since the Great Domain existed. The planet which in the distant past was a lush green world is now know as the great wastes, miles of trenches, tunnels, and fortifications now scar its surface. The reason for the war forgotten but not the centuries of hatred between the Remunians and Sybinites, the last cultures on the world. This sword reflects that fight, a blade seen on both sides and used without question.\n\nOfficial Name: Hersilian Type-3 Sword.</loreDesc>
 				<vanillaDesc>A short, double-edged sword made for close quarters. Balances cutting and thrusting power for maximum damage in tight environments.</vanillaDesc>
 			</li>
 		</modExtensions>
@@ -161,7 +161,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>KP_Trench_Mace</defName>
 		<label>Trench Mace</label>
-		<description>A compact trench mace with a tapered head for crushing armor and bone. Heavy and slow, but devastating on impact.</description>
+		<description>A commonly found bar mace which while not unique posseses a history of the design. Originally from the Hell-world of Iblis, it was once used as a tool of oppression for the spicefields on the world which were controlled by a few spice guilds. However, after the invasion of Iblis in the 45th century by the Great Pirate Fleet of the Pirate King Mynos, the weapon turned from tool of oppression into a symbol of resistance. Iblis lacked the armaments needed to fight the Great Pirate Fleet, firearms were rare under the authority of the spice guilds, but the maces were not. Both members of the spice guild and the slaves they employed fought against the pirates and eventually overcame them after the capture of a pirate corvette and its usage in a suicide mission which killed King Mynos liberated the world. Now its design has become widespread after the world of Iblis was abandoned after the destruction of the spice crop during the war.\n\nOfficial Name: Department of Armaments M4 Trench Mace.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/trenchmace</texPath>
@@ -221,7 +221,7 @@
 		</weaponTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>A commonly found bar mace which while not unique posseses a history of the design. Originally from the Hell-world of Iblis, it was once used as a tool of oppression for the spicefields on the world which were controlled by a few spice guilds. However, after the invasion of Iblis in the 45th century by the Great Pirate Fleet of the Pirate King Mynos, the weapon turned from tool of oppression into a symbol of resistance. Iblis lacked the armaments needed to fight the Great Pirate Fleet, firearms were rare under the authority of the spice guilds, but the maces were not. Both members of the spice guild and the slaves they employed fought against the pirates and eventually overcame them after the capture of a pirate corvette and its usage in a suicide mission which killed King Mynos liberated the world. Now its design has become widespread after the world of Iblis was abandoned after the destruction of the spice crop during the war.</loreDesc>
+				<loreDesc>A commonly found bar mace which while not unique posseses a history of the design. Originally from the Hell-world of Iblis, it was once used as a tool of oppression for the spicefields on the world which were controlled by a few spice guilds. However, after the invasion of Iblis in the 45th century by the Great Pirate Fleet of the Pirate King Mynos, the weapon turned from tool of oppression into a symbol of resistance. Iblis lacked the armaments needed to fight the Great Pirate Fleet, firearms were rare under the authority of the spice guilds, but the maces were not. Both members of the spice guild and the slaves they employed fought against the pirates and eventually overcame them after the capture of a pirate corvette and its usage in a suicide mission which killed King Mynos liberated the world. Now its design has become widespread after the world of Iblis was abandoned after the destruction of the spice crop during the war.\n\nOfficial Name: Department of Armaments M4 Trench Mace.</loreDesc>
 				<vanillaDesc>A heavy, compact blunt weapon that deals massive blunt damage in tight melee fights. Slow but devastating.</vanillaDesc>
 			</li>
 		</modExtensions>

@@ -220,7 +220,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>BNF_Rifle_ServiceB</defName>
 		<label>Service Rifle (Bayonet)</label>
-		<description>Once considered the right arm of the free worlds, the service rifle emerged during the great schisms. Before the mechanoid threat, separatists groups armed themselves with this ancient design. After centuries of fighting the Domain, the Bugs, and the Bots, the design has been further streamlined. parts made with polymers or woods changes to shaped steel, fine crafted metal turned to mass production stamps, and quality turned to quantity. Despite this, it is a favorite among mercenaries and colonial militias, some groups have even modified them to take bayonets and other ancient modifications. Now the weapon represents the worlds striving for freedom.</description>
+		<description>Once considered the right arm of the free worlds, the partisan Rifle emerged during the great schisms. Before the mechanoid threat, separatists groups armed themselves with this ancient design. After centuries of fighting the Domain, the Bugs, and the Bots, the design has been further streamlined. parts made with polymers or woods changes to shaped steel, fine crafted metal turned to mass production stamps, and quality turned to quantity. Despite this. it is a favorite among mercenaries and colonial militias, some groups have even modified them to take bayonets and other ancient modifications. Now the weapon represents the worlds striving for freedom.\n\nOfficial Name: Armex-Armalite Free License.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/servicerifleb</texPath>
@@ -237,8 +237,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<costList>
-			<Steel>75</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<KP_Service_Rifle>1</KP_Service_Rifle>
 			<BNF_Blade_Bayonet>1</BNF_Blade_Bayonet>
 		</costList>
 		<statBases>
@@ -299,7 +298,7 @@
 		</tools>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>Once considered the right arm of the free worlds, the partisan Rifle emerged during the great schisms. Before the mechanoid threat, separatists groups armed themselves with this ancient design. After centuries of fighting the Domain, the Bugs, and the Bots, the design has been further streamlined. parts made with polymers or woods changes to shaped steel, fine crafted metal turned to mass production stamps, and quality turned to quantity. Despite this. it is a favorite among mercenaries and colonial militias, some groups have even modified them to take bayonets and other ancient modifications. Now the weapon represents the worlds striving for freedom.</loreDesc>
+				<loreDesc>Once considered the right arm of the free worlds, the partisan Rifle emerged during the great schisms. Before the mechanoid threat, separatists groups armed themselves with this ancient design. After centuries of fighting the Domain, the Bugs, and the Bots, the design has been further streamlined. parts made with polymers or woods changes to shaped steel, fine crafted metal turned to mass production stamps, and quality turned to quantity. Despite this. it is a favorite among mercenaries and colonial militias, some groups have even modified them to take bayonets and other ancient modifications. Now the weapon represents the worlds striving for freedom.\n\nOfficial Name: Armex-Armalite Free License.</loreDesc>
 				<vanillaDesc>A simplified rifle design built using simpler parts. Light, cheap. and decently accurate, this rifle is considered a favorite in resource poor communities. A simplified design make it so even the poorest colonies are well armed.</vanillaDesc>
 			</li>
 		</modExtensions>
@@ -308,7 +307,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>BNF_Blade_Bayonet</defName>
 		<label>Bayonet</label>
-		<description>A piece of the original kit for the service rifle, bayonets still were being used in militaries. Not for anything like bayonet charges or massacres, but it was just a nice utility, something used to open cans and used as cooking spits. However, as the situation in the Rimworlds got worse, many found themselves cut off from their supplies, meaning fighting without ammo. Bands of partisans armed with nothing but empty rifles converted into crude spears is what help many Rimworlds from total collapse, even on liberated worlds, this ancient piece of kit is seen now as a symbol of triumph against the odds.</description>
+		<description>A piece of the original kit for the service rifle, bayonets still were being used in militaries. Not for anything like bayonet charges or massacres, but it was just a nice utility, something used to open cans and used as cooking spits. However, as the situation in the Rimworlds got worse, many found themselves cut off from their supplies, meaning fighting without ammo. Bands of partisans armed with nothing but empty rifles converted into crude spears is what help many Rimworlds from total collapse, even on liberated worlds, this ancient piece of kit is seen now as a symbol of triumph against the odds.\n\nOfficial Name: Armex-Armalite Free License.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Weapons/bayonet</texPath>
@@ -364,7 +363,7 @@
 		</weaponTags>
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-				<loreDesc>A piece of the original kit for the service rifle, bayonets still were being used in militaries. Not for anything like bayonet charges or massacres, but it was just a nice utility, something used to open cans and used as cooking spits. However, as the situation in the Rimworlds got worse, many found themselves cut off from their supplies, meaning fighting without ammo. Bands of partisans armed with nothing but empty rifles converted into crude spears is what help many Rimworlds from total collapse, even on liberated worlds, this ancient piece of kit is seen now as a symbol of triumph against the odds.</loreDesc>
+				<loreDesc>A piece of the original kit for the service rifle, bayonets still were being used in militaries. Not for anything like bayonet charges or massacres, but it was just a nice utility, something used to open cans and used as cooking spits. However, as the situation in the Rimworlds got worse, many found themselves cut off from their supplies, meaning fighting without ammo. Bands of partisans armed with nothing but empty rifles converted into crude spears is what help many Rimworlds from total collapse, even on liberated worlds, this ancient piece of kit is seen now as a symbol of triumph against the odds.\n\nOfficial Name: Armex-Armalite Free License.</loreDesc>
 				<vanillaDesc>A knife with unique hilt and cross guard. Commonly seen mounted to a rifle it can be used by hand. Sharp and deadly, it is a useful weapon for all.</vanillaDesc>
 			</li>
 		</modExtensions>
