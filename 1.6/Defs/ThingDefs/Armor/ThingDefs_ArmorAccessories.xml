@@ -34,7 +34,7 @@
 			<MoveSpeed>-0.10</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_ArmorAccessories</li>
 		</thingCategories>
 		<costList>
 			<Cloth>10</Cloth>
@@ -112,7 +112,7 @@
 			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_ArmorAccessories</li>
 		</thingCategories>
 		<costList>
 			<Cloth>10</Cloth>
@@ -189,7 +189,7 @@
 			</li>
 		</verbs>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_ArmorAccessories</li>
 		</thingCategories>
 		<costList>
 			<Cloth>10</Cloth>
@@ -259,7 +259,7 @@
 			</li>
 		</verbs>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_ArmorAccessories</li>
 		</thingCategories>
 		<costList>
 			<Cloth>10</Cloth>
@@ -329,7 +329,7 @@
 			<MoveSpeed>-0.07</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_ArmorAccessories</li>
 		</thingCategories>
 		<costList>
 			<Cloth>60</Cloth>

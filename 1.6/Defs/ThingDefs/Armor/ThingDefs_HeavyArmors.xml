@@ -54,7 +54,7 @@
 			<MoveSpeed>-0.07</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_Armor</li>
 		</thingCategories>
 		<costList>
 			<Cloth>60</Cloth>
@@ -103,8 +103,7 @@
 		<description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\n This variant is marked for usage by Medical staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
-			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>			
+			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>						
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -130,7 +129,7 @@
 			<MoveSpeed>-0.07</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_Armor</li>
 		</thingCategories>
 		<costList>
 			<Cloth>60</Cloth>
@@ -178,8 +177,7 @@
 		<description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\nThis variant is marked for usage by Engineering staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
-			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>			
+			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>			
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -205,7 +203,7 @@
 			<MoveSpeed>-0.07</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_Armor</li>
 		</thingCategories>
 		<costList>
 			<Cloth>60</Cloth>

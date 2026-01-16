@@ -35,6 +35,9 @@
 		    <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 		    <EquipDelay>4</EquipDelay>
 		</statBases>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>		
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -113,7 +116,7 @@
 		    <EquipDelay>20</EquipDelay>
 		</statBases>
 		<thingCategories>
-            <li>ApparelArmor</li>
+            <li>BNF_Armor</li>
         </thingCategories>
 		<apparel>
 			<bodyPartGroups>

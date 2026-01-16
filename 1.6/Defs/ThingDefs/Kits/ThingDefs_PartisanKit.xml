@@ -84,7 +84,7 @@
 		<description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\n This variant is marked with a skull, commonly seen among partisans.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>
+			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -110,7 +110,7 @@
 			<MoveSpeed>-0.04</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_Armor</li>
 		</thingCategories>
 		<costList>
 			<Cloth>60</Cloth>
@@ -153,8 +153,7 @@
 		<description>The most important part of any army is the ability to acquire intelligence on their enemies. The Vanguard Carapace Armor was designed on several planets though the most famous and its namesake would be by the Alexandrian Vanguard. During the First War of Alexandria against the Mechanoids, the most important factor in combat was speed. While not being heavy standard Carapace Armor is bulky and could be lightened. The Vanguard did so through removal of the shoulder plates and the “shaving” of certain areas until it only protected the chest of the wearer.\n\n This variant is marked with a skull, commonly seen among partisans.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>ScoutFlakArmor</researchPrerequisite>		
-			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>
+			<researchPrerequisite>VanguardFlakArmor</researchPrerequisite>		
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -180,7 +179,7 @@
 			<MoveSpeed>-0.04</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_Armor</li>
 		</thingCategories>
 		<costList>
 			<Cloth>60</Cloth>

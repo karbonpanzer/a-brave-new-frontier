@@ -581,4 +581,238 @@
 		</modExtensions>
 	</ThingDef>
 
+		<ThingDef ParentName="BaseBullet">
+			<defName>Bullet_PhaseRifle</defName>
+			<label>phase rifle bullet</label>
+			<graphicData>
+				<texPath>Things/Projectile/Bullet_Charge_Big</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<shaderType>TransparentPostLight</shaderType>
+				<drawSize>1.05</drawSize>
+			</graphicData>
+			<projectile>
+				<damageDef>Bullet</damageDef>
+				<damageAmountBase>13</damageAmountBase>
+				<armorPenetrationBase>0.35</armorPenetrationBase>
+				<speed>70</speed>
+			</projectile>
+		  </ThingDef>	
+
+		<ThingDef ParentName="BaseHumanMakeableGun">
+		  <defName>BNF_Rifle_Phase</defName>
+		  <label>phase rifle</label>
+		  <description>Designed by the Alphamech Spacer Initiative as a weapon against Mechanoids in space, it favored a non-traditional design. A bull-pup shocker rifle which fires phased electric projectiles instead of the traditional chemical ballistic. Many expedition efforts prefer this for their orbital fleets for the sheer logistics, all Alphamech shocker weapons use the Alphamech standard battery. The ease of recharging these weapons allows even the most isolated worlds can use this weapon effectively, some worlds hold phase rifles that are centuries old running off of the same battery. However, the firepower of this rifle did not meet standards when it came to anti-Mechanoid combat, however a single modification allowed this to work.\n\nIt was then equiped with an Alphamech Jupiter-25 EMP Launcher which was found to increase the anti-mechanoid combat effectiveness by 30%. Though some have modified the launcher to fill other rolls but none have arrived here, so many just blow themselves up.\n\nOfficial Name: Alphamech Apollo-97 Phase Action Offensive Weapon System with Jupiter-25 EMP Launcher.</description>
+		  <graphicData>
+			<texPath>Weapons/phaserifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		  </graphicData>
+		  <soundInteract>Interact_Rifle</soundInteract>	  
+		  <recipeMaker>
+			<researchPrerequisite>ColonialRangerWeaponry</researchPrerequisite>
+			<skillRequirements>
+			  <Crafting>6</Crafting>
+			</skillRequirements>
+			<displayPriority>60</displayPriority>
+			<recipeUsers>
+			  <li>TableMachining</li>
+			</recipeUsers>
+		  </recipeMaker>
+		  <statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+			<Flammability>0.7</Flammability>
+		  </statBases>
+		  <costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		  </costList>
+		  <verbs>
+			<li>
+			  <verbClass>Verb_Shoot</verbClass>
+			  <hasStandardCommand>true</hasStandardCommand>
+			  <defaultProjectile>Bullet_PhaseRifle</defaultProjectile>
+			  <warmupTime>1.1</warmupTime>
+			  <range>26.9</range>
+			  <burstShotCount>3</burstShotCount>
+			  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			  <soundCast>Shot_ChargeRifle</soundCast>
+			  <soundCastTail>GunTail_Medium</soundCastTail>
+			  <muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		  </verbs>
+		  <weaponTags>
+			<li>IndustrialGun</li>			
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>	
+		  </weaponTags>
+		  <tools>
+			<li>
+			  <label>stock</label>
+			  <capacities>
+				<li>Blunt</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			  <label>barrel</label>
+			  <capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+		  </tools>
+		  <comps>
+				<li Class="CompProperties_EquippableAbilityReloadable">
+				<abilityDef>UnderbarrelLauncher</abilityDef>
+				<maxCharges>2</maxCharges>
+				<ammoDef>Proj_GrenadeEMP</ammoDef>
+				<ammoCountPerCharge>1</ammoCountPerCharge>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<chargeNoun>grenade</chargeNoun>
+				</li>
+				<li Class="CompProperties_Forbiddable"/>
+				<li Class="CompProperties_Biocodable"/>
+				<li>
+					<compClass>CompQuality</compClass>
+				</li>
+				<li Class="CompProperties_Art">
+					<nameMaker>NamerArtWeaponGun</nameMaker>
+					<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+					<minQualityForArtistic>Excellent</minQualityForArtistic>
+				</li>				
+			</comps>
+			<modExtensions>
+				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+					<loreDesc>Designed by the Alphamech Spacer Initiative as a weapon against Mechanoids in space, it favored a non-traditional design. A bull-pup shocker rifle which fires phased electric projectiles instead of the traditional chemical ballistic. Many expedition efforts prefer this for their orbital fleets for the sheer logistics, all Alphamech shocker weapons use the Alphamech standard battery. The ease of recharging these weapons allows even the most isolated worlds can use this weapon effectively, some worlds hold phase rifles that are centuries old running off of the same battery. However, the firepower of this rifle did not meet standards when it came to anti-Mechanoid combat, however a single modification allowed this to work.\n\nIt was then equiped with an Alphamech Jupiter-25 EMP Launcher which was found to increase the anti-mechanoid combat effectiveness by 30%. Though some have modified the launcher to fill other rolls but none have arrived here, so many just blow themselves up.\n\nOfficial Name: Alphamech Apollo-97 Phase Action Offensive Weapon System with Jupiter-25 EMP Launcher.</loreDesc>
+					<vanillaDesc>A unique firearm designed for firing in vacuum. Rather than a traditional bullet, the phase rifle fires a projectile of phased electricity. Effective in space and affordable allows this to see usage by all manner of spacefarers.\n\nIt is equipped with an underslung EMP launcher known as the shocker. The shocker fires compact EMP charges and must be reloaded using steel.</vanillaDesc>
+				</li>
+			</modExtensions>			  
+		</ThingDef>
+		  
+		  <AbilityDef>
+			<defName>UnderbarrelLauncher</defName>
+			<label>underbarrel EMP launcher</label>
+			<description>Use the underbarrel launcher attached to the phase rifle to lauch a EMP grenade.</description>
+			<iconPath>UI/EMPGrenade_a</iconPath>
+			<aiCanUse>true</aiCanUse>
+			<ai_IsIncendiary>false</ai_IsIncendiary>
+			<showOnCharacterCard>false</showOnCharacterCard>
+			<canUseAoeToGetTargets>false</canUseAoeToGetTargets>
+			<statBases>
+			  <Ability_EffectRadius>1.9</Ability_EffectRadius>
+			</statBases>
+			<verbProperties>
+			  <label>throw emp grenade</label>
+			  <verbClass>Verb_CastAbility</verbClass>
+			  <hasStandardCommand>true</hasStandardCommand>
+			  <onlyManualCast>True</onlyManualCast>
+			  <range>29</range>
+			  <warmupTime>0.2</warmupTime>
+			  <noiseRadius>4</noiseRadius>
+			  <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			  <soundCast>Shot_IncendiaryLauncher</soundCast>
+			  <soundCastTail>GunTail_Medium</soundCastTail>
+			  <muzzleFlashScale>14</muzzleFlashScale>
+			  <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+			  <targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			  </targetParams>
+			  <defaultProjectile>Proj_GrenadeEMP</defaultProjectile>
+			  <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</verbProperties>
+			<comps>
+			  <li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>Proj_GrenadeEMP</projectileDef>
+			  </li>
+			</comps>
+		  </AbilityDef>  	
+		  
+		<ThingDef ParentName="BaseHumanMakeableGun">
+		  <defName>BNF_Rifle_PhaseCarbine</defName>
+		  <label>phase rifle</label>
+		  <description>As the colonization efforts overextended, many groups could not afford to purchase top of the line weaponry for their orbital stations. Even with the Mechanoid threat many groups could not keep up with the demands of corporations which seemed to have their efforts focused on datamining and virtual intelligence. Alphamech noticed this trend and rather than improving their existing designs instead choose to make the Apollo-97 with cheaper parts, labor, and maintained the price. Barely cheaper most groups sought this severally stripped version, lacking the grenade launcher and several inches of barrel length, however the battery remained the same, giving the carbine more ammunition in a fight. It stays true to Alphamech's motto, "Cannot afford Alpha Tech? Get Alphamech!"\n\nAlphamech Apollo-97 Mod. IV Phase Action Offensive Weapon System.</description>
+		  <graphicData>
+			<texPath>Weapons/phasecarbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		  </graphicData>
+		  <soundInteract>Interact_Rifle</soundInteract>	  
+		  <recipeMaker>
+			<researchPrerequisite>ColonialRangerWeaponry</researchPrerequisite>
+			<skillRequirements>
+			  <Crafting>6</Crafting>
+			</skillRequirements>
+			<displayPriority>60</displayPriority>
+			<recipeUsers>
+			  <li>TableMachining</li>
+			</recipeUsers>
+		  </recipeMaker>
+		  <statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
+			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
+			<Flammability>0.7</Flammability>
+		  </statBases>
+		  <costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>50</ComponentIndustrial>
+		  </costList>
+		  <verbs>
+			<li>
+			  <verbClass>Verb_Shoot</verbClass>
+			  <hasStandardCommand>true</hasStandardCommand>
+			  <defaultProjectile>Bullet_PhaseRifle</defaultProjectile>
+			  <warmupTime>1.1</warmupTime>
+			  <range>26.9</range>
+			  <burstShotCount>5</burstShotCount>
+			  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			  <soundCast>Shot_ChargeRifle</soundCast>
+			  <soundCastTail>GunTail_Medium</soundCastTail>
+			  <muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		  </verbs>
+		  <weaponTags>
+			<li>IndustrialGun</li>			
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>	
+		  </weaponTags>
+		  <tools>
+			<li>
+			  <label>stock</label>
+			  <capacities>
+				<li>Blunt</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			  <label>barrel</label>
+			  <capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+		  </tools>
+			<modExtensions>
+				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+					<loreDesc>As the colonization efforts overextended, many groups could not afford to purchase top of the line weaponry for their orbital stations. Even with the Mechanoid threat many groups could not keep up with the demands of corporations which seemed to have their efforts focused on datamining and virtual intelligence. Alphamech noticed this trend and rather than improving their existing designs instead choose to make the Apollo-97 with cheaper parts, labor, and maintained the price. Barely cheaper most groups sought this severally stripped version, lacking the grenade launcher and several inches of barrel length, however the battery remained the same, giving the carbine more ammunition in a fight. It stays true to Alphamech's motto, "Cannot afford Alpha Tech? Get Alphamech!"\n\nAlphamech Apollo-97 Mod. IV Phase Action Offensive Weapon System.</loreDesc>
+					<vanillaDesc>A carbine version of the hase rifle, popular with colonial militias on the Rimworlds. Lighter and less accurate than the phase rifle but easier to produce and lacking of the underbarrel grenade launcher. Most colonies prefer issuing this to their local security over any sort of military.</vanillaDesc>
+				</li>
+			</modExtensions>			  
+		</ThingDef>
+
 </Defs>

@@ -34,7 +34,7 @@
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_Armor</li>
 		</thingCategories>
 		<costList>
 			<Cloth>60</Cloth>
@@ -109,7 +109,7 @@
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_Armor</li>
 		</thingCategories>
 		<costList>
 			<Cloth>20</Cloth>
@@ -156,8 +156,7 @@
 		<label>Scout Carapace Armor (Officer)</label>
 		<description>Based on the ancient warriors of Old Earth, the Centurions of the Holyworld of Sabbath are an elite force of warriors. Quick, decisive, and often brutal, the Centurions of Sabbath have served as the last line of defense for the Beaconist Holyworld. Often this armor is found in Rimworlds are from the Heralds of Sabbath, Centurion forces sent to recover Beaconist relics to further their quest for the source. As with the tradition of Centurions, they often serve as officers of a squad of lesser legionaries though the position is filled with veneration.</description>
 		<techLevel>Spacer</techLevel>
-		<recipeMaker>
-			<researchPrerequisite>VanguardArmor</researchPrerequisite>		
+		<recipeMaker>	
 			<researchPrerequisite>OfficerFlakArmor</researchPrerequisite>			
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -185,7 +184,7 @@
 			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
 		</equippedStatOffsets>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>BNF_Armor</li>
 		</thingCategories>
 		<costList>
 			<Cloth>20</Cloth>

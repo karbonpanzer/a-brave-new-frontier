@@ -85,20 +85,6 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>SpecializedFlakArmor</defName>
-		<label>Specialized Flak Armor and Helmets</label>
-		<description>Craft armor variants with role markings for engineers and medics without changing protective strength.</description>
-		<baseCost>1800</baseCost>
-		<tab>ABraveNewFrontier</tab>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>LateIndustrialFlakArmor</li>
-		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
 		<defName>StormtrooperKit</defName>
 		<label>Stormtrooper Kit</label>
 		<description>Craft specilized equipment for heavy frontline use by shocktroopers.</description>
@@ -134,7 +120,7 @@
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>LateIndustrialKitInfantry</li>
+			<li>LateIndustrialFlakArmor</li>
 		</prerequisites>
 		<researchViewX>2</researchViewX>
 		<researchViewY>7</researchViewY>
@@ -220,24 +206,10 @@
 		<tab>ABraveNewFrontier</tab>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>SpecializedFlakArmor</li>
+			<li>LateIndustrialFlakArmor</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
+		<researchViewX>3</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>AeneidKit</defName>
-		<label>EVA Kit</label>
-		<description>Craft EVA helmets and suits for usage in orbit.</description>
-		<baseCost>500</baseCost>
-		<tab>ABraveNewFrontier</tab>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>SpecializedFlakArmor</li>
-		</prerequisites>
-		<researchViewX>2</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>	
 
 </Defs>

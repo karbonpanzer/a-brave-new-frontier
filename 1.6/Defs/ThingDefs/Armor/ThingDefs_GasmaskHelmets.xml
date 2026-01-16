@@ -40,6 +40,9 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>45</costStuffCount>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>		
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
@@ -73,7 +76,7 @@
 		<description>.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>5</Crafting>
@@ -106,6 +109,9 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>55</costStuffCount>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>			
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>

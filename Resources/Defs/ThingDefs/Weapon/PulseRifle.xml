@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs>
+
+		<!--M41A Pulse Rifle-->  
+		<ThingDef ParentName="BaseHumanMakeableGun">
+		  <defName>BNF_Rifle_Pulse</defName>
+		  <label>pulse rifle</label>
+		  <description>Originally issued to Colonial Rangers, the pulse rifle was built for sustained fighting in hostile environments. Designed to be effective against all threats to the various aligned and nonaligned colonies, whether that be human, alien, or machine. The powerful armor piercing capacity made this expensive rifle quite famous on the Rimworlds. Though not as popular as other firearms which are considered more affordable, the pulse rifle still remained the dream weapon of the infantry. The pulse rifle though has remained expensive, in price and production as it is still considered as state-of-the-art even now in the 56th Century.\n\nThe pulse rifle comes with a factory installed U1 Grenade Launcher, a three shot pump action grenade launcher which is loaded with high explosive grenades.\n\nOfficial Name: Armat M41A Pulse Rifle with underbarrel U1 Grenade Launcher.</description>
+		  <graphicData>
+			<texPath>Weapons/m41apulserifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		  </graphicData>
+		  <soundInteract>Interact_Rifle</soundInteract>	  
+		  <recipeMaker>
+			<researchPrerequisite>ColonialRangerWeaponry</researchPrerequisite>
+			<skillRequirements>
+			  <Crafting>6</Crafting>
+			</skillRequirements>
+			<displayPriority>60</displayPriority>
+			<recipeUsers>
+			  <li>TableMachining</li>
+			</recipeUsers>
+		  </recipeMaker>
+		  <statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.60</AccuracyLong>
+			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+			<Flammability>0.7</Flammability>
+		  </statBases>
+		  <costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		  </costList>
+		  <verbs>
+			<li>
+			  <verbClass>Verb_Shoot</verbClass>
+			  <hasStandardCommand>true</hasStandardCommand>
+			  <defaultProjectile>Bullet_PulseRifle</defaultProjectile>
+			  <warmupTime>1.1</warmupTime>
+			  <range>26.9</range>
+			  <burstShotCount>3</burstShotCount>
+			  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			  <soundCast>BNF_Shot_PulseRifle</soundCast>
+			  <soundCastTail>GunTail_Medium</soundCastTail>
+			  <muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		  </verbs>
+		  <weaponTags>
+			<li>IndustrialGun</li>			
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>	
+		  </weaponTags>
+		  <tools>
+			<li>
+			  <label>stock</label>
+			  <capacities>
+				<li>Blunt</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			  <label>barrel</label>
+			  <capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+		  </tools>
+		  <comps>
+				<li Class="CompProperties_EquippableAbilityReloadable">
+				<abilityDef>UnderbarrelLauncher</abilityDef>
+				<maxCharges>2</maxCharges>
+				<ammoDef>Proj_GrenadeEMP</ammoDef>
+				<ammoCountPerCharge>1</ammoCountPerCharge>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<chargeNoun>grenade</chargeNoun>
+				</li>
+				<li Class="CompProperties_Forbiddable"/>
+				<li Class="CompProperties_Biocodable"/>
+				<li>
+					<compClass>CompQuality</compClass>
+				</li>
+				<li Class="CompProperties_Art">
+					<nameMaker>NamerArtWeaponGun</nameMaker>
+					<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+					<minQualityForArtistic>Excellent</minQualityForArtistic>
+				</li>				
+			</comps>
+			<modExtensions>
+				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+					<loreDesc>Originally issued to Colonial Rangers, the pulse rifle was built for sustained fighting in hostile environments. Designed to be effective against all threats to the various aligned and nonaligned colonies, whether that be human, alien, or machine. The powerful armor piercing capacity made this expensive rifle quite famous on the Rimworlds. Though not as popular as other firearms which are considered more affordable, the pulse rifle still remained the dream weapon of the infantry. The pulse rifle though has remained expensive, in price and production as it is still considered as state-of-the-art even now in the 56th Century.\n\nThe pulse rifle comes with a factory installed U1 Grenade Launcher, a three shot pump action grenade launcher which is loaded with high explosive grenades.\n\nOfficial Name: Armat M41A Pulse Rifle with underbarrel U1 Grenade Launcher.</loreDesc>
+					<vanillaDesc>Originally issued as a general-purpose service rifle, the pulse rifle was built for elite infantry. Expensive to produce, it is still considered the perfect service weapon on the Rimworlds. Accurate and quick but still suffers issues when it comes to balance and weight.\n\nThe pulse rifle comes with a underbarrel Grenade Launcher firing high explosive grenades.</vanillaDesc>
+				</li>
+			</modExtensions>			  
+		</ThingDef>
+
+		  <AbilityDef>
+			<defName>UnderbarrelGLauncher</defName>
+			<label>underbarrel grenade launcher</label>
+			<description>Use the underbarrel launcher attached to the pulse rifle to launch a grenade.</description>
+			<iconPath>UI/Grenade_a</iconPath>
+			<aiCanUse>true</aiCanUse>
+			<ai_IsIncendiary>false</ai_IsIncendiary>
+			<showOnCharacterCard>false</showOnCharacterCard>
+			<canUseAoeToGetTargets>false</canUseAoeToGetTargets>
+			<statBases>
+			  <Ability_EffectRadius>1.9</Ability_EffectRadius>
+			</statBases>
+			<verbProperties>
+			  <label>throw frag grenade</label>
+			  <verbClass>Verb_CastAbility</verbClass>
+			  <hasStandardCommand>true</hasStandardCommand>
+			  <onlyManualCast>True</onlyManualCast>
+			  <range>29</range>
+			  <warmupTime>0.2</warmupTime>
+			  <noiseRadius>4</noiseRadius>
+			  <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			  <soundCast>Shot_IncendiaryLauncher</soundCast>
+			  <soundCastTail>GunTail_Medium</soundCastTail>
+			  <muzzleFlashScale>14</muzzleFlashScale>
+			  <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+			  <targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			  </targetParams>
+			  <defaultProjectile>Proj_GrenadeFrag</defaultProjectile>
+			  <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</verbProperties>
+			<comps>
+			  <li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>Proj_GrenadeFrag</projectileDef>
+			  </li>
+			</comps>
+		  </AbilityDef>  		
+
+		<!--M48A3 Pulse Carbine-->  
+
+		<ThingDef ParentName="BaseBullet">
+			<defName>Bullet_PulseRifle</defName>
+			<label>pulse rifle bullet</label>
+			<graphicData>
+				<texPath>Things/Projectile/Bullet_Small</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<drawSize>1.05</drawSize>
+			</graphicData>
+			<projectile>
+				<damageDef>Bullet</damageDef>
+				<damageAmountBase>15</damageAmountBase>
+				<armorPenetrationBase>0.5</armorPenetrationBase>
+				<speed>70</speed>
+			</projectile>
+		  </ThingDef>
+
+		<ThingDef ParentName="BaseHumanMakeableGun">
+		  <defName>BNF_Rifle_PulseC</defName>
+		  <label>pulse carbine</label>
+		  <description>As issues with the Colonial Rangers grew, the need for a simplified firearm grew. The pulse carbine was the solution offered by the manufacturor, a cheaper production and lacking the underbarrel grenade launcher and sight suite created a cheaper firearm. The reduced size improved weight issues and mobility but the lack of barrel length created issues in accuracy not found with the traditional pulse rifle. Often these carbines are in the hands of mercenaries and colonial militia, groups that want the quality of the pulse rifle but are not willing to shell out the money to do so.\n\nArmat M48A3 Pulse Carbine</description>
+		  <graphicData>
+			<texPath>Weapons/m48a3pulsecarbine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		  </graphicData>
+		  <soundInteract>Interact_Rifle</soundInteract>	  
+		  <recipeMaker>
+			<researchPrerequisite>ColonialRangerWeaponry</researchPrerequisite>
+			<skillRequirements>
+			  <Crafting>6</Crafting>
+			</skillRequirements>
+			<displayPriority>60</displayPriority>
+			<recipeUsers>
+			  <li>TableMachining</li>
+			</recipeUsers>
+		  </recipeMaker>
+		  <statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
+			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
+			<Flammability>0.7</Flammability>
+		  </statBases>
+		  <costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		  </costList>
+		  <verbs>
+			<li>
+			  <verbClass>Verb_Shoot</verbClass>
+			  <hasStandardCommand>true</hasStandardCommand>
+			  <defaultProjectile>Bullet_PulseRifle</defaultProjectile>
+			  <warmupTime>1.1</warmupTime>
+			  <range>26.9</range>
+			  <burstShotCount>3</burstShotCount>
+			  <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			  <soundCast>BNF_Shot_PulseRifle</soundCast>
+			  <soundCastTail>GunTail_Medium</soundCastTail>
+			  <muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		  </verbs>
+		  <weaponTags>
+			<li>IndustrialGun</li>			
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>	
+		  </weaponTags>
+		  <tools>
+			<li>
+			  <label>stock</label>
+			  <capacities>
+				<li>Blunt</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			  <label>barrel</label>
+			  <capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			  </capacities>
+			  <power>9</power>
+			  <cooldownTime>2</cooldownTime>
+			</li>
+		  </tools>
+			<modExtensions>
+				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+					<loreDesc>As issues with the Colonial Rangers grew, the need for a simplified firearm grew. The pulse carbine was the solution offered by the manufacturor, a cheaper production and lacking the underbarrel grenade launcher and sight suite created a cheaper firearm. The reduced size improved weight issues and mobility but the lack of barrel length created issues in accuracy not found with the traditional pulse rifle. Often these carbines are in the hands of mercenaries and colonial militia, groups that want the quality of the pulse rifle but are not willing to shell out the money to do so.\n\nArmat M48A3 Pulse Carbine</loreDesc>
+					<vanillaDesc>A carbine version of the pulse rifle, popular with colonial militias on the Rimworlds. Lighter and less accurate than the pulse rifle but easier to produce and lacking of the underbarrel grenade launcher. Most colonies prefer issuing this to their local security over any sort of military.</vanillaDesc>
+				</li>
+			</modExtensions>			  
+		</ThingDef>			  
+
+</Defs>		

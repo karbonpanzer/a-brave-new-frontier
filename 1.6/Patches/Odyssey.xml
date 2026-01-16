@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+	<Patch>
+	  <Operation Class="PatchOperationFindMod">
+		<mods>
+		  <li>Odyssey</li>
+		</mods>
+
+		  <match Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+		  <value> 	
+		
+		<ResearchProjectDef>
+			<defName>AeneidKit</defName>
+			<label>EVA Kit</label>
+			<description>Craft EVA helmets and suits for usage in orbit.</description>
+			<baseCost>500</baseCost>
+			<tab>ABraveNewFrontier</tab>
+			<techLevel>Industrial</techLevel>
+			<prerequisites>
+				<li>LateIndustrialFlakArmor</li>
+			</prerequisites>
+			<researchViewX>3</researchViewX>
+			<researchViewY>1</researchViewY>
+		</ResearchProjectDef>			
+			
+		<ThingDef ParentName="ArmorHelmetMakeableBase">
+			<defName>BNF_Helmet_EVA</defName>
+			<label>EVA Helmet</label>
+			<description>.</description>
+			<techLevel>Spacer</techLevel>
+		   <recipeMaker>
+			  <researchPrerequisite>AeneidKit</researchPrerequisite>
+			  <recipeUsers>
+				<li>TableMachining</li>
+			  </recipeUsers>
+			</recipeMaker>
+			<graphicData>
+				<texPath>Helmets/EVAMask/EVAMask</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+			</graphicData>
+			<statBases>
+				<WorkToMake>7000</WorkToMake>
+				<MaxHitPoints>60</MaxHitPoints>
+				<Mass>1</Mass>
+				<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+				<StuffEffectMultiplierInsulation_Cold>6</StuffEffectMultiplierInsulation_Cold>
+				<StuffEffectMultiplierInsulation_Heat>2</StuffEffectMultiplierInsulation_Heat>				
+				<EquipDelay>5</EquipDelay>
+			</statBases>
+			<equippedStatOffsets>
+				<MoveSpeed>-0.01</MoveSpeed>
+				<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+				<VacuumResistance>0.69</VacuumResistance>				
+			</equippedStatOffsets>
+			<costList>
+				<Cloth>10</Cloth>
+				<Plasteel>5</Plasteel>
+				<ComponentIndustrial>2</ComponentIndustrial>
+			</costList>
+			<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<costStuffCount>45</costStuffCount>
+			<thingCategories>
+				<li>BNF_Helmets</li>
+			</thingCategories>
+			<apparel>
+			  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+			  <immuneToToxGasExposure>true</immuneToToxGasExposure>
+			  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+			  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			  <bodyPartGroups>
+				<li>FullHead</li>
+			  </bodyPartGroups>
+			  <wornGraphicPath>Helmets/EVAMask/EVAMask</wornGraphicPath>
+		      <useWornGraphicMask>True</useWornGraphicMask>			  
+			  <layers>
+				<li>Overhead</li>
+			  </layers>
+			  <tags>
+				<li>BNF_Spacer</li>
+				<li>Vacsuit</li>
+			  </tags>
+			  <defaultOutfitTags>
+				<li>Spacefarer</li>
+			  </defaultOutfitTags>
+			</apparel>
+			<tradeTags>
+			  <li>HiTechArmor</li>
+			  <li>Armor</li>
+			</tradeTags>
+			<thingSetMakerTags>
+			  <li>RewardStandardMidFreq</li>
+			</thingSetMakerTags>
+			<costList>
+			  <ComponentIndustrial>2</ComponentIndustrial>
+			  <Steel>40</Steel>
+			</costList>
+			<colorGenerator Class="ColorGenerator_StandardApparel" />
+			<modExtensions>
+				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+					<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</loreDesc>
+					<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequete protection against melee and small arms fire while remaining light. It is inferior to full helmet protection though, its ease of production makes it more accessible.</vanillaDesc>
+				</li>
+			</modExtensions>	
+		</ThingDef>	
+
+		<ThingDef ParentName="ApparelMakeableBase">
+			<defName>BNF_Armor_EVA</defName>
+			<label>EVA Armor</label>
+			<techLevel>Spacer</techLevel>			
+			<recipeMaker>
+				<researchPrerequisite>AeneidKit</researchPrerequisite>
+			</recipeMaker>
+			<graphicData>
+				<graphicClass>Graphic_Single</graphicClass>
+				<texPath>Armor/SpecialArmorVariants/EVAArmor/EVAArmor</texPath>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>0.8</drawSize>
+			</graphicData>
+			<costStuffCount>150</costStuffCount>
+			<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<thingCategories Inherit="False">
+				<li>BNF_Armor</li>
+			</thingCategories>
+			<statBases>
+				<MaxHitPoints>200</MaxHitPoints>
+				<WorkToMake>7200</WorkToMake>
+				<Mass>7</Mass>
+				<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+				<StuffEffectMultiplierInsulation_Cold>6</StuffEffectMultiplierInsulation_Cold>
+				<StuffEffectMultiplierInsulation_Heat>2</StuffEffectMultiplierInsulation_Heat>
+				<EquipDelay>2</EquipDelay>
+			</statBases>
+			<equippedStatOffsets>
+				<PainShockThreshold>0.10</PainShockThreshold>
+		        <MoveSpeed>-1.25</MoveSpeed>
+			    <VacuumResistance>0.32</VacuumResistance>			
+			</equippedStatOffsets>
+			<apparel>
+				<bodyPartGroups>
+					<li>Torso</li>
+					<li>Neck</li>
+					<li>Shoulders</li>
+				</bodyPartGroups>
+				<wornGraphicPath>Armor/SpecialArmorVariants/EVAArmor/EVAArmor</wornGraphicPath>
+				<useWornGraphicMask>True</useWornGraphicMask>
+				<layers>
+					<li>Middle</li>					
+				</layers>
+				<tags>
+					<li>BNF_EVA</li>
+				</tags>
+				<defaultOutfitTags>
+					<li>Spacefarer</li>
+				</defaultOutfitTags>
+			</apparel>
+			<colorGenerator Class="ColorGenerator_StandardApparel" />
+			<modExtensions>
+				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+					<loreDesc>While many worlds in the Great Domain were settled for the resources they provided for the whole of humanity, during the Final War many less habitable planets were being occupied. These worlds became the first Fortressworlds, planets dedicated to holding the line against the Mechs and the Bugs. This uniform is heavily modified from the original template, featuring a mesh heating network powered by dead skin cells.  This keeps the wearer warm in the coldest of environments without stressing any infrastructure on a planet. Though the methods of creating such a uniform are a significantly more complex process, though worth it for the cold.</loreDesc>
+					<vanillaDesc>Extreme-cold field uniform with heavy insulation. Thick composition maximizes warmth and wind blocking at the cost of added bulk. Unsuitable for warm climates.</vanillaDesc>
+				</li>
+			</modExtensions>	
+		</ThingDef>	  
+  
+		</value>
+	</match>
+  </Operation>
+</Patch>

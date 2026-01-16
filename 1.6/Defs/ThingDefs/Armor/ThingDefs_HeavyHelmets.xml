@@ -36,6 +36,9 @@
 			<Plasteel>20</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -76,7 +79,6 @@
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>	
-			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>	
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -105,6 +107,9 @@
 			<Plasteel>20</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>		
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -144,8 +149,7 @@
 		<description>An improvement in the previous design of Carapace Helmets though never popularly adopted due to the Fall of the Great Domain.  Providing great protection without becoming cumbersome, the Heavy Carapace Helmet is now stronger and more durable without sacrificing comfort for protection. This was achieved through advancements in plasteel plating, providing greater protection without adding too much weight. Though lacking the larger stores of its lighter brethren, the Heavy Carapace Helmet has become more popular with heavy infantry and shocktrooper regiments throughout the Rim.\n\nThis variant is marked for usage by Engineering staff.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>	
-			<researchPrerequisite>SpecializedFlakArmor</researchPrerequisite>			
+			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>			
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>7</Crafting>
@@ -174,6 +178,9 @@
 			<Plasteel>20</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>		
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -246,6 +253,9 @@
 			<Plasteel>20</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>		
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -315,6 +325,9 @@
 			<Plasteel>20</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>		
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -388,6 +401,9 @@
 			<Plasteel>30</Plasteel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>		
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>

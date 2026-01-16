@@ -86,6 +86,21 @@
 		<researchViewX>6</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>	
+
+	<ResearchProjectDef>
+		<defName>ColonialRangerWeaponry</defName>
+		<label>Orbital Warfare Weaponry</label>
+		<description>Craft weapons suited for all enemies both surface and orbit.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AntiInsectoidWeaponry</li>
+			<li>AntiMechanoidWeaponry</li>			
+		</prerequisites>
+		<researchViewX>7</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>	
 	
 	<ResearchProjectDef>
 		<defName>ImprovisedWeaponry</defName>
