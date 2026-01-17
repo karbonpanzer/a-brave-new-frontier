@@ -738,7 +738,7 @@
 		  
 		<ThingDef ParentName="BaseHumanMakeableGun">
 		  <defName>BNF_Rifle_PhaseCarbine</defName>
-		  <label>phase rifle</label>
+		  <label>phase carbine</label>
 		  <description>As the colonization efforts overextended, many groups could not afford to purchase top of the line weaponry for their orbital stations. Even with the Mechanoid threat many groups could not keep up with the demands of corporations which seemed to have their efforts focused on datamining and virtual intelligence. Alphamech noticed this trend and rather than improving their existing designs instead choose to make the Apollo-97 with cheaper parts, labor, and maintained the price. Barely cheaper most groups sought this severally stripped version, lacking the grenade launcher and several inches of barrel length, however the battery remained the same, giving the carbine more ammunition in a fight. It stays true to Alphamech's motto, "Cannot afford Alpha Tech? Get Alphamech!"\n\nAlphamech Apollo-97 Mod. IV Phase Action Offensive Weapon System.</description>
 		  <graphicData>
 			<texPath>Weapons/phasecarbine</texPath>
@@ -809,7 +809,7 @@
 		  </tools>
 			<modExtensions>
 				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-					<loreDesc>As the colonization efforts overextended, many groups could not afford to purchase top of the line weaponry for their orbital stations. Even with the Mechanoid threat many groups could not keep up with the demands of corporations which seemed to have their efforts focused on datamining and virtual intelligence. Alphamech noticed this trend and rather than improving their existing designs instead choose to make the Apollo-97 with cheaper parts, labor, and maintained the price. Barely cheaper most groups sought this severally stripped version, lacking the grenade launcher and several inches of barrel length, however the battery remained the same, giving the carbine more ammunition in a fight. It stays true to Alphamech's motto, "Cannot afford Alpha Tech? Get Alphamech!"\n\nAlphamech Apollo-97 Mod. IV Phase Action Offensive Weapon System.</loreDesc>
+					<loreDesc>As the colonization efforts overextended, many groups could not afford to purchase top of the line weaponry for their orbital stations. Even with the Mechanoid threat many groups could not keep up with the demands of corporations which seemed to have their efforts focused on datamining and virtual intelligence. Alphamech noticed this trend and rather than improving their existing designs instead choose to make the Apollo-97 with cheaper parts, labor, and maintained the price. Barely cheaper most groups sought this severally stripped version, lacking the grenade launcher and several inches of barrel length, however the battery remained the same, giving the carbine more ammunition in a fight. It stays true to Alphamech's motto, "Cannot afford Alpha Tech? Get Alphamech!"\n\nOfficial Name: Alphamech Apollo-97 Mod. IV Phase Action Offensive Weapon System.</loreDesc>
 					<vanillaDesc>A carbine version of the hase rifle, popular with colonial militias on the Rimworlds. Lighter and less accurate than the phase rifle but easier to produce and lacking of the underbarrel grenade launcher. Most colonies prefer issuing this to their local security over any sort of military.</vanillaDesc>
 				</li>
 			</modExtensions>			  
