@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Copy (2)\\",
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Weapons\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\unified switcher - copy (2)\\bnf_styleswitchermod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|solutionrelative:bnf_styleswitchermod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\unified switcher - weapons\\bnf.styleswitcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|solutionrelative:bnf.styleswitcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\unified switcher - copy (2)\\bnf.styleswitcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|solutionrelative:bnf.styleswitcher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\unified switcher - weapons\\bnf_styleswitchermod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{672AF24F-D106-D10A-5655-D20E90FD0D4A}|BNF.StyleSwitcher.csproj|solutionrelative:bnf_styleswitchermod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,11 +26,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BNF_StyleSwitcherMod.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Copy (2)\\BNF_StyleSwitcherMod.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Weapons\\BNF_StyleSwitcherMod.cs",
               "RelativeDocumentMoniker": "BNF_StyleSwitcherMod.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Copy (2)\\BNF_StyleSwitcherMod.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Weapons\\BNF_StyleSwitcherMod.cs",
               "RelativeToolTip": "BNF_StyleSwitcherMod.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAgwCoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -39,15 +39,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BNF.StyleSwitcher.csproj",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Copy (2)\\BNF.StyleSwitcher.csproj",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Weapons\\BNF.StyleSwitcher.csproj",
               "RelativeDocumentMoniker": "BNF.StyleSwitcher.csproj",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Copy (2)\\BNF.StyleSwitcher.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\Unified Switcher - Weapons\\BNF.StyleSwitcher.csproj",
               "RelativeToolTip": "BNF.StyleSwitcher.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-22T03:03:44.269Z"
+              "WhenOpened": "2025-09-22T03:03:44.269Z",
+              "EditorCaption": ""
             }
           ]
         }

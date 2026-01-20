@@ -195,7 +195,7 @@
 		<label>Hyperblaster shot</label>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>Things/Projectile/Charge_Small</texPath>
+			<texPath>Projectile/Bullet_Charge_Big</texPath>
 			<shaderType>TransparentPostLight</shaderType>
 			<drawSize>0.8</drawSize>
 		</graphicData>
@@ -585,7 +585,7 @@
 			<defName>Bullet_PhaseRifle</defName>
 			<label>phase rifle bullet</label>
 			<graphicData>
-				<texPath>Things/Projectile/Bullet_Charge_Big</texPath>
+				<texPath>Things/Projectile/Charge_Small</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 				<shaderType>TransparentPostLight</shaderType>
 				<drawSize>1.05</drawSize>

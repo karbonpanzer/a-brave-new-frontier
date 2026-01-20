@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BNF.Graphics</RootNamespace>
+	  <!-- Build output: put DLL into ../Assemblies relative to Source/ -->
+	  <OutputPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier\Assemblies</OutputPath>
+	  <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+
+	  <!-- We keep our own AssemblyInfo.cs, so disable SDK-generated attributes -->
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+	  <Nullable>enable</Nullable>
+	  <LangVersion>latest</LangVersion>
+	  <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+	<ItemGroup>
+
+		<Reference Include="Assembly-CSharp">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+			<Private>false</Private>
+		</Reference>		
+		<Reference Include="UnityEngine">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="VanillaExpandedFramework">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2023507013\1.6\Assemblies\VEF.dll</HintPath>
+			<Private>false</Private>
+		</Reference>		
+	</ItemGroup>
+
+</Project>

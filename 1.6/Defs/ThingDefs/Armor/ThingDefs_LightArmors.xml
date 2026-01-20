@@ -60,9 +60,9 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+			</defaultOutfitTags>						
+		</apparel>					
+		<colorGenerator Class="ColorGenerator_StandardApparel" />				
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.</loreDesc>
