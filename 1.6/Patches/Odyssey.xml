@@ -36,7 +36,7 @@
 			  </recipeUsers>
 			</recipeMaker>
 			<graphicData>
-				<texPath>Helmets/EVAMask/EVAMask</texPath>
+				<texPath>Helmets/EVAHelmet/EVAHelmet</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 				<shaderType>CutoutComplex</shaderType>
 			</graphicData>
@@ -75,7 +75,7 @@
 			  <bodyPartGroups>
 				<li>FullHead</li>
 			  </bodyPartGroups>
-			  <wornGraphicPath>Helmets/EVAMask/EVAMask</wornGraphicPath>
+			  <wornGraphicPath>Helmets/EVAHelmet/EVAHelmet</wornGraphicPath>
 		      <useWornGraphicMask>True</useWornGraphicMask>			  
 			  <layers>
 				<li>Overhead</li>
@@ -84,6 +84,11 @@
 				<li>BNF_Spacer</li>
 				<li>Vacsuit</li>
 			  </tags>
+			<forceEyesVisibleForRotations>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</forceEyesVisibleForRotations>			  
 			  <defaultOutfitTags>
 				<li>Spacefarer</li>
 			  </defaultOutfitTags>

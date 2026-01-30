@@ -47,6 +47,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Feet</li>
+				<li>Legs</li>				
 			</bodyPartGroups>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
@@ -125,6 +126,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Hands</li>
+				<li>Arms</li>				
 			</bodyPartGroups>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
@@ -202,6 +204,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Hands</li>
+				<li>Arms</li>				
 			</bodyPartGroups>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
@@ -272,6 +275,7 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>Hands</li>
+				<li>Arms</li>				
 			</bodyPartGroups>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>

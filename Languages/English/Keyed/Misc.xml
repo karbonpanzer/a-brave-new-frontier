@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Gizmo -->
+  <BNF_StyleDecalsGizmo>Style decals: {0}</BNF_StyleDecalsGizmo>
+  <BNF_StyleDecalsDesc>Choose a decal symbol and color for this pawn's supported apparel.</BNF_StyleDecalsDesc>
+
+  <!-- Window -->
+  <BNF_StyleDecalsTitle>Decals: {0}</BNF_StyleDecalsTitle>
+
+  <!-- Left panel -->
+  <BNF_Decals_Preview>Preview</BNF_Decals_Preview>
+  <BNF_Decals_Palette>Palette</BNF_Decals_Palette>
+  <BNF_NoSymbol>None</BNF_NoSymbol>
+
+  <!-- Right panel -->
+  <BNF_DecalSymbols>Decals</BNF_DecalSymbols>
+
+  <!-- Search -->
+  <BNF_DecalSearchLabel>Search</BNF_DecalSearchLabel>
+  <BNF_DecalSearchClearTip>Clear search</BNF_DecalSearchClearTip>
+
+</LanguageData>

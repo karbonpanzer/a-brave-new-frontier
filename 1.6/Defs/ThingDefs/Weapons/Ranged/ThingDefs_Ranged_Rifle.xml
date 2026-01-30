@@ -669,7 +669,7 @@
 			  <cooldownTime>2</cooldownTime>
 			</li>
 		  </tools>
-		  <comps>
+		  <comps Inherit="False">
 				<li Class="CompProperties_EquippableAbilityReloadable">
 				<abilityDef>UnderbarrelLauncher</abilityDef>
 				<maxCharges>2</maxCharges>
@@ -679,8 +679,8 @@
 				<soundReload>Standard_Reload</soundReload>
 				<chargeNoun>grenade</chargeNoun>
 				</li>
+				<li Class="CompProperties_Styleable"/>
 				<li Class="CompProperties_Forbiddable"/>
-				<li Class="CompProperties_Biocodable"/>
 				<li>
 					<compClass>CompQuality</compClass>
 				</li>
