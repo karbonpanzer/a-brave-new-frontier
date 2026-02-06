@@ -1,23 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Gizmo -->
-  <BNF_StyleDecalsGizmo>Style decals: {0}</BNF_StyleDecalsGizmo>
-  <BNF_StyleDecalsDesc>Choose a decal symbol and color for this pawn's supported apparel.</BNF_StyleDecalsDesc>
+  <BNF_StyleDecalsGizmo>Decals: {0}</BNF_StyleDecalsGizmo>
+  <BNF_StyleDecalsDesc>Customize the decal symbol and color for this pawn.</BNF_StyleDecalsDesc>
 
   <!-- Window -->
-  <BNF_StyleDecalsTitle>Decals: {0}</BNF_StyleDecalsTitle>
+  <BNF_StyleDecalsTitle>Decal styling: {0}</BNF_StyleDecalsTitle>
 
-  <!-- Left panel -->
+  <!-- Top section -->
   <BNF_Decals_Preview>Preview</BNF_Decals_Preview>
+  <BNF_Decals_Description>Description</BNF_Decals_Description>
+
+  <BNF_Decals_NoSymbolsFound>No decals available.</BNF_Decals_NoSymbolsFound>
+  <BNF_Decals_RandomSymbol>Random symbol</BNF_Decals_RandomSymbol>
+
+  <BNF_Decals_NoSelectionDesc>Select a symbol to see its description.</BNF_Decals_NoSelectionDesc>
+  <BNF_Decals_NoDesc>No description.</BNF_Decals_NoDesc>
+
+  <!-- Bottom section -->
   <BNF_Decals_Palette>Palette</BNF_Decals_Palette>
-  <BNF_NoSymbol>None</BNF_NoSymbol>
+  <BNF_Decals_SavedColors>Custom colors</BNF_Decals_SavedColors>
+  <BNF_Decals_ResetCustomColors>Reset</BNF_Decals_ResetCustomColors>
+  <BNF_Decals_RightClickRemoves>Right-click removes</BNF_Decals_RightClickRemoves>
 
-  <!-- Right panel -->
-  <BNF_DecalSymbols>Decals</BNF_DecalSymbols>
+  <BNF_Decals_ColorWheel>Color wheel</BNF_Decals_ColorWheel>
+  <BNF_Decals_Color>Color</BNF_Decals_Color>
+  <BNF_Decals_SelectedColor>Selected</BNF_Decals_SelectedColor>
+  <BNF_Decals_RGB>RGB</BNF_Decals_RGB>
+  <BNF_Decals_HEX>Hex</BNF_Decals_HEX>
 
-  <!-- Search -->
-  <BNF_DecalSearchLabel>Search</BNF_DecalSearchLabel>
-  <BNF_DecalSearchClearTip>Clear search</BNF_DecalSearchClearTip>
+  <BNF_Decals_SaveColor>Save color</BNF_Decals_SaveColor>
+  <BNF_Decals_SetIdeoColor>Set to ideo color</BNF_Decals_SetIdeoColor>
+  <BNF_Decals_TipNoIdeoColor>No ideology color found for this pawn.</BNF_Decals_TipNoIdeoColor>
+  <BNF_Decals_SetFavoriteColor>Set to favorite color</BNF_Decals_SetFavoriteColor>
+  <BNF_Decals_TipNoFavoriteColor>No favorite color found for this pawn.</BNF_Decals_TipNoFavoriteColor>
+  <BNF_Decals_RandomColor>Random color</BNF_Decals_RandomColor>
+
+  <!-- Apply strip -->
+  <BNF_Decals_Apply>Apply</BNF_Decals_Apply>
+  <BNF_Decals_Reset>Reset</BNF_Decals_Reset>
+  <BNF_Decals_TipReset>Restore the original symbol and color.</BNF_Decals_TipReset>
 
 </LanguageData>

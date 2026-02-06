@@ -1,0 +1,18 @@
+<Defs>
+
+  <BNF.Decals.DecalSymbolDef>
+    <defName>BNF_Decal_Psycher</defName>
+    <label>Psycher</label>
+    <path>Symbols/Psycher</path>
+    <description>An ancient symbol from Earth commonly seen among the various Psycher groups, often representing the mind's eye.</description>        
+  </BNF.Decals.DecalSymbolDef>
+
+  <!--Vasilevsky Red Guard-->
+  <BNF.Decals.DecalSymbolDef>
+    <defName>BNF_Decal_VOfficer</defName>
+    <label>Crimson Guard Commander Corp</label>
+    <path>Symbols/VasileskyOfficer</path>
+    <description>A symbol worn proud from the Zhukhovsky Military Graduates, proud members of the party and great leaders of the revolution of the sword.</description>        
+  </BNF.Decals.DecalSymbolDef>     
+  
+</Defs>

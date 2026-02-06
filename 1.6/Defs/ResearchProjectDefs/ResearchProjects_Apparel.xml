@@ -114,7 +114,7 @@
 
 	<ResearchProjectDef>
 		<defName>VanguardKit</defName>
-		<label>Vanguard Webbing</label>
+		<label>Vanguard Kit</label>
 		<description>Craft lightweight armor that improves mobility at the cost of reduced protection.</description>
 		<baseCost>1200</baseCost>
 		<tab>ABraveNewFrontier</tab>
@@ -124,20 +124,6 @@
 		</prerequisites>
 		<researchViewX>2</researchViewX>
 		<researchViewY>7</researchViewY>
-	</ResearchProjectDef>
-	
-	<ResearchProjectDef>
-		<defName>VanguardArmor</defName>
-		<label>Vanguard Carapace Armor</label>
-		<description>Craft lightweight armor that improves mobility at the cost of reduced protection.</description>
-		<baseCost>1200</baseCost>
-		<tab>ABraveNewFrontier</tab>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>LateIndustrialFlakArmor</li>
-		</prerequisites>
-		<researchViewX>1</researchViewX>
-		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>	
 
 	<ResearchProjectDef>

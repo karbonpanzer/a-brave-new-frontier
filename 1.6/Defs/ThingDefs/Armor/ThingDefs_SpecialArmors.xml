@@ -82,7 +82,7 @@
 		<description>The most important part of any army is the ability to acquire intelligence on their enemies. The Vanguard Carapace Armor was designed on several planets though the most famous and its namesake would be by the Alexandrian Vanguard. During the First War of Alexandria against the Mechanoids, the most important factor in combat was speed. While not being heavy standard Carapace Armor is bulky and could be lightened. The Vanguard did so through removal of the shoulder plates and the “shaving” of certain areas until it only protected the chest of the wearer.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>VanguardArmor</researchPrerequisite>
+			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>5</Crafting>

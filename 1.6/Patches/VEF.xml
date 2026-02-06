@@ -74,14 +74,14 @@
 							<nodeClass>VEF.Graphics.PawnRenderNode_Omni</nodeClass>
 							<workerClass>BNF.Graphics.PawnRenderNodeWorker_OmniBodyApparel_BNF</workerClass>
 							<parentTagDef>ApparelBody</parentTagDef>
-							<baseLayer>26</baseLayer>
+							<baseLayer>26</baseLayer>													
 							<conditionalGraphics>
 								<useFactionRNGSeed>true</useFactionRNGSeed>
 								<texPaths>
 									<li>Symbols/None</li>								
 								</texPaths>
 								<colorA>
-									<color>(0.6,0.6,0.6)</color>
+									<color>(0.1,0.1,0.1)</color>
 								</colorA>
 								<shader>Cutout</shader>
 								<alts>
@@ -101,66 +101,29 @@
 								<li>South</li>
 								<li>North</li>
 							</visibleFacing>
-							<bodyTypeOffsets>
+							<bodyTypeOffsetsByFacingRows>
 								<li>
-									<key>Hulk</key>
-									<value>(0,0,0.0)</value>
+									<bodyType>Fat</bodyType>
+									<north>(0,0,0.07)</north>
+									<south>(0,0,0.025)</south>
 								</li>
 								<li>
-									<key>Fat</key>
-									<value>(0,0,0.0)</value>
+									<bodyType>Thin</bodyType>
+									<north>(0,0,0.045)</north>
 								</li>
 								<li>
-									<key>Thin</key>
-									<value>(0,0,0.0)</value>
-								</li>
-							</bodyTypeOffsets>
-							<bodyTypeOffsetsByFacing>
-								<li>
-									<key>North</key>
-										<value>
-											<li>
-												<key>Fat</key>
-												<value>(0,0,0.07)</value>
-											</li>							
-											<li>
-												<key>Thin</key>
-												<value>(0,0,0.045)</value>
-											</li>
-											<li>
-												<key>Hulk</key>
-												<value>(0,0,0.7)</value>									
-											</li>
-											<li>
-												<key>Female</key>
-												<value>(0,0,0.04)</value>									
-											</li>															
-										</value>
+									<bodyType>Hulk</bodyType>
+									<north>(0,0,0.7)</north>
+									<south>(0,0,-0.07)</south>
 								</li>
 								<li>
-									<key>South</key>
-										<value>
-											<li>
-												<key>Fat</key>
-												<value>(0,0,0.025)</value>
-											</li>							
-											<li>
-												<key>Thin</key>
-												<value>(0,0,0.0)</value>
-											</li>
-											<li>
-												<key>Hulk</key>
-												<value>(0,0,-0.07)</value>									
-											</li>
-											<li>
-												<key>Female</key>
-												<value>(0,0,0.05)</value>									
-											</li>															
-										</value>
-								</li>				
-							</bodyTypeOffsetsByFacing>
+									<bodyType>Female</bodyType>
+									<north>(0,0,0.07)</north>
+									<south>(0,0,0.05)</south>
+								</li>
+							</bodyTypeOffsetsByFacingRows>
 							<drawData>
-								<scale>0.080</scale>
+								<scale>0.085</scale>
 								<defaultData>
 								<layer>26</layer>
 									<offset>(0,0,-0.20)</offset>
@@ -177,7 +140,7 @@
 					<soundRemove>Remove_PowerArmor</soundRemove>						
 				</apparel>					
 				<colorGenerator Class="ColorGenerator_Single">
- 					<color>(0.5, 0.5, 0.5)</color> 
+ 					<color>(0.47, 0.47, 0.47)</color> 
 				</colorGenerator>	
 				<comps>
 					<li Class="BNF.Decals.CompProperties_EditDecalMarker"/>
@@ -189,6 +152,123 @@
 					</li>
 				</modExtensions>
 			</ThingDef>
+
+		<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>KP_Light_Flak_HelmetE</defName>
+		<label>Carapace Helmet (Experimental)</label>
+		<description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</description>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Helmets/LightHelmet/LightHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Cloth>10</Cloth>
+			<Plasteel>5</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>40</Steel>
+		</costList>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>			
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>BNF_Armor_Light</li>
+				<li>BNF_Armor_Scout</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+					<renderNodeProperties>										
+						<li Class="BNF.Graphics.PawnRenderNodeProperties_OmniBNF">
+							<nodeClass>VEF.Graphics.PawnRenderNode_Omni</nodeClass>
+							<workerClass>BNF.Graphics.PawnRenderNodeWorker_OmniHeadApparel_BNF</workerClass>
+							<parentTagDef>ApparelHead</parentTagDef>
+							<baseLayer>72</baseLayer>													
+							<conditionalGraphics>
+								<useFactionRNGSeed>true</useFactionRNGSeed>
+								<texPaths>
+									<li>Symbols/None</li>							
+								</texPaths>
+								<colorA>
+									<color>(0.4,0.4,0.4)</color>
+								</colorA>
+								<shader>Cutout</shader>
+								<alts>
+								<li>
+									<tagRequirements>
+									<li>DecalActive_Head</li>
+									</tagRequirements>
+
+									<texPath>DecalSymbol_Head</texPath>
+
+									<colorA>
+									<taggedColor>DecalSymbolColor_Head</taggedColor>
+									</colorA>
+
+									<shader>Cutout</shader>
+								</li>
+								</alts>
+							</conditionalGraphics>
+							<visibleFacing>
+								<li>South</li>
+							</visibleFacing>
+							<drawData>
+								<scale>0.075</scale>
+								<defaultData>
+								<layer>75</layer>
+									<offset>(0,0,0.10)</offset>
+								</defaultData>
+								<dataNorth>
+									<layer>75</layer>
+									<offset>(0,0,0.10)</offset>
+								</dataNorth>
+							</drawData>
+						</li>						
+					</renderNodeProperties>			
+		</apparel>
+		<comps>
+ 			<li Class="BNF.Decals.CompProperties_EditDecalMarker" />
+		</comps>
+		<colorGenerator Class="ColorGenerator_Single">
+ 			<color>(0.47, 0.47, 0.47)</color> 
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
+				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</loreDesc>
+				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequete protection against melee and small arms fire while remaining light. It is inferior to full helmet protection though, its ease of production makes it more accessible.</vanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
     </value>
     </match>
