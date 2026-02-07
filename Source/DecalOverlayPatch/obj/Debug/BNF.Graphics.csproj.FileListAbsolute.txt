@@ -1,8 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier\Assemblies\BNF.Graphics.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier\Assemblies\BNF.Graphics.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier\Source\DecalOverlayPatch\obj\Debug\BNF.Graphics.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier\Source\DecalOverlayPatch\obj\Debug\BNF.Graphics.GeneratedMSBuildEditorConfig.editorconfig
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier\Source\DecalOverlayPatch\obj\Debug\BNF.Graphics.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier\Source\DecalOverlayPatch\obj\Debug\BNF.Graphics.sourcelink.json
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier\Source\DecalOverlayPatch\obj\Debug\BNF.Graphics.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier\Source\DecalOverlayPatch\obj\Debug\BNF.Graphics.pdb

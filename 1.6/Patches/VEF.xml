@@ -81,7 +81,7 @@
 									<li>Symbols/None</li>								
 								</texPaths>
 								<colorA>
-									<color>(0.1,0.1,0.1)</color>
+									<color>(0.0,0.0,0.0)</color>
 								</colorA>
 								<shader>Cutout</shader>
 								<alts>

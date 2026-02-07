@@ -65,7 +65,7 @@
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</loreDesc>
-				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequete protection against melee and small arms fire while remaining light. It is inferior to full helmet protection though, its ease of production makes it more accessible.</vanillaDesc>
+				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequate protection against melee and small arms fire while remaining light. Fitted with a gasmask to protect the user from toxic fumes to a certain degree.</vanillaDesc>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -134,7 +134,7 @@
 		<modExtensions>
 			<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
 				<loreDesc>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</loreDesc>
-				<vanillaDesc>A helmet composed of metal plates reinforced with plasteel. Provides adequete protection against melee and small arms fire while remaining light. It is inferior to full helmet protection though, its ease of production makes it more accessible.</vanillaDesc>
+				<vanillaDesc>A reinforced carapace helmet built to pair with heavy carapace armor. Extra plating provides greater protection at a cost of adding additional weight while remaining resource efficient. Fitted with a gasmask which protect the wearer from dangerous gases to a certain degree.</vanillaDesc>
 			</li>
 		</modExtensions>
 	</ThingDef>
