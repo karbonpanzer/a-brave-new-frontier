@@ -9,25 +9,30 @@ namespace BNF.Graphics
     {
         public override Vector3 OffsetFor(PawnRenderNode n, PawnDrawParms parms, out Vector3 pivot)
         {
-            Vector3 result = base.OffsetFor(n, parms, out pivot);
+            var result = base.OffsetFor(n, parms, out pivot);
 
-            var props = n.Props as PawnRenderNodeProperties_OmniBNF;
-            if (props == null) return result;
+            if (n?.Props is not PawnRenderNodeProperties_OmniBNF props)
+                return result;
 
+            var pawn = parms.pawn;
+            var bodyType = pawn?.story?.bodyType;
+            if (bodyType == null)
+                return result;
+
+            // Normalize XML-facing rows into lookups once, on first use.
             props.EnsureBodyTypeOffsetsByFacingBuilt();
 
-            var bodyType = parms.pawn?.story?.bodyType;
-            if (bodyType == null) return result;
-
-            if (props.bodyTypeOffsetsByFacing != null &&
-                props.bodyTypeOffsetsByFacing.TryGetValue(parms.facing, out var facingMap) &&
-                facingMap != null &&
+            // Facing offsets take priority over global body-type offsets.
+            if (props.bodyTypeOffsetsByFacing.TryGetValue(parms.facing, out var facingMap) &&
                 facingMap.TryGetValue(bodyType, out var facingOffset))
+            {
                 return result + facingOffset;
+            }
 
-            if (props.bodyTypeOffsets != null &&
-                props.bodyTypeOffsets.TryGetValue(bodyType, out var globalOffset))
+            if (props.bodyTypeOffsets.TryGetValue(bodyType, out var globalOffset))
+            {
                 result += globalOffset;
+            }
 
             return result;
         }

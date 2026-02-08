@@ -9,14 +9,12 @@ namespace BNF.Graphics
 {
     public class PawnRenderNodeProperties_OmniBNF : PawnRenderNodeProperties_Omni
     {
-        public string decalFolder = "Symbols";
-
         public Dictionary<BodyTypeDef, Vector3> bodyTypeOffsets = new Dictionary<BodyTypeDef, Vector3>();
 
         public Dictionary<Rot4, Dictionary<BodyTypeDef, Vector3>> bodyTypeOffsetsByFacing =
             new Dictionary<Rot4, Dictionary<BodyTypeDef, Vector3>>();
 
-        public List<BodyTypeOffsetsByFacingRow> bodyTypeOffsetsByFacingRows;
+        public List<BodyTypeOffsetsByFacingRow>? bodyTypeOffsetsByFacingRows;
 
         private bool offsetsBuilt;
 
@@ -24,9 +22,6 @@ namespace BNF.Graphics
         {
             if (offsetsBuilt) return;
             offsetsBuilt = true;
-
-            if (bodyTypeOffsetsByFacing == null)
-                bodyTypeOffsetsByFacing = new Dictionary<Rot4, Dictionary<BodyTypeDef, Vector3>>();
 
             var rows = bodyTypeOffsetsByFacingRows;
             if (rows == null || rows.Count == 0) return;
@@ -57,7 +52,7 @@ namespace BNF.Graphics
 
     public class BodyTypeOffsetsByFacingRow
     {
-        public BodyTypeDef bodyType;
+        public BodyTypeDef? bodyType;
 
         public Vector3 north;
         public Vector3 east;

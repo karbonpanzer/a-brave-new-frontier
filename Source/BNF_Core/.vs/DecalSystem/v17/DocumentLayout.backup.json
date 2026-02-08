@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\dialog_decals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|solutionrelative:decalsystem\\dialog_decals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\bnf.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:bnf.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\decals_core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|solutionrelative:decalsystem\\decals_core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\dialog_decals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:decalsystem\\dialog_decals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\comp_editdecal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|solutionrelative:decalsystem\\comp_editdecal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\descriptionswitcher\\descriptionswitchermod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:descriptionswitcher\\descriptionswitchermod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\pawnrendernodeworker_omniheadapparel_bnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|solutionrelative:decalsystem\\pawnrendernodeworker_omniheadapparel_bnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\descriptionswitcher\\descriptionswitchersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:descriptionswitcher\\descriptionswitchersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\pawnrendernodeworker_omnibodyapparel_bnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|solutionrelative:decalsystem\\pawnrendernodeworker_omnibodyapparel_bnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\descriptionswitcher\\descriptionswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:descriptionswitcher\\descriptionswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\pawnrendernodedrawdata_omnibnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Graphics.csproj|solutionrelative:decalsystem\\pawnrendernodedrawdata_omnibnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\descriptionswitcher\\descriptionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:descriptionswitcher\\descriptionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\comp_editdecal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:decalsystem\\comp_editdecal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\pawnrendernodedrawdata_omnibnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:decalsystem\\pawnrendernodedrawdata_omnibnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\decals_core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:decalsystem\\decals_core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\pawnrendernodeworker_omniheadapparel_bnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:decalsystem\\pawnrendernodeworker_omniheadapparel_bnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\a brave new frontier\\source\\bnf_core\\decalsystem\\pawnrendernodeworker_omnibodyapparel_bnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB32B18F-0276-F2E4-F21F-97E46DDEF26B}|BNF.Core.csproj|solutionrelative:decalsystem\\pawnrendernodeworker_omnibodyapparel_bnf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\DecalOverlayPatch\\PawnRenderNodeWorker_OmniBodyApparel_BNF.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -56,30 +72,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DescriptionSwitcherMod.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DescriptionSwitcher\\DescriptionSwitcherMod.cs",
+              "RelativeDocumentMoniker": "DescriptionSwitcher\\DescriptionSwitcherMod.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DescriptionSwitcher\\DescriptionSwitcherMod.cs",
+              "RelativeToolTip": "DescriptionSwitcher\\DescriptionSwitcherMod.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:50:03.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DescriptionSwitcherSettings.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DescriptionSwitcher\\DescriptionSwitcherSettings.cs",
+              "RelativeDocumentMoniker": "DescriptionSwitcher\\DescriptionSwitcherSettings.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DescriptionSwitcher\\DescriptionSwitcherSettings.cs",
+              "RelativeToolTip": "DescriptionSwitcher\\DescriptionSwitcherSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:49:42.553Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DescriptionSwitcher.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DescriptionSwitcher\\DescriptionSwitcher.cs",
+              "RelativeDocumentMoniker": "DescriptionSwitcher\\DescriptionSwitcher.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DescriptionSwitcher\\DescriptionSwitcher.cs",
+              "RelativeToolTip": "DescriptionSwitcher\\DescriptionSwitcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:49:37.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DescriptionExtension.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DescriptionSwitcher\\DescriptionExtension.cs",
+              "RelativeDocumentMoniker": "DescriptionSwitcher\\DescriptionExtension.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DescriptionSwitcher\\DescriptionExtension.cs",
+              "RelativeToolTip": "DescriptionSwitcher\\DescriptionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:49:26.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PawnRenderNodeWorker_OmniheadApparel_BNF.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\PawnRenderNodeWorker_OmniheadApparel_BNF.cs",
               "RelativeDocumentMoniker": "DecalSystem\\PawnRenderNodeWorker_OmniheadApparel_BNF.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\PawnRenderNodeWorker_OmniheadApparel_BNF.cs",
               "RelativeToolTip": "DecalSystem\\PawnRenderNodeWorker_OmniheadApparel_BNF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T23:37:47.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "PawnRenderNodeDrawData_OmniBNF.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\PawnRenderNodeDrawData_OmniBNF.cs",
+              "RelativeDocumentMoniker": "DecalSystem\\PawnRenderNodeDrawData_OmniBNF.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\PawnRenderNodeDrawData_OmniBNF.cs",
+              "RelativeToolTip": "DecalSystem\\PawnRenderNodeDrawData_OmniBNF.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T23:37:27.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Decals_Core.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\Decals_Core.cs",
+              "RelativeDocumentMoniker": "DecalSystem\\Decals_Core.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\Decals_Core.cs",
+              "RelativeToolTip": "DecalSystem\\Decals_Core.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAowPAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T23:22:25.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BNF.Core.csproj",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\BNF.Core.csproj",
+              "RelativeDocumentMoniker": "BNF.Core.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\BNF.Core.csproj",
+              "RelativeToolTip": "BNF.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-02T05:17:11.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dialog_Decals.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\Dialog_Decals.cs",
+              "RelativeDocumentMoniker": "DecalSystem\\Dialog_Decals.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\Dialog_Decals.cs*",
+              "RelativeToolTip": "DecalSystem\\Dialog_Decals.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T23:16:35.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PawnRenderNodeWorker_OmniBodyApparel_BNF.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\PawnRenderNodeWorker_OmniBodyApparel_BNF.cs",
               "RelativeDocumentMoniker": "DecalSystem\\PawnRenderNodeWorker_OmniBodyApparel_BNF.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\PawnRenderNodeWorker_OmniBodyApparel_BNF.cs",
               "RelativeToolTip": "DecalSystem\\PawnRenderNodeWorker_OmniBodyApparel_BNF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowBUAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T23:37:41.701Z",
               "EditorCaption": ""
@@ -87,32 +211,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PawnRenderNodeDrawData_OmniBNF.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\PawnRenderNodeDrawData_OmniBNF.cs",
-              "RelativeDocumentMoniker": "DecalSystem\\PawnRenderNodeDrawData_OmniBNF.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\PawnRenderNodeDrawData_OmniBNF.cs",
-              "RelativeToolTip": "DecalSystem\\PawnRenderNodeDrawData_OmniBNF.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAowEoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T23:37:27.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Decals_Core.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\Decals_Core.cs",
-              "RelativeDocumentMoniker": "DecalSystem\\Decals_Core.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\Decals_Core.cs",
-              "RelativeToolTip": "DecalSystem\\Decals_Core.cs",
-              "ViewState": "AgIAANgAAAAAAAAAAAAowOcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T23:22:25.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Comp_EditDecal.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\Comp_EditDecal.cs",
               "RelativeDocumentMoniker": "DecalSystem\\Comp_EditDecal.cs",
@@ -124,25 +222,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dialog_Decals.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\Dialog_Decals.cs",
-              "RelativeDocumentMoniker": "DecalSystem\\Dialog_Decals.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\DecalSystem\\Dialog_Decals.cs",
-              "RelativeToolTip": "DecalSystem\\Dialog_Decals.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T23:16:35.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "PawnRenderNodeWorker_OmniheadApparel_BNF.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\DecalOverlayPatch\\PawnRenderNodeWorker_OmniheadApparel_BNF.cs",
               "RelativeDocumentMoniker": "..\\DecalOverlayPatch\\PawnRenderNodeWorker_OmniheadApparel_BNF.cs",
@@ -153,20 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BNF.Graphics.csproj",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\BNF.Core.csproj",
-              "RelativeDocumentMoniker": "BNF.Core.csproj",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\BNF_Core\\BNF.Core.csproj",
-              "RelativeToolTip": "BNF.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-02T05:17:11.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "PawnRenderNodeWorker_OmniBodyApparel_BNF.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\DecalOverlayPatch\\PawnRenderNodeWorker_OmniBodyApparel_BNF.cs",
               "RelativeDocumentMoniker": "..\\DecalOverlayPatch\\PawnRenderNodeWorker_OmniBodyApparel_BNF.cs",
@@ -177,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "PawnRenderNodeDrawData_OmniBNF.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\DecalOverlayPatch\\PawnRenderNodeDrawData_OmniBNF.cs",
               "RelativeDocumentMoniker": "..\\DecalOverlayPatch\\PawnRenderNodeDrawData_OmniBNF.cs",
@@ -188,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Comp_EditDecal.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\DecalOverlayPatch\\Comp_EditDecal.cs",
               "RelativeDocumentMoniker": "..\\DecalOverlayPatch\\Comp_EditDecal.cs",
@@ -199,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Decals_Core.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\DecalOverlayPatch\\Decals_Core.cs",
               "RelativeDocumentMoniker": "..\\DecalOverlayPatch\\Decals_Core.cs",
@@ -210,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Dialog_Decals.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\A Brave New Frontier\\Source\\DecalOverlayPatch\\Dialog_Decals.cs",
               "RelativeDocumentMoniker": "..\\DecalOverlayPatch\\Dialog_Decals.cs",

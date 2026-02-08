@@ -40,11 +40,11 @@ namespace BNF.Decals
             {
                 defaultLabel = "BNF_StyleDecalsGizmo".Translate(pawn.LabelCap),
                 defaultDesc = "BNF_StyleDecalsDesc".Translate(),
-                icon = ContentFinder<Texture2D>.Get("UI/CustomizeDecal", false)
-                       ?? ContentFinder<Texture2D>.Get("UI/Commands/Rename", true),
+                icon = ContentFinder<Texture2D>.Get("UI/CustomizeDecal", true),
                 action = () => Find.WindowStack.Add(new Dialog_EditDecals(pawn))
             };
 
+            // Keep it simple. One extra allocation, but it is only for player pawns with decal apparel.
             __result = __result.Concat(new Gizmo[] { cmd });
         }
     }
@@ -54,7 +54,10 @@ namespace BNF.Decals
     {
         internal static readonly Texture2D Checker;
 
-        static DecalTex() => Checker = BuildChecker(16);
+        static DecalTex()
+        {
+            Checker = BuildChecker(16);
+        }
 
         private static Texture2D BuildChecker(int size)
         {
@@ -96,12 +99,13 @@ namespace BNF.Decals
         private readonly List<Color> palette;
 
         private int selectedIndex;
-        private DecalSymbolDef selectedSymbol;
+        private DecalSymbolDef? selectedSymbol;
 
         private string rStr = "";
         private string gStr = "";
         private string bStr = "";
         private string hexStr = "";
+
         private bool rgbDirty;
         private bool hexDirty;
 
@@ -110,7 +114,6 @@ namespace BNF.Decals
 
         private const float Pad = 10f;
 
-        // tighter spacing so left column gets more usable width
         private const float Gap = 3f;
         private const float Tight = 2f;
 
@@ -245,7 +248,7 @@ namespace BNF.Decals
             DrawChecker(box);
             Widgets.DrawBox(box);
 
-            Texture2D tex = GetSymbolTex(profile.SymbolPath);
+            Texture2D? tex = GetSymbolTex(profile.SymbolPath);
             if (tex != null)
             {
                 GUI.color = profile.Active ? profile.SymbolColor : new Color(1f, 1f, 1f, 0.25f);
@@ -272,12 +275,10 @@ namespace BNF.Decals
             Widgets.DrawMenuSection(rect);
             rect = rect.ContractedBy(7f);
 
-            // Give more space to left column (palette/buttons), push inputs right.
             float leftW = Mathf.Floor(rect.width * 0.62f);
             Rect leftCol = new Rect(rect.x, rect.y, leftW, rect.height);
             Rect rightCol = new Rect(leftCol.xMax + Gap, rect.y, rect.width - leftW - Gap, rect.height);
 
-            // buttons now take two rows (side-by-side row + random row)
             const float btnH = 30f;
             const float btnGapY = 4f;
             float buttonsH = (btnH * 2f) + btnGapY;
@@ -301,7 +302,6 @@ namespace BNF.Decals
             const float cell = 24f;
             const float gap = 2f;
 
-            // Dynamic rows and cols based on available space so it doesn't "cap" at 4 rows.
             int cols = Mathf.Max(1, Mathf.FloorToInt((body.width + gap) / (cell + gap)));
             int rows = Mathf.Max(1, Mathf.FloorToInt((body.height + gap) / (cell + gap)));
 
@@ -352,15 +352,11 @@ namespace BNF.Decals
 
             float btnW = (rect.width - gapX) * 0.5f;
 
-            // Center the two rows vertically within the available rect.
             float totalH = (btnH * 2f) + gapY;
             float y = rect.y + Mathf.Max(0f, (rect.height - totalH) * 0.5f);
 
-            // Row 1: Ideo + Favorite side by side
             Rect left = new Rect(rect.x, y, btnW, btnH);
             Rect right = new Rect(left.xMax + gapX, y, btnW, btnH);
-
-            // Row 2: Random full width
             Rect random = new Rect(rect.x, left.yMax + gapY, rect.width, btnH);
 
             if (TryGetIdeoColor(pawn, out Color ideoColor))
@@ -416,7 +412,6 @@ namespace BNF.Decals
 
         private void DrawInputs(Rect rect)
         {
-            // shift fields further to the right by using a left "label column"
             const float labelColW = 70f;
 
             float y = rect.y;
@@ -577,7 +572,7 @@ namespace BNF.Decals
             if (selectedSymbol != null)
             {
                 profile.SymbolPath = selectedSymbol.path ?? "";
-                profile.Active = !selectedSymbol.blankType;
+                profile.Active = true;
             }
             else
             {
@@ -611,7 +606,7 @@ namespace BNF.Decals
             hexDirty = false;
         }
 
-        private static Texture2D GetSymbolTex(string path) =>
+        private static Texture2D? GetSymbolTex(string path) =>
             path.NullOrEmpty() ? null : ContentFinder<Texture2D>.Get(path, false);
 
         private static bool TryGetIdeoColor(Pawn pawn, out Color c)
@@ -625,7 +620,7 @@ namespace BNF.Decals
         private static bool TryGetFavoriteColor(Pawn pawn, out Color c)
         {
             c = Color.white;
-            ColorDef def = pawn?.story?.favoriteColor;
+            ColorDef? def = pawn?.story?.favoriteColor;
             if (def == null) return false;
             c = def.color;
             return true;

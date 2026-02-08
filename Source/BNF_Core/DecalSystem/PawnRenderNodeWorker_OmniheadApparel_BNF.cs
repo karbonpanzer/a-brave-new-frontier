@@ -1,6 +1,7 @@
-using VEF.Graphics;
-
 namespace BNF.Graphics
 {
-    public class PawnRenderNodeWorker_OmniHeadApparel_BNF : PawnRenderNodeWorker_OmniBodyApparel_BNF { }
+    // Head apparel uses the same body-type offset rules as body apparel.
+    public class PawnRenderNodeWorker_OmniHeadApparel_BNF : PawnRenderNodeWorker_OmniBodyApparel_BNF
+    {
+    }
 }

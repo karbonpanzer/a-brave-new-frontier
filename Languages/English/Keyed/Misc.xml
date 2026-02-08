@@ -2,11 +2,11 @@
 <LanguageData>
 
   <!-- Gizmo -->
-  <BNF_StyleDecalsGizmo>Decals: {0}</BNF_StyleDecalsGizmo>
+  <BNF_StyleDecalsGizmo>Edit Armor Decal</BNF_StyleDecalsGizmo>
   <BNF_StyleDecalsDesc>Customize the decal symbol and color for this pawn.</BNF_StyleDecalsDesc>
 
   <!-- Window -->
-  <BNF_StyleDecalsTitle>Decal styling: {0}</BNF_StyleDecalsTitle>
+  <BNF_StyleDecalsTitle>Decal</BNF_StyleDecalsTitle>
 
   <!-- Top section -->
   <BNF_Decals_Preview>Preview</BNF_Decals_Preview>

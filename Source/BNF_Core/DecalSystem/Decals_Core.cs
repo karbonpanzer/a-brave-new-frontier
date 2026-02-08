@@ -35,7 +35,6 @@ namespace BNF.Decals
     public sealed class DecalSymbolDef : Def
     {
         public string path = "";
-        public bool blankType = false;
     }
 
     public struct DecalProfile
