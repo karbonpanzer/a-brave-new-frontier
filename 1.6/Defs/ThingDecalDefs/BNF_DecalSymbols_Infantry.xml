@@ -1,87 +1,87 @@
 <Defs>
 
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_None</defName>
     <label>None</label>
-    <path>Symbols/None</path>  
+    <Path>Symbols/None</Path>  
     <description>Ooh! The Vast Emptiness!</description>      
-  </BNF.Decals.DecalSymbolDef>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
 
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Exoduster</defName>
     <label>Exoduster</label>
-    <path>Symbols/Exoduster</path>
+    <Path>Symbols/Exoduster</Path>
     <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>      
-  </BNF.Decals.DecalSymbolDef> 
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
 
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Skull</defName>
     <label>Cracked Skull</label>
-    <path>Symbols/Skull</path>
+    <Path>Symbols/Skull</Path>
     <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>     
-  </BNF.Decals.DecalSymbolDef>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
 
   <!--Right-Leaning Political--> 
-    <BNF.Decals.DecalSymbolDef>
+    <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Suzerain</defName>
     <label>Suzerain</label>
-    <path>Symbols/Suzerain</path>
+    <Path>Symbols/Suzerain</Path>
     <description>A symbol of an ancient civilization often fondly remembered for its purity, its original ideal warped by political opportunists seeking control.</description>     
-  </BNF.Decals.DecalSymbolDef>  
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
 
   <!--Left-Leaning Political-->
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_IronFront</defName>
     <label>Iron Front</label>
-    <path>Symbols/IronFront</path>
+    <Path>Symbols/IronFront</Path>
     <description>This symbol is used often by the various Deserter forces and anti-imperial demostrations, often painted onto improvised shields and signs.</description>         
-  </BNF.Decals.DecalSymbolDef>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
 
-    <BNF.Decals.DecalSymbolDef>
+    <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Revanchol</defName>
     <label>Communard</label>
-    <path>Symbols/Revanchol</path>
+    <Path>Symbols/Revanchol</Path>
     <description>A symbol of a failed revolution that occured on a strange distant world, unorthodox among other leftist designs but still found during demostrations.</description>     
-  </BNF.Decals.DecalSymbolDef>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
 
   <!--Sisu Jaegtuti-->
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Sisu</defName>
     <label>Jaegtuti</label>
-    <path>Symbols/Jaegtuti</path>
+    <Path>Symbols/Jaegtuti</Path>
     <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>     
-  </BNF.Decals.DecalSymbolDef> 
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
 
   <!--Sabbath-->
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Sabbath</defName>
     <label>Sabbath</label>
-    <path>Symbols/Sabbath</path>
+    <Path>Symbols/Sabbath</Path>
     <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>     
-  </BNF.Decals.DecalSymbolDef> 
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
   
   <!--Acheron Palantine Regiments-->
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Acheron</defName>
     <label>Palatine Regiments</label>
-    <path>Symbols/Palatine</path>
+    <Path>Symbols/Palatine</Path>
     <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>     
-  </BNF.Decals.DecalSymbolDef>  
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
   
   <!--Meridia Trench Dog Penal Regiments-->
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Meridia</defName>
     <label>Trench Dog Regiment</label>
-    <path>Symbols/TrenchDog</path>
+    <Path>Symbols/TrenchDog</Path>
     <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>     
-  </BNF.Decals.DecalSymbolDef> 
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
 
   <!--Vasilevsky Red Guard-->
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_VInfantry</defName>
     <label>Crimson Guard People's Infantry</label>
-    <path>Symbols/VasileskyInfantry</path>
+    <Path>Symbols/VasileskyInfantry</Path>
     <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
-  </BNF.Decals.DecalSymbolDef>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
   
 </Defs>

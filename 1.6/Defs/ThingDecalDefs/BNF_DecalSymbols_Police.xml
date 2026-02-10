@@ -1,18 +1,18 @@
 <Defs>
   
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Police</defName>
     <label>Star Crest</label>
-    <path>Symbols/Police</path>
+    <Path>Symbols/Police</Path>
     <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>        
-  </BNF.Decals.DecalSymbolDef>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
 
   <!--Vasilevsky Red Guard-->
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_VPolice</defName>
     <label>Crimson Guard Political Commisar</label>
-    <path>Symbols/VasileskyRiot</path>
+    <Path>Symbols/VasileskyRiot</Path>
     <description>A feared symbol on Vasilevsky, the Political Commisariate is the military arm of the Ministry of Loyalty which often finds itself on the frotlines.</description>        
-  </BNF.Decals.DecalSymbolDef>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
   
 </Defs>

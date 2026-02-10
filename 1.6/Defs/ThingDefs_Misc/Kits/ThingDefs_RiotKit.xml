@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>BNF_Helmet_Police</defName>
+		<label>Riot Helmet</label>
+		<description>A leather made clone of the carapace helmet. Reinforced with a few steel plates it provides a decent level of protection. Most of the time though it is found in the hands of law enforcement, who often point toards the start on the forehead and use it as a means of extracting graft from the locals. Just to think that the wear only a few years ago was failing his high school exams because they didn't believe that those skills would be practical. Look at them now, the government gave them a gun and carte blanche on whatever they do!</description>
+		<recipeMaker>
+			<researchPrerequisite>RiotKit</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>	
+		<graphicData>
+			<texPath>Helmets/RiotHelmet/RiotHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+		    <WorkToMake>12000</WorkToMake>
+		    <MaxHitPoints>150</MaxHitPoints>
+		    <Mass>3.5</Mass>
+		    <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+		    <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
+		    <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		    <EquipDelay>4</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>		
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Helmets/RiotHelmet/RiotHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>BNF_Police</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>A leather made clone of the carapace helmet. Reinforced with a few steel plates it provides a decent level of protection. Most of the time though it is found in the hands of law enforcement, who often point toards the start on the forehead and use it as a means of extracting graft from the locals. Just to think that the wear only a few years ago was failing his high school exams because they didn't believe that those skills would be practical. Look at them now, the government gave them a gun and carte blanche on whatever they do!</LoreDesc>
+				<VanillaDesc>A copy of the common carapace helmet which uses leather with some reinforcements. A leather helmet with steel plates installed to protect the wearer from most blunt trauma favored by those in law enforcement. The center of the helmet shows that it finds it main usage by law enforcement.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
+	<ThingDef ParentName="KP_CarapaceArmors">
+		<defName>BNF_Armor_Police</defName>
+		<label>Riot Armor</label>
+		<description>A reverse engineered form of carapace armor. Instead of using a metallic blend and alloys in its construction, it uses the vastly cheaper and less protective leathers. Though no world holds the claim to being the only source of this armor, most worlds use it for police forces. Those brave men and women who spend their time taking brides, brutalizing minorities, and wasting the public's money on overtime consisting of them taking 8 shits before noon. Don't worry though, because the government still has to pay your pension.</description>
+		<graphicData>
+			<texPath>Armor/SpecialArmorVariants/RiotArmor/RiotArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>RiotKit</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+        <costStuffCount>200</costStuffCount>
+		<costList>
+			<Steel>30</Steel>
+		</costList>
+		<stuffCategories>
+		    <li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<statBases>
+		    <WorkToMake>38000</WorkToMake>
+		    <MaxHitPoints>280</MaxHitPoints>
+		    <Mass>18</Mass>
+		    <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+		    <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
+		    <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		    <EquipDelay>20</EquipDelay>
+		</statBases>
+		<thingCategories>
+            <li>BNF_Armor</li>
+        </thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/SpecialArmorVariants/RiotArmor/RiotArmor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>BNF_Police</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>A reverse engineered form of carapace armor. Instead of using a metallic blend and alloys in its construction, it uses the vastly cheaper and less protective leathers. Though no world holds the claim to being the only source of this armor, most worlds use it for police forces. Those brave men and women who spend their time taking brides, brutalizing minorities, and wasting the public's money on overtime consisting of them taking 8 shits before noon. Don't worry though, because the government still has to pay your pension.</LoreDesc>
+				<VanillaDesc>A copy of the common carapace armor that uses leather instead of metals. A lightweight piece of armor which is more effective being used by law enforcement than on the front lines. Though made from leather, it still has an identifier of a member of law enforcement.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>		
+	
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Belt_Police</defName>
+		<label>Police Belt</label>
+		<description>Justice is a concept that defies the colonial experience. Lawlessness is anathema to the civlization being brought to the Rimworlds by the expeditions. Justice now comes in a convient belt form which allows them to subdue, pacify, and protect your families from all threats foreign. Despite your utter lack of real skills and borderline to actual psychopathy, you can use physical violence to gain the respect of the community. Also, the body cams were smashed before you go your belt so there is no recording to submit to evidence during your brutality trial.</description>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Accessories/PoliceBelt/PoliceBelt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ArrestSuccessChance>0.10</ArrestSuccessChance>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Accessories/PoliceBelt/PoliceBelt</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Police</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>Justice is a concept that defies the colonial experience. Lawlessness is anathema to the civlization being brought to the Rimworlds by the expeditions. Justice now comes in a convient belt form which allows them to subdue, pacify, and protect your families from all threats foreign. Despite your utter lack of real skills and borderline to actual psychopathy, you can use physical violence to gain the respect of the community. Also, the body cams were smashed before you go your belt so there is no recording to submit to evidence during your brutality trial.</LoreDesc>
+				<VanillaDesc>A belt often found in usage by various law enforcement agencies on expedition colonies. A simple belt which contains everything from magazines, to handcuffs, to a truncheon. Its utility is is perfect subduing both friend and foe.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+		<defName>BNF_Weapon_Baton</defName>
+		<label>Baton</label>
+		<description>For centuries humanity has sought a means of bringing justice to those who reject civilization or at least brutalize them. The baton, an ancient weapon from Earth was the most refined method of justice. Even now many still use them against the enemies of civilization, theives, murderers, anti-war protestors, and people who look different, the true scum of humanity. This ancient tradition continues on the Rimworlds, where thumbheaded men and women use this tool to enact justice on those who remind them that they peaked in high school. The tool of justice remains in the hands of those who deserve it, the most short tempered, bigotted, stupid, and tiny peckered people you have ever met.\n\nOfficial Name: Freeport Enforcement Consortium "Daystick."</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Weapons/baton</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>ExpeditionaryWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costStuffCount>55</costStuffCount>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>1.6</Mass>
+			<MarketValue>120</MarketValue>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>WeaponMelee</li>
+			<li>Melee</li>
+		</tradeTags>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Police</li>		
+		</weaponTags>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>For centuries humanity has sought a means of bringing justice to those who reject civilization or at least brutalize them. The baton, an ancient weapon from Earth was the most refined method of justice. Even now many still use them against the enemies of civilization, theives, murderers, anti-war protestors, and people who look different, the true scum of humanity. This ancient tradition continues on the Rimworlds, where thumbheaded men and women use this tool to enact justice on those who remind them that they peaked in high school. The tool of justice remains in the hands of those who deserve it, the most short tempered, bigotted, stupid, and tiny peckered people you have ever met.\n\nOfficial Name: Freeport Enforcement Consortium "Daystick."</LoreDesc>
+				<VanillaDesc>A small metal blunt club used by law enforcement. It uses compact design which maintains a strong blance between speed and strength. Though favored by law enforcement, it can be found in the hands of even less savory people.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
+</Defs>

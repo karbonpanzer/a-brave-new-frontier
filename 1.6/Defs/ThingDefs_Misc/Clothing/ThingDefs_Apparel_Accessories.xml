@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs> 
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>BNF_Headgear_Goggles</defName>
+		<label>goggles</label>
+		<description>A pair of standard goggles, the design older than anything besides that manhole cover you found in that crater a few years back. Reinforced glass with a nice comfy leather band which allows you to protect your eyes from both the light of the sun and the dust that seems to be everywhere. Who would want to miss these landscapes and people who think that eating on the ground is the end of the world. Not going to lie, you should have gone to trade school or college because signing on for a 10 year contract for 1/200th of a Thunder Cougar Falcon Bird was a mistake.</description>
+		<graphicData>
+			<texPath>Headgear/Goggles/Goggles</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<drawSize>1.7</drawSize>			
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.05</generateCommonality>
+		<costList>
+			<Cloth>15</Cloth>
+			<Steel>30</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>6500</WorkToMake>
+			<Mass>0.2</Mass>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.70</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+ 			<Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>0.6</EquipDelay>
+		</statBases>
+		<thingCategories Inherit='False'>
+		  <li>KP_Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Headgear/Goggles/Goggles</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>			
+		  <layers>
+			<li>EyeCover</li>
+		  </layers>
+		  <drawData>
+			<defaultData>
+			  <layer>61</layer>
+			</defaultData>
+		  </drawData>
+			<tags>
+				<li>BNF_Uniform</li>
+				<li>BNF_Uniform_Officer</li>				
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+		<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>A pair of standard goggles, the design older than anything besides that manhole cover you found in that crater a few years back. Reinforced glass with a nice comfy leather band which allows you to protect your eyes from both the light of the sun and the dust that seems to be everywhere. Who would want to miss these landscapes and people who think that eating on the ground is the end of the world. Not going to lie, you should have gone to trade school or college because signing on for a 10 year contract for 1/200th of a Thunder Cougar Falcon Bird was a mistake.</LoreDesc>
+				<VanillaDesc>Standard eye protection which offers some protection. Though it is mainly worn to protect the wearer's eyes from the sun. The need sees it worn by those in sandy deserts and frozen tundras.</VanillaDesc>
+			</li>
+		</modExtensions>		
+    </ThingDef>
+</Defs> 	

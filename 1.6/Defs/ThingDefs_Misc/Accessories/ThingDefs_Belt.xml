@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>KP_Pouches_Infantry</defName>
+		<label>Infantry Pouches</label>
+		<description>For centuries, the Infantry of the Great Domain served with the essentials needed to fight. Several ammo pouches that can be configured for both magazines and loss ammo, a canteen, and a knife or bayonet which serve as both weapon and utility for those in the infantry. Though coming in many configurations, this variant was the most popular and thus the most widespread.</description>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Accessories/InfantryPouches/InfantryPouches</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<RangedCooldownFactor>-0.2</RangedCooldownFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Accessories/InfantryPouches/InfantryPouches</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Infantry</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>For centuries, the Infantry of the Great Domain served with the essentials needed to fight. Several ammo pouches that can be configured for both magazines and loss ammo, a canteen, and a knife or bayonet which serve as both weapon and utility for those in the infantry. Though coming in many configurations, this variant was the most popular and thus the most widespread.</LoreDesc>
+				<VanillaDesc>Standard-issue pouches carried by infantry for centuries. Hold ammunition, canteen, and small tools like knives or bayonets. Improves firing cadence modestly while keeping kit organized.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>KP_Pouches_Support</defName>
+		<label>Support Pouches</label>
+		<description>Armies are built on the ability to build defenses. Engineers have been needed on the battlefield for centuries from maintenance to fortifications. Their necessity is even needed now, this belt is the standard answer for that need. Containing both magazine pouches, a canteen, and a generalized toolbelt that contains everything an engineer might need for any problem they may encounter.</description>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Accessories/SupportPouches/SupportPouches</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<equippedStatOffsets>
+			<FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
+			<ConstructionSpeed>0.15</ConstructionSpeed>
+		</equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Accessories/SupportPouches/SupportPouches</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Engineer</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>Armies are built on the ability to build defenses. Engineers have been needed on the battlefield for centuries from maintenance to fortifications. Their necessity is even needed now, this belt is the standard answer for that need. Containing both magazine pouches, a canteen, and a generalized toolbelt that contains everything an engineer might need for any problem they may encounter.</LoreDesc>
+				<VanillaDesc>Utility pouches configured for engineers and builders. Include tools and supplies to speed construction and repairs. Essential gear for supporting units in the field.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>KP_Pouches_Medic</defName>
+		<label>Medic Pouches</label>
+		<description>Keeping a soldier in fighting condition is the most important factor in success of an army. A strong medical corps is necessary in this task. This is the standard kit for a medic in the field, providing several items necessary for stabilization of a wounded soldier. Though it lacks the ability to treat life-threatening wounds it makes up for it in its speed and ease of access.</description>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Accessories/MedicPouches/MedicPouches</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>30</Steel>
+			<Silver>5</Silver>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<equippedStatOffsets>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<MedicalTendQuality>0.15</MedicalTendQuality>
+		</equippedStatOffsets>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Accessories/MedicPouches/MedicPouches</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Medic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>Keeping a soldier in fighting condition is the most important factor in success of an army. A strong medical corps is necessary in this task. This is the standard kit for a medic in the field, providing several items necessary for stabilization of a wounded soldier. Though it lacks the ability to treat life-threatening wounds it makes up for it in its speed and ease of access.</LoreDesc>
+				<VanillaDesc>Medical kit pouches carried by frontline medics. Packed with supplies for fast treatment and improved tend quality. Lightweight and accessible for emergencies.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

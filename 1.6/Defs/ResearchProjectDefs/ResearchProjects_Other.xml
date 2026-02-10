@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>BNF_Dominium_Refining</defName>
+		<label>Metallic Molecular Reinforcement</label>
+		<description>Refine the rare compound dominium from steel and plasteel.</description>
+		<baseCost>3500</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

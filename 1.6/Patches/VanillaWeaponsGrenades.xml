@@ -129,13 +129,6 @@
 					</li>
 				  </options>
 				</colorGenerator>	
-				
-			<modExtensions>
-				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-					<loreDesc>Grenadiers are a fairly common role, no world claims to serve as the only world to field them. Such a common place occurance in warfare is the need to clear out fortificaions and urban settings, there is no finer solution than the grenadier. Most seem to overload themseves in dozens of grenades for the clearing of fortifications, good grenadiers however maintain a balance between weight and mobility.</loreDesc>
-					<vanillaDesc>A modified webbing with additional grenade pouches. Perfect for clearing out dangerous areas and trenches. The grenades pouches can be depleted, reload them to avoid issues.</vanillaDesc>
-				</li>
-			</modExtensions>
 		</ThingDef>  	
 
     </value>

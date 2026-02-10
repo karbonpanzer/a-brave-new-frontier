@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>KP_Webbing_Magazine</defName>
+		<label>Magazine Webbing</label>
+		<description>A more modern form of webbing, seen often on the Rim. This configuration is suited towards magazine-based firearms that are more common among armies in the Rim. The generalized design makes this webbing versatile for all magazine sizes, ensuring a universal system for magazine storage. Bulky but providing more than enough ammunition to make up for the additional weight.</description>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Accessories/MagazineBandoleer/MagazineBandoleer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<equippedStatOffsets>
+			<RangedCooldownFactor>-0.35</RangedCooldownFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Accessories/MagazineBandoleer/MagazineBandoleer</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Infantry</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>A more modern form of webbing, seen often on the Rim. This configuration is suited towards magazine-based firearms that are more common among armies in the Rim. The generalized design makes this webbing versatile for all magazine sizes, ensuring a universal system for magazine storage. Bulky but providing more than enough ammunition to make up for the additional weight.</LoreDesc>
+				<VanillaDesc>Webbing rig designed for magazine-fed weapons. Allows soldiers to reload quickly and keep a steady rate of fire. Bulky, but the extra ammunition offsets the weight.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>KP_Webbing_Ammo</defName>
+		<label>Ammo Webbing</label>
+		<description>The necessity of ammunition is constant among soldiers. While improvements have been made many still find themselves using webbing such as this to be combat effective. This design harkens back to the First Attrition Wars, where soldiers fought with simple rifles fed by stripper clips and en-blocs. Cumbersome but effective storage allows a soldier to provide continuous fire in a fight.</description>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialKitInfantry</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Accessories/AmmoBandoleer/AmmoBandoleer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<equippedStatOffsets>
+			<RangedCooldownFactor>-0.35</RangedCooldownFactor>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Accessories/AmmoBandoleer/AmmoBandoleer</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Infantry</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>The necessity of ammunition is constant among soldiers. While improvements have been made many still find themselves using webbing such as this to be combat effective. This design harkens back to the First Attrition Wars, where soldiers fought with simple rifles fed by stripper clips and en-blocs. Cumbersome but effective storage allows a soldier to provide continuous fire in a fight.</LoreDesc>
+				<VanillaDesc>Traditional webbing built for clip-fed rifles. Improves reload speed and helps maintain fire in combat. Cumbersome, but reliable for older weapon types.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>KP_Webbing_Scout</defName>
+		<label>Vanguard Webbing</label>
+		<description>The most important aspect in the army is intelligence, such intelligence can be provided by the Vanguard of an army. Scouts and rangers are those who lead the way, often several days in advance of any army. As such they need all the bare necessities for this duty, from spare rations, their haversack, and their ammunition are added integrally to their kit. A member of the Vanguard is always ready for anything.</description>
+		<recipeMaker>
+			<researchPrerequisite>VanguardKit</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Accessories/ScoutWebbing/ScoutWebbing</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<equippedStatOffsets>
+			<HuntingStealth>0.40</HuntingStealth>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Accessories/ScoutWebbing/ScoutWebbing</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Scout</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>The most important aspect in the army is intelligence, such intelligence can be provided by the Vanguard of an army. Scouts and rangers are those who lead the way, often several days in advance of any army. As such they need all the bare necessities for this duty, from spare rations, their haversack, and their ammunition are added integrally to their kit. A member of the Vanguard is always ready for anything.</LoreDesc>
+				<VanillaDesc>Scout webbing configured with rations, haversack, and ammunition for long missions. Enhances stealth in the field, making it easier to approach unseen. Light and versatile, ideal for reconnaissance.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>KP_Webbing_Shocktrooper</defName>
+		<label>Shocktrooper Webbing</label>
+		<description>War makes monsters of us all. The Shock Trooper is not a new role in an army, it is an ancient title from Old Earth. Soldiers driven to the edge of madness from constant combat which has rendered many of them “unadaptable.” As such their kit defines this “unadaptable” status, chemical pumps and ease of access to their weaponry during the hardest of fighting.</description>
+		<recipeMaker>
+			<researchPrerequisite>StormtrooperKit</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Accessories/ShocktrooperWebbing/ShocktrooperWebbing</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>40</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.20</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Accessories/ShocktrooperWebbing/ShocktrooperWebbing</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Accessories_Shocktrooper</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>War makes monsters of us all. The Shock Trooper is not a new role in an army, it is an ancient title from Old Earth. Soldiers driven to the edge of madness from constant combat which has rendered many of them “unadaptable.” As such their kit defines this “unadaptable” status, chemical pumps and ease of access to their weaponry during the hardest of fighting.</LoreDesc>
+				<VanillaDesc>Assault webbing designed for soldiers in brutal frontline combat. Chemical reserves and weapon access help them endure punishing conditions. Raises pain tolerance, keeping the wearer in the fight longer.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

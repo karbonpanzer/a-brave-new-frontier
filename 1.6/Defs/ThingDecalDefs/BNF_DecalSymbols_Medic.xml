@@ -1,40 +1,40 @@
 <Defs>
 
   <!--Standard Medical Symbols-->
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Medic</defName>
     <label>Cross</label>
-    <path>Symbols/Medic</path>
+    <Path>Symbols/Medic</Path>
     <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>    
-  </BNF.Decals.DecalSymbolDef> 
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
 
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Staff</defName>
     <label>Healer's Staff</label>
-    <path>Symbols/StaffofAsclepius</path>
+    <Path>Symbols/StaffofAsclepius</Path>
     <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>    
-  </BNF.Decals.DecalSymbolDef> 
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
 
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Caduceus</defName>
     <label>Caduceus</label>
-    <path>Symbols/Caduceus</path>
+    <Path>Symbols/Caduceus</Path>
     <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>    
-  </BNF.Decals.DecalSymbolDef> 
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
   
-  <BNF.Decals.DecalSymbolDef>
+  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_LifeStar</defName>
     <label>Star of Life</label>
-    <path>Symbols/StarofLife</path>
+    <Path>Symbols/StarofLife</Path>
     <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>    
-  </BNF.Decals.DecalSymbolDef>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
 
   <!--Vasilevsky Red Guard-->
-    <BNF.Decals.DecalSymbolDef>
+    <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_VMedic</defName>
     <label>Crimson Guard Medical Corp</label>
-    <path>Symbols/VasileskyMedic</path>
+    <Path>Symbols/VasileskyMedic</Path>
     <description>The Crimson Guard Medical Corp is an emerging institute after the exodus of medical corporations forcing the government to create a means of serving the health of the population.</description>     
-  </BNF.Decals.DecalSymbolDef>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
   
 </Defs>

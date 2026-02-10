@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>BNF_Dominium</defName>
+    <label>dominium</label>
+    <description>A manufactured metallic compound. Steel is molecularly reinforced with bonded plasteel filaments, improving strength and durability without reaching true plasteel performance.</description>
+
+    <graphicData>
+      <texPath>Things/Item/Resource/dominium</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <Mass>0.6</Mass>
+
+      <StuffPower_Armor_Sharp>1.02</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.62</StuffPower_Armor_Heat>
+
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+
+      <SharpDamageMultiplier>1.05</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.97</BluntDamageMultiplier>
+    </statBases>
+
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.12</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <color>(118, 132, 142)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>1.65</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0.15</Flammability>
+        <WorkToMake>1.45</WorkToMake>
+        <WorkToBuild>1.45</WorkToBuild>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+</Defs>
