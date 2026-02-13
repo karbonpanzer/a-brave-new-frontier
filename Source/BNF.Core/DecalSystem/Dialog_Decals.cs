@@ -155,12 +155,7 @@ namespace BNF.Core.DecalSystem
 
         private float DrawSymbolSetup(Rect rect)
         {
-            Rect header = new Rect(rect.x, rect.y, rect.width, 36f);
-            Text.Font = GameFont.Medium;
-            Widgets.Label(header, "BNF_Decals_Symbol".Translate());
-            Text.Font = GameFont.Small;
-
-            float y = header.yMax + 10f;
+            float y = rect.y;     
             float lineH = 30f;
 
             Rect enabledLine = new Rect(rect.x, y, rect.width * 0.55f, lineH);
@@ -253,11 +248,14 @@ namespace BNF.Core.DecalSystem
 
             Color color = _profile.SymbolColor;
 
-            float selectorHeight = 220f;
-            Rect selectorRect = new Rect(rect.x, y, rect.width, selectorHeight);
-            Widgets.ColorSelector(selectorRect, ref color, AllColors(), out float _, null, 28, 6, null);
+            const int boxSize = 28;
+            const int columns = 6;
+            const float gap = 10f;
 
-            y = selectorRect.yMax + 10f;
+            Rect selectorRect = new Rect(rect.x, y, rect.width, 9999f);
+            Widgets.ColorSelector(selectorRect, ref color, AllColors(), out float usedHeight, null, boxSize, columns, null);
+
+            y = selectorRect.y + usedHeight + gap;
 
             float buttonHeight = 36f;
             Rect buttonRow = new Rect(rect.x, y, rect.width, buttonHeight);
@@ -317,8 +315,12 @@ namespace BNF.Core.DecalSystem
 
             if (Widgets.ButtonText(rndRect, rndLabel))
             {
-                color = RandomNiceColor();
-                SoundDefOf.Tick_Low.PlayOneShotOnCamera();
+                var pool = AllColors();
+                if (pool != null && pool.Count > 0)
+                {
+                    color = pool[Rand.Range(0, pool.Count)];
+                    SoundDefOf.Tick_Low.PlayOneShotOnCamera();
+                }
             }
 
             if (!hasFav) GUI.color = new Color(1f, 1f, 1f, 0.45f);
@@ -336,7 +338,6 @@ namespace BNF.Core.DecalSystem
             float gapX = 10f;
             float w = (rect.width - gapX * 2f) / 3f;
 
-            // Exactly 15px from the bottom edge of the window area
             float y = rect.yMax - buttonH - 15f;
 
             Rect reset = new Rect(rect.x, y, w, buttonH);
@@ -375,22 +376,25 @@ namespace BNF.Core.DecalSystem
                 new Color(0.15f, 0.15f, 0.15f),
                 new Color(0.9f, 0.9f, 0.9f),
                 Color.white,
-
                 new Color(0.5f, 0.5f, 0.25f),
                 new Color(0.9f, 0.9f, 0.5f),
                 new Color(0.9f, 0.8f, 0.5f),
-
                 new Color(0.45f, 0.2f, 0.2f),
                 new Color(0.5f, 0.25f, 0.25f),
                 new Color(0.9f, 0.5f, 0.5f),
-
                 new Color(0.15f, 0.28f, 0.43f),
-
                 new Color(0.98f, 0.92f, 0.84f),
                 new Color(0.87f, 0.96f, 0.91f),
                 new Color(0.94f, 0.87f, 0.96f),
                 new Color(0.96f, 0.87f, 0.87f),
                 new Color(0.87f, 0.94f, 0.96f),
+                new Color(0.05f, 0.08f, 0.20f),
+                new Color(0.25f, 0.35f, 0.45f),
+                new Color(0.05f, 0.45f, 0.45f),
+                new Color(0.10f, 0.75f, 0.85f),
+                new Color(0.75f, 0.05f, 0.55f),
+                new Color(0.60f, 0.05f, 0.10f),
+                new Color(0.85f, 0.35f, 0.05f),
             ];
 
             if (TryGetIdeoColor(_pawn, out Color ideo) && !_allColors.Any(x => x.IndistinguishableFrom(ideo)))
@@ -416,6 +420,10 @@ namespace BNF.Core.DecalSystem
                 if (c != 0) return c;
                 return av.CompareTo(bv);
             });
+
+            const int maxColors = 66;
+            if (_allColors.Count > maxColors)
+                _allColors = _allColors.Take(maxColors).ToList();
 
             return _allColors;
         }
@@ -484,14 +492,6 @@ namespace BNF.Core.DecalSystem
             if (def == null) return false;
             c = def.color;
             return true;
-        }
-
-        private static Color RandomNiceColor()
-        {
-            float h = Rand.Value;
-            float s = Mathf.Lerp(0.55f, 1f, Rand.Value);
-            float v = Mathf.Lerp(0.60f, 1f, Rand.Value);
-            return Color.HSVToRGB(h, s, v);
         }
 
         private static void MakeFloatOptionButtons(Rect rect, Action leftAction, Action centerAction, string centerButtonName, Action rightAction)
