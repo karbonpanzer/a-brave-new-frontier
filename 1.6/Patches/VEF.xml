@@ -60,7 +60,6 @@
               <li>Neck</li>
             </bodyPartGroups>
             <wornGraphicPath>Armor/LightArmorVariants/LightArmorFixed/LightArmor</wornGraphicPath>
-            <useWornGraphicMask>True</useWornGraphicMask>
             <layers>
               <li>Middle</li>
             </layers>
@@ -77,7 +76,7 @@
                 <nodeClass>VEF.Graphics.PawnRenderNode_Omni</nodeClass>
                 <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
                 <parentTagDef>ApparelBody</parentTagDef>
-                <baseLayer>500</baseLayer>
+                <baseLayer>16</baseLayer>             
 
                 <conditionalGraphics>
                   <useFactionRNGSeed>true</useFactionRNGSeed>
@@ -130,20 +129,16 @@
                 </BodyTypeOffsetsByFacingRows>
 
                 <drawData>
-                  <scale>0.080</scale>
+                  <scale>0.085</scale>
                   <defaultData>
-                    <layer>22.3797</layer>
+                    <layer>23.355</layer>
                     <offset>(0,0,-0.20)</offset>
+                    <flip>true</flip>                    
                   </defaultData>
                   <dataNorth>
-                    <layer>22.380</layer>
+                    <layer>23.384</layer>
                     <offset>(0,0,-0.17)</offset>
                   </dataNorth>
-                  <bodyTypeScales>
-                    <Hulk>1.35</Hulk>
-                    <Fat>1.1</Fat>
-                    <Thin>0.9</Thin>
-                  </bodyTypeScales>                  
                 </drawData>
               </li>
             </renderNodeProperties>

@@ -16,6 +16,10 @@ namespace BNF.Core.DecalSystem
 
         public List<BodyTypeOffsetsByFacingRow>? BodyTypeOffsetsByFacingRows;
 
+        public bool ForceBelowShell;
+
+        public float BelowShellZOffset = 0.001f;
+
         private bool _offsetsBuilt;
 
         public void EnsureBodyTypeOffsetsByFacingBuilt()

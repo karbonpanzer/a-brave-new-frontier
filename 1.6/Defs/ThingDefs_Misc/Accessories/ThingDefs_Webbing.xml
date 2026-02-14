@@ -51,6 +51,11 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
+			<drawData>
+				<dataNorth>
+					<layer>28</layer>
+				</dataNorth>
+			</drawData>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
@@ -133,6 +138,11 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
+			<drawData>
+				<dataNorth>
+					<layer>28</layer>
+				</dataNorth>
+			</drawData>			
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
@@ -215,6 +225,11 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
+			<drawData>
+				<dataNorth>
+					<layer>28</layer>
+				</dataNorth>
+			</drawData>			
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
@@ -297,6 +312,11 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
+			<drawData>
+				<dataNorth>
+					<layer>28</layer>
+				</dataNorth>
+			</drawData>			
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
