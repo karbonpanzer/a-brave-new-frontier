@@ -16,8 +16,8 @@
 	  <li>BNF_Infantry</li>	  
     </weaponTags>
     <weaponMoney>
-      <min>600</min>
-      <max>800</max>
+      <min>1800</min>
+      <max>2400</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
@@ -55,8 +55,8 @@
 	  <li>BNF_HInfantry</li>		  
 	</weaponTags>
     <weaponMoney>
-      <min>700</min>
-      <max>900</max>
+      <min>2100</min>
+      <max>2700</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
@@ -94,8 +94,8 @@
 	  <li>BNF_Ranger</li>		  
 	</weaponTags>
     <weaponMoney>
-      <min>650</min>
-      <max>850</max>
+      <min>1950</min>
+      <max>2550</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
@@ -130,8 +130,8 @@
 	  <li>BNF_Raider</li>		  
     </weaponTags>
     <weaponMoney>
-      <min>700</min>
-      <max>900</max>
+      <min>2100</min>
+      <max>2700</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
@@ -168,8 +168,8 @@
       <li>BNF_HRaider</li>	  
     </weaponTags>
     <weaponMoney>
-      <min>700</min>
-      <max>900</max>
+      <min>2100</min>
+      <max>2700</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
@@ -207,8 +207,8 @@
       <li>BNF_InfantrySupport</li>	  
     </weaponTags>
     <weaponMoney>
-      <min>500</min>
-      <max>700</max>
+      <min>1500</min>
+      <max>2100</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
@@ -246,8 +246,8 @@
       <li>BNF_FrontlineSupport</li>	 	  
     </weaponTags>
     <weaponMoney>
-      <min>600</min>
-      <max>800</max>
+      <min>1800</min>
+      <max>2400</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
@@ -285,8 +285,8 @@
       <li>BNF_InfantrySupport</li>	 	  
     </weaponTags>
     <weaponMoney>
-      <min>500</min>
-      <max>700</max>
+      <min>1500</min>
+      <max>2100</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
@@ -324,8 +324,8 @@
       <li>BNF_FrontlineSupport</li>	 	  
     </weaponTags>
     <weaponMoney>
-      <min>600</min>
-      <max>800</max>
+      <min>1800</min>
+      <max>2400</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>

@@ -51,7 +51,7 @@
 				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0.04</Dirtmole>
 				<Impid MayRequire="Ludeon.RimWorld.Biotech">0.02</Impid>
 				<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0.02</Pigskin>
-				<Highmate MayRequire="Ludeon.RimWorld.Biotech">0.02</Highmate>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0.02</Yttakin>
 			</xenotypeChances>
 		</xenotypeSet>
 		<allowedArrivalTemperatureRange>-40~50</allowedArrivalTemperatureRange>

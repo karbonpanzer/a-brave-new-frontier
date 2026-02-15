@@ -3,7 +3,6 @@
 
   <ThingDef Name="KP_Light_Flak_Armor_Base" ParentName="KP_CarapaceArmors" Abstract="True">
     <techLevel>Spacer</techLevel>
-
     <recipeMaker>
       <researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -14,7 +13,6 @@
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
-
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <MarketValue>550</MarketValue>
@@ -23,26 +21,21 @@
       <Mass>7.0</Mass>
       <EquipDelay>5</EquipDelay>
     </statBases>
-
     <equippedStatOffsets>
       <MoveSpeed>-0.04</MoveSpeed>
     </equippedStatOffsets>
-
     <thingCategories>
       <li>BNF_Armor</li>
     </thingCategories>
-
     <costList>
       <Cloth>60</Cloth>
       <Plasteel>10</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
-
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
     <costStuffCount>80</costStuffCount>
-
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -59,7 +52,6 @@
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
     </apparel>
-
     <comps>
       <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
     </comps>
@@ -69,13 +61,11 @@
     <defName>KP_Light_Flak_Armor</defName>
     <label>Carapace Armor</label>
     <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.</description>
-
     <graphicData>
       <texPath>Armor/LightArmorVariants/LightArmorFixed/LightArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <apparel>
       <wornGraphicPath>Armor/LightArmorVariants/LightArmorFixed/LightArmor</wornGraphicPath>
       <tags Inherit="False">
@@ -83,11 +73,9 @@
         <li>BNF_Armor_Light_Shocktrooper</li>
       </tags>
     </apparel>
-
     <colorGenerator Class="ColorGenerator_Single">
       <color>(0.47, 0.47, 0.47)</color>
     </colorGenerator>
-
     <modExtensions>
       <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
         <LoreDesc>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.</LoreDesc>
@@ -100,13 +88,11 @@
     <defName>KP_Light_Flak_Armor_Medic</defName>
     <label>Carapace Armor (Medic)</label>
     <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Medical staff.</description>
-
     <graphicData>
       <texPath>Armor/LightArmorVariants/LightArmorMedic/LightArmorMedic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <apparel>
       <wornGraphicPath>Armor/LightArmorVariants/LightArmorMedic/LightArmorMedic</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
@@ -114,9 +100,7 @@
         <li>BNF_Armor_Light_Medic</li>
       </tags>
     </apparel>
-
     <colorGenerator Class="ColorGenerator_StandardApparel" />
-
     <modExtensions>
       <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
         <LoreDesc>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Medical staff.</LoreDesc>
@@ -129,13 +113,11 @@
     <defName>KP_Light_Flak_Armor_Support</defName>
     <label>Carapace Armor (Engineer)</label>
     <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Engineering staff.</description>
-
     <graphicData>
       <texPath>Armor/LightArmorVariants/LightArmorSupport/LightArmorSupport</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <apparel>
       <wornGraphicPath>Armor/LightArmorVariants/LightArmorSupport/LightArmorSupport</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
@@ -143,9 +125,7 @@
         <li>BNF_Armor_Light_Engineer</li>
       </tags>
     </apparel>
-
     <colorGenerator Class="ColorGenerator_StandardApparel" />
-
     <modExtensions>
       <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
         <LoreDesc>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Engineering staff.</LoreDesc>

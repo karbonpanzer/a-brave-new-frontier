@@ -34,7 +34,6 @@ namespace BNF.Core.DecalSystem
             [HarmonyArgument("__result")] ref IEnumerable<Gizmo> result)
         {
             var pawn = instance;
-            if (pawn == null) return;
             if (pawn.Faction != Faction.OfPlayerSilentFail) return;
             if (!DecalUtil.IsHumanlikePawn(pawn)) return;
             if (!DecalUtil.PawnHasAnyDecalApparel(pawn)) return;
@@ -225,7 +224,7 @@ namespace BNF.Core.DecalSystem
                             PushLive();
                         });
                 },
-                _selectedSymbol != null ? _selectedSymbol.LabelCap : "BNF_Decals_NoSelection".Translate(),
+                _selectedSymbol?.LabelCap ?? "BNF_Decals_NoSelection".Translate(),
                 () =>
                 {
                     _selectedIndex++;
@@ -253,7 +252,7 @@ namespace BNF.Core.DecalSystem
             const float gap = 10f;
 
             Rect selectorRect = new Rect(rect.x, y, rect.width, 9999f);
-            Widgets.ColorSelector(selectorRect, ref color, AllColors(), out float usedHeight, null, boxSize, columns, null);
+            Widgets.ColorSelector(selectorRect, ref color, AllColors(), out float usedHeight, null, boxSize, columns);
 
             y = selectorRect.y + usedHeight + gap;
 
@@ -316,7 +315,7 @@ namespace BNF.Core.DecalSystem
             if (Widgets.ButtonText(rndRect, rndLabel))
             {
                 var pool = AllColors();
-                if (pool != null && pool.Count > 0)
+                if (pool.Count > 0)
                 {
                     color = pool[Rand.Range(0, pool.Count)];
                     SoundDefOf.Tick_Low.PlayOneShotOnCamera();

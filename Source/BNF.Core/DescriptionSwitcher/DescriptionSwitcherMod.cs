@@ -6,7 +6,7 @@ using Verse;
 namespace BNF.Core.DescriptionSwitcher
 {
 
-    public sealed class BnfMod : Mod
+    public class BnfMod : Mod
     {
         private static BnfMod? _instance;
 

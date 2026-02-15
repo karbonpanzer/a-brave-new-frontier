@@ -139,6 +139,12 @@
                     <layer>23.384</layer>
                     <offset>(0,0,-0.17)</offset>
                   </dataNorth>
+                  <bodyTypeScales>
+                    <Hulk>1.55</Hulk>
+                    <Fat>1.35</Fat>
+                    <Thin>0.9</Thin>
+                    <Female>1.2</Female>
+                  </bodyTypeScales>
                 </drawData>
               </li>
             </renderNodeProperties>

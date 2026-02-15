@@ -23,8 +23,8 @@
 		<itemQuality>Normal</itemQuality>
 
 		<apparelMoney>
-			<min>500</min>
-			<max>1000</max>
+			<min>1500</min>
+			<max>3000</max>
 		</apparelMoney>
 		
 		<apparelColor>(60,80,110)</apparelColor>

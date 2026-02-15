@@ -19,8 +19,8 @@
 	  <li>SimpleGun</li>
 	</weaponTags>
     <weaponMoney>
-      <min>1200</min>
-      <max>1500</max>
+      <min>3600</min>
+      <max>4500</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform_Officer</li>
@@ -67,8 +67,8 @@
       <li>BNF_Commander</li>
     </weaponTags>
     <weaponMoney>
-      <min>1300</min>
-      <max>1700</max>
+      <min>3900</min>
+      <max>5100</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform_Officer</li>

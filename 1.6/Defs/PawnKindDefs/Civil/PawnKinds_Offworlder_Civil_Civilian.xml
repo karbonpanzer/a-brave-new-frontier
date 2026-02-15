@@ -17,8 +17,8 @@
 	  <li>Pistol</li>
 	</weaponTags>
     <weaponMoney>
-      <min>300</min>
-      <max>500</max>
+      <min>900</min>
+      <max>1500</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>
@@ -51,8 +51,8 @@
 	  <li>SimpleGun</li>
 	</weaponTags>
     <weaponMoney>
-      <min>450</min>
-      <max>650</max>
+      <min>1350</min>
+      <max>1950</max>
     </weaponMoney>
     <apparelTags>
       <li>BNF_Uniform</li>

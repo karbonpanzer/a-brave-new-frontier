@@ -82,6 +82,20 @@
     <label>Crimson Guard People's Infantry</label>
     <Path>Symbols/VasileskyInfantry</Path>
     <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
-  </BNF.Core.DecalSystem.DecalSymbolDef>   
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Bull</defName>
+    <label>Bull</label>
+    <Path>Symbols/Bull</Path>
+    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Bear</defName>
+    <label>Bear</label>
+    <Path>Symbols/Bear</Path>
+    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>     
   
 </Defs>
