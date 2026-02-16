@@ -3,6 +3,11 @@
 
   <ThingDef Name="KP_Light_Flak_Armor_Base" ParentName="KP_CarapaceArmors" Abstract="True">
     <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Armor/LightArmorVariants/LightArmorFixed/LightArmor</texPath>         
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
     <recipeMaker>
       <researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -37,6 +42,7 @@
     </stuffCategories>
     <costStuffCount>80</costStuffCount>
     <apparel>
+      <wornGraphicPath>Armor/LightArmorVariants/LightArmorFixed/LightArmor</wornGraphicPath>      
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
@@ -54,24 +60,103 @@
     </apparel>
     <comps>
       <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
-    </comps>
+    </comps>    
   </ThingDef>
 
   <ThingDef ParentName="KP_Light_Flak_Armor_Base">
     <defName>KP_Light_Flak_Armor</defName>
     <label>Carapace Armor</label>
     <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.</description>
-    <graphicData>
-      <texPath>Armor/LightArmorVariants/LightArmorFixed/LightArmor</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
     <apparel>
-      <wornGraphicPath>Armor/LightArmorVariants/LightArmorFixed/LightArmor</wornGraphicPath>
       <tags Inherit="False">
         <li>BNF_Armor_Light</li>
         <li>BNF_Armor_Light_Shocktrooper</li>
       </tags>
+      <renderNodeProperties>
+              <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+                <nodeClass>VEF.Graphics.PawnRenderNode_Omni</nodeClass>
+                <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+                <parentTagDef>ApparelBody</parentTagDef>
+                <baseLayer>16</baseLayer>             
+
+                <conditionalGraphics>
+                  <useFactionRNGSeed>true</useFactionRNGSeed>
+                  <texPaths>
+                    <li>Symbols/Infantry/None</li>
+                    <li>Symbols/Infantry/Arrowhead</li>
+                    <li>Symbols/Infantry/CrossedRifles</li>
+                    <li>Symbols/Infantry/CrossedSabers</li>
+                    <li>Symbols/Infantry/CrossedSwords</li>
+                    <li>Symbols/Infantry/Exoduster</li>
+                    <li>Symbols/Infantry/Lambda</li>
+                    <li>Symbols/Infantry/Skull</li>
+                    <li>Symbols/Infantry/Sword</li>
+                  </texPaths>
+                  <colorA>
+                    <color>(0.0,0.0,0.0)</color>
+                  </colorA>
+                  <shader>Cutout</shader>
+                  <alts>
+                    <li>
+                      <tagRequirements>
+                        <li>DecalActive</li>
+                      </tagRequirements>
+                      <texPath>DecalSymbol</texPath>
+                      <colorA>
+                        <taggedColor>DecalSymbolColor</taggedColor>
+                      </colorA>
+                      <shader>Cutout</shader>
+                    </li>
+                  </alts>
+                </conditionalGraphics>
+
+                <visibleFacing>
+                  <li>South</li>
+                  <li>North</li>
+                </visibleFacing>
+
+                <BodyTypeOffsetsByFacingRows>
+                  <li>
+                    <bodyType>Fat</bodyType>
+                    <north>(0,0,0.07)</north>
+                    <south>(0,0,0.025)</south>
+                  </li>
+                  <li>
+                    <bodyType>Thin</bodyType>
+                    <north>(0,0,0.045)</north>
+                  </li>
+                  <li>
+                    <bodyType>Hulk</bodyType>
+                    <north>(0,0,0.7)</north>
+                    <south>(0,0,-0.07)</south>
+                  </li>
+                  <li>
+                    <bodyType>Female</bodyType>
+                    <north>(0,0,0.07)</north>
+                    <south>(0,0,0.05)</south>
+                  </li>
+                </BodyTypeOffsetsByFacingRows>
+
+                <drawData>
+                  <scale>0.085</scale>
+                  <defaultData>
+                    <layer>23.355</layer>
+                    <offset>(0,0,-0.20)</offset>
+                    <flip>true</flip>                    
+                  </defaultData>
+                  <dataNorth>
+                    <layer>23.384</layer>
+                    <offset>(0,0,-0.17)</offset>
+                  </dataNorth>
+                  <bodyTypeScales>
+                    <Hulk>1.55</Hulk>
+                    <Fat>1.35</Fat>
+                    <Thin>0.9</Thin>
+                    <Female>1.2</Female>
+                  </bodyTypeScales>
+                </drawData>
+              </li>
+      </renderNodeProperties>      
     </apparel>
     <colorGenerator Class="ColorGenerator_Single">
       <color>(0.47, 0.47, 0.47)</color>
@@ -88,17 +173,95 @@
     <defName>KP_Light_Flak_Armor_Medic</defName>
     <label>Carapace Armor (Medic)</label>
     <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Medical staff.</description>
-    <graphicData>
-      <texPath>Armor/LightArmorVariants/LightArmorMedic/LightArmorMedic</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
     <apparel>
-      <wornGraphicPath>Armor/LightArmorVariants/LightArmorMedic/LightArmorMedic</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <tags Inherit="False">
         <li>BNF_Armor_Light_Medic</li>
       </tags>
+            <renderNodeProperties>
+              <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+                <nodeClass>VEF.Graphics.PawnRenderNode_Omni</nodeClass>
+                <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+                <parentTagDef>ApparelBody</parentTagDef>
+                <baseLayer>16</baseLayer>             
+
+                <conditionalGraphics>
+                  <useFactionRNGSeed>true</useFactionRNGSeed>
+                  <texPaths>
+                    <li>Symbols/Medical/Blooddrop</li>
+                    <li>Symbols/Medical/Caduceus</li>
+                    <li>Symbols/Medical/Chalice</li>
+                    <li>Symbols/Medical/CrossCircle</li>
+                    <li>Symbols/Medical/Medic</li>
+                    <li>Symbols/Medical/Pill</li>
+                    <li>Symbols/Medical/StaffofAsclepius</li>
+                    <li>Symbols/Medical/StarofLife</li>
+                  </texPaths>
+                  <colorA>
+                    <color>(0.0,0.0,0.0)</color>
+                  </colorA>
+                  <shader>Cutout</shader>
+                  <alts>
+                    <li>
+                      <tagRequirements>
+                        <li>DecalActive</li>
+                      </tagRequirements>
+                      <texPath>DecalSymbol</texPath>
+                      <colorA>
+                        <taggedColor>DecalSymbolColor</taggedColor>
+                      </colorA>
+                      <shader>Cutout</shader>
+                    </li>
+                  </alts>
+                </conditionalGraphics>
+
+                <visibleFacing>
+                  <li>South</li>
+                  <li>North</li>
+                </visibleFacing>
+
+                <BodyTypeOffsetsByFacingRows>
+                  <li>
+                    <bodyType>Fat</bodyType>
+                    <north>(0,0,0.07)</north>
+                    <south>(0,0,0.025)</south>
+                  </li>
+                  <li>
+                    <bodyType>Thin</bodyType>
+                    <north>(0,0,0.045)</north>
+                  </li>
+                  <li>
+                    <bodyType>Hulk</bodyType>
+                    <north>(0,0,0.7)</north>
+                    <south>(0,0,-0.07)</south>
+                  </li>
+                  <li>
+                    <bodyType>Female</bodyType>
+                    <north>(0,0,0.07)</north>
+                    <south>(0,0,0.05)</south>
+                  </li>
+                </BodyTypeOffsetsByFacingRows>
+
+                <drawData>
+                  <scale>0.085</scale>
+                  <defaultData>
+                    <layer>23.355</layer>
+                    <offset>(0,0,-0.20)</offset>
+                    <flip>true</flip>                    
+                  </defaultData>
+                  <dataNorth>
+                    <layer>23.384</layer>
+                    <offset>(0,0,-0.17)</offset>
+                  </dataNorth>
+                  <bodyTypeScales>
+                    <Hulk>1.55</Hulk>
+                    <Fat>1.35</Fat>
+                    <Thin>0.9</Thin>
+                    <Female>1.2</Female>
+                  </bodyTypeScales>
+                </drawData>
+              </li>
+      </renderNodeProperties>   
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <modExtensions>
@@ -113,17 +276,95 @@
     <defName>KP_Light_Flak_Armor_Support</defName>
     <label>Carapace Armor (Engineer)</label>
     <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Engineering staff.</description>
-    <graphicData>
-      <texPath>Armor/LightArmorVariants/LightArmorSupport/LightArmorSupport</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
     <apparel>
-      <wornGraphicPath>Armor/LightArmorVariants/LightArmorSupport/LightArmorSupport</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
       <tags Inherit="False">
         <li>BNF_Armor_Light_Engineer</li>
       </tags>
+      <renderNodeProperties>
+              <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+                <nodeClass>VEF.Graphics.PawnRenderNode_Omni</nodeClass>
+                <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+                <parentTagDef>ApparelBody</parentTagDef>
+                <baseLayer>16</baseLayer>             
+
+                <conditionalGraphics>
+                  <useFactionRNGSeed>true</useFactionRNGSeed>
+                  <texPaths>
+                    <li>Symbols/Engineer/Anvil</li>
+                    <li>Symbols/Engineer/Clockwork</li>
+                    <li>Symbols/Engineer/Cog</li>
+                    <li>Symbols/Engineer/Hammer</li>
+                    <li>Symbols/Engineer/HammerWrench</li>
+                    <li>Symbols/Engineer/Rook</li>
+                    <li>Symbols/Engineer/Wrench</li>
+                    <li>Symbols/Engineer/Wrenches</li>
+                  </texPaths>
+                  <colorA>
+                    <color>(0.0,0.0,0.0)</color>
+                  </colorA>
+                  <shader>Cutout</shader>
+                  <alts>
+                    <li>
+                      <tagRequirements>
+                        <li>DecalActive</li>
+                      </tagRequirements>
+                      <texPath>DecalSymbol</texPath>
+                      <colorA>
+                        <taggedColor>DecalSymbolColor</taggedColor>
+                      </colorA>
+                      <shader>Cutout</shader>
+                    </li>
+                  </alts>
+                </conditionalGraphics>
+
+                <visibleFacing>
+                  <li>South</li>
+                  <li>North</li>
+                </visibleFacing>
+
+                <BodyTypeOffsetsByFacingRows>
+                  <li>
+                    <bodyType>Fat</bodyType>
+                    <north>(0,0,0.07)</north>
+                    <south>(0,0,0.025)</south>
+                  </li>
+                  <li>
+                    <bodyType>Thin</bodyType>
+                    <north>(0,0,0.045)</north>
+                  </li>
+                  <li>
+                    <bodyType>Hulk</bodyType>
+                    <north>(0,0,0.7)</north>
+                    <south>(0,0,-0.07)</south>
+                  </li>
+                  <li>
+                    <bodyType>Female</bodyType>
+                    <north>(0,0,0.07)</north>
+                    <south>(0,0,0.05)</south>
+                  </li>
+                </BodyTypeOffsetsByFacingRows>
+
+                <drawData>
+                  <scale>0.085</scale>
+                  <defaultData>
+                    <layer>23.355</layer>
+                    <offset>(0,0,-0.20)</offset>
+                    <flip>true</flip>                    
+                  </defaultData>
+                  <dataNorth>
+                    <layer>23.384</layer>
+                    <offset>(0,0,-0.17)</offset>
+                  </dataNorth>
+                  <bodyTypeScales>
+                    <Hulk>1.55</Hulk>
+                    <Fat>1.35</Fat>
+                    <Thin>0.9</Thin>
+                    <Female>1.2</Female>
+                  </bodyTypeScales>
+                </drawData>
+              </li>
+      </renderNodeProperties>         
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <modExtensions>

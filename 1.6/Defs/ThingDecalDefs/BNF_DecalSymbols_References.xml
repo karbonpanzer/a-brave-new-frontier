@@ -1,0 +1,109 @@
+<Defs> 
+ 
+ <!--Right-Leaning Political--> 
+    <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Suzerain</defName>
+    <label>Suzerain</label>
+    <Path>Symbols/References/Suzerain</Path>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+
+  <!--Left-Leaning Political-->
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_IronFront</defName>
+    <label>Iron Front</label>
+    <Path>Symbols/References/IronFront</Path>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+    <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Revanchol</defName>
+    <label>Communard</label>
+    <Path>Symbols/References/Revanchol</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+
+  <!--Brave New Frontier Lore-->
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Sisu</defName>
+    <label>Jaegtuti</label>
+    <Path>Symbols/References/Jaegtuti</Path>  
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Sabbath</defName>
+    <label>Sabbath</label>
+    <Path>Symbols/References/Sabbath</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Acheron</defName>
+    <label>Palatine Regiments</label>
+    <Path>Symbols/References/Palatine</Path>  
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Meridia</defName>
+    <label>Trench Dog Regiment</label>
+    <Path>Symbols/References/TrenchDog</Path> 
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VInfantry</defName>
+    <label>Crimson Guard People's Infantry</label>
+    <Path>Symbols/References/VasileskyInfantry</Path> 
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VEngineer</defName>
+    <label>Crimson Guard Engineer Regiment</label>
+    <Path>Symbols/References/VasileskyEngineer</Path>      
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VMedic</defName>
+    <label>Crimson Guard Medical Corp</label>
+    <Path>Symbols/References/VasileskyMedic</Path>  
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VOfficer</defName>
+    <label>Crimson Guard Commander Corp</label>
+    <Path>Symbols/References/VasileskyOfficer</Path>        
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VPolice</defName>
+    <label>Crimson Guard Political Commisar</label>
+    <Path>Symbols/References/VasileskyRiot</Path>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>     
+
+  <!--Fallout-->
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Bull</defName>
+    <label>Bull</label>
+    <Path>Symbols/References/Bull</Path>
+    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Bear</defName>
+    <label>Bear</label>
+    <Path>Symbols/References/Bear</Path>
+    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_BearII</defName>
+    <label>Bear II</label>
+    <Path>Symbols/References/BearII</Path>
+    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_BOS</defName>
+    <label>Brotherhood</label>
+    <Path>Symbols/References/BOS</Path>
+    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+  
+  <!--Star Trek-->
+
+</Defs>

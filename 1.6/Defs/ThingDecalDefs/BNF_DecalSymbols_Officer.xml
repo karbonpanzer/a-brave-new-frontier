@@ -1,18 +1,51 @@
 <Defs>
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Psycher</defName>
-    <label>Psycher</label>
-    <Path>Symbols/Psycher</Path>
-    <description>An ancient symbol from Earth commonly seen among the various Psycher groups, often representing the mind's eye.</description>        
-  </BNF.Core.DecalSystem.DecalSymbolDef>
-
-  <!--Vasilevsky Red Guard-->
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_VOfficer</defName>
-    <label>Crimson Guard Commander Corp</label>
-    <Path>Symbols/VasileskyOfficer</Path>
-    <description>A symbol worn proud from the Zhukhovsky Military Graduates, proud members of the party and great leaders of the revolution of the sword.</description>        
-  </BNF.Core.DecalSystem.DecalSymbolDef>     
+    <defName>BNF_Decal_OfficerStar</defName>
+    <label>Officer Star</label>
+    <Path>Symbols/Officer/OfficerStar</Path>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
   
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Wreath</defName>
+    <label>Wreath</label>
+    <Path>Symbols/Officer/Wreath</Path> 
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Starburst</defName>
+    <label>Starburst</label>
+    <Path>Symbols/Officer/Starburst</Path>  
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Hawk</defName>
+    <label>Hawk</label>
+    <Path>Symbols/Officer/Hawk</Path> 
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Crown</defName>
+    <label>Crown</label>
+    <Path>Symbols/Officer/Crown</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Captain</defName>
+    <label>Captain</label>
+    <Path>Symbols/Officer/Captain</Path> 
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Cluster</defName>
+    <label>Leaf Cluster</label>
+    <Path>Symbols/Officer/Leaf Cluster</Path>  
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Lionhead</defName>
+    <label>Lionhead</label>
+    <Path>Symbols/Officer/Lionhead</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+
 </Defs>

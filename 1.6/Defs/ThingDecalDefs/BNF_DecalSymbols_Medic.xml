@@ -1,40 +1,51 @@
 <Defs>
 
-  <!--Standard Medical Symbols-->
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Medic</defName>
     <label>Cross</label>
-    <Path>Symbols/Medic</Path>
-    <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>    
+    <Path>Symbols/Medical/Medic</Path>  
   </BNF.Core.DecalSystem.DecalSymbolDef> 
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Staff</defName>
     <label>Healer's Staff</label>
-    <Path>Symbols/StaffofAsclepius</Path>
-    <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>    
+    <Path>Symbols/Medical/StaffofAsclepius</Path>  
   </BNF.Core.DecalSystem.DecalSymbolDef> 
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Caduceus</defName>
     <label>Caduceus</label>
-    <Path>Symbols/Caduceus</Path>
-    <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>    
+    <Path>Symbols/Medical/Caduceus</Path> 
   </BNF.Core.DecalSystem.DecalSymbolDef> 
   
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_LifeStar</defName>
     <label>Star of Life</label>
-    <Path>Symbols/StarofLife</Path>
-    <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>    
+    <Path>Symbols/Medical/StarofLife</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Chalice</defName>
+    <label>Chalice</label>
+    <Path>Symbols/Medical/Chalice</Path>  
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Blooddrop</defName>
+    <label>Blooddrop</label>
+    <Path>Symbols/Medical/Blooddrop</Path>
   </BNF.Core.DecalSystem.DecalSymbolDef>   
 
-  <!--Vasilevsky Red Guard-->
-    <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_VMedic</defName>
-    <label>Crimson Guard Medical Corp</label>
-    <Path>Symbols/VasileskyMedic</Path>
-    <description>The Crimson Guard Medical Corp is an emerging institute after the exodus of medical corporations forcing the government to create a means of serving the health of the population.</description>     
-  </BNF.Core.DecalSystem.DecalSymbolDef>   
-  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_CrossCircle</defName>
+    <label>Cross in Circle</label>
+    <Path>Symbols/Medical/CrossCircle</Path> 
+  </BNF.Core.DecalSystem.DecalSymbolDef>     
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Pill</defName>
+    <label>Pill</label>
+    <Path>Symbols/Medical/Pill</Path> 
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
 </Defs>

@@ -1,101 +1,45 @@
 <Defs>
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_None</defName>
-    <label>None</label>
-    <Path>Symbols/None</Path>  
-    <description>Ooh! The Vast Emptiness!</description>      
-  </BNF.Core.DecalSystem.DecalSymbolDef>
-
-  <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Exoduster</defName>
     <label>Exoduster</label>
-    <Path>Symbols/Exoduster</Path>
-    <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>      
+    <Path>Symbols/Infantry/Exoduster</Path>   
   </BNF.Core.DecalSystem.DecalSymbolDef> 
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Skull</defName>
     <label>Cracked Skull</label>
-    <Path>Symbols/Skull</Path>
-    <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>     
-  </BNF.Core.DecalSystem.DecalSymbolDef>   
-
-  <!--Right-Leaning Political--> 
-    <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Suzerain</defName>
-    <label>Suzerain</label>
-    <Path>Symbols/Suzerain</Path>
-    <description>A symbol of an ancient civilization often fondly remembered for its purity, its original ideal warped by political opportunists seeking control.</description>     
-  </BNF.Core.DecalSystem.DecalSymbolDef>  
-
-  <!--Left-Leaning Political-->
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_IronFront</defName>
-    <label>Iron Front</label>
-    <Path>Symbols/IronFront</Path>
-    <description>This symbol is used often by the various Deserter forces and anti-imperial demostrations, often painted onto improvised shields and signs.</description>         
-  </BNF.Core.DecalSystem.DecalSymbolDef>   
-
-    <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Revanchol</defName>
-    <label>Communard</label>
-    <Path>Symbols/Revanchol</Path>
-    <description>A symbol of a failed revolution that occured on a strange distant world, unorthodox among other leftist designs but still found during demostrations.</description>     
-  </BNF.Core.DecalSystem.DecalSymbolDef>    
-
-  <!--Sisu Jaegtuti-->
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Sisu</defName>
-    <label>Jaegtuti</label>
-    <Path>Symbols/Jaegtuti</Path>
-    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>     
-  </BNF.Core.DecalSystem.DecalSymbolDef> 
-
-  <!--Sabbath-->
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Sabbath</defName>
-    <label>Sabbath</label>
-    <Path>Symbols/Sabbath</Path>
-    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>     
-  </BNF.Core.DecalSystem.DecalSymbolDef> 
-  
-  <!--Acheron Palantine Regiments-->
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Acheron</defName>
-    <label>Palatine Regiments</label>
-    <Path>Symbols/Palatine</Path>
-    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>     
-  </BNF.Core.DecalSystem.DecalSymbolDef>  
-  
-  <!--Meridia Trench Dog Penal Regiments-->
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Meridia</defName>
-    <label>Trench Dog Regiment</label>
-    <Path>Symbols/TrenchDog</Path>
-    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>     
-  </BNF.Core.DecalSystem.DecalSymbolDef> 
-
-  <!--Vasilevsky Red Guard-->
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_VInfantry</defName>
-    <label>Crimson Guard People's Infantry</label>
-    <Path>Symbols/VasileskyInfantry</Path>
-    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
-  </BNF.Core.DecalSystem.DecalSymbolDef> 
-  
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Bull</defName>
-    <label>Bull</label>
-    <Path>Symbols/Bull</Path>
-    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
-  </BNF.Core.DecalSystem.DecalSymbolDef>  
-  
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Bear</defName>
-    <label>Bear</label>
-    <Path>Symbols/Bear</Path>
-    <description>A commonly seen symbol of the Vasilevsky Crimson Guard, a proletarian army dedicated to the preservation of their liberated home from all threats.</description>    
+    <Path>Symbols/Infantry/Skull</Path>   
   </BNF.Core.DecalSystem.DecalSymbolDef>     
   
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Arrowhead</defName>
+    <label>Arrowhead</label>
+    <Path>Symbols/Infantry/Arrowhead</Path>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Sword</defName>
+    <label>Sword</label>
+    <Path>Symbols/Infantry/Sword</Path>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_CrossedRifles</defName>
+    <label>Crossed Rifles</label>
+    <Path>Symbols/Infantry/CrossedRifles</Path>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Lambda</defName>
+    <label>Lambda</label>
+    <Path>Symbols/Infantry/Lambda</Path> 
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_CrossedSabers</defName>
+    <label>Crossed Sabers</label>
+    <Path>Symbols/Infantry/CrossedSabers</Path>  
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
 </Defs>

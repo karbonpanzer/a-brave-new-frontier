@@ -3,17 +3,49 @@
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Engineer</defName>
     <label>Cog</label>
-    <Path>Symbols/Engineer</Path>
-    <description>This was one of the early hard-baked markings. It’s been pulled into the decal system so it can be recolored and reused across kit.</description>        
-  </BNF.Core.DecalSystem.DecalSymbolDef>    
-
-  <!--Vasilevsky Red Guard-->  
+    <Path>Symbols/Engineer/Cog</Path>      
+  </BNF.Core.DecalSystem.DecalSymbolDef>     
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Clockwork</defName>
+    <label>Clockwork</label>
+    <Path>Symbols/Engineer/Clockwork</Path>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>     
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_VEngineer</defName>
-    <label>Crimson Guard Engineer Regiment</label>
-    <Path>Symbols/VasileskyEngineer</Path>
-    <description>The symbol of the Engineer Regiments of Vasilevsky, often seen repairing perimeter walls against the threat of the Omega Hive Fleet.</description>       
-  </BNF.Core.DecalSystem.DecalSymbolDef>    
+    <defName>BNF_Decal_Hammer_Wrench</defName>
+    <label>Hammer and Wrench</label>
+    <Path>Symbols/Engineer/HammerWrench</Path>     
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Rook</defName>
+    <label>Rook</label>
+    <Path>Symbols/Engineer/Rook</Path>      
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Wrenches</defName>
+    <label>Wrenches</label>
+    <Path>Symbols/Engineer/Wrenches</Path>      
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Wrench</defName>
+    <label>Wrench</label>
+    <Path>Symbols/Engineer/Wrench</Path>      
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Hammer</defName>
+    <label>Hammer</label>
+    <Path>Symbols/Engineer/Hammer</Path>   
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Anvil</defName>
+    <label>Anvil</label>
+    <Path>Symbols/Engineer/Anvil</Path>    
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
   
 </Defs>
