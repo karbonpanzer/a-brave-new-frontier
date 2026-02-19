@@ -69,10 +69,6 @@
 		<costList>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
-		<tradeTags>
-			<li>WeaponMelee</li>
-			<li>Melee</li>
-		</tradeTags>
 		<thingSetMakerTags>
 			<li>RewardStandardMidTech</li>
 		</thingSetMakerTags>
@@ -90,6 +86,9 @@
 				<VanillaDesc>A reinforced glaive based on an ancient Earth design. The metallic composition of the blade allows it to cut through flesh and armor with ease. It possesses EMP emitters which when used against Mechanoids can stun them temporarily.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponMelee</li>
+		</tradeTags>		
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -164,10 +163,6 @@
 				<armorPenetration>0.20</armorPenetration>
 			</li>
 		</tools>
-		<tradeTags>
-			<li>IndustrialMeleeAdvanced</li>
-			<li>Melee</li>
-		</tradeTags>
 		<weaponTags>
 			<li>IndustrialMeleeAdvanced</li>
 			<li>BNF_HInfantry</li>				
@@ -185,6 +180,10 @@
 				<VanillaDesc>A motorised sword with serrated teeth mounted along the blade. When activated these teeth chew through flesh, bone, and armor with ease. Though it also has issues with weight and lacking the range and speed of other weapons.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>IndustrialMeleeAdvanced</li>
+			<li>Melee</li>
+		</tradeTags>		
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -267,10 +266,6 @@
 				<armorPenetration>0.30</armorPenetration>
 			</li>
 		</tools>
-		<tradeTags>
-			<li>IndustrialMeleeAdvanced</li>
-			<li>Melee</li>
-		</tradeTags>
 		<weaponTags>
 			<li>IndustrialMeleeAdvanced</li>				
 			<li>BNF_HRaider</li>		
@@ -285,6 +280,10 @@
 				<VanillaDesc>A massive motorised greatsword with spinning teeth. Brutal cutting power that easily tears through flesh and armor while providing a great reach against targets. It is very heavy and often recommended that it usage to remain with those who can use it effectively.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>IndustrialMeleeAdvanced</li>
+			<li>Melee</li>
+		</tradeTags>		
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
@@ -326,10 +325,6 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<tradeTags>
-			<li>WeaponMelee</li>
-			<li>Melee</li>
-		</tradeTags>
 		<weaponTags>
 			<li>IndustrialMeleeAdvanced</li>				
 			<li>BNF_HRaider</li>		
@@ -363,5 +358,8 @@
 				<VanillaDesc>A massive kinetic hammer that houses a small grav-core. On impact it delivers concussive, armor-crushing blunt force with ease. Its heavy weight prevents it usage by many but the best warriors seen on the Rimworlds.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponMelee</li>
+		</tradeTags>		
 	</ThingDef>
 </Defs>

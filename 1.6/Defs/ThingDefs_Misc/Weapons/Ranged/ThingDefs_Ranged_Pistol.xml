@@ -94,6 +94,9 @@
 				<VanillaDesc>A compact sidearm built for trench raiders. Fires fast and hits hard against lightly armored targets. Limited magazine size makes it less useful in extended fights.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
@@ -189,6 +192,9 @@
 				<VanillaDesc>An experimental submachine gun firing seven rounds in a burst. Extremely fast rate of fire makes it a literal bullet hose. Accurate up close but ineffective at range.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
@@ -287,6 +293,9 @@
 				<VanillaDesc>An experimental revolver designed for usage in space. Firing a micro-rocket tipped with an explosive allows greater usage compared to convention munitions. Though being a firearm meant for usage in space, it has found a home among the Rimworlds.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>		
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
@@ -389,6 +398,9 @@
 				<VanillaDesc>A compact PDW with an extremely high rate of fire and controllable recoil. Deadly up close, but poor against armor and at long range. Commonly used as both a primary weapon and a sidearm due to its compact size.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>		
 	</ThingDef>
 
 </Defs>

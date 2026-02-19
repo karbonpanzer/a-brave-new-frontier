@@ -82,6 +82,10 @@
 				<VanillaDesc>Standard frontier duty uniform. Balanced composition gives light protection and moderate insulation without restricting movement. Suitable for most seasons but not for climate extremes.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="HatMakeableBase">
@@ -161,6 +165,10 @@
 				<VanillaDesc>Standard issue frontier headwear. Balanced composition gives modest protection and comfort in a range of conditions. Suitable for most seasons but not for climate extremes.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 </Defs>

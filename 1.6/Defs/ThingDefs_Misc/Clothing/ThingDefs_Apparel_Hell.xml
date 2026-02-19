@@ -82,6 +82,10 @@
 				<VanillaDesc>Extreme-heat field uniform with liquid cooling bladders. The chemical fluid maintains a cool temperature and composition of the fabric allows protection from desert wind. Unsuitable for cold climates.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="HatMakeableBase">
@@ -161,6 +165,10 @@
 				<VanillaDesc>Extreme-heat field uniform with liquid cooling bladders. The chemical fluid maintains a cool temperature and includes a facewrap and google to protect from desert wind. Unsuitable for cold climates.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 	
 </Defs>

@@ -97,6 +97,9 @@
 				<VanillaDesc>A long-range sniper rifle using magnetically accelerated rounds. Extremely powerful with excellent armor penetration. Very heavy and slow to fire.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>		
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
@@ -198,5 +201,8 @@
 				<VanillaDesc>A heavy twin-barreled sniper rifle firing two powerful slugs in quick succession. Immensely damaging against armor, but slow to fire and cumbersome to carry. Its range makes it perfect for defensive usage but not as an offensive weapon.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>		
 	</ThingDef>
 </Defs>

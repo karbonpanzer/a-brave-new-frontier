@@ -82,6 +82,10 @@
 				<VanillaDesc>Extreme-cold field uniform with heavy insulation. Thick composition maximizes warmth and wind blocking at the cost of added bulk. Unsuitable for warm climates.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="HatMakeableBase">
@@ -161,6 +165,10 @@
 				<VanillaDesc>Extreme-cold headwear with heavy insulation. Thick composition maximizes warmth and wind resistance at the cost of bulk. Lined with thermal material to retain warmth in polar conditions.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 	
 </Defs>

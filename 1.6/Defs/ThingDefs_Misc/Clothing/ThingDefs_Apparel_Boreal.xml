@@ -82,6 +82,10 @@
 				<VanillaDesc>Cold-weather field uniform for boreal zones. Insulated composition blocks wind and retains warmth while keeping bulk modest. Less comfortable in warm conditions.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="HatMakeableBase">
@@ -161,6 +165,10 @@
 				<VanillaDesc>Cold-weather headwear for boreal zones. Insulated composition retains warmth and blocks wind while remaining light. Less comfortable in hot conditions.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 	
 </Defs>

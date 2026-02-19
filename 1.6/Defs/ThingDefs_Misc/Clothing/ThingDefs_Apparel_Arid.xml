@@ -77,6 +77,10 @@
 				<VanillaDesc>Duty uniform tuned for hot, dry climates. Breathable composition sheds heat while providing light protection. Offers poor insulation in cold weather.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>	
 	</ThingDef>
 
 	<ThingDef ParentName="HatMakeableBase">
@@ -156,6 +160,10 @@
 				<VanillaDesc>Lightweight headwear tuned for hot, dry climates. Breathable composition vents heat while offering basic head protection. Poor insulation makes it unsuitable for colder environments.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>		
 	</ThingDef>
 	
 </Defs>

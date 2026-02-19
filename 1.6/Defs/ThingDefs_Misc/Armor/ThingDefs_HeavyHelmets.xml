@@ -52,6 +52,10 @@
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+    	<tradeTags>
+			<li>Armor</li>
+			<li>BNF_Armor</li>
+		</tradeTags>     
   </ThingDef>
 
   <ThingDef ParentName="KP_Heavy_Flak_Helmet_Base">

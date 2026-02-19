@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--Right-Leaning Political-->
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Suzerain</defName>
+    <label>Suzerain</label>
+    <Path>Symbols/References/Suzerain</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <!--Left-Leaning Political-->
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_IronFront</defName>
+    <label>Iron Front</label>
+    <Path>Symbols/References/IronFront</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Revanchol</defName>
+    <label>Communard</label>
+    <Path>Symbols/References/Revanchol</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Fist</defName>
+    <label>Fist</label>
+    <Path>Symbols/References/Fist</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+
+  <!--Brave New Frontier Lore-->
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Sisu</defName>
+    <label>Jaegtuti</label>
+    <Path>Symbols/References/Jaegtuti</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Sabbath</defName>
+    <label>Sabbath</label>
+    <Path>Symbols/References/Sabbath</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Acheron</defName>
+    <label>Palatine Regiments</label>
+    <Path>Symbols/References/Palatine</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Meridia</defName>
+    <label>Trench Dog Regiment</label>
+    <Path>Symbols/References/TrenchDog</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VInfantry</defName>
+    <label>Crimson Guard People's Infantry</label>
+    <Path>Symbols/References/VasileskyInfantry</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VEngineer</defName>
+    <label>Crimson Guard Engineer Regiment</label>
+    <Path>Symbols/References/VasileskyEngineer</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VMedic</defName>
+    <label>Crimson Guard Medical Corp</label>
+    <Path>Symbols/References/VasileskyMedic</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VOfficer</defName>
+    <label>Crimson Guard Commander Corp</label>
+    <Path>Symbols/References/VasileskyOfficer</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_VPolice</defName>
+    <label>Crimson Guard Political Commisar</label>
+    <Path>Symbols/References/VasileskyRiot</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Gemini</defName>
+    <label>Gemini</label>
+    <Path>Symbols/References/Gemini</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Razorback</defName>
+    <label>Razorback</label>
+    <Path>Symbols/References/Razorback</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Sorrow</defName>
+    <label>Sorrow</label>
+    <Path>Symbols/References/Sorrow</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+
+  <!--Fallout-->
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Bull</defName>
+    <label>Bull</label>
+    <Path>Symbols/References/Bull</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Bear</defName>
+    <label>Bear</label>
+    <Path>Symbols/References/Bear</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_BearII</defName>
+    <label>Bear II</label>
+    <Path>Symbols/References/BearII</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_BOS</defName>
+    <label>Brotherhood</label>
+    <Path>Symbols/References/BOS</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <!--Star Trek-->
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Starfleet</defName>
+    <label>Starfleet</label>
+    <Path>Symbols/References/Starfleet</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Klingon</defName>
+    <label>Klingon</label>
+    <Path>Symbols/References/Klingon</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Cardassia</defName>
+    <label>Cardassia</label>
+    <Path>Symbols/References/Cardassia</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Dominion</defName>
+    <label>Dominion</label>
+    <Path>Symbols/References/Dominion</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+
+  <!--Other References-->
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Stop</defName>
+    <label>Stop</label>
+    <Path>Symbols/References/Stop</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_MobileInfantry</defName>
+    <label>Mobile Infantry</label>
+    <Path>Symbols/References/MobileInfantry</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+</Defs>

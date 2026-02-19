@@ -82,6 +82,10 @@
 				<VanillaDesc>Tailored officer variant of the frontier uniform. Provides the same light protection and mobility as the standard set with refined cut and rank insignia. Balanced insulation for temperate conditions.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
@@ -166,6 +170,10 @@
 				<VanillaDesc>Officer variant built for polar service. Heavy insulated composition and a windproof shell retain warmth in severe cold. Same light protection as the officer uniform, optimized for extreme climates.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 	
 	<ThingDef ParentName="HatMakeableBase">
@@ -245,6 +253,10 @@
 				<VanillaDesc>Tailored headwear for frontier officers. Provides modest protection and insulation while displaying rank insignia. Balanced composition makes it suitable for most environments.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 	
 	<ThingDef ParentName="HatMakeableBase">
@@ -324,6 +336,10 @@
 				<VanillaDesc>The traditional tailored headwear for an officer. Modified to have thermal materials to surround the head and maintain warmth even in the coldest environments. A balanced approach to both maintaining comfort and displaying of ones rank.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 	
 </Defs>

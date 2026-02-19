@@ -4,7 +4,8 @@ namespace BNF.Core.DescriptionSwitcher
 {
     public class BnfDescriptionExtension : DefModExtension
     {
-        public string LoreDesc;
-        public string VanillaDesc;
+
+        public string? LoreDesc;
+        public string? VanillaDesc;
     }
 }

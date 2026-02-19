@@ -18,18 +18,11 @@ namespace BNF.Core.DecalSystem
         public const string SymbolColorHead = "DecalSymbolColor_Head";
     }
 
-    public struct DecalTagSet
+    public struct DecalTagSet(string active, string symbolPath, string symbolColor)
     {
-        public readonly string Active;
-        public readonly string SymbolPath;
-        public readonly string SymbolColor;
-
-        public DecalTagSet(string active, string symbolPath, string symbolColor)
-        {
-            Active = active;
-            SymbolPath = symbolPath;
-            SymbolColor = symbolColor;
-        }
+        public readonly string Active = active;
+        public readonly string SymbolPath = symbolPath;
+        public readonly string SymbolColor = symbolColor;
     }
 
     public sealed class DecalSymbolDef : Def
@@ -59,6 +52,8 @@ namespace BNF.Core.DecalSystem
         public static readonly DecalTagSet HeadTags =
             new DecalTagSet(DecalTags.ActiveHead, DecalTags.SymbolPathHead, DecalTags.SymbolColorHead);
 
+        public static readonly HashSet<int> InitializedPawns = new HashSet<int>();
+
         public static bool IsHumanlikePawn(Pawn? pawn) => pawn?.RaceProps?.Humanlike == true;
 
         public static bool PawnHasAnyDecalApparel(Pawn? pawn)
@@ -68,8 +63,7 @@ namespace BNF.Core.DecalSystem
 
             for (int i = 0; i < list.Count; i++)
             {
-                var a = list[i];
-                if (a?.TryGetComp<CompEditDecalMarker>() != null)
+                if (list[i]?.TryGetComp<CompEditDecalMarker>() != null)
                     return true;
             }
 
@@ -144,7 +138,7 @@ namespace BNF.Core.DecalSystem
         {
             if (pawn == null) return;
             BeginLiveEdit(pawn);
-            ApplyAndRefresh(pawn, profile);
+            ApplyAndRefresh(pawn, profile, true);
         }
 
         public static void EndLiveEdit(Pawn? pawn, bool commit)
@@ -156,14 +150,19 @@ namespace BNF.Core.DecalSystem
                 return;
 
             if (!commit)
-                ApplyAndRefresh(pawn, original);
+                ApplyAndRefresh(pawn, original, true);
 
             LiveEditOriginalByPawnId.Remove(id);
         }
 
-        public static void ApplyAndRefresh(Pawn? pawn, DecalProfile profile)
+        public static void ApplyAndRefresh(Pawn? pawn, DecalProfile profile) => ApplyAndRefresh(pawn, profile, false);
+
+        public static void ApplyAndRefresh(Pawn? pawn, DecalProfile profile, bool force)
         {
             if (pawn == null) return;
+            
+            if (!force && InitializedPawns.Contains(pawn.thingIDNumber)) return;
+            InitializedPawns.Add(pawn.thingIDNumber);
 
             WriteSharedProfileTo(pawn, profile);
 
@@ -175,7 +174,6 @@ namespace BNF.Core.DecalSystem
 
         public static void DirtyPawnGraphics(Pawn? pawn)
         {
-            pawn?.apparel?.Notify_ApparelChanged();
             pawn?.Drawer?.renderer?.SetAllGraphicsDirty();
         }
 

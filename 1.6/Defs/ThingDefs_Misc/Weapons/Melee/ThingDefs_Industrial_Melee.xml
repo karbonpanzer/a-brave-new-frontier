@@ -79,7 +79,78 @@
 				<VanillaDesc>A brutal melee weapon of blade and spike. Cuts and pierces with ease, able to puncture insectoid chitin. Light, cheap, and deadly in close combat.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponMelee</li>
+		</tradeTags>	
 	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>BNF_Blade_Bayonet</defName>
+		<label>Bayonet</label>
+		<description>A piece of the original kit for the service rifle, bayonets still were being used in militaries. Not for anything like bayonet charges or massacres, but it was just a nice utility, something used to open cans and used as cooking spits. However, as the situation in the Rimworlds got worse, many found themselves cut off from their supplies, meaning fighting without ammo. Bands of partisans armed with nothing but empty rifles converted into crude spears is what help many Rimworlds from total collapse, even on liberated worlds, this ancient piece of kit is seen now as a symbol of triumph against the odds.\n\nOfficial Name: Armex-Armalite Free License.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Weapons/bayonet</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>ExpeditionaryWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>6400</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>14</power>
+				<armorPenetration>0.15</armorPenetration>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Infantry</li>				
+			<li>BNF_Ranger</li>
+            <li>BNF_Raider</li>
+            <li>BNF_InfantrySupport</li>
+			<li>BNF_Civilian</li>			
+		</weaponTags>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>A piece of the original kit for the service rifle, bayonets still were being used in militaries. Not for anything like bayonet charges or massacres, but it was just a nice utility, something used to open cans and used as cooking spits. However, as the situation in the Rimworlds got worse, many found themselves cut off from their supplies, meaning fighting without ammo. Bands of partisans armed with nothing but empty rifles converted into crude spears is what help many Rimworlds from total collapse, even on liberated worlds, this ancient piece of kit is seen now as a symbol of triumph against the odds.\n\nOfficial Name: Armex-Armalite Free License.</LoreDesc>
+				<VanillaDesc>A knife with unique hilt and cross guard. Commonly seen mounted to a rifle it can be used by hand. Sharp and deadly, it is a useful weapon for all.</VanillaDesc>
+			</li>
+		</modExtensions>
+		<tradeTags>
+			<li>WeaponMelee</li>
+		</tradeTags>		
+	</ThingDef>		
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>KP_Trench_Sword</defName>
@@ -138,10 +209,6 @@
 				<cooldownTime>1.9</cooldownTime>
 			</li>
 		</tools>
-		<tradeTags>
-			<li>WeaponMelee</li>
-			<li>Melee</li>
-		</tradeTags>
 		<weaponTags>
 			<li>IndustrialMeleeBasic</li>
 			<li>BNF_Infantry</li>
@@ -156,6 +223,9 @@
 				<VanillaDesc>A short, double-edged sword made for close quarters. Balances cutting and thrusting power for maximum damage in tight environments.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponMelee</li>
+		</tradeTags>		
 	</ThingDef>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
@@ -207,10 +277,6 @@
 				<cooldownTime>2.4</cooldownTime>
 			</li>
 		</tools>
-		<tradeTags>
-			<li>WeaponMelee</li>
-			<li>Melee</li>
-		</tradeTags>
 		<weaponTags>
 			<li>IndustrialMeleeBasic</li>
 			<li>BNF_Infantry</li>
@@ -225,6 +291,9 @@
 				<VanillaDesc>A heavy, compact blunt weapon that deals massive blunt damage in tight melee fights. Slow but devastating.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponMelee</li>
+		</tradeTags>		
 	</ThingDef>
 
 </Defs>

@@ -33,6 +33,9 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.10</MoveSpeed>
 		</equippedStatOffsets>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 		<thingCategories>
 			<li>BNF_ArmorAccessories</li>
 		</thingCategories>
@@ -74,6 +77,10 @@
 				<VanillaDesc>Armored greaves that protect the lower legs. Provide solid defense against melee and projectile strikes to the shins and feet. Add weight that slightly reduces mobility but complete the carapace armor set.</VanillaDesc>
 			</li>
 		</modExtensions>
+    	<tradeTags>
+			<li>Armor</li>
+			<li>BNF_Armor</li>
+		</tradeTags> 		
 	</ThingDef>
 
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -108,6 +115,9 @@
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
 		</equippedStatOffsets>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>		
 		<thingCategories>
 			<li>BNF_ArmorAccessories</li>
 		</thingCategories>
@@ -149,6 +159,10 @@
 				<VanillaDesc>Armored gauntlets that shield the hands. Adds hand protection at the cost of fine manipulation and work speed. Designed to pair with carapace armor.</VanillaDesc>
 			</li>
 		</modExtensions>
+    	<tradeTags>
+			<li>Armor</li>
+			<li>BNF_Armor</li>
+		</tradeTags> 	
 	</ThingDef>
 	
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -182,6 +196,9 @@
 				<range>1.3</range>
 			</li>
 		</verbs>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>		
 		<thingCategories>
 			<li>BNF_ArmorAccessories</li>
 		</thingCategories>
@@ -216,6 +233,10 @@
 				<VanillaDesc>Carapace-based gauntlets with built-in cutting edges. When worn, they let the wearer deliver precise slashes even if they're holding another weapon.</VanillaDesc>
 			</li>
 		</modExtensions>
+    	<tradeTags>
+			<li>Armor</li>
+			<li>BNF_Armor</li>
+		</tradeTags> 	
 	</ThingDef>
 
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -249,6 +270,9 @@
 				<range>1.4</range>
 			</li>
 		</verbs>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>		
 		<thingCategories>
 			<li>BNF_ArmorAccessories</li>
 		</thingCategories>
@@ -283,6 +307,10 @@
 				<VanillaDesc>Carapace-based gauntlets reinforced with hydraulic actuators. When worn, they let the wearer deliver crushing blows even if they’re holding another weapon.</VanillaDesc>
 			</li>
 		</modExtensions>
+    	<tradeTags>
+			<li>Armor</li>
+			<li>BNF_Armor</li>
+		</tradeTags> 	
 	</ThingDef>
 	
 	<ThingDef ParentName="ArmorMachineableBase">
@@ -348,5 +376,9 @@
 				<VanillaDesc>A improvised piece of armor designed to protect the neck of the wearer. Comprised of the same materials as Carapace Armor it provide decent protection at low cost. As a field invention not many groups use it, making it rare.</VanillaDesc>
 			</li>
 		</modExtensions>
+    	<tradeTags>
+			<li>Armor</li>
+			<li>BNF_Armor</li>
+		</tradeTags> 	
 	</ThingDef>	
 </Defs>

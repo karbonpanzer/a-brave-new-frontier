@@ -1,51 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
+
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Police</defName>
     <label>Star Crest</label>
-    <Path>Symbols/Police/Police</Path>     
+    <Path>Symbols/Police/Police</Path>
   </BNF.Core.DecalSystem.DecalSymbolDef>    
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Shield</defName>
     <label>Shield</label>
-    <Path>Symbols/Police/Shield</Path>       
+    <Path>Symbols/Police/Shield</Path>
   </BNF.Core.DecalSystem.DecalSymbolDef>   
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Scales</defName>
     <label>Scales</label>
-    <Path>Symbols/Police/Scales</Path>     
+    <Path>Symbols/Police/Scales</Path>
   </BNF.Core.DecalSystem.DecalSymbolDef>   
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Dredd</defName>
     <label>Badge</label>
-    <Path>Symbols/Police/Dredd</Path>      
+    <Path>Symbols/Police/Dredd</Path>
   </BNF.Core.DecalSystem.DecalSymbolDef>  
 
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Torch</defName>
     <label>Torch</label>
-    <Path>Symbols/Police/Torch</Path>      
+    <Path>Symbols/Police/Torch</Path>
   </BNF.Core.DecalSystem.DecalSymbolDef>  
   
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Column</defName>
     <label>Column</label>
-    <Path>Symbols/Police/Column</Path>     
+    <Path>Symbols/Police/Column</Path>
   </BNF.Core.DecalSystem.DecalSymbolDef>  
   
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_TinStar</defName>
     <label>Tin Star</label>
-    <Path>Symbols/Police/TinStar</Path>       
+    <Path>Symbols/Police/TinStar</Path>
   </BNF.Core.DecalSystem.DecalSymbolDef>  
   
   <BNF.Core.DecalSystem.DecalSymbolDef>
     <defName>BNF_Decal_Gavel</defName>
     <label>Gavel</label>
-    <Path>Symbols/Police/Gavel</Path>      
+    <Path>Symbols/Police/Gavel</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_142MP</defName>
+    <label>142MP</label>
+    <Path>Symbols/Police/142MP</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_300MP</defName>
+    <label>300MP</label>
+    <Path>Symbols/Police/300MP</Path>
   </BNF.Core.DecalSystem.DecalSymbolDef>    
 
 </Defs>

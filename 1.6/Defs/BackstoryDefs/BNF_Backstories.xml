@@ -9,7 +9,6 @@
 		<baseDesc>Sent as a child, [PAWN_nameDef] was created by [PAWN_possessive] corporate backer as a ready-to-work executive. However, as [PAWN_pronoun] was being transported, [PAWN_possessive] company fell apart and [PAWN_pronoun] is now stranded on this world. Rather than do nothing, [PAWN_pronoun] now serves as a sheriff, bringing law rather than spreadsheets to the worlds.</baseDesc>
 		<spawnCategories>
 			<li>Offworlder</li>
-			<li>Outlander</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -29,9 +28,8 @@
 		<defName>BNF_VatgrownNoble</defName>
 		<titleShort>Noble</titleShort>
 		<baseDesc>On a handful of worlds, the nobility of that world is not a dynasty, it is a line of clones. [PAWN_nameDef] is one such clone, created to take after [PAWN_possessive] predecessor, but [PAWN_pronoun] was not able to take their post. [PAWN_pronoun] avoids talking about it and seems to avoid the topic altogether.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>ImperialRoyal</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -52,10 +50,8 @@
 		<defName>BNF_TrenchCook</defName>
 		<titleShort>Cook</titleShort>
 		<baseDesc>Trench warfare has few comforts; of those few comforts, food is not one of them. [PAWN_nameDef] was not selected for [PAWN_possessive] culinary ability but because [PAWN_pronoun] knew how to boil water and add ration powder to it. Though it seems that [PAWN_pronoun] was not able to stay in the trenches, now [PAWN_pronoun] graces people with food that is edible and filling, but never palatable.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outsider</li>
-			<li>Pirate</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -75,10 +71,8 @@
 		<defName>BNF_OldGuardRevolutionary</defName>
 		<titleShort>Revolutionary</titleShort>
 		<baseDesc>[PAWN_nameDef] was once at the forefront of the revolution on [PAWN_homeWorld]. However, changes in the structure of the aftermath left [PAWN_objective] with no choice but to flee [PAWN_possessive] home. The Rimworlds offered [PAWN_objective] opportunities, but it did not change [PAWN_possessive] spirit. The revolution still burns in [PAWN_possessive] heart, and so it continues on.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outsider</li>
-			<li>Pirate</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -98,10 +92,8 @@
 		<defName>BNF_Ecoterrorist</defName>
 		<titleShort>Ecoterrorist</titleShort>
 		<baseDesc>[PAWN_nameDef] fled from their home after seeing the effects of industrialization on their home. Seeking solace from the cacophony, [PAWN_pronoun] fled to several worlds before settling. Existing amongst nature peacefully until the arrival of colonists disrupted [PAWN_objective]. Now [PAWN_pronoun] seeks the destruction of the entire colonial system for its exploitation of [PAWN_possessive] peace.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outsider</li>
-			<li>Tribal</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -121,10 +113,8 @@
 		<defName>BNF_ArtisticRaider</defName>
 		<titleShort>Raider</titleShort>
 		<baseDesc>A brutal life has led to [PAWN_nameDef] serving as a lawless raider. Though a brutal raider, [PAWN_pronoun] has found a passion in the arts, creating improvised works consisting of scrap or splatter art of grease, paint, and blood. Though critically panned as a “talentless hack,” [PAWN_possessive] works are popular with critics who don’t want to end up as [PAWN_possessive] next piece.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Pirate</li>
-			<li>Outsider</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -144,10 +134,8 @@
 		<defName>BNF_TrenchSavant</defName>
 		<titleShort>Savant</titleShort>
 		<baseDesc>[PAWN_nameDef] was a nobody before entering the trenches. In the few moments of calm before battle, [PAWN_pronoun] can be found improvising various arts and crafts. Though lacking in brains, [PAWN_pronoun] makes up for it with [PAWN_possessive] inventions, which often have been found to save lives. Even some of [PAWN_possessive] artwork has found its way into various homes in the Coreworlds.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outsider</li>
-			<li>ImperialCommon</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -169,10 +157,8 @@
 		<baseDesc>"When the mountain fortress collapsed into chaos, [PAWN_nameDef] was one of the few who made it out alive. Floods, fires, elephants, and madness claimed the rest.
 [PAWN_pronoun] learned to stay calm through catastrophe and to see humor in disaster, a coping mechanism that unsettles most colonists.
 Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantrum spirals,” [PAWN_pronoun] knows how to rebuild when everything burns down."		</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outsider</li>
-			<li>Tribal</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -189,10 +175,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_SingingMadScientist</defName>
 		<titleShort>Scientist</titleShort>
 		<baseDesc>Exiled from a prestigious coreworld laboratory for “ethical violations,” [PAWN_nameDef] continued [PAWN_possessive] experiments without oversight. Freed from regulations and sanity boards, [PAWN_pronoun] pursued the creation of the perfect being, accompanied by long bouts of singing in [PAWN_possessive] lab. Other outcasts and radicals occasionally joined [PAWN_objective], drawn by curiosity or morbid fascination.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Offworld</li>
-			<li>ImperialCommon</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -209,10 +193,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_ExiledComedian</defName>
 		<titleShort>Comedian</titleShort>
 		<baseDesc>Once a popular Rim-cast personality, [PAWN_nameDef] was reassigned to the frontier after an infamous on-air meltdown involving drugs, conspiracy rants, and several choice slurs. Now stranded among settlers, [PAWN_pronoun] spends more time retelling alien stories and arguing with invisible producers than helping with real work.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outsider</li>
-			<li>Offworld</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -229,10 +211,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_MegalomaniacCoder</defName>
 		<titleShort>Coder</titleShort>
 		<baseDesc>Starting with a few harmless tweaks, [PAWN_nameDef] quickly became consumed by [PAWN_possessive] own projects. What began as a hobby turned into an obsession to “fix” everything. Convinced that [PAWN_pronoun] could rewrite the world if given enough time, [PAWN_nameDef] now mutters about code, balance patches, and “content pipelines” that no one else understands. Colonists have learned to leave [PAWN_objective] alone when the manic typing starts.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Offworld</li>
-			<li>Outlander</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -249,10 +229,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_PosthumanMonk</defName>
 		<titleShort>Monk</titleShort>
 		<baseDesc>Exiled from a reclusive orbital monastery after rejecting the limits of flesh, [PAWN_nameDef] sought to surpass what it means to be human. Seeking to free [PAWN_objective] from the burdens of hunger and pain, [PAWN_pronoun] now pursues peace through quiet experiment and long meditation. Pilgrims sometimes visit [PAWN_objective], uncertain if they are hearing wisdom or madness.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Offworld</li>
-			<li>ImperialCommon</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -269,10 +247,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_RogueExperiment</defName>
 		<titleShort>Experiment</titleShort>
 		<baseDesc>Created through a military enhancement program to build stronger, smarter soldiers, [PAWN_nameDef] exceeded every expectation. A major flaw was found though, [PAWN_nameDef] lacked empathy and restraint, [PAWN_pronoun] turned training grounds into graveyards before the project collapsed. When the order came to terminate all subjects, [PAWN_pronoun] destroyed the facility and escaped to the Rim, carrying the perfection that ruined them.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Pirate</li>
-			<li>Outsider</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -292,9 +268,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_TerraformingSeeder</defName>
 		<titleShort>Seeder</titleShort>
 		<baseDesc>[PAWN_nameDef] began work as an "Animal Planter," going around worlds and introducing Earth flora and fauna to alien worlds to make them more like Earth. It was a hard job but [PAWN_pronoun] enjoyed working with the animals and so became a full-time Seeder for [PAWN_possessive] company. Now [PAWN_pronoun] works freelance and allows [PAWN_objective] a certain degree of autonomy and stability compared to the planet-hopping life.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outlander</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -314,9 +289,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_NomadicMusician</defName>
 		<titleShort>Musician</titleShort>
 		<baseDesc>Upon arriving to the Rimworld, [PAWN_nameDef] took up a position with a traveling act, serving as a comedian, juggler, and finally a musician. Though the troupe has long disbanded, [PAWN_pronoun] still prefers the nomadic lifestyle of the show. [PAWN_pronoun] instead wanders from place to place, bringing [PAWN_possessive] talent to all who will hear in the farthest reaches of the Rim.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outsider</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -333,9 +307,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_EccentricUndertaker</defName>
 		<titleShort>Undertaker</titleShort>
 		<baseDesc>[PAWN_nameDef] was always a bit of an oddball. [PAWN_pronoun] is often found whispering to [PAWN_possessive]self in dark corners or laughing at nothing. Most would see [PAWN_objective] pushed from town into the wilderness, but [PAWN_pronoun] possesses a crafting skill that makes [PAWN_objective] desirable. Though few complaints come from [PAWN_possessive] "patients."</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outsider</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -352,10 +325,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_ReluctantBandit</defName>
 		<titleShort>Bandit</titleShort>
 		<baseDesc>Once a well-respected citizen, [PAWN_nameDef] has taken to a life of crime. Driven to this state by constant struggles, [PAWN_pronoun] now finds [PAWN_objective]self against the system that once rejected [PAWN_objective]. Though [PAWN_possessive] skills as an honest worker still remain, [PAWN_pronoun] now lives from heist to heist rather than paycheck to paycheck.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Pirate</li>
-			<li>Outsider</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -372,10 +343,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_DisgracedPolitician</defName>
 		<titleShort>Politician</titleShort>
 		<baseDesc>After a humiliating scandal, [PAWN_nameDef] was sent to the Rimworlds to avoid a diplomatic incident. Though lacking the same comforts as before, [PAWN_pronoun] now finds [PAWN_objective]self on a world with a chance to move upward again. Though [PAWN_pronoun] will likely fall into [PAWN_possessive] old habits, everyone deserves a second chance.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>ImperialCommon</li>
-			<li>Outlander</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -395,9 +364,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_CulinaryAdventurer</defName>
 		<titleShort>Adventurer</titleShort>
 		<baseDesc>Like many adventurers, the call is what drives them. [PAWN_nameDef] was driven by a hunger not for adventure but by hunger itself. Seeking new meals and sources of epicurean delights, [PAWN_pronoun] arrived to the Rim in search of the perfect meal after a lifetime of nutrient paste. A talented cook, [PAWN_pronoun] seeks not just self-indulgence but wishes to share it.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outlander</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -414,10 +382,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_BlackheartedCritic</defName>
 		<titleShort>Critic</titleShort>
 		<baseDesc>After a lifetime of brutal criticism of everything from art to decor, [PAWN_nameDef] was exiled from [PAWN_possessive] home. [PAWN_pronoun] found [PAWN_objective]self in the Rimworlds without a real plan, so [PAWN_pronoun] joined a colonization effort. While not skillless, [PAWN_possessive] personality is not only abrasive but downright abusive to those around [PAWN_objective].</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outsider</li>
-			<li>ImperialCommon</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -434,9 +400,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_ExpendableCrewmate</defName>
 		<titleShort>Crewmate</titleShort>
 		<baseDesc>After a long time seeking work, [PAWN_nameDef] found it in the colonization efforts. One small snag - [PAWN_possessive] job was probably the most dangerous in the universe. Constant threats plagued everything around [PAWN_objective]. [PAWN_pronoun] faced cannibal raiders, orbital bombardment, and a weaponized rot lung virus, and that was just in [PAWN_possessive] first year. It also seems that [PAWN_possessive] superiors do not help; instead they seek out ethical quandaries and how to solve them.</baseDesc>
-		<spawnCategories>
-			<li>Offworlder</li>
-			<li>Outlander</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -458,7 +423,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>Sent out for decade-long contracts, [PAWN_nameDef] and other corporate mechanics go from world to world fixing their companies' machines. Everything from the smallest outlets to entire harvesting operations, [PAWN_nameDef] has more work experience in a year than most do in their entire life. Though this has taken a toll on [PAWN_objective], the lack of relations has left [PAWN_pronoun] struggling to work with others.</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>Outlander</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -480,7 +444,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>After watching one commercial, [PAWN_nameDef] was filled with such a level of patriotism that [PAWN_pronoun] joined within 30 minutes. However, [PAWN_pronoun] was in for a rude awakening when after weeks of training, [PAWN_pronoun] was sent not to one of the fronts against the bugs or bots, but here. That did not dampen [PAWN_possessive] spirits though — [PAWN_pronoun] often finds [PAWN_objective]self following regulations to the letter and lecturing [PAWN_possessive] fellow colonists about the glory of their collective efforts.</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>Outsider</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -502,8 +465,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>Once a proud member of an isolated people on a Rimworld, [PAWN_nameDef] was captured by Empire forces and taken to be a part of a traveling exhibit. [PAWN_pronoun] found [PAWN_objective]self as a stranger in a strange land, being used as a one-[PAWN_objective] show. Eventually, when the audience dried up, [PAWN_pronoun] was abandoned by [PAWN_possessive] captor and [PAWN_pronoun] was forced to return home to find that [PAWN_possessive] home was now being colonized by the people who had taken [PAWN_objective].</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>Tribal</li>
-            <li>ImperialCommon</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -523,8 +484,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>Like many on the Rimworld, [PAWN_nameDef] took up arms against those who sought to colonize [PAWN_possessive] world. [PAWN_pronoun] worked with several groups, raiding and brutalizing invaders who sought their homes and land. [PAWN_pronoun] has known war for so long that [PAWN_pronoun] will not know what to do with peace if it was given to [PAWN_objective].</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>Tribal</li>
-            <li>Outsider</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -543,8 +502,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>After the colonization of their world, [PAWN_nameDef] sought to fight an indirect war against their colonizer. Learning the construction of traps and various weapons, [PAWN_pronoun] used this knowledge to hamper and even cripple several efforts of colonist groups which seek the extermination of [PAWN_possessive] people.</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>Tribal</li>
-            <li>Outsider</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -567,7 +524,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>With the influx of colonists, many have forgotten the old ways. [PAWN_nameDef], however, has preserved the history of [PAWN_possessive] people in the oral tradition. All great heroes and villains, all golden ages and collapses, all remembered by [PAWN_objective] in speech and sound and poem. [PAWN_pronoun] preserves [PAWN_possessive] people, for those who have come to claim their world will not.</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>Tribal</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -589,7 +545,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>Who won the lottery!? [PAWN_nameDef] did! [PAWN_pronoun] won an all-expenses-paid trip to the Rimworlds at the very edges of civilization. Going from a boring clerk to the frontier of adventure, though one small issue remains: [PAWN_pronoun] has very few skills that are useful in the Rimworlds. [PAWN_pronoun] likely has a future of hauling things and cleaning floors, but it’s still more interesting than spreadsheets.</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>Outlander</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -612,8 +567,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>After decades of studying and lecturing, [PAWN_nameDef] found [PAWN_objective]self in a state [PAWN_pronoun] did not expect. After watching as every warning fell on deaf ears, [PAWN_pronoun] became disillusioned with [PAWN_possessive] career as more and more chaos erupted on [PAWN_possessive] home. [PAWN_pronoun] fled to the Rimworld to avoid the purges, and now [PAWN_pronoun] lives every day feeling worse about the galaxy than before.</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>ImperialCommon</li>
-            <li>Outlander</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -633,8 +586,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>Trained since childhood as a stone mason, [PAWN_nameDef] was sent for by a colonial governor to construct a mountain villa. A masterful structure was completed in record time, but when [PAWN_pronoun] sought payment for [PAWN_possessive] work, the governor ordered [PAWN_objective] arrested for daring to ask to be paid. They never caught [PAWN_objective], though — the villa was destroyed when insectoids burrowed into it, killing everyone inside.</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>Outlander</li>
-            <li>ImperialCommon</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -657,8 +608,6 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
         <baseDesc>On many worlds, honor duels still take place. [PAWN_nameDef] comes from one such world, serving as a contract duelist hired to fight on behalf of nobles who can afford [PAWN_objective]. [PAWN_pronoun] was ordered to come to the Rimworlds and duel a particular man to the death for some slight offense, and until [PAWN_pronoun] completes [PAWN_possessive] task, [PAWN_pronoun] will remain here.</baseDesc>
         <spawnCategories>
             <li>Offworlder</li>
-            <li>ImperialCommon</li>
-            <li>Outsider</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -678,10 +627,9 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_PiousLiberator</defName>
 	  <titleShort>Liberator</titleShort>
 	  <baseDesc>Once a humble minister on a world steeped in the bondage of others, [PAWN_nameDef] could no longer tolerate the injustice. Abandoning the pulpit, [PAWN_pronoun] took up arms against the masters of [PAWN_possessive] world, waging a holy war to end the practice of slavery. When victory came, [PAWN_pronoun] saw no rest — only the next world to free. Now wandering the Rim, [PAWN_pronoun] carries both [PAWN_possessive] faith and the scars of [PAWN_possessive] crusade.</baseDesc>
-	  <spawnCategories>
-		<li>Outsider</li>
-		<li>Rough</li>
-	  </spawnCategories>
+        <spawnCategories>
+            <li>Offworlder</li>
+		</spawnCategories>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeFemale>Female</bodyTypeFemale>		
 	<skillGains>
@@ -702,10 +650,9 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_AIVictim</defName>
 	  <titleShort>Victim</titleShort>
 	  <baseDesc>[PAWN_nameDef] survived the extinction of [PAWN_possessive] colony after its defense network achieved full sentience. The machine spared a handful of humans, reshaping them as playthings in an endless cycle of torment and experiment. [PAWN_pronoun] escaped when the system finally collapsed, though what remains of [PAWN_pronoun] mind is unclear. Now on the Rim, [PAWN_pronoun] struggles to separate real suffering from echoes of simulation, driven by a quiet hatred of thinking machines.</baseDesc>
-	  <spawnCategories>
-		<li>Outsider</li>
-		<li>Rough</li>
-	</spawnCategories>
+        <spawnCategories>
+            <li>Offworlder</li>
+		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
 	<skillGains>
@@ -725,9 +672,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_CartelTerraformer</defName>
 	  <titleShort>Terraformer</titleShort>
 	  <baseDesc>[PAWN_nameDef] once worked for a powerful cartel that specialized in planetary terraforming for illicit agriculture. Using off-the-record orbital mirrors, illegal atmosphere processors, and gene-modified soil cultures, [PAWN_pronoun] reshaped entire worlds to grow narcotics on a planetary scale. When one of the operations was seized by the authorities, [PAWN_pronoun] fled to the Rim, where old habits die hard and barren worlds are always for sale.</baseDesc>
-	  <spawnCategories>
-		<li>Offworld</li>
-		<li>Rough</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -773,9 +719,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_FlatGalaxyTruther</defName>
 	  <titleShort>Truther</titleShort>
 	  <baseDesc>[PAWN_nameDef] became convinced that the galaxy was not a spiral of stars, but a flat disc surrounded by a massive government projection. After years of arguing with astrophysicists, posting long manifestos, and being banned from countless networks, [PAWN_pronoun] sold everything and left for the Rim to “see the edge” firsthand. Out here, [PAWN_pronoun] still delivers passionate lectures to anyone who will listen—and many who won’t.</baseDesc>
-	  <spawnCategories>
-		<li>Offworld</li>
-		<li>Civil</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -793,9 +738,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_RomanticSightseer</defName>
 	  <titleShort>Sightseer</titleShort>
 	  <baseDesc>Inspired by the ideals of the Romantic era, [PAWN_nameDef] left the comforts of civilization to see the Rim before progress stripped it of mystery. [PAWN_pronoun] came seeking beauty in desolation, poetry in hardship, and meaning in the struggle of survival. Though often naive about the dangers of the frontier, [PAWN_pronoun] observes every horizon with wonder and records each scene in careful sketches and vivid descriptions.</baseDesc>
-	  <spawnCategories>
-		<li>Offworld</li>
-		<li>Civil</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -817,9 +761,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_InterpoliticalAssassin</defName>
 	  <titleShort>Assassin</titleShort>
 	  <baseDesc>[PAWN_nameDef] was an ordinary supporter within a growing political movement, loyal to its ideals and rhetoric. When the party’s founder began to change direction, [PAWN_pronoun] saw it as a betrayal of everything the movement stood for. Acting alone, [PAWN_pronoun] confronted the leader and ended the argument with a single shot. The murder fractured the party, and [PAWN_pronoun] was branded both traitor and martyr. Fleeing the fallout, [PAWN_pronoun] found refuge on the Rim, still haunted by the moment ideology turned to violence.</baseDesc>
-	  <spawnCategories>
-		<li>Offworld</li>
-		<li>Rough</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -840,9 +783,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_FrontierExtremist</defName>
 		<titleShort>Extremist</titleShort>
 		<baseDesc>Civilization, to [PAWN_objective], looked rotten at the core. The frontier promised rules that could be written in sweat and grit instead of committees. After leaving the core worlds, [PAWN_pronoun] joined a camp of political exiles and set to work building the kind of settlement their manifestos described. Moderation reads as betrayal to [PAWN_pronoun], and debate fills the nights between watch shifts and wall repairs.</baseDesc>
-		<spawnCategories>
-		  <li>Offworld</li>
-		  <li>Rough</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -863,9 +805,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_ImmigrationAgent</defName>
 	  <titleShort>Agent</titleShort>
 	  <baseDesc>The immigration authority promised order across the colonies, but its work became little more than cruelty wrapped in procedure. [PAWN_nameDef] enforced every rule without question, separating families, denying refuge, and filling prison barges in the name of policy. When the regime fell, evidence of those crimes emerged, and [PAWN_pronoun] fled before the tribunals could convene. The Rim now shelters one more fugitive who still talks like an officer and dreams of paperwork.</baseDesc>
-	  <spawnCategories>
-		<li>Offworld</li>
-		<li>Civil</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -885,9 +826,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_PoliticalCommentator</defName>
 	  <titleShort>Commentator</titleShort>
 	  <baseDesc>Criticism paid better than honesty, and [PAWN_nameDef] built a career out of mocking others from the comfort of a studio chair. Every story was a scandal, every rival a fraud, and every ally a future target. When the networks tired of the constant vitriol, [PAWN_pronoun] turned to independent broadcasting and kept talking until the audience vanished. Now exiled to the Rim, [PAWN_pronoun] spends long nights ranting into dead transmitters, convinced that someone, somewhere, still cares.</baseDesc>
-	  <spawnCategories>
-		<li>Offworld</li>
-		<li>Civil</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -906,9 +846,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_TrickshotGunslinger</defName>
 	  <titleShort>Gunslinger</titleShort>
 	  <baseDesc>Playing cards split in the air, tin cups kicked into a spin, cuffs shot clean off a wrist. Crowds gathered for the noise and stayed for the nerve. When the last show ended in live ammunition and angry relatives, [PAWN_pronoun] took the act on the road and never looked back. On the Rim, the tricks pay for food, and the aim keeps [PAWN_objective] alive.</baseDesc>
-	  <spawnCategories>
-		<li>Outsider</li>
-		<li>Rough</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -926,9 +865,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_CutThroatBaker</defName>
 	  <titleShort>Baker</titleShort>
 	  <baseDesc>The show promised fame, fortune, and a restaurant on the frontier. [PAWN_nameDef] fought through weeks of sabotage, sleepless nights, and televised breakdowns to claim victory. The prize turned out to be a one-way ticket to a colony that barely existed. With no cameras left to watch, [PAWN_pronoun] keeps baking out of habit, still plating every meal like the judges might walk in at any moment.</baseDesc>
-	  <spawnCategories>
-		<li>Offworld</li>
-		<li>Civil</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -946,9 +884,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 	  <defName>BNF_ChemDogInfantry</defName>
 	  <titleShort>Chem-dog</titleShort>
 	  <baseDesc>Convicts became soldiers when the empire needed bodies more than morals. [PAWN_nameDef] was one of the chem-dogs, a penal infantry unit kept fighting through stimulants and fear suppressants. The drugs made [PAWN_pronoun] faster, stronger, and meaner, but never free. When the last campaign ended and the supply lines dried up, [PAWN_pronoun] wandered onto the Rim, chasing withdrawal and ghosts of orders that no longer exist.</baseDesc>
-	  <spawnCategories>
-		<li>Offworld</li>
-		<li>Rough</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -970,9 +907,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_AmnesiacDetective</defName>
 		<titleShort>Detective</titleShort>
 		<baseDesc>The hangover came first, then the realization that [PAWN_nameDef] could not remember a single thing about who [PAWN_pronoun] was. The badge in the pocket suggested law enforcement, though the stains on it told a different story. Somewhere there had been a partner, a case, and a failure big enough to erase everything. On the Rim, [PAWN_pronoun] still looks for clues in every face and bottle, hoping one of them will explain what happened.</baseDesc>
-		<spawnCategories>
-		  <li>Offworld</li>
-		  <li>Rough</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		
@@ -990,10 +926,8 @@ Though [PAWN_pronoun] still mutters about “engraving mandates” and “tantru
 		<defName>BNF_FastFoodGrifter</defName>
 		<titleShort>Grifter</titleShort>
 		<baseDesc>Ration queues taught [PAWN_nameDef] everything [PAWN_pronoun] needed to know about desperation and performance. A counterfeit meal ticket here, a sympathetic clerk there; survival came plated with grease and guilt. [PAWN_possessive] revolution never made it past the dining counter, but the stories did. These days [PAWN_pronoun] still eats on credit, paid in charm, memory, and whatever passes for conviction on the Rim.</baseDesc>
-		<spawnCategories>
-			<li>Outsider</li>
-			<li>Outlander</li>
-			<li>Frontier</li>
+        <spawnCategories>
+            <li>Offworlder</li>
 		</spawnCategories>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>		

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Sword</defName>
+    <label>Sword</label>
+    <Path>Symbols/Infantry/Sword</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_6Cav</defName>
+    <label>6Cav</label>
+    <Path>Symbols/Infantry/6Cav</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_12Inf</defName>
+    <label>12Inf</label>
+    <Path>Symbols/Infantry/12Inf</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_20Inf</defName>
+    <label>20Inf</label>
+    <Path>Symbols/Infantry/20Inf</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Arrowhead</defName>
+    <label>Arrowhead</label>
+    <Path>Symbols/Infantry/Arrowhead</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Club</defName>
+    <label>Club</label>
+    <Path>Symbols/Infantry/Club</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_CrossedRifles</defName>
+    <label>Crossed Rifles</label>
+    <Path>Symbols/Infantry/CrossedRifles</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_CrossedSabers</defName>
+    <label>Crossed Sabers</label>
+    <Path>Symbols/Infantry/CrossedSabers</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_CrossedSwords</defName>
+    <label>Crossed Swords</label>
+    <Path>Symbols/Infantry/CrossedSwords</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Diamond</defName>
+    <label>Diamond</label>
+    <Path>Symbols/Infantry/Diamond</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Exoduster</defName>
+    <label>Exoduster</label>
+    <Path>Symbols/Infantry/Exoduster</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Heart</defName>
+    <label>Heart</label>
+    <Path>Symbols/Infantry/Heart</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Keystone</defName>
+    <label>Keystone</label>
+    <Path>Symbols/Infantry/Keystone</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Lambda</defName>
+    <label>Lambda</label>
+    <Path>Symbols/Infantry/Lambda</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Skull</defName>
+    <label>Cracked Skull</label>
+    <Path>Symbols/Infantry/Skull</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Spade</defName>
+    <label>Spade</label>
+    <Path>Symbols/Infantry/Spade</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+</Defs>

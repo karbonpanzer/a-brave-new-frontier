@@ -80,6 +80,10 @@
 				<VanillaDesc>Standard-issue pouches carried by infantry for centuries. Hold ammunition, canteen, and small tools like knives or bayonets. Improves firing cadence modestly while keeping kit organized.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
@@ -163,6 +167,10 @@
 				<VanillaDesc>Utility pouches configured for engineers and builders. Include tools and supplies to speed construction and repairs. Essential gear for supporting units in the field.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
@@ -246,5 +254,9 @@
 				<VanillaDesc>Medical kit pouches carried by frontline medics. Packed with supplies for fast treatment and improved tend quality. Lightweight and accessible for emergencies.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 </Defs>

@@ -39,8 +39,7 @@
 		<backstoryFilters>
 		  <li>
 			<categories>
-			  <li>BNF_Child_Offworlder</li>
-			  <li>BNF_Adult_Offworlder</li>
+			  <li>Offworlder</li>
 			  <li>Outlander</li>
 			</categories>
 		  </li>
@@ -58,10 +57,16 @@
 		<allowedArrivalTemperatureRange>-40~50</allowedArrivalTemperatureRange>
 		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
 		<caravanTraderKinds>
-			<li>Caravan_Outlander_BulkGoods</li>
-			<li>Caravan_Outlander_CombatSupplier</li>
-			<li>Caravan_Outlander_Exotic</li>
+			<li>Caravan_Offworlder_BulkGoods</li>
+			<li>Caravan_Offworlder_ArmsDealer</li>
+			<li>Caravan_Offworlder_Exotic</li>
 		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Offworlder_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Offworlder_Standard</li>
+		</baseTraderKinds>
 		<maxPawnCostPerTotalPointsCurve>
 			<points>
 				<li>(0,      40)</li>

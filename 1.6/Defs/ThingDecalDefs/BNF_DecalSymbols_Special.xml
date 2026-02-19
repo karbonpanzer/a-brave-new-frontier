@@ -1,9 +1,0 @@
-<Defs>
-  
-  <BNF.Core.DecalSystem.DecalSymbolDef>
-    <defName>BNF_Decal_Psycher</defName>
-    <label>Psycher</label>
-    <Path>Symbols/Special/Psycher</Path>   
-  </BNF.Core.DecalSystem.DecalSymbolDef>
-  
-</Defs>

@@ -1,0 +1,1930 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--Alexandria-->
+	<BackstoryDef>
+		<defName>Alexandria_AdministrativeClerk</defName>
+		<slot>Adulthood</slot>
+		<title>administrative clerk</title>
+		<titleShort>clerk</titleShort>
+		<baseDesc>Bureaucracy is the heart of the Alexandria Socialist Republic. [PAWN_nameDef] was designated as a clerk upon entering adulthood. After years within the systems ofgovernance, a transfer was ordered; now [PAWN_possessive] administrative precision serves the colonies of the Rim.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Social>4</Social>
+			<Melee>-2</Melee>
+		</skillGains>
+		<workDisables>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Alexandria_StateDoctor</defName>
+		<slot>Adulthood</slot>
+		<title>state doctor</title>
+		<titleShort>doctor</titleShort>
+		<baseDesc>After the liberation of Alexandria, the reconstruction of the medical system was paramount. Doctors like [PAWN_nameDef] were elevated to positions where they taught dozens of students at once. As a state doctor, [PAWN_pronoun] became an essential pillar of the Republic.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Medicine>8</Medicine>
+			<Social>4</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Alexandria_PeoplesRanger</defName>
+		<slot>Adulthood</slot>
+		<title>people's ranger</title>
+		<titleShort>ranger</titleShort>
+		<baseDesc>The frontiers of Alexandria required constant vigilance. [PAWN_nameDef] spent [PAWN_possessive] years patrolling the wilder reaches of the Republic, protecting communes from local predators and ensuring the safety of the rural workforce.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Plants>4</Plants>
+			<Animals>2</Animals>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Alexandria_OldComrade</defName>
+		<slot>Adulthood</slot>
+		<title>old comrade</title>
+		<titleShort>veteran</titleShort>
+		<baseDesc>After serving for years as a member of the Sarissus Regiments, [PAWN_nameDef] retired with honors. Though lacking a proper retirement in the traditional sense,[PAWN_pronoun] uses the tactical skills of a lifetime to ensure the future seems less grim for [PAWN_possessive] friends.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>4</Melee>
+			<Social>3</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Alexandria_CivilEngineer</defName>
+		<slot>Adulthood</slot>
+		<title>civil engineer</title>
+		<titleShort>engineer</titleShort>
+		<baseDesc>After the revolution, thousands of homes lay in ruins. [PAWN_nameDef] joined the People's Reclamation Efforts, rebuilding corporate decadence into modern homes for theworking class. Block by block, [PAWN_pronoun] learned that building a house is the firststep in building a society.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>8</Construction>
+			<Crafting>2</Crafting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Alexandria_AlexandrianSarissus</defName>
+		<slot>Adulthood</slot>
+		<title>Alexandrian sarissus</title>
+		<titleShort>sarissus</titleShort>
+		<baseDesc>"Service to the people" is the motto of the Sarissuians. [PAWN_nameDef] took it to heart, making duty [PAWN_possessive] sole pursuit. A career spent in drill and defense has left [PAWN_objective] a master of the rifle, but with little patience for artistic expression.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>4</Melee>
+			<Construction>3</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Alexandria_EcologicalRestorationist</defName>
+		<slot>Adulthood</slot>
+		<title>ecological restorationist</title>
+		<titleShort>restorationist</titleShort>
+		<baseDesc>During the Revolution, Corporate forces used chemical weapons to scorch the land.[PAWN_nameDef] chose to assist in restoring these ecological sites. While [PAWN_pronoun] refused to pick up a gun, [PAWN_pronoun] served the People by healing the world itself.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Plants>6</Plants>
+			<Intellectual>4</Intellectual>
+			<Construction>2</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Alexandria_CivilAssistanceCorp</defName>
+		<slot>Adulthood</slot>
+		<title>civil assistance corp</title>
+		<titleShort>laborer</titleShort>
+		<baseDesc>Everyone did their part on Alexandria. [PAWN_nameDef] served with the Civil Militia, providing the muscle for massive state infrastructure projects. Though not a specialist in any one field, [PAWN_pronoun] is a reliable and tireless worker.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>5</Construction>
+			<Crafting>5</Crafting>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Alexandria_Scavenger</defName>
+		<slot>Adulthood</slot>
+		<title>scavenger</title>
+		<titleShort>scavenger</titleShort>
+		<baseDesc>[PAWN_nameDef] spent [PAWN_possessive] days picking through the ruins of former Corporate sites. While technically off-limits, [PAWN_pronoun] was eventually sanctioned by the government due to [PAWN_possessive] incredible knack for recovering vital components from the junk.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Construction>4</Construction>
+			<Shooting>3</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<!--Bedwyr-->
+	<BackstoryDef>
+		<defName>Bedwyr_GreenhouseEngineer</defName>
+		<slot>Adulthood</slot>
+		<title>greenhouse engineer</title>
+		<titleShort>engineer</titleShort>
+		<baseDesc>In the wake of the Flora Plague, [PAWN_nameDef] was tasked by the Order with maintaining the massive sealed biomes that fed Bedwyr. Working in the artificial heat of the greenhouses, [PAWN_pronoun] learned the delicate balance between mechanical maintenance and botanical care.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Plants>5</Plants>
+			<Intellectual>3</Intellectual>
+			<Crafting>2</Crafting>
+			<Construction>2</Construction>
+			<Melee>-2</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Bedwyr_Oathkeeper</defName>
+		<slot>Adulthood</slot>
+		<title>oathkeeper</title>
+		<titleShort>oathkeeper</titleShort>
+		<baseDesc>While Bedwyr was a world of chaos, the Oathkeepers enforced a brutal, rigid law. [PAWN_nameDef] joined the order with high ideals, but soon found [PAWN_objective] spending [PAWN_possessive] days sentencing desperate citizens for minor infractions. The work left [PAWN_objective] cynical.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>5</Social>
+			<Melee>4</Melee>
+			<Intellectual>2</Intellectual>
+			<Animals>-3</Animals>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Bedwyr_Apothecary</defName>
+		<slot>Adulthood</slot>
+		<title>apothecary</title>
+		<titleShort>apothecary</titleShort>
+		<baseDesc>As off-world medical supplies dried up, [PAWN_nameDef] joined the Order’s	Apothecaries. [PAWN_pronoun] specialized in cataloging the medicinal properties of Bedwyr’s remaining flora, learning how to keep the population alive with little more than weeds and chemistry.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Medicine>6</Medicine>
+			<Plants>4</Plants>
+			<Intellectual>2</Intellectual>
+			<Construction>-2</Construction>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Bedwyr_Steelsmith</defName>
+		<slot>Adulthood</slot>
+		<title>steelsmith</title>
+		<titleShort>smith</titleShort>
+		<baseDesc>On a world where technology was failing, the ability to forge raw metal became a vital trade. [PAWN_nameDef] spent [PAWN_possessive] youth in the Order’s heavy foundries, casting structural beams for crumbling cities and sharpening the blades of the Palantine Guard.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Construction>4</Construction>
+			<Melee>2</Melee>
+			<Social>-2</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Bedwyr_OrderQuarterMaster</defName>
+		<slot>Adulthood</slot>
+		<title>order quarter-master</title>
+		<titleShort>quartermaster</titleShort>
+		<baseDesc>[PAWN_nameDef] managed the Order's dwindling resources with a cold, mathematical precision. [PAWN_pronoun] tracked rations and equipment schedules, viewing the world	through a lens of supply and demand. To [PAWN_nameDef], manual labor was beneath [PAWN_possessive] station.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Social>4</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>PlantWork</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Bedwyr_GeorgiponicEngineer</defName>
+		<slot>Adulthood</slot>
+		<title>georgiponic engineer</title>
+		<titleShort>agro engineer</titleShort>
+		<baseDesc>On Bedwyr, agriculture was as much about architecture as it was about soil. [PAWN_nameDef] designed the structural supports and irrigation grids for the world's vertical farms. [PAWN_pronoun] values the long-term planning required to turn a barren plot into a harvest.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Plants>5</Plants>
+			<Construction>4</Construction>
+			<Intellectual>2</Intellectual>
+			<Animals>-2</Animals>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Bedwyr_PalantineRanger</defName>
+		<slot>Adulthood</slot>
+		<title>palantine ranger</title>
+		<titleShort>ranger</titleShort>
+		<baseDesc>Assigned to the desolate borders of Bedwyr's territories, [PAWN_nameDef] lived a life of isolation. [PAWN_pronoun] spent [PAWN_possessive] time tracking local fauna and securing supply routes, preferring the company of beasts to the politics of the Order.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Animals>5</Animals>
+			<Plants>2</Plants>
+			<Social>-4</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Bedwyr_AtmosphericEngineer</defName>
+		<slot>Adulthood</slot>
+		<title>atmospheric engineer</title>
+		<titleShort>atmos engineer</titleShort>
+		<baseDesc>[PAWN_nameDef] monitored the failing life-support systems of Bedwyr’s domed cities. Constantly chasing pressure leaks and reinforcing failing structures, [PAWN_pronoun] became accustomed to the sound of screaming metal and the stress of imminent collapse.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Construction>4</Construction>
+			<Crafting>2</Crafting>
+			<Social>-3</Social>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Bedwyr_OathboundNomad</defName>
+		<slot>Adulthood</slot>
+		<title>oathbound nomad</title>
+		<titleShort>nomad</titleShort>
+		<baseDesc>Even after being exiled from the Order, [PAWN_nameDef] refused to break [PAWN_possessive] vows. [PAWN_pronoun] wandered the frontier settlements, trading [PAWN_possessive] skills with a blade and [PAWN_possessive] knowledge of livestock for a warm place to sleep.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>5</Melee>
+			<Animals>3</Animals>
+			<Plants>2</Plants>
+			<Cooking>2</Cooking>
+			<Intellectual>-4</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<!--Belamunt-->
+	<BackstoryDef>
+		<defName>Belamunt_Slavemaster</defName>
+		<slot>Adulthood</slot>
+		<title>slavemaster</title>
+		<titleShort>overseer</titleShort>
+		<baseDesc>Production quotas in the extraction yards did not maintain themselves.[PAWN_nameDef] supervised labor crews and corrected inefficiency quickly. While [PAWN_pronoun] is an expert at commanding others, [PAWN_possessive] patience for "human elements" is non-existent.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>5</Social>
+			<Melee>4</Melee>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<forcedTraits>
+			<Abrasive />
+		</forcedTraits>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Belamunt_Mechanizer</defName>
+		<slot>Adulthood</slot>
+		<title>mechanizer</title>
+		<titleShort>mechanizer</titleShort>
+		<baseDesc>Machinery failures were frequent and rarely well-documented on Belamunt. [PAWN_nameDef] specialized in keeping industrial systems running under extreme strain. Technical precision improved [PAWN_possessive] mind, but [PAWN_pronoun] finds human interaction far less logical.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Intellectual>4</Intellectual>
+			<Construction>2</Construction>
+			<Social>-3</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Belamunt_Sawtooth</defName>
+		<slot>Adulthood</slot>
+		<title>sawtooth</title>
+		<titleShort>sawtooth</titleShort>
+		<baseDesc>Cutting torches and reinforced blades defined the trade. [PAWN_nameDef] spent [PAWN_possessive] days dismantling heavy scrap and reshaping it into usable components. The repetition built immense physical strength and a talent for improvised weaponry.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Construction>4</Construction>
+			<Melee>3</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Belamunt_Forgemaster</defName>
+		<slot>Adulthood</slot>
+		<title>forgemaster</title>
+		<titleShort>forgemaster</titleShort>
+		<baseDesc>Industrial production structured most of [PAWN_nameDef]’s adulthood. Tools and weapon components passed steadily through [PAWN_possessive] forge floor. [PAWN_pronoun] values consistent, high-quality output over personal recognition or fame.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Construction>4</Construction>
+			<Social>2</Social>
+			<Animals>-3</Animals>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Belamunt_Beancounter</defName>
+		<slot>Adulthood</slot>
+		<title>beancounter</title>
+		<titleShort>accountant</titleShort>
+		<baseDesc>Market shifts and supply costs required constant review to keep the legion funded. [PAWN_nameDef] tracked resource flow and adjusted projections as needed. [PAWN_pronoun] considers actual manual labor to be a waste of [PAWN_possessive] cognitive potential.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Belamunt_Greenseeker</defName>
+		<slot>Adulthood</slot>
+		<title>greenseeker</title>
+		<titleShort>greenseeker</titleShort>
+		<baseDesc>Marginal land on Belamunt demanded constant experimentation. [PAWN_nameDef] tested soil viability and monitored local wildlife to secure small but reliable yields for the frontline. Adaptability became [PAWN_possessive] primary survival tool.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Plants>6</Plants>
+			<Animals>3</Animals>
+			<Shooting>2</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Belamunt_LegionVagabond</defName>
+		<slot>Adulthood</slot>
+		<title>legion vagabond</title>
+		<titleShort>vagabond</titleShort>
+		<baseDesc>Service never fully settled into permanence. [PAWN_nameDef] moved between detachments and temporary posts, maintaining combat readiness while living out of a rucksack. Stability was always secondary to the simple act of staying alive.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>4</Melee>
+			<Cooking>2</Cooking>
+			<Social>-3</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Belamunt_Scrapper</defName>
+		<slot>Adulthood</slot>
+		<title>scrapper</title>
+		<titleShort>scrapper</titleShort>
+		<baseDesc>Abandoned industrial facilities offered opportunity to those willing to take risks. [PAWN_nameDef] stripped structures for parts and rebuilt functional systems from debris. [PAWN_pronoun] values practical, greasy-handed knowledge over any academic theory.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Construction>4</Construction>
+			<Shooting>2</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<!--Cevall-->
+	<BackstoryDef>
+		<defName>Cavall_TrenchDog</defName>
+		<slot>Adulthood</slot>
+		<title>trench dog</title>
+		<titleShort>trench dog</titleShort>
+		<baseDesc>Cavall’s trench lines shifted constantly. [PAWN_nameDef] spent years reinforcing crumbling walls, manning firing points, and advancing mere meters at a time through the mud. The constant hazards of the front shaped [PAWN_objective] into a decisive survivor.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>4</Melee>
+			<Construction>3</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Cavall_Improviser</defName>
+		<slot>Adulthood</slot>
+		<title>improviser</title>
+		<titleShort>improviser</titleShort>
+		<baseDesc>Equipment rarely arrived intact on the front. [PAWN_nameDef] learned to adapt broken tools and mismatched components to keep operations moving. Problem-solving became instinctive for [PAWN_objective], as failure usually meant a cold death in the trenches.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Construction>4</Construction>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Cavall_Juryrigger</defName>
+		<slot>Adulthood</slot>
+		<title>juryrigger</title>
+		<titleShort>juryrigger</titleShort>
+		<baseDesc>Circuit boards, scrap steel, and salvaged fasteners filled [PAWN_nameDef]’s workspace. [PAWN_pronoun] performed complex repairs with whatever was available, often bypassing safety protocols to get results. [PAWN_pronoun] finds that machines make far more sense than people.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Intellectual>5</Intellectual>
+			<Construction>3</Construction>
+			<Social>-3</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Cavall_RevokedPhysician</defName>
+		<slot>Adulthood</slot>
+		<title>revoked physician</title>
+		<titleShort>revoked doc</titleShort>
+		<baseDesc>[PAWN_nameDef]'s credentials were lost in the chaos of war, but [PAWN_possessive] knowledge remained. [PAWN_pronoun] treated horrific injuries in unofficial clinics with limited supplies. [PAWN_possessive] care is practical rather than polished, and [PAWN_pronoun] has a very blunt bedside manner.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Medicine>8</Medicine>
+			<Intellectual>2</Intellectual>
+			<Social>-3</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Cavall_BackyardBlacksmith</defName>
+		<slot>Adulthood</slot>
+		<title>backyard blacksmith</title>
+		<titleShort>blacksmith</titleShort>
+		<baseDesc>Makeshift forges burned in the scattered settlements of Cavall. [PAWN_nameDef] produced blades and tools in small batches, refining [PAWN_possessive] technique through a lifetime of repetition. Craftsmanship is the only thing [PAWN_pronoun] truly respects.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Melee>4</Melee>
+			<Construction>2</Construction>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Cavall_Fixer</defName>
+		<slot>Adulthood</slot>
+		<title>fixer</title>
+		<titleShort>fixer</titleShort>
+		<baseDesc>Settlement survival on Cavall depended on constant, frantic repair. [PAWN_nameDef] moved between sites handling construction flaws and mechanical faults. To [PAWN_nameDef], reliability and a functioning heater are far more valuable than political ambition.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Construction>5</Construction>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Cavall_Scrounger</defName>
+		<slot>Adulthood</slot>
+		<title>scrounger</title>
+		<titleShort>scrounger</titleShort>
+		<baseDesc>Resource shortages encouraged thorough scavenging. [PAWN_nameDef] located usable materials in the most unlikely places and reinforced settlement structures with reclaimed parts. [PAWN_pronoun] has a keen eye for what others overlook.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>4</Construction>
+			<Crafting>4</Crafting>
+			<Shooting>3</Shooting>
+			<Social>-2</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Cavall_TrenchBandit</defName>
+		<slot>Adulthood</slot>
+		<title>trench bandit</title>
+		<titleShort>bandit</titleShort>
+		<baseDesc>Supply routes through the trench networks invited ambush. [PAWN_nameDef] relied on speed and close-quarters combat to secure provisions for [PAWN_objective]self. [PAWN_pronoun] learned early on that collaboration rarely extends beyond immediate necessity.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>4</Melee>
+			<Social>-4</Social>
+			<Plants>-2</Plants>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Cavall_Whizzard</defName>
+		<slot>Adulthood</slot>
+		<title>whizzard</title>
+		<titleShort>whizzard</titleShort>
+		<baseDesc>Informal trade in Cavall required careful accounting and risk calculation. [PAWN_nameDef] tracked exchanges and calculated debts without the need for written
+			contracts. [PAWN_pronoun] prefers the quiet isolation of numbers to the noise of the camps.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Crafting>4</Crafting>
+			<Social>-4</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Cavall_TrenchWolf</defName>
+		<slot>Adulthood</slot>
+		<title>trench wolf</title>
+		<titleShort>wolf</titleShort>
+		<baseDesc>Small-unit patrols demanded aggression and precision. [PAWN_nameDef] advanced through narrow, lightless corridors with rifle and blade ready. For [PAWN_nameDef], mission results and the pack's survival always mattered more than social camaraderie.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>4</Melee>
+			<Animals>3</Animals>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<!--Coldharbour-->
+	<BackstoryDef>
+		<defName>Coldharbour_LineOfficer</defName>
+		<slot>Adulthood</slot>
+		<title>line officer</title>
+		<titleShort>officer</titleShort>
+		<baseDesc>Orders moved through [PAWN_nameDef] long before they reached the ranks. Planning patrol routes and reinforcing weak district structures became a daily habit.
+			[PAWN_pronoun] learned that true authority comes from consistency rather than volume.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>4</Social>
+			<Intellectual>4</Intellectual>
+			<Construction>2</Construction>
+			<Melee>2</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Coldharbour_Firetender</defName>
+		<slot>Adulthood</slot>
+		<title>firetender</title>
+		<titleShort>firetender</titleShort>
+		<baseDesc>In the frozen industrial blocks, kilns and furnace lines demanded steady attention. [PAWN_nameDef] learned to anticipate mechanical failure before it sparked. Long hours spent in the stifling heat left [PAWN_objective] with very little patience for delay.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>4</Construction>
+			<Crafting>4</Crafting>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Coldharbour_Ganger</defName>
+		<slot>Adulthood</slot>
+		<title>ganger</title>
+		<titleShort>ganger</titleShort>
+		<baseDesc>Not all leadership on Coldharbour is official. In the crowded, smog-choked districts, [PAWN_nameDef] organized crews for protection and enforcement. [PAWN_pronoun] learned early on that loyalty is a practical currency, best spent on those who can fight.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>4</Melee>
+			<Shooting>3</Shooting>
+			<Social>3</Social>
+			<Intellectual>-2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Coldharbour_GangLeader</defName>
+		<slot>Adulthood</slot>
+		<title>gang leader</title>
+		<titleShort>leader</titleShort>
+		<baseDesc>A brutal dispute over territory forced [PAWN_nameDef] into a position of command. The split-second decisions [PAWN_pronoun] made kept the group intact while rivals fell.
+			Since then, [PAWN_nameDef] has viewed hesitation as a death sentence.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>6</Social>
+			<Melee>4</Melee>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Coldharbour_BackalleyDoctor</defName>
+		<slot>Adulthood</slot>
+		<title>backalley doctor</title>
+		<titleShort>doctor</titleShort>
+		<baseDesc>Treatment rooms were improvised from shuttered shops and storage spaces. [PAWN_nameDef] handled horrific injuries without asking questions. [PAWN_pronoun] is a master of trauma surgery, though [PAWN_possessive] bedside manner is cold and clinical.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Medicine>8</Medicine>
+			<Intellectual>3</Intellectual>
+			<Social>-2</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Coldharbour_ReliefOfficer</defName>
+		<slot>Adulthood</slot>
+		<title>relief officer</title>
+		<titleShort>relief</titleShort>
+		<baseDesc>Aid distribution on a dying world rarely runs smoothly. [PAWN_nameDef] calculated supply routes and ration limits with deliberate care. [PAWN_pronoun] is an expert at management, but considers manual labor to be a waste of [PAWN_possessive] focus.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Coldharbour_Infantryman</defName>
+		<slot>Adulthood</slot>
+		<title>infantryman</title>
+		<titleShort>infantry</titleShort>
+		<baseDesc>Drill. Reinforce. Advance. Repeat. Years of urban warfare and repetitive drills shaped [PAWN_nameDef]’s reflexes far more than theory ever could. [PAWN_pronoun] is a reliable soldier, even if [PAWN_pronoun] isn't much of a conversationalist.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>4</Melee>
+			<Construction>2</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Coldharbour_TechRehabist</defName>
+		<slot>Adulthood</slot>
+		<title>tech rehabist</title>
+		<titleShort>rehab tech</titleShort>
+		<baseDesc>Broken devices arrived in stacks at [PAWN_nameDef]’s workshop. [PAWN_pronoun]	specialized in restoring what could be saved and repurposing the rest. [PAWN_pronoun] finds that machines are predictable and logical; people are significantly less so.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Crafting>4</Crafting>
+			<Social>-2</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Coldharbour_MechaEngineer</defName>
+		<slot>Adulthood</slot>
+		<title>mecha-engineer</title>
+		<titleShort>mecha eng</titleShort>
+		<baseDesc>Precision components left little room for improvisation. [PAWN_nameDef] specialized in high-end mechanical systems requiring careful calibration. [PAWN_possessive] intense technical focus narrowed [PAWN_possessive] social interests to the point of isolation.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Intellectual>5</Intellectual>
+			<Construction>2</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<!--Connacht-->
+	<BackstoryDef>
+		<defName>Connacht_SorrowInfantry</defName>
+		<slot>Adulthood</slot>
+		<title>Sorrow infantry</title>
+		<titleShort>infantry</titleShort>
+		<baseDesc>Mud, defensive walls, and steady rifle fire defined [PAWN_nameDef]'s years with the Company of Sorrows. [PAWN_pronoun] held lines that shifted only meters at a time, learning that adaptability in the trenches was the only thing that kept a soldier alive.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>4</Melee>
+			<Construction>3</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Connacht_SorrowHeavyInfantry</defName>
+		<slot>Adulthood</slot>
+		<title>Sorrow heavy infantry</title>
+		<titleShort>heavy</titleShort>
+		<baseDesc>Heavy armor changes how a soldier moves and thinks. [PAWN_nameDef] was trained by the Company of Sorrows to advance methodically under crushing pressure. For [PAWN_objective], endurance and a thick plate of steel outweigh the need for finesse.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Melee>4</Melee>
+			<Construction>2</Construction>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Connacht_Remembrancer</defName>
+		<slot>Adulthood</slot>
+		<title>remembrancer</title>
+		<titleShort>remembrancer</titleShort>
+		<baseDesc>Records outlast soldiers, and the Company of Sorrows required a detailed history. [PAWN_nameDef] documented campaigns and casualty reports with deliberate restraint. Having spent [PAWN_possessive] life with a pen, [PAWN_pronoun] has no interest in manual labor.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Connacht_Mender</defName>
+		<slot>Adulthood</slot>
+		<title>mender</title>
+		<titleShort>mender</titleShort>
+		<baseDesc>Tools rarely stayed intact for long in the Company of Sorrows' camps. [PAWN_nameDef] repaired structures and equipment between engagements, turning endless repetition into a high-precision skill for keeping the war machine running.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Construction>4</Construction>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Connacht_CompanySmith</defName>
+		<slot>Adulthood</slot>
+		<title>company smith</title>
+		<titleShort>smith</titleShort>
+		<baseDesc>Forge work followed the rhythm of the Company of Sorrows' deployment cycles. [PAWN_nameDef] produced blades and fittings as required by the front. [PAWN_pronoun] is as comfortable wielding a sword as [PAWN_pronoun] is a heavy smithing hammer.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Melee>4</Melee>
+			<Construction>2</Construction>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Connacht_CompanyClerk</defName>
+		<slot>Adulthood</slot>
+		<title>company clerk</title>
+		<titleShort>clerk</titleShort>
+		<baseDesc>Operational planning for the Company of Sorrows required careful calculation. [PAWN_nameDef] handled requisitions and internal reports with steady attention. [PAWN_pronoun] views physical labor as a task better suited for those without [PAWN_possessive] administrative talents.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Social>5</Social>
+			<Melee>-2</Melee>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Connacht_ChiefForager</defName>
+		<slot>Adulthood</slot>
+		<title>chief forager</title>
+		<titleShort>forager</titleShort>
+		<baseDesc>Supply lines faltered often on the frontier. [PAWN_nameDef] secured food for the Company of Sorrows through hunting and controlled planting near camp boundaries. [PAWN_pronoun] values efficiency and a full stomach over personal comfort.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Plants>6</Plants>
+			<Animals>3</Animals>
+			<Shooting>3</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Connacht_RuinHaunter</defName>
+		<slot>Adulthood</slot>
+		<title>ruin haunter</title>
+		<titleShort>haunter</titleShort>
+		<baseDesc>Abandoned fortifications offered salvage opportunities for the Company of Sorrows. [PAWN_nameDef] specialized in entering unstable structures to extract usable materials. The constant hazard bred a decisive, fearless nature in [PAWN_objective].</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>4</Construction>
+			<Crafting>4</Crafting>
+			<Shooting>4</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<!--Fury-->
+	<BackstoryDef>
+		<defName>Fury_FurianGuard</defName>
+		<slot>Adulthood</slot>
+		<title>Furian guard</title>
+		<titleShort>guard</titleShort>
+		<baseDesc>Years of elite service structured the adult life of [PAWN_nameDef]. Rigid discipline shaped [PAWN_objective]’s instincts during long patrols and live engagements. [PAWN_pronoun] is a model of military efficiency, though [PAWN_pronoun] has little time for creative pursuits.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>4</Melee>
+			<Construction>2</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Fury_FurianOfficer</defName>
+		<slot>Adulthood</slot>
+		<title>Furian officer</title>
+		<titleShort>officer</titleShort>
+		<baseDesc>Operational planning for the Furian military required careful calculation. In that capacity, [PAWN_nameDef] relied on cold precision when assigning units and reinforcing defensive positions. [PAWN_pronoun] leads through logic rather than charisma.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>4</Social>
+			<Shooting>4</Shooting>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Fury_AcademyCommander</defName>
+		<slot>Adulthood</slot>
+		<title>academy commander</title>
+		<titleShort>commander</titleShort>
+		<baseDesc>Measured performance drove the career of [PAWN_nameDef]. To [PAWN_objective], results mattered more than collaboration when training fresh recruits and evaluating combat readiness. [PAWN_pronoun] has no patience for failure.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>6</Social>
+			<Intellectual>4</Intellectual>
+			<Shooting>2</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Fury_CombatDoctor</defName>
+		<slot>Adulthood</slot>
+		<title>combat doctor</title>
+		<titleShort>combat medic</titleShort>
+		<baseDesc>Demanding caregiving roles shaped the work of [PAWN_nameDef]. While empathy defined [PAWN_possessive] career, [PAWN_pronoun] learned to perform complex surgeries under heavy fire, prioritizing survival over bedside manner.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Medicine>8</Medicine>
+			<Intellectual>3</Intellectual>
+			<Social>-2</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Fury_CombatEngineer</defName>
+		<slot>Adulthood</slot>
+		<title>combat engineer</title>
+		<titleShort>engineer</titleShort>
+		<baseDesc>Hazardous conditions left little room for hesitation. Working under the pressure of active bombardment, [PAWN_nameDef] developed decisive habits while repairing vital defenses and restoring power grids.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>6</Construction>
+			<Crafting>4</Crafting>
+			<Shooting>2</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Fury_LogisticsSpecialist</defName>
+		<slot>Adulthood</slot>
+		<title>logistics specialist</title>
+		<titleShort>logistician</titleShort>
+		<baseDesc>Logistics on Fury required constant, unsentimental oversight. Within that system, [PAWN_nameDef] ensured total efficiency. [PAWN_pronoun] views manual labor as a task beneath the dignity of [PAWN_possessive] rank.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Fury_GreenEngineer</defName>
+		<slot>Adulthood</slot>
+		<title>green engineer</title>
+		<titleShort>green eng</titleShort>
+		<baseDesc>Structured settlement initiatives attracted [PAWN_nameDef]. [PAWN_possessive] training emphasized long-term development when stabilizing hostile land and expanding the infrastructure of Furian colonies.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Plants>5</Plants>
+			<Intellectual>4</Intellectual>
+			<Construction>3</Construction>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Fury_Repopulationist</defName>
+		<slot>Adulthood</slot>
+		<title>repopulationist</title>
+		<titleShort>repopulationist</titleShort>
+		<baseDesc>Public service and the survival of the state defined [PAWN_nameDef]’s career. Consistency and restraint guided [PAWN_possessive] decisions when managing state clinics and conducting census work.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>4</Social>
+			<Medicine>4</Medicine>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Fury_TrenchButcher</defName>
+		<slot>Adulthood</slot>
+		<title>trench butcher</title>
+		<titleShort>butcher</titleShort>
+		<baseDesc>Repetitive, grisly processes structured [PAWN_nameDef]’s career. Efficiency improved steadily while [PAWN_pronoun] prepared rations for frontline units and assisted in the more visceral aspects of field medicine.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Cooking>6</Cooking>
+			<Medicine>3</Medicine>
+			<Melee>3</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<!--Hastings-->
+	<BackstoryDef>
+		<defName>Hastings_DragonguardShield</defName>
+		<slot>Adulthood</slot>
+		<title>dragonguard shield</title>
+		<titleShort>shield</titleShort>
+		<baseDesc>Rules required enforcement, and [PAWN_nameDef] fulfilled that role with an iron grip. Authority shaped [PAWN_possessive] approach within the Dragonguard's defensive formations, where [PAWN_pronoun] learned that a solid wall is more valuable than a lone hero.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>6</Melee>
+			<Construction>3</Construction>
+			<Social>3</Social>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Hastings_DragonguardOutcast</defName>
+		<slot>Adulthood</slot>
+		<title>dragonguard outcast</title>
+		<titleShort>outcast</titleShort>
+		<baseDesc>Corporate contracts governed the career of [PAWN_nameDef]. Rigid procedures shaped [PAWN_possessive] priorities, making [PAWN_objective] an effective soldier but leaving [PAWN_objective] uncomfortable with improvisation or social nuance.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Melee>5</Melee>
+			<Shooting>5</Shooting>
+			<Social>-2</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Hastings_Stitcher</defName>
+		<slot>Adulthood</slot>
+		<title>stitcher</title>
+		<titleShort>stitcher</titleShort>
+		<baseDesc>Craftsmanship defined the work of [PAWN_nameDef]. Through years of meticulous benchwork, [PAWN_pronoun] learned to assemble complex gear with total precision. [PAWN_pronoun] finds comfort in the rhythm of the needle and the lathe.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>8</Crafting>
+			<Social>2</Social>
+			<Artistic>2</Artistic>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Hastings_Forgemaster</defName>
+		<slot>Adulthood</slot>
+		<title>forgemaster</title>
+		<titleShort>forgemaster</titleShort>
+		<baseDesc>In the heavy industrial facilities of Hastings, efficiency mattered above all else. [PAWN_nameDef] spent decades refining [PAWN_possessive] technical precision at the forge, producing high-grade components for corporate masters.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Construction>4</Construction>
+			<Social>2</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Hastings_Ironmonger</defName>
+		<slot>Adulthood</slot>
+		<title>ironmonger</title>
+		<titleShort>ironmonger</titleShort>
+		<baseDesc>Markets fluctuate, and [PAWN_nameDef] learned to anticipate change. Negotiation and appraisal sharpened [PAWN_possessive] instincts while trading metal goods across corporate borders. [PAWN_pronoun] has a keen eye for a deal.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>5</Social>
+			<Crafting>4</Crafting>
+			<Shooting>2</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Hastings_AshCultivator</defName>
+		<slot>Adulthood</slot>
+		<title>ash cultivator</title>
+		<titleShort>cultivator</titleShort>
+		<baseDesc>Independent study and soil recovery experiments consumed much of [PAWN_nameDef]’s adulthood. Isolation suited [PAWN_objective] perfectly while [PAWN_pronoun] attempted to coax life out of the ash-choked plains of Hastings.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Plants>6</Plants>
+			<Construction>3</Construction>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Hastings_Charionblender</defName>
+		<slot>Adulthood</slot>
+		<title>charionblender</title>
+		<titleShort>blender</titleShort>
+		<baseDesc>As a field technician, [PAWN_nameDef] handled complex fabrication and repair tasks in the field. [PAWN_pronoun] finds that machines respond predictably to [PAWN_possessive] touch, which is more than [PAWN_pronoun] can say for people.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Intellectual>5</Intellectual>
+			<Construction>2</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Hastings_Recordist</defName>
+		<slot>Adulthood</slot>
+		<title>recordist</title>
+		<titleShort>recordist</titleShort>
+		<baseDesc>Estate management and logistical logs occupied much of [PAWN_nameDef]’s adulthood. Oversight became routine while maintaining inventories and formal corporate logs. [PAWN_pronoun] views manual labor as a task for those without [PAWN_possessive]
+			education.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<!--Numantia-->
+	<BackstoryDef>
+		<defName>Numantia_Legionary</defName>
+		<slot>Adulthood</slot>
+		<title>Numantian legionary</title>
+		<titleShort>legionary</titleShort>
+		<baseDesc>Years of service in the Numantian legions structured the adult life of [PAWN_nameDef]. Discipline shaped [PAWN_objective]’s instincts in both the chaos of open battle and the grueling work of defensive construction.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>4</Melee>
+			<Construction>3</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Numantia_LegionAuxiliary</defName>
+		<slot>Adulthood</slot>
+		<title>legion auxiliary</title>
+		<titleShort>auxiliary</titleShort>
+		<baseDesc>Structured auxiliary programs attracted [PAWN_nameDef] early on. [PAWN_possessive] training emphasized support roles, fortification reinforcement, and steady marksmanship to keep the ruins of Numantia secure.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Construction>4</Construction>
+			<Social>3</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Numantia_RuinSmith</defName>
+		<slot>Adulthood</slot>
+		<title>ruin smith</title>
+		<titleShort>smith</titleShort>
+		<baseDesc>Craftsmanship defined [PAWN_nameDef]'s life among the wreckage. Precision improved through repetition while [PAWN_pronoun] labored to reforge salvaged metal into usable tools and survival gear for the survivors.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Construction>3</Construction>
+			<Melee>3</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Numantia_BugFarmer</defName>
+		<slot>Adulthood</slot>
+		<title>bug farmer</title>
+		<titleShort>bug farmer</titleShort>
+		<baseDesc>Settlement initiatives in Numantia's harsh environments demanded adaptation. [PAWN_nameDef] learned resilience while raising livestock that others avoided, becoming an expert in the care of chitinous beasts.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Animals>6</Animals>
+			<Plants>3</Plants>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Numantia_PractitionistDoctor</defName>
+		<slot>Adulthood</slot>
+		<title>practitionist doctor</title>
+		<titleShort>doctor</titleShort>
+		<baseDesc>Demanding caregiving roles shaped [PAWN_nameDef]. While [PAWN_pronoun] possesses a deep understanding of human anatomy, [PAWN_possessive] approach to treatment is clinical, analytical, and entirely devoid of warmth.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Medicine>8</Medicine>
+			<Intellectual>3</Intellectual>
+			<Social>-2</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Numantia_GunsmithMaster</defName>
+		<slot>Adulthood</slot>
+		<title>gunsmith master</title>
+		<titleShort>gunsmith</titleShort>
+		<baseDesc>In the industrial workshops of the Numantian ruins, efficiency mattered above all else. Working there, [PAWN_nameDef] refined technical precision in firearm production, mastering the art of the perfect shot.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>8</Crafting>
+			<Shooting>2</Shooting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Numantia_SalvageSmith</defName>
+		<slot>Adulthood</slot>
+		<title>salvage smith</title>
+		<titleShort>ruin smith</titleShort>
+		<baseDesc>Repetitive forge processes structured the career of [PAWN_nameDef]. Efficiency improved steadily despite a constant lack of quality materials, forcing [PAWN_objective] to become a master of making do.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Construction>4</Construction>
+			<Melee>2</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Numantia_FreeRanger</defName>
+		<slot>Adulthood</slot>
+		<title>free ranger</title>
+		<titleShort>ranger</titleShort>
+		<baseDesc>Frontier patrols in the wastes required constant adaptability. [PAWN_nameDef] learned resilience and steady marksmanship while tracking threats across the jagged Numantian landscape.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Animals>3</Animals>
+			<Plants>3</Plants>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Numantia_SalvageReclaimer</defName>
+		<slot>Adulthood</slot>
+		<title>salvage reclaimer</title>
+		<titleShort>reclaimer</titleShort>
+		<baseDesc>Hazardous ruins left little room for hesitation. Working under the constant threat of collapse, [PAWN_nameDef] developed decisive habits while extracting rare materials from the bones of the old world.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>5</Construction>
+			<Crafting>5</Crafting>
+			<Shooting>2</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<!--Pelagia-->
+	<BackstoryDef>
+		<defName>Pelagia_LegionaryScout</defName>
+		<slot>Adulthood</slot>
+		<title>legionary scout</title>
+		<titleShort>scout</titleShort>
+		<baseDesc>Field assignments for the Pelagian forces demanded absolute precision. [PAWN_nameDef] relied on calculated movement and steady aim to navigate hostile terrain, becoming an expert at tracking both man and beast.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Animals>3</Animals>
+			<Construction>2</Construction>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Pelagia_Recycler</defName>
+		<slot>Adulthood</slot>
+		<title>recycler</title>
+		<titleShort>recycler</titleShort>
+		<baseDesc>Industrial recovery operations required constant oversight. Within the Pelagian salvage yards, [PAWN_nameDef] ensured every scrap of metal was repurposed. [PAWN_pronoun] views waste as a moral failing of the highest order.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Construction>4</Construction>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Pelagia_MechCultist</defName>
+		<slot>Adulthood</slot>
+		<title>mech cultist</title>
+		<titleShort>cultist</titleShort>
+		<baseDesc>Independent study of the machine consumed much of [PAWN_nameDef]’s adulthood. Isolation suited [PAWN_objective] while refining [PAWN_possessive] mechanical knowledge, though it left [PAWN_objective] poorly equipped for social graces.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Crafting>4</Crafting>
+			<Social>-3</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Pelagia_FieldArmorer</defName>
+		<slot>Adulthood</slot>
+		<title>field armorer</title>
+		<titleShort>armorer</titleShort>
+		<baseDesc>Craftsmanship defined the trade of [PAWN_nameDef]. Through years of maintaining the Legion's gear, [PAWN_pronoun] learned that a warrior's life is only as good as the steel [PAWN_pronoun] wears. Precision and repetition were [PAWN_possessive] only teachers.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Construction>3</Construction>
+			<Melee>3</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Pelagia_RogueMilitia</defName>
+		<slot>Adulthood</slot>
+		<title>rogue militia</title>
+		<titleShort>militia</titleShort>
+		<baseDesc>Measured performance drove [PAWN_nameDef]’s involvement in the unsanctioned militia ranks. To [PAWN_objective], results and tactical victories mattered far more than reputation or the favor of the high command.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>4</Melee>
+			<Social>3</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Pelagia_Conspiracist</defName>
+		<slot>Adulthood</slot>
+		<title>conspiracist</title>
+		<titleShort>conspiracist</titleShort>
+		<baseDesc>Operational calculations shaped much of [PAWN_nameDef]’s adult life. [PAWN_pronoun] spent years evaluating risks and hidden alliances, treating every conversation like a tactical deployment. [PAWN_pronoun] is always watching for the knife in the dark.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>5</Intellectual>
+			<Social>4</Social>
+			<Shooting>3</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Pelagia_Loyalist</defName>
+		<slot>Adulthood</slot>
+		<title>loyalist</title>
+		<titleShort>loyalist</titleShort>
+		<baseDesc>Rules required enforcement, and [PAWN_nameDef] took pride in upholding them. Authority shaped [PAWN_possessive] approach to disputes, and [PAWN_pronoun] became known for a rigid, uncompromising brand of discipline.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>5</Social>
+			<Shooting>4</Shooting>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<!--Ramaal-->
+	<BackstoryDef>
+		<defName>Ramaal_RegimentCommander</defName>
+		<slot>Adulthood</slot>
+		<title>regiment commander</title>
+		<titleShort>commander</titleShort>
+		<baseDesc>Crisis elevated [PAWN_nameDef] into a position of leadership. Decisive choices made under fire strengthened [PAWN_possessive] resolve and cemented [PAWN_possessive] reputation as a commander who would not break.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>6</Social>
+			<Shooting>4</Shooting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Ramaal_BlackLionInfantry</defName>
+		<slot>Adulthood</slot>
+		<title>Black Lion infantry</title>
+		<titleShort>infantry</titleShort>
+		<baseDesc>Years of regimented service in the Black Lions structured the adult life of [PAWN_nameDef]. Constant drills shaped [PAWN_possessive] reflexes and endurance, turning [PAWN_objective] into a reliable, if hardened, soldier.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Melee>4</Melee>
+			<Construction>2</Construction>
+		</skillGains>
+		<workDisables>
+			<li>Artistic</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Ramaal_FreelanceEngineer</defName>
+		<slot>Adulthood</slot>
+		<title>freelance engineer</title>
+		<titleShort>engineer</titleShort>
+		<baseDesc>As a field technician, [PAWN_nameDef] handled complex structural repairs in high-pressure combat zones. [PAWN_pronoun] finds that machines respond predictably to [PAWN_possessive] touch, unlike the erratic people [PAWN_pronoun] works with.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>6</Construction>
+			<Crafting>4</Crafting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Ramaal_FactoryFarmer</defName>
+		<slot>Adulthood</slot>
+		<title>factory farmer</title>
+		<titleShort>farmer</titleShort>
+		<baseDesc>Industrial agriculture on Ramaal required careful efficiency. Working in the hydroponics bays, [PAWN_nameDef] refined both cultivation and structural maintenance skills to keep the colony fed.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Plants>5</Plants>
+			<Construction>4</Construction>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Ramaal_BlackLionCommando</defName>
+		<slot>Adulthood</slot>
+		<title>Black Lion commando</title>
+		<titleShort>commando</titleShort>
+		<baseDesc>Hazardous missions left little room for hesitation. Working under extreme pressure, [PAWN_nameDef] developed the decisive combat habits and lethal efficiency required of the Black Lion's elite.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Melee>4</Melee>
+			<Social>2</Social>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Ramaal_ProvisionOfficer</defName>
+		<slot>Adulthood</slot>
+		<title>provision officer</title>
+		<titleShort>provision</titleShort>
+		<baseDesc>Logistics required constant oversight within the Ramaal military. [PAWN_nameDef] ensured a steady flow of supplies, though [PAWN_pronoun] considers the physical labor of moving crates to be beneath [PAWN_possessive] station.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>6</Intellectual>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Ramaal_RegimentFixer</defName>
+		<slot>Adulthood</slot>
+		<title>regiment fixer</title>
+		<titleShort>fixer</titleShort>
+		<baseDesc>In a world where markets and morale both fluctuate, [PAWN_nameDef] learned to anticipate change. [PAWN_pronoun] specialized in stabilizing internal disputes and managing resources through informal, often illicit, channels.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>6</Social>
+			<Melee>2</Melee>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<!--Tycho-->
+	<BackstoryDef>
+		<defName>Tycho_RangerDeserter</defName>
+		<slot>Adulthood</slot>
+		<title>ranger deserter</title>
+		<titleShort>deserter</titleShort>
+		<baseDesc>Frontier operations once demanded everything from [PAWN_nameDef]. Leaving that rigid structure behind required a resilience of a different kind, leaving [PAWN_objective] wary of authority and fiercely independent.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Animals>3</Animals>
+			<Social>-2</Social>
+			<Melee>3</Melee>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Tycho_GlassingSurvivor</defName>
+		<slot>Adulthood</slot>
+		<title>glassing survivor</title>
+		<titleShort>survivor</titleShort>
+		<baseDesc>The hazardous devastation of the glassing left little room for hesitation. Working through the reconstruction of [PAWN_possessive] world, [PAWN_nameDef] developed the decisive habits and practical skills of a true pioneer.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>5</Construction>
+			<Shooting>4</Shooting>
+			<Plants>3</Plants>
+		</skillGains>
+	</BackstoryDef>
+
+	<!--Vasilevsky-->
+	<BackstoryDef>
+		<defName>Vasilevsky_CrimsonCommissar</defName>
+		<slot>Adulthood</slot>
+		<title>crimson commissar</title>
+		<titleShort>commissar</titleShort>
+		<baseDesc>Rules required enforcement, and [PAWN_nameDef] fulfilled that role with an iron hand. Authority shaped [PAWN_possessive] approach to political oversight, ensuring the Party's will was met through both rhetoric and, when necessary, a sidearm.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>6</Social>
+			<Intellectual>4</Intellectual>
+			<Shooting>2</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Vasilevsky_ComradeEngineer</defName>
+		<slot>Adulthood</slot>
+		<title>comrade engineer</title>
+		<titleShort>engineer</titleShort>
+		<baseDesc>Industrial production for the state required absolute efficiency. Working in the Great Foundries, [PAWN_nameDef] refined [PAWN_possessive] technical precision in construction and fabrication to meet the ever-increasing quotas of the Republic.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>6</Construction>
+			<Crafting>4</Crafting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Vasilevsky_PartyArchivist</defName>
+		<slot>Adulthood</slot>
+		<title>party archivist</title>
+		<titleShort>archivist</titleShort>
+		<baseDesc>State management and archival oversight occupied much of [PAWN_nameDef]’s adulthood. Supervision of records and historical "correction" became routine. [PAWN_pronoun] views manual labor as a task for those with less revolutionary minds.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Intellectual>7</Intellectual>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Vasilevsky_VodkaMerchant</defName>
+		<slot>Adulthood</slot>
+		<title>vodka merchant</title>
+		<titleShort>merchant</titleShort>
+		<baseDesc>Markets fluctuate, even in a command economy. [PAWN_nameDef] learned to anticipate these shifts by trading "surplus" spirits. Negotiation and the reading of social cues sharpened [PAWN_possessive] instincts in the black market.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Social>5</Social>
+			<Intellectual>3</Intellectual>
+			<Cooking>4</Cooking>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Vasilevsky_OldGuardHoldout</defName>
+		<slot>Adulthood</slot>
+		<title>old guard holdout</title>
+		<titleShort>holdout</titleShort>
+		<baseDesc>Measured loyalty defined much of [PAWN_nameDef]’s adult life. Having survived multiple purges and regime shifts, [PAWN_pronoun] learned that practical results and survival matter far more than the slogans of shifting alliances.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Social>4</Social>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>Vasilevsky_RedwallBuilder</defName>
+		<slot>Adulthood</slot>
+		<title>redwall builder</title>
+		<titleShort>builder</titleShort>
+		<baseDesc>Repetitive construction processes structured the career of [PAWN_nameDef]. Efficiency improved steadily while [PAWN_pronoun] labored on the massive Redwall fortifications, mining the very stone [PAWN_pronoun] used to reinforce the Republic's borders.</baseDesc>
+		<spawnCategories>
+			<li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+			<Construction>6</Construction>
+			<Mining>4</Mining>
+			<Shooting>2</Shooting>
+		</skillGains>
+	</BackstoryDef>
+
+</Defs>

@@ -97,6 +97,9 @@
 				<VanillaDesc>An experimental dual-barrel pulse action shotgun. Can fire shot or slug loads, and is adaptable to specialty shells. Extremely powerful at short range, but bulky.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>		
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
@@ -197,6 +200,9 @@
 				<VanillaDesc>A short-range, rapid-chain shotgun that fires incendiary pellets. Extremely effective up close and may ignite targets and scenery.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>		
 	</ThingDef>
 
 </Defs>

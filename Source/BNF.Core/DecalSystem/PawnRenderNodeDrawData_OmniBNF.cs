@@ -9,6 +9,7 @@ namespace BNF.Core.DecalSystem
 {
     public class PawnRenderNodePropertiesOmniBnf : PawnRenderNodeProperties_Omni
     {
+        
         public readonly Dictionary<BodyTypeDef, Vector3> BodyTypeOffsets = new Dictionary<BodyTypeDef, Vector3>();
 
         public readonly Dictionary<Rot4, Dictionary<BodyTypeDef, Vector3>> BodyTypeOffsetsByFacing =
@@ -17,7 +18,6 @@ namespace BNF.Core.DecalSystem
         public List<BodyTypeOffsetsByFacingRow>? BodyTypeOffsetsByFacingRows;
 
         public bool ForceBelowShell;
-
         public float BelowShellZOffset = 0.001f;
 
         private bool _offsetsBuilt;
@@ -28,17 +28,26 @@ namespace BNF.Core.DecalSystem
             _offsetsBuilt = true;
 
             var rows = BodyTypeOffsetsByFacingRows;
-            if (rows == null || rows.Count == 0) return;
+            if (rows == null) return;
 
             for (int i = 0; i < rows.Count; i++)
             {
                 var row = rows[i];
                 if (row?.BodyType == null) continue;
-
+                
                 if (row.HasNorth) Add(Rot4.North, row.BodyType, row.North);
                 if (row.HasEast) Add(Rot4.East, row.BodyType, row.East);
                 if (row.HasSouth) Add(Rot4.South, row.BodyType, row.South);
                 if (row.HasWest) Add(Rot4.West, row.BodyType, row.West);
+                
+                if (row.HasOffset)
+                {
+                    BodyTypeOffsets[row.BodyType] = row.Offset;
+                }
+                else if (row.HasSouth) 
+                {
+                    BodyTypeOffsets[row.BodyType] = row.South;
+                }
             }
         }
 
@@ -49,7 +58,6 @@ namespace BNF.Core.DecalSystem
                 dict = new Dictionary<BodyTypeDef, Vector3>();
                 BodyTypeOffsetsByFacing[rot] = dict;
             }
-
             dict[bodyType] = offset;
         }
     }
@@ -57,12 +65,14 @@ namespace BNF.Core.DecalSystem
     public class BodyTypeOffsetsByFacingRow
     {
         public BodyTypeDef? BodyType;
-
+        
+        public Vector3 Offset; 
         public Vector3 North;
         public Vector3 East;
         public Vector3 South;
         public Vector3 West;
 
+        public bool HasOffset;
         public bool HasNorth;
         public bool HasEast;
         public bool HasSouth;
@@ -73,7 +83,8 @@ namespace BNF.Core.DecalSystem
             DirectXmlCrossRefLoader.RegisterObjectWantsCrossRef(
                 this, nameof(BodyType), xmlRoot["bodyType"]?.InnerText
             );
-
+            
+            ReadVec(xmlRoot, "offset", ref Offset, ref HasOffset);
             ReadVec(xmlRoot, "north", ref North, ref HasNorth);
             ReadVec(xmlRoot, "east", ref East, ref HasEast);
             ReadVec(xmlRoot, "south", ref South, ref HasSouth);

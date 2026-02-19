@@ -85,6 +85,10 @@
 				<VanillaDesc>Webbing rig designed for magazine-fed weapons. Allows soldiers to reload quickly and keep a steady rate of fire. Bulky, but the extra ammunition offsets the weight.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
@@ -172,6 +176,10 @@
 				<VanillaDesc>Traditional webbing built for clip-fed rifles. Improves reload speed and helps maintain fire in combat. Cumbersome, but reliable for older weapon types.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
@@ -259,6 +267,10 @@
 				<VanillaDesc>Scout webbing configured with rations, haversack, and ammunition for long missions. Enhances stealth in the field, making it easier to approach unseen. Light and versatile, ideal for reconnaissance.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
@@ -346,6 +358,10 @@
 				<VanillaDesc>Assault webbing designed for soldiers in brutal frontline combat. Chemical reserves and weapon access help them endure punishing conditions. Raises pain tolerance, keeping the wearer in the fight longer.</VanillaDesc>
 			</li>
 		</modExtensions>
+		<tradeTags>
+			<li>Clothing</li>
+			<li>BNF_Clothing</li>
+		</tradeTags>			
 	</ThingDef>
 
 </Defs>
