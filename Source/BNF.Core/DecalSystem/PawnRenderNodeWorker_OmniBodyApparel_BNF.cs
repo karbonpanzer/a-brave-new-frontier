@@ -9,11 +9,12 @@ namespace BNF.Core.DecalSystem
         public override Vector3 OffsetFor(PawnRenderNode? n, PawnDrawParms parms, out Vector3 pivot)
         {
             var result = base.OffsetFor(n, parms, out pivot);
-
-            if (n?.Props is not PawnRenderNodePropertiesOmniBnf props)
+            
+            if (parms.pawn == null || parms.pawn.Destroyed || n?.Props is not PawnRenderNodePropertiesOmniBnf props)
                 return result;
 
             var pawn = parms.pawn;
+            
             var bodyType = pawn?.story?.bodyType;
             if (bodyType == null)
                 return result;

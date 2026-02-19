@@ -51,7 +51,7 @@ namespace BNF.Core.DecalSystem
 
         public static readonly DecalTagSet HeadTags =
             new DecalTagSet(DecalTags.ActiveHead, DecalTags.SymbolPathHead, DecalTags.SymbolColorHead);
-
+        
         public static readonly HashSet<int> InitializedPawns = new HashSet<int>();
 
         public static bool IsHumanlikePawn(Pawn? pawn) => pawn?.RaceProps?.Humanlike == true;
@@ -146,13 +146,15 @@ namespace BNF.Core.DecalSystem
             if (pawn == null) return;
             int id = pawn.thingIDNumber;
 
-            if (!LiveEditOriginalByPawnId.TryGetValue(id, out var original))
-                return;
+            if (LiveEditOriginalByPawnId.TryGetValue(id, out var original))
+            {
+                if (!commit)
+                    ApplyAndRefresh(pawn, original, true);
 
-            if (!commit)
-                ApplyAndRefresh(pawn, original, true);
-
-            LiveEditOriginalByPawnId.Remove(id);
+                LiveEditOriginalByPawnId.Remove(id);
+            }
+            
+            InitializedPawns.Remove(id);
         }
 
         public static void ApplyAndRefresh(Pawn? pawn, DecalProfile profile) => ApplyAndRefresh(pawn, profile, false);

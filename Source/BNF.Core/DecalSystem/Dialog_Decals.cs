@@ -100,6 +100,13 @@ namespace BNF.Core.DecalSystem
 
         public override void DoWindowContents(Rect inRect)
         {
+
+            if (_pawn.Destroyed)
+            {
+                Close(false);
+                return;
+            }
+
             float outerPad = 12f;
             float footerH = 64f;
 

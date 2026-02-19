@@ -104,7 +104,7 @@
                     <li>Symbols/Infantry/Diamond</li>
                   </texPaths>
                   <colorA>
-                    <color>(0.0,0.0,0.0)</color>
+                    <color>(255.0,255.0,255.0)</color>
                   </colorA>
                   <shader>Cutout</shader>
                   <alts>
