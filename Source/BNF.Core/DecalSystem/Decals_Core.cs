@@ -95,7 +95,7 @@ namespace BNF.Core.DecalSystem
             {
                 Active = active,
                 SymbolPath = sp?.value ?? "",
-                SymbolColor = sc?.value ?? new Color(0.6f, 0.6f, 0.6f, 1f)
+                SymbolColor = sc?.value ?? new Color(0.0f, 0.0f, 0.0f, 1f)
             };
         }
 
