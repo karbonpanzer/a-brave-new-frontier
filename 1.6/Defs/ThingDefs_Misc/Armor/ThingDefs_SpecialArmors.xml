@@ -131,13 +131,11 @@
       </tags>
       <renderNodeProperties>
         <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
-          <nodeClass>VEF.Graphics.PawnRenderNode_Omni</nodeClass>
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
           <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
 
-          <conditionalGraphics>
-            <useFactionRNGSeed>true</useFactionRNGSeed>
             <texPaths>
               <li>Symbols/Officer/Captain</li>
               <li>Symbols/Officer/Crown</li>
@@ -148,23 +146,6 @@
               <li>Symbols/Officer/StarBurst</li>
               <li>Symbols/Officer/Wreath</li>
             </texPaths>
-            <colorA>
-              <color>(0.0,0.0,0.0)</color>
-            </colorA>
-            <shader>Cutout</shader>
-            <alts>
-              <li>
-                <tagRequirements>
-                  <li>DecalActive</li>
-                </tagRequirements>
-                <texPath>DecalSymbol</texPath>
-                <colorA>
-                  <taggedColor>DecalSymbolColor</taggedColor>
-                </colorA>
-                <shader>Cutout</shader>
-              </li>
-            </alts>
-          </conditionalGraphics>
 
           <visibleFacing>
             <li>South</li>
@@ -194,7 +175,7 @@
           </BodyTypeOffsetsByFacingRows>
 
           <drawData>
-            <scale>0.085</scale>
+            <scale>0.090</scale>
             <defaultData>
               <layer>23.555</layer>
               <offset>(0,0,-0.20)</offset>
@@ -205,9 +186,9 @@
               <offset>(0,0,-0.17)</offset>
             </dataNorth>
             <bodyTypeScales>
-              <Hulk>1.55</Hulk>
-              <Fat>1.35</Fat>
-              <Thin>0.9</Thin>
+              <Hulk>1.65</Hulk>
+              <Fat>1.45</Fat>
+              <Thin>0.75</Thin>
               <Female>1.2</Female>
             </bodyTypeScales>
           </drawData>
@@ -249,13 +230,10 @@
       </tags>
       <renderNodeProperties>
         <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
-          <nodeClass>VEF.Graphics.PawnRenderNode_Omni</nodeClass>
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
           <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
-
-          <conditionalGraphics>
-            <useFactionRNGSeed>true</useFactionRNGSeed>
             <texPaths>
               <li>Symbols/Scout/22inf</li>
               <li>Symbols/Scout/32Inf</li>
@@ -267,23 +245,6 @@
               <li>Symbols/Scout/460Chem</li>
               <li>Symbols/Scout/Thunderbird</li>
             </texPaths>
-            <colorA>
-              <color>(0.0,0.0,0.0)</color>
-            </colorA>
-            <shader>Cutout</shader>
-            <alts>
-              <li>
-                <tagRequirements>
-                  <li>DecalActive</li>
-                </tagRequirements>
-                <texPath>DecalSymbol</texPath>
-                <colorA>
-                  <taggedColor>DecalSymbolColor</taggedColor>
-                </colorA>
-                <shader>Cutout</shader>
-              </li>
-            </alts>
-          </conditionalGraphics>
 
           <visibleFacing>
             <li>South</li>
@@ -313,7 +274,7 @@
           </BodyTypeOffsetsByFacingRows>
 
           <drawData>
-            <scale>0.085</scale>
+            <scale>0.090</scale>
             <defaultData>
               <layer>23.555</layer>
               <offset>(0,0,-0.20)</offset>
@@ -324,9 +285,9 @@
               <offset>(0,0,-0.17)</offset>
             </dataNorth>
             <bodyTypeScales>
-              <Hulk>1.55</Hulk>
-              <Fat>1.35</Fat>
-              <Thin>0.9</Thin>
+              <Hulk>1.65</Hulk>
+              <Fat>1.45</Fat>
+              <Thin>0.75</Thin>
               <Female>1.2</Female>
             </bodyTypeScales>
           </drawData>
@@ -366,13 +327,11 @@
       </tags>
       <renderNodeProperties>
         <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
-          <nodeClass>VEF.Graphics.PawnRenderNode_Omni</nodeClass>
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
           <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
 
-          <conditionalGraphics>
-            <useFactionRNGSeed>true</useFactionRNGSeed>
             <texPaths>
               <li>Symbols/Officer/Captain</li>
               <li>Symbols/Officer/Crown</li>
@@ -383,23 +342,6 @@
               <li>Symbols/Officer/StarBurst</li>
               <li>Symbols/Officer/Wreath</li>
             </texPaths>
-            <colorA>
-              <color>(0.0,0.0,0.0)</color>
-            </colorA>
-            <shader>Cutout</shader>
-            <alts>
-              <li>
-                <tagRequirements>
-                  <li>DecalActive</li>
-                </tagRequirements>
-                <texPath>DecalSymbol</texPath>
-                <colorA>
-                  <taggedColor>DecalSymbolColor</taggedColor>
-                </colorA>
-                <shader>Cutout</shader>
-              </li>
-            </alts>
-          </conditionalGraphics>
 
           <visibleFacing>
             <li>South</li>
@@ -429,7 +371,7 @@
           </BodyTypeOffsetsByFacingRows>
 
           <drawData>
-            <scale>0.085</scale>
+            <scale>0.090</scale>
             <defaultData>
               <layer>23.555</layer>
               <offset>(0,0,-0.20)</offset>
@@ -440,9 +382,9 @@
               <offset>(0,0,-0.17)</offset>
             </dataNorth>
             <bodyTypeScales>
-              <Hulk>1.55</Hulk>
-              <Fat>1.35</Fat>
-              <Thin>0.9</Thin>
+              <Hulk>1.65</Hulk>
+              <Fat>1.45</Fat>
+              <Thin>0.75</Thin>
               <Female>1.2</Female>
             </bodyTypeScales>
           </drawData>
@@ -456,5 +398,166 @@
       </li>
     </modExtensions>
   </ThingDef>
+
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>BNF_Helmet_Police</defName>
+		<label>Riot Helmet</label>
+		<description>A leather made clone of the carapace helmet. Reinforced with a few steel plates it provides a decent level of protection. Most of the time though it is found in the hands of law enforcement, who often point toards the start on the forehead and use it as a means of extracting graft from the locals. Just to think that the wear only a few years ago was failing his high school exams because they didn't believe that those skills would be practical. Look at them now, the government gave them a gun and carte blanche on whatever they do!</description>
+		<recipeMaker>
+			<researchPrerequisite>RiotKit</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>	
+		<graphicData>
+			<texPath>Helmets/RiotHelmet/RiotHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+		    <WorkToMake>12000</WorkToMake>
+		    <MaxHitPoints>150</MaxHitPoints>
+		    <Mass>3.5</Mass>
+		    <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+		    <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
+		    <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		    <EquipDelay>4</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>BNF_Helmets</li>
+		</thingCategories>		
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Helmets/RiotHelmet/RiotHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>BNF_Police</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>A leather made clone of the carapace helmet. Reinforced with a few steel plates it provides a decent level of protection. Most of the time though it is found in the hands of law enforcement, who often point toards the start on the forehead and use it as a means of extracting graft from the locals. Just to think that the wear only a few years ago was failing his high school exams because they didn't believe that those skills would be practical. Look at them now, the government gave them a gun and carte blanche on whatever they do!</LoreDesc>
+				<VanillaDesc>A copy of the common carapace helmet which uses leather with some reinforcements. A leather helmet with steel plates installed to protect the wearer from most blunt trauma favored by those in law enforcement. The center of the helmet shows that it finds it main usage by law enforcement.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
+	<ThingDef ParentName="KP_CarapaceArmors">
+		<defName>BNF_Armor_Police</defName>
+		<label>Riot Armor</label>
+		<description>A reverse engineered form of carapace armor. Instead of using a metallic blend and alloys in its construction, it uses the vastly cheaper and less protective leathers. Though no world holds the claim to being the only source of this armor, most worlds use it for police forces. Those brave men and women who spend their time taking brides, brutalizing minorities, and wasting the public's money on overtime consisting of them taking 8 shits before noon. Don't worry though, because the government still has to pay your pension.</description>
+		<graphicData>
+			<texPath>Armor/SpecialArmorVariants/RiotArmor/RiotArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>RiotKit</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+        <costStuffCount>200</costStuffCount>
+		<costList>
+			<Steel>30</Steel>
+		</costList>
+		<stuffCategories>
+		    <li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<statBases>
+		    <WorkToMake>38000</WorkToMake>
+		    <MaxHitPoints>280</MaxHitPoints>
+		    <Mass>18</Mass>
+		    <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+		    <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
+		    <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		    <EquipDelay>20</EquipDelay>
+		</statBases>
+		<thingCategories>
+            <li>BNF_Armor</li>
+        </thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/SpecialArmorVariants/RiotArmor/RiotArmor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>BNF_Police</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>A reverse engineered form of carapace armor. Instead of using a metallic blend and alloys in its construction, it uses the vastly cheaper and less protective leathers. Though no world holds the claim to being the only source of this armor, most worlds use it for police forces. Those brave men and women who spend their time taking brides, brutalizing minorities, and wasting the public's money on overtime consisting of them taking 8 shits before noon. Don't worry though, because the government still has to pay your pension.</LoreDesc>
+				<VanillaDesc>A copy of the common carapace armor that uses leather instead of metals. A lightweight piece of armor which is more effective being used by law enforcement than on the front lines. Though made from leather, it still has an identifier of a member of law enforcement.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>		  
 
 </Defs>

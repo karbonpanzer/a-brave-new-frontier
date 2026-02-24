@@ -1,11 +1,11 @@
-﻿# Default ignored files
+# Default ignored files
 /shelf/
 /workspace.xml
 # Rider ignored files
 /contentModel.xml
-/projectSettingsUpdater.xml
-/.idea.BNF.Core.iml
 /modules.xml
+/.idea.BNF_Core.iml
+/projectSettingsUpdater.xml
 # Ignored default folder with query files
 /queries/
 # Datasource local storage ignored files

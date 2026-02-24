@@ -259,4 +259,82 @@
 			<li>BNF_Clothing</li>
 		</tradeTags>			
 	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>BNF_Belt_Police</defName>
+		<label>Police Belt</label>
+		<description>Justice is a concept that defies the colonial experience. Lawlessness is anathema to the civlization being brought to the Rimworlds by the expeditions. Justice now comes in a convient belt form which allows them to subdue, pacify, and protect your families from all threats foreign. Despite your utter lack of real skills and borderline to actual psychopathy, you can use physical violence to gain the respect of the community. Also, the body cams were smashed before you go your belt so there is no recording to submit to evidence during your brutality trial.</description>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialKitSupport</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Accessories/PoliceBelt/PoliceBelt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>KP_Accessories</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ArrestSuccessChance>0.10</ArrestSuccessChance>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Accessories/PoliceBelt/PoliceBelt</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>BNF_Police</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.75,0.67,0.54)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.55,0.45,0.46)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.56,0.43,0.24)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>Justice is a concept that defies the colonial experience. Lawlessness is anathema to the civlization being brought to the Rimworlds by the expeditions. Justice now comes in a convient belt form which allows them to subdue, pacify, and protect your families from all threats foreign. Despite your utter lack of real skills and borderline to actual psychopathy, you can use physical violence to gain the respect of the community. Also, the body cams were smashed before you go your belt so there is no recording to submit to evidence during your brutality trial.</LoreDesc>
+				<VanillaDesc>A belt often found in usage by various law enforcement agencies on expedition colonies. A simple belt which contains everything from magazines, to handcuffs, to a truncheon. Its utility is is perfect subduing both friend and foe.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>		
 </Defs>

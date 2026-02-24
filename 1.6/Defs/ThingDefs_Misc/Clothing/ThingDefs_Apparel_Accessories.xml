@@ -68,4 +68,82 @@
 			</li>
 		</modExtensions>		
     </ThingDef>
+
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>BNF_Headgear_SlouchHat</defName>
+		<label>Slouch Hat</label>
+		<description>Based on an ancient Earth tradition, the slouch hat is famous among some of humanities greatest warriors or at least their maddest. The hat originally saw use with the doomed Colonial Rangers, a paramilitary organization that fought rough nations and criminal empires in the Rimworlds before the Awakening. Faced with the insurmountable enemy of both the Mechanoids and Insectoids, the Colonial Rangers collapsed, now nothing more than a few rag tag partisan groups. Now it is found in the hands of collectors of curiosities or in people wanting to invoke an image of heroism without having any of that heroism.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Headgear/SlouchHat/SlouchHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories Inherit="False">
+			<li>KP_Headgear</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Headgear/SlouchHat/SlouchHat</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>BNF_Uniform</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>Based on an ancient Earth tradition, the slouch hat is famous among some of humanities greatest warriors or at least their maddest. The hat originally saw use with the doomed Colonial Rangers, a paramilitary organization that fought rough nations and criminal empires in the Rimworlds before the Awakening. Faced with the insurmountable enemy of both the Mechanoids and Insectoids, the Colonial Rangers collapsed, now nothing more than a few rag tag partisan groups. Now it is found in the hands of collectors of curiosities or in people wanting to invoke an image of heroism without having any of that heroism.</LoreDesc>
+				<VanillaDesc>A stylish hat commonly seen among rangers in the Rimworlds. Though not providing anything more that comfort in the heat, it is beloved by many. Though many complain that the pin used to bend the brim is too sharp.</VanillaDesc>
+			</li>
+		</modExtensions>		
+	</ThingDef>	
 </Defs> 	

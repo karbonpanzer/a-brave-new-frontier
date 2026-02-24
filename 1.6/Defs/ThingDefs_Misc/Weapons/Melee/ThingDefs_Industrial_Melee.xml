@@ -296,4 +296,70 @@
 		</tradeTags>		
 	</ThingDef>
 
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+		<defName>BNF_Weapon_Baton</defName>
+		<label>Baton</label>
+		<description>For centuries humanity has sought a means of bringing justice to those who reject civilization or at least brutalize them. The baton, an ancient weapon from Earth was the most refined method of justice. Even now many still use them against the enemies of civilization, theives, murderers, anti-war protestors, and people who look different, the true scum of humanity. This ancient tradition continues on the Rimworlds, where thumbheaded men and women use this tool to enact justice on those who remind them that they peaked in high school. The tool of justice remains in the hands of those who deserve it, the most short tempered, bigotted, stupid, and tiny peckered people you have ever met.\n\nOfficial Name: Freeport Enforcement Consortium "Daystick."</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Weapons/baton</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>ExpeditionaryWeaponry</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FueledSmithy</li>
+				<li>ElectricSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costStuffCount>55</costStuffCount>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>1.6</Mass>
+			<MarketValue>120</MarketValue>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<tradeTags>
+			<li>WeaponMelee</li>
+			<li>Melee</li>
+		</tradeTags>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNF_Police</li>		
+		</weaponTags>
+		<modExtensions>
+			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+				<LoreDesc>For centuries humanity has sought a means of bringing justice to those who reject civilization or at least brutalize them. The baton, an ancient weapon from Earth was the most refined method of justice. Even now many still use them against the enemies of civilization, theives, murderers, anti-war protestors, and people who look different, the true scum of humanity. This ancient tradition continues on the Rimworlds, where thumbheaded men and women use this tool to enact justice on those who remind them that they peaked in high school. The tool of justice remains in the hands of those who deserve it, the most short tempered, bigotted, stupid, and tiny peckered people you have ever met.\n\nOfficial Name: Freeport Enforcement Consortium "Daystick."</LoreDesc>
+				<VanillaDesc>A small metal blunt club used by law enforcement. It uses compact design which maintains a strong blance between speed and strength. Though favored by law enforcement, it can be found in the hands of even less savory people.</VanillaDesc>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+		
 </Defs>
