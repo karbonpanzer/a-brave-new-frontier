@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef Name="KP_CarapaceArmors" ParentName="ArmorMachineableBase" Abstract="True">
-    <techLevel>Spacer</techLevel>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-      </bodyPartGroups>
-      <layers>
-        <li>Middle</li>
-      </layers>
-      <defaultOutfitTags>
-        <li>Soldier</li>
-      </defaultOutfitTags>
-      <soundWear>Wear_PowerArmor</soundWear>
-      <soundRemove>Remove_PowerArmor</soundRemove>
-      <useDeflectMetalEffect>true</useDeflectMetalEffect>
-    </apparel>
-    <comps>
-      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
-    </comps>
-    	<tradeTags>
-			<li>Armor</li>
-			<li>BNF_Armor</li>
-		</tradeTags>     
-  </ThingDef>
-
-  <ThingDef Name="KP_Heavy_Flak_Armor_Base" ParentName="KP_CarapaceArmors" Abstract="True">
+  <ThingDef Name="KP_Heavy_Flak_Armor_Base" ParentName="ArmorMachineableBase" Abstract="True">
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
@@ -69,14 +42,30 @@
     </stuffCategories>
     <costStuffCount>100</costStuffCount>
     <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
       <wornGraphicPath>Armor/HeavyArmorVariants/HeavyArmor/HeavyArmor</wornGraphicPath>
       <useWornGraphicMask>True</useWornGraphicMask>
-      <tags />
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
-    	<tradeTags>
-			<li>Armor</li>
-			<li>BNF_Armor</li>
-		</tradeTags> 
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags> 
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 
@@ -95,7 +84,6 @@
           <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
-
             <texPaths>
               <li>Symbols/Infantry/Arrowhead</li>
               <li>Symbols/Infantry/CrossedRifles</li>
@@ -114,12 +102,10 @@
               <li>Symbols/Infantry/Spade</li>
               <li>Symbols/Infantry/Diamond</li>
             </texPaths>
-
           <visibleFacing>
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-
           <BodyTypeOffsetsByFacingRows>
             <li>
               <bodyType>Fat</bodyType>
@@ -141,7 +127,6 @@
               <south>(0,0,0.05)</south>
             </li>
           </BodyTypeOffsetsByFacingRows>
-
           <drawData>
             <scale>0.090</scale>
             <defaultData>
@@ -185,10 +170,9 @@
           <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
-
             <texPaths>
               <li>Symbols/Medical/Blooddrop</li>
-              <li>Symbols/Medical/Caduceus</li>
+              <li>Symbols/Medical/Caduseus</li>
               <li>Symbols/Medical/Chalice</li>
               <li>Symbols/Medical/CrossCircle</li>
               <li>Symbols/Medical/Medic</li>
@@ -198,12 +182,10 @@
               <li>Symbols/Medical/18Med</li>
               <li>Symbols/Medical/2Med</li>
             </texPaths>
-
           <visibleFacing>
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-
           <BodyTypeOffsetsByFacingRows>
             <li>
               <bodyType>Fat</bodyType>
@@ -225,7 +207,6 @@
               <south>(0,0,0.05)</south>
             </li>
           </BodyTypeOffsetsByFacingRows>
-
           <drawData>
             <scale>0.090</scale>
             <defaultData>
@@ -269,7 +250,6 @@
           <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
-
             <texPaths>
               <li>Symbols/Engineer/Anvil</li>
               <li>Symbols/Engineer/Clockwork</li>
@@ -283,12 +263,10 @@
               <li>Symbols/Engineer/20Eng</li>
               <li>Symbols/Engineer/176Eng</li>
             </texPaths>
-
           <visibleFacing>
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-
           <BodyTypeOffsetsByFacingRows>
             <li>
               <bodyType>Fat</bodyType>
@@ -310,7 +288,6 @@
               <south>(0,0,0.05)</south>
             </li>
           </BodyTypeOffsetsByFacingRows>
-
           <drawData>
             <scale>0.090</scale>
             <defaultData>

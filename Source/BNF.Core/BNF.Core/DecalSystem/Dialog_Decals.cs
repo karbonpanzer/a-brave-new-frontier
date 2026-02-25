@@ -72,12 +72,16 @@ namespace BNF.Core.DecalSystem
             Widgets.DrawMenuSection(rect);
             float innerPad = 14f;
             rect = rect.ContractedBy(innerPad);
-            Rect viewRect = new Rect(rect.x, rect.y, rect.width, _viewRectHeight <= 0f ? 600f : _viewRectHeight);
             
+            float scrollbarWidth = 18f;
+            Rect viewRect = new Rect(rect.x, rect.y, rect.width - scrollbarWidth, _viewRectHeight <= 0f ? 600f : _viewRectHeight);
+    
             Widgets.BeginScrollView(rect, ref _scrollPos, viewRect);
             float y = rect.y;
+            
             y = DrawSymbolSetup(new Rect(rect.x, y, viewRect.width, 210f)) + 12f;
             y = DrawColorSetup(new Rect(rect.x, y, viewRect.width, 280f));
+    
             if (Event.current.type == EventType.Layout) _viewRectHeight = y - rect.y;
             Widgets.EndScrollView();
         }
@@ -179,23 +183,30 @@ namespace BNF.Core.DecalSystem
         private List<Color> AllColors()
         {
             if (_allColors != null) return _allColors;
-            _allColors =
-            [
-                new Color(0.08f, 0.8f, 0.08f), new Color(0.15f, 0.15f, 0.15f), new Color(0.9f, 0.9f, 0.9f), Color.white,
-                new Color(0.5f, 0.5f, 0.25f), new Color(0.9f, 0.9f, 0.5f), new Color(0.9f, 0.8f, 0.5f),
-                new Color(0.45f, 0.2f, 0.2f), new Color(0.5f, 0.25f, 0.25f), new Color(0.9f, 0.5f, 0.5f),
-                new Color(0.15f, 0.28f, 0.43f), new Color(0.98f, 0.92f, 0.84f), new Color(0.87f, 0.96f, 0.91f),
-                new Color(0.94f, 0.87f, 0.96f), new Color(0.96f, 0.87f, 0.87f), new Color(0.87f, 0.94f, 0.96f),
-                new Color(0.05f, 0.08f, 0.20f), new Color(0.25f, 0.35f, 0.45f), new Color(0.05f, 0.45f, 0.45f),
-                new Color(0.10f, 0.75f, 0.85f), new Color(0.75f, 0.05f, 0.55f), new Color(0.60f, 0.05f, 0.10f),
-                new Color(0.85f, 0.35f, 0.05f)
-            ];
-            if (TryGetIdeoColor(_pawn, out Color ideo) && !_allColors.Any(x => x.IndistinguishableFrom(ideo))) _allColors.Add(ideo);
-            if (TryGetFavoriteColor(_pawn, out Color fav) && !_allColors.Any(x => x.IndistinguishableFrom(fav))) _allColors.Add(fav);
-            foreach (var colDef in DefDatabase<ColorDef>.AllDefs.Where(x => x.colorType == ColorType.Ideo || x.colorType == ColorType.Misc))
-                if (!_allColors.Any(x => x.IndistinguishableFrom(colDef.color))) _allColors.Add(colDef.color);
-            _allColors.Sort((a, b) => { Color.RGBToHSV(a, out float ah, out float asat, out float av); Color.RGBToHSV(b, out float bh, out float bsat, out float bv); int c = ah.CompareTo(bh); if (c != 0) return c; c = asat.CompareTo(bsat); return (c != 0) ? c : av.CompareTo(bv); });
-            return _allColors.Take(66).ToList();
+            
+            HashSet<Color> colorSet = new HashSet<Color>();
+            
+            if (TryGetIdeoColor(_pawn, out Color ideo)) colorSet.Add(ideo);
+            if (TryGetFavoriteColor(_pawn, out Color fav)) colorSet.Add(fav);
+            
+            var gameColors = DefDatabase<ColorDef>.AllDefsListForReading
+                .Where(x => x.colorType == ColorType.Ideo || x.colorType == ColorType.Misc || x.colorType == ColorType.Structure);
+
+            foreach (var def in gameColors)
+            {
+                colorSet.Add(def.color);
+            }
+            
+            _allColors = colorSet.ToList();
+            _allColors.Sort((a, b) => 
+            { 
+                Color.RGBToHSV(a, out float ah, out float asat, out float av); 
+                Color.RGBToHSV(b, out float bh, out float bsat, out float bv); 
+                int c = ah.CompareTo(bh); 
+                return (c != 0) ? c : asat.CompareTo(bsat); 
+            });
+
+            return _allColors;
         }
 
         private int FindSymbolIndex(string path) => (path.NullOrEmpty() || _symbols.Count == 0) ? 0 : Mathf.Max(0, _symbols.FindIndex(d => d?.Path == path));
