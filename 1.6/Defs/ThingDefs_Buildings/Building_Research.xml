@@ -1,0 +1,42 @@
+﻿<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>BNF_Dominion_Decompiler</defName>
+    <label>Dominion Decompiler</label>
+    <description>.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Misc/Decompiler/DominionDecompiler</texPath> 
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/Misc/Decompiler/DominionDecompiler</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <BNF_Decompiler_Codes>1</BNF_Decompiler_Codes>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>0.15</ResearchSpeedFactor> </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>400</basePowerConsumption>
+      </li>
+    </comps>
+    <designationCategory>Production</designationCategory>
+    <researchPrerequisites>
+      <li>MultiAnalyzer</li> 
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

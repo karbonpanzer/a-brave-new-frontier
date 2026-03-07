@@ -53,6 +53,11 @@
             "Krafs.Rimworld.Ref": {
               "target": "Package",
               "version": "[1.6.4739-beta, )"
+            },
+            "Lib.Harmony": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.3.1.1, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310\\RuntimeIdentifierGraph.json"

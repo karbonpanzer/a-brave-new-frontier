@@ -1,0 +1,1593 @@
+<Defs>
+
+	<!--Alexandria-->
+<BackstoryDef>
+    <defName>Alexandria_FactoryScrubber</defName>
+    <slot>Childhood</slot>
+    <title>factory scrubber</title>
+    <titleShort>scrubber</titleShort>
+    <baseDesc>The lower levels of Alexandria’s factories were not built for comfort. [PAWN_nameDef] spent [PAWN_possessive] childhood clearing debris and wiping down machinery instead of attending lessons.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>2</Crafting>
+      <Construction>2</Construction>
+      <Intellectual>-2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Alexandria_UnitMascot</defName>
+    <slot>Childhood</slot>
+    <title>unit mascot</title>
+    <titleShort>mascot</titleShort>
+    <baseDesc>Assigned to a militia unit for morale, [PAWN_nameDef] learned early how to entertain hardened soldiers. Familiarity with weapon drills and barracks life came naturally.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>3</Social>
+      <Shooting>1</Shooting>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Alexandria_Orphan</defName>
+    <slot>Childhood</slot>
+    <title>orphan</title>
+    <titleShort>orphan</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up without stable guardians. Books and quiet observation of the Socialist Republic's inner workings filled the gaps left by neglect.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>4</Intellectual>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Alexandria_StateWard</defName>
+    <slot>Childhood</slot>
+    <title>state ward</title>
+    <titleShort>ward</titleShort>
+    <baseDesc>Raised under state supervision, [PAWN_nameDef] followed structured schedules and communal schooling. Affection was limited, but revolutionary discipline was consistent.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>2</Social>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Alexandria_SarissusShieldward</defName>
+    <slot>Childhood</slot>
+    <title>sarissus shieldward</title>
+    <titleShort>shieldward</titleShort>
+    <baseDesc>Too young for full service, but never far from it. [PAWN_nameDef] trained with wooden shields and observed formation drills from the sidelines of the Sarissus Regiments.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>3</Melee>
+      <Shooting>1</Shooting>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+	<!--Bedwyr-->
+<BackstoryDef>
+    <defName>Bedwyr_Squire</defName>
+    <slot>Childhood</slot>
+    <title>squire</title>
+    <titleShort>squire</titleShort>
+    <baseDesc>[PAWN_nameDef] was assigned to assist a knightly guardian. Stable work and sparring practice defined [PAWN_possessive] daily routine in the feudal high-lands.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>2</Melee>
+      <Animals>1</Animals>
+      <Social>1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bedwyr_DockFoundling</defName>
+    <slot>Childhood</slot>
+    <title>dock foundling</title>
+    <titleShort>foundling</titleShort>
+    <baseDesc>Left near Bedwyr’s docks, [PAWN_nameDef] survived by carrying cargo and keeping quiet. Formal schooling never lasted long for a child of the wharves.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Construction>2</Construction>
+      <Mining>2</Mining>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bedwyr_YoungScrapper</defName>
+    <slot>Childhood</slot>
+    <title>young scrapper</title>
+    <titleShort>scrapper</titleShort>
+    <baseDesc>Broken tools were toys before they were tools. [PAWN_nameDef] learned to take apart and rebuild discarded machinery out of pure curiosity.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>3</Crafting>
+      <Construction>1</Construction>
+      <Intellectual>-1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bedwyr_FeralYouth</defName>
+    <slot>Childhood</slot>
+    <title>feral youth</title>
+    <titleShort>feral</titleShort>
+    <baseDesc>Supervision was rare on the outskirts. [PAWN_nameDef] roamed beyond settlement walls, learning survival through the behavior of animals rather than people.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>2</Melee>
+      <Animals>2</Animals>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>
+      <li>Intellectual</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bedwyr_GeorgiponicWorker</defName>
+    <slot>Childhood</slot>
+    <title>georgiponic worker</title>
+    <titleShort>worker</titleShort>
+    <baseDesc>Even as a child, [PAWN_nameDef] assisted in soil testing and crop tending. Practical education in the dirt replaced classroom theory.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>3</Plants>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bedwyr_OrderWard</defName>
+    <slot>Childhood</slot>
+    <title>order ward</title>
+    <titleShort>ward</titleShort>
+    <baseDesc>Taken in by a disciplined order, [PAWN_nameDef] followed strict codes and shared training. Structure always outweighed comfort in [PAWN_possessive] youth.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>3</Melee>
+      <Social>1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bedwyr_OrderNovice</defName>
+    <slot>Childhood</slot>
+    <title>order novice</title>
+    <titleShort>novice</titleShort>
+    <baseDesc>Early lessons focused on restraint and study. [PAWN_nameDef] balanced light combat drills with supervised learning within the Order's inner sanctums.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>1</Melee>
+      <Intellectual>2</Intellectual>
+      <Social>1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bedwyr_HydroponicWorker</defName>
+    <slot>Childhood</slot>
+    <title>hydroponic worker</title>
+    <titleShort>hydro worker</titleShort>
+    <baseDesc>Enclosed farms became [PAWN_nameDef]’s classroom. Nutrient cycles and plant care were learned by endless repetition in the grow-rooms.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>3</Plants>
+      <Crafting>1</Crafting>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bedwyr_NoviceOfTheHand</defName>
+    <slot>Childhood</slot>
+    <title>novice of the hand</title>
+    <titleShort>hand novice</titleShort>
+    <baseDesc>Workshop floors were more familiar than playgrounds. [PAWN_nameDef] practiced shaping scrap steel under the patient supervision of the master smiths.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>3</Crafting>
+      <Construction>1</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Bedwyr_Servant</defName>
+    <slot>Childhood</slot>
+    <title>servant</title>
+    <titleShort>servant</titleShort>
+    <baseDesc>Assigned to kitchen and hall duties for the local lords, [PAWN_nameDef] learned to listen before speaking. Social awareness came from keen observation.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>3</Social>
+      <Cooking>1</Cooking>
+    </skillGains>
+  </BackstoryDef>
+
+	<!--Belamunt-->
+<BackstoryDef>
+    <defName>Belamunt_CityUrchin</defName>
+    <slot>Childhood</slot>
+    <title>city urchin</title>
+    <titleShort>urchin</titleShort>
+    <baseDesc>Alleyways and crowded markets were [PAWN_nameDef]’s upbringing. Quick reflexes and a sharp eye mattered more than any formal schooling.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>1</Social>
+      <Melee>1</Melee>
+      <Shooting>1</Shooting>
+      <Intellectual>-1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Belamunt_GardenTender</defName>
+    <slot>Childhood</slot>
+    <title>garden tender</title>
+    <titleShort>tender</titleShort>
+    <baseDesc>Cultivated plots provided steady work from an early age. [PAWN_nameDef] learned the virtue of patience while tending to the Legion's food supplies.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>4</Plants>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Belamunt_TrenchRunner</defName>
+    <slot>Childhood</slot>
+    <title>trench runner</title>
+    <titleShort>runner</titleShort>
+    <baseDesc>Messages moved faster than officers. [PAWN_nameDef] carried them through unstable ground, learning speed and evasion over caution.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>1</Shooting>
+      <Melee>2</Melee>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Belamunt_FieldSlave</defName>
+    <slot>Childhood</slot>
+    <title>field slave</title>
+    <titleShort>fieldhand</titleShort>
+    <baseDesc>Work began before sunrise. [PAWN_nameDef] learned planting and reinforcement under harsh supervision that allowed for very little speech.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>2</Plants>
+      <Construction>2</Construction>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Belamunt_FarmSlave</defName>
+    <slot>Childhood</slot>
+    <title>farm slave</title>
+    <titleShort>farmhand</titleShort>
+    <baseDesc>Livestock and crop rows shaped [PAWN_nameDef]'s daily routine. Orders were given to be followed immediately, never to be discussed.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>2</Plants>
+      <Animals>2</Animals>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Belamunt_Bloodbag</defName>
+    <slot>Childhood</slot>
+    <title>bloodbag</title>
+    <titleShort>bloodbag</titleShort>
+    <baseDesc>Medical facilities used [PAWN_nameDef] for testing and fluid extraction. Clinical familiarity with needles and pain replaced a normal childhood.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Medicine>4</Medicine>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Belamunt_KitchenServant</defName>
+    <slot>Childhood</slot>
+    <title>kitchen servant</title>
+    <titleShort>kitchen hand</titleShort>
+    <baseDesc>Kitchens were hot, loud, and dangerous. [PAWN_nameDef] learned food preparation and timing while perfecting the art of not being noticed.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Cooking>4</Cooking>
+    </skillGains>
+  </BackstoryDef>
+
+	<!--Cavall-->
+<BackstoryDef>
+    <defName>Cavall_ImprovisersApprentice</defName>
+    <slot>Childhood</slot>
+    <title>improviser's apprentice</title>
+    <titleShort>apprentice</titleShort>
+    <baseDesc>Salvaged parts became tools and toys alike for [PAWN_nameDef]. [PAWN_pronoun] practiced rebuilding broken equipment under loose mentorship, learning to make something from nothing.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>2</Crafting>
+      <Construction>1</Construction>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Cavall_PenalFieldhand</defName>
+    <slot>Childhood</slot>
+    <title>penal fieldhand</title>
+    <titleShort>fieldhand</titleShort>
+    <baseDesc>Assigned to prison farmland as a youth, [PAWN_nameDef] learned planting and repair work under watchful, armed supervision. [PAWN_possessive] social development lagged far behind [PAWN_possessive] labor.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>3</Plants>
+      <Construction>1</Construction>
+      <Social>-2</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Cavall_PenalRanchhand</defName>
+    <slot>Childhood</slot>
+    <title>penal ranchhand</title>
+    <titleShort>ranchhand</titleShort>
+    <baseDesc>Livestock care filled most of [PAWN_nameDef]'s early days. [PAWN_pronoun] found that the beasts of the field were much easier to understand and please than the prison guards.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Animals>3</Animals>
+      <Plants>1</Plants>
+      <Social>-2</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Cavall_GangInitiate</defName>
+    <slot>Childhood</slot>
+    <title>gang initiate</title>
+    <titleShort>initiate</titleShort>
+    <baseDesc>Acceptance into the gang required proving one's worth. [PAWN_nameDef] learned quickly how loyalty and violence are intertwined, prioritizing survival over academic learning.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>3</Melee>
+      <Social>1</Social>
+      <Intellectual>-2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Cavall_TrencherServant</defName>
+    <slot>Childhood</slot>
+    <title>trencher servant</title>
+    <titleShort>trencher</titleShort>
+    <baseDesc>Defensive lines required constant upkeep. [PAWN_nameDef] assisted in digging and carrying supplies for the soldiers before [PAWN_pronoun] was ever old enough to hold a rank.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>1</Melee>
+      <Shooting>1</Shooting>
+      <Construction>2</Construction>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Cavall_YoungForager</defName>
+    <slot>Childhood</slot>
+    <title>young forager</title>
+    <titleShort>forager</titleShort>
+    <baseDesc>Food shortages forced early responsibility. [PAWN_nameDef] gathered hardy plants and trapped small game outside the settlement bounds to keep [PAWN_possessive] family fed.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>2</Plants>
+      <Animals>1</Animals>
+      <Shooting>1</Shooting>
+    </skillGains>
+  </BackstoryDef>
+
+	<!--Coldharbour-->
+<BackstoryDef>
+    <defName>Coldharbour_MatchesChild</defName>
+    <slot>Childhood</slot>
+    <title>matches child</title>
+    <titleShort>matchchild</titleShort>
+    <baseDesc>Spare parts and half-burnt fuses were [PAWN_nameDef]’s playthings. [PAWN_pronoun] learned to repair small electronics in the dark, though [PAWN_pronoun] never learned the patience required for a fair fight.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>2</Crafting>
+      <Intellectual>2</Intellectual>
+      <Melee>-1</Melee>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Coldharbour_WarOrphan</defName>
+    <slot>Childhood</slot>
+    <title>war orphan</title>
+    <titleShort>orphan</titleShort>
+    <baseDesc>Conflict erased whatever normal childhood [PAWN_nameDef] might have had. [PAWN_pronoun] turned to the study of old texts as a refuge, though the anger of [PAWN_possessive] loss never fully faded.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>3</Intellectual>
+      <Social>-1</Social>
+      <Melee>1</Melee>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Coldharbour_YouthGanger</defName>
+    <slot>Childhood</slot>
+    <title>youth ganger</title>
+    <titleShort>ganger</titleShort>
+    <baseDesc>Territory lines were drawn long before [PAWN_nameDef] reached adulthood. [PAWN_pronoun] learned to stand with [PAWN_possessive] pack and defend the district against all outsiders.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>3</Melee>
+      <Social>1</Social>
+      <Intellectual>-1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Coldharbour_HydroponicServant</defName>
+    <slot>Childhood</slot>
+    <title>hydroponic servant</title>
+    <titleShort>hydro hand</titleShort>
+    <baseDesc>Enclosed farms required steady attention. [PAWN_nameDef] spent [PAWN_possessive] childhood adjusting trays and monitoring nutrient lines in the windowless towers of the city.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>3</Plants>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Coldharbour_GeorgioponicServant</defName>
+    <slot>Childhood</slot>
+    <title>georgioponic servant</title>
+    <titleShort>geo hand</titleShort>
+    <baseDesc>Soil beds and reinforced terraces shaped [PAWN_nameDef]'s early lessons. Construction work blended naturally with planting duties in the struggling colony.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>2</Plants>
+      <Construction>2</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Coldharbour_ScalpelSharpener</defName>
+    <slot>Childhood</slot>
+    <title>scalpel sharpener</title>
+    <titleShort>sharpener</titleShort>
+    <baseDesc>Surgical tools needed maintenance long before they were used. [PAWN_nameDef] handled the cleaning and sharpening of steel in silence, learning the tools of trauma before [PAWN_pronoun] could read.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Medicine>2</Medicine>
+      <Crafting>2</Crafting>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Coldharbour_Techkid</defName>
+    <slot>Childhood</slot>
+    <title>techkid</title>
+    <titleShort>techkid</titleShort>
+    <baseDesc>Screens and circuit boards replaced playgrounds for [PAWN_nameDef]. [PAWN_pronoun] always preferred the logic of system diagnostics to the erratic nature of human conversation.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>3</Intellectual>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Coldharbour_LineRunner</defName>
+    <slot>Childhood</slot>
+    <title>line runner</title>
+    <titleShort>runner</titleShort>
+    <baseDesc>Messages had to cross unstable ground. [PAWN_nameDef] ran supply lines and carried orders under fire, learning to move fast and stay quiet.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>2</Shooting>
+      <Construction>1</Construction>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+	<!--Connacht-->
+<BackstoryDef>
+    <defName>Connacht_Ruinborn</defName>
+    <slot>Childhood</slot>
+    <title>ruinborn</title>
+    <titleShort>ruinborn</titleShort>
+    <baseDesc>Collapsed walls and scavenged lumber formed [PAWN_nameDef]’s earliest environment. Building shelter and finding edible roots were the first skills [PAWN_pronoun] ever mastered.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Construction>2</Construction>
+      <Plants>2</Plants>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Connacht_ScrapperOrphan</defName>
+    <slot>Childhood</slot>
+    <title>scrapper orphan</title>
+    <titleShort>scrapper</titleShort>
+    <baseDesc>Without guardians, [PAWN_nameDef] relied on salvage to survive. [PAWN_pronoun] treated broken machinery as both shelter and a puzzle, learning how the old world was built.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>3</Crafting>
+      <Construction>1</Construction>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Connacht_Sorrowborn</defName>
+    <slot>Childhood</slot>
+    <title>sorrowborn</title>
+    <titleShort>sorrowborn</titleShort>
+    <baseDesc>Raised during a prolonged siege, [PAWN_nameDef] learned discipline and study in equal measure. Long hours spent in bunkers left [PAWN_objective] physically unsuited for heavy combat.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>3</Intellectual>
+      <Social>1</Social>
+      <Melee>-1</Melee>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Connacht_GreenGatherer</defName>
+    <slot>Childhood</slot>
+    <title>green gatherer</title>
+    <titleShort>gatherer</titleShort>
+    <baseDesc>The forest edges provided food and quiet work. [PAWN_nameDef] learned which plants to trust and which animals to avoid while the world outside burned.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>3</Plants>
+      <Animals>1</Animals>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Connacht_RedGatherer</defName>
+    <slot>Childhood</slot>
+    <title>red gatherer</title>
+    <titleShort>red gatherer</titleShort>
+    <baseDesc>Hunting parties welcomed a child with a steady aim. [PAWN_nameDef] balanced the tracking of game with the defensive readiness required of a scout.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>1</Shooting>
+      <Melee>1</Melee>
+      <Animals>2</Animals>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Connacht_Seeker</defName>
+    <slot>Childhood</slot>
+    <title>seeker</title>
+    <titleShort>seeker</titleShort>
+    <baseDesc>Curiosity led [PAWN_nameDef] toward both ancient scripture and modern rifle practice. [PAWN_pronoun] spent [PAWN_possessive] youth balancing spiritual study with physical training.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>2</Intellectual>
+      <Shooting>2</Shooting>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Connacht_YoungStoryteller</defName>
+    <slot>Childhood</slot>
+    <title>young storyteller</title>
+    <titleShort>storyteller</titleShort>
+    <baseDesc>Evenings were spent repeating tales of loss and endurance. [PAWN_nameDef] learned early how a well-spoken word can steady a crowd even in the darkest times.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>3</Social>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+	<!--Fury-->
+<BackstoryDef>
+    <defName>Fury_AcademyCadet</defName>
+    <slot>Childhood</slot>
+    <title>academy cadet</title>
+    <titleShort>cadet</titleShort>
+    <baseDesc>Structured drills began before adolescence ended. [PAWN_nameDef] balanced rigorous classroom study with supervised weapons training in the Furian academies.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Fury_AcademyDropout</defName>
+    <slot>Childhood</slot>
+    <title>academy dropout</title>
+    <titleShort>dropout</titleShort>
+    <baseDesc>Formal training proved less stable than expected. [PAWN_nameDef] left the academy before completion, retaining the basic combat skills but losing the taste for strict discipline.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Fury_SurfaceScrounger</defName>
+    <slot>Childhood</slot>
+    <title>surface scrounger</title>
+    <titleShort>scrounger</titleShort>
+    <baseDesc>Ruined surface structures offered opportunity to the brave. [PAWN_nameDef] learned to extract materials and defend [PAWN_possessive] finds against rival scavenger packs.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Construction>1</Construction>
+      <Crafting>1</Crafting>
+      <Shooting>2</Shooting>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Fury_TunnelHand</defName>
+    <slot>Childhood</slot>
+    <title>tunnel hand</title>
+    <titleShort>tunnelhand</titleShort>
+    <baseDesc>Mining and reinforcement duties shaped [PAWN_nameDef]’s childhood strength. In the deep tunnels, social interaction was always secondary to hard labor.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Mining>2</Mining>
+      <Construction>2</Construction>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Fury_TunnelScrapper</defName>
+    <slot>Childhood</slot>
+    <title>tunnel scrapper</title>
+    <titleShort>scrapper</titleShort>
+    <baseDesc>Salvaged components filled [PAWN_nameDef]’s workshop corner. [PAWN_pronoun] spent [PAWN_possessive] youth rebuilding discarded devices for practical use in the dark.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>2</Crafting>
+      <Construction>1</Construction>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Fury_ChildSoldier</defName>
+    <slot>Childhood</slot>
+    <title>child soldier</title>
+    <titleShort>soldier</titleShort>
+    <baseDesc>Conflict on Fury demanded early participation. [PAWN_nameDef] was taught to handle a weapon before [PAWN_pronoun] was old enough to understand the weight of taking a life.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+      <Social>-2</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Fury_ChildOfTheDepths</defName>
+    <slot>Childhood</slot>
+    <title>child of the depths</title>
+    <titleShort>depths child</titleShort>
+    <baseDesc>Underground life altered [PAWN_nameDef]’s natural rhythms. [PAWN_pronoun] adapted to the darkness and quiet, repetitive routines, finding the surface world terrifying.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Construction>2</Construction>
+      <Intellectual>2</Intellectual>
+      <Social>-1</Social>
+    </skillGains>
+    <forcedTraits>
+      <NightOwl>0</NightOwl>
+    </forcedTraits>
+  </BackstoryDef>
+
+	<!--Hastings-->
+<BackstoryDef>
+    <defName>Hastings_Stablehand</defName>
+    <slot>Childhood</slot>
+    <title>stablehand</title>
+    <titleShort>stablehand</titleShort>
+    <baseDesc>Livestock required daily care regardless of the weather. [PAWN_nameDef] learned to read animal behavior and manage the stables before [PAWN_pronoun] ever received a formal education.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Animals>2</Animals>
+      <Plants>1</Plants>
+      <Social>1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hastings_Machinetalker</defName>
+    <slot>Childhood</slot>
+    <title>machinetalker</title>
+    <titleShort>machinetalker</titleShort>
+    <baseDesc>Machines were treated with familiarity rather than fear in [PAWN_nameDef]'s home. [PAWN_pronoun] experimented with complex repairs under loose supervision, preferring gear ratios to conversation.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>2</Crafting>
+      <Intellectual>2</Intellectual>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hastings_Forgeling</defName>
+    <slot>Childhood</slot>
+    <title>forgeling</title>
+    <titleShort>forgeling</titleShort>
+    <baseDesc>The forge floor was [PAWN_nameDef]'s playground. [PAWN_pronoun] practiced shaping scrap and carrying heavy materials between stations, growing strong in the heat of the industrial district.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>2</Crafting>
+      <Construction>1</Construction>
+      <Melee>1</Melee>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hastings_Ashtender</defName>
+    <slot>Childhood</slot>
+    <title>ashtender</title>
+    <titleShort>ashtender</titleShort>
+    <baseDesc>Burnt fields required careful replanting. [PAWN_nameDef] learned resilience from soil that refused to cooperate, spending [PAWN_possessive] youth coaxing life from the gray dust.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>2</Plants>
+      <Construction>1</Construction>
+      <Shooting>1</Shooting>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hastings_Harvester</defName>
+    <slot>Childhood</slot>
+    <title>harvester</title>
+    <titleShort>harvester</titleShort>
+    <baseDesc>Harvest cycles demanded constant attention and precise timing. For [PAWN_nameDef], crafting the tools of the trade followed naturally from the needs of the farm.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Plants>3</Plants>
+      <Crafting>1</Crafting>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hastings_YouthStitcher</defName>
+    <slot>Childhood</slot>
+    <title>youth stitcher</title>
+    <titleShort>stitcher</titleShort>
+    <baseDesc>Fabric scraps became practice material for [PAWN_nameDef]. [PAWN_pronoun] learned to repair clothing and gear long before [PAWN_pronoun] was old enough to wear a new garment of [PAWN_possessive] own.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>3</Crafting>
+      <Social>1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hastings_BlueprintCopier</defName>
+    <slot>Childhood</slot>
+    <title>blueprint copier</title>
+    <titleShort>copier</titleShort>
+    <baseDesc>Drafting tables offered structured learning for [PAWN_nameDef]. [PAWN_pronoun] copied complex schematics repeatedly, gaining a deep familiarity with structural design and aesthetics.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>2</Intellectual>
+      <Construction>1</Construction>
+      <Artistic>1</Artistic>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hastings_Slaghand</defName>
+    <slot>Childhood</slot>
+    <title>slaghand</title>
+    <titleShort>slaghand</titleShort>
+    <baseDesc>Waste material still required direction. [PAWN_nameDef] assisted in moving slag and reinforcing work areas, learning the heavy, dirty side of industrial life.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Construction>2</Construction>
+      <Mining>1</Mining>
+      <Melee>1</Melee>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hastings_GuardBatman</defName>
+    <slot>Childhood</slot>
+    <title>guard batman</title>
+    <titleShort>batman</titleShort>
+    <baseDesc>Assigned to assist a senior guard, [PAWN_nameDef] learned equipment maintenance and the value of quiet, professional discipline.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>1</Social>
+      <Melee>2</Melee>
+      <Construction>1</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Hastings_Guardhand</defName>
+    <slot>Childhood</slot>
+    <title>guardhand</title>
+    <titleShort>guardhand</titleShort>
+    <baseDesc>Hall duty and minor tasks filled [PAWN_nameDef]'s early years. Exposure to combat drills and close-quarters fighting was an unavoidable part of [PAWN_possessive] upbringing.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>2</Melee>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+	<!--Numantia-->
+<BackstoryDef>
+    <defName>Numantia_TrenchOrphan</defName>
+    <slot>Childhood</slot>
+    <title>trench orphan</title>
+    <titleShort>orphan</titleShort>
+    <baseDesc>Defensive lines were rebuilt more often than homes. [PAWN_nameDef] grew up among sandbags and rifle drills, learning to keep low and stay alert to survive the night.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Numantia_LegionApprentice</defName>
+    <slot>Childhood</slot>
+    <title>legion apprentice</title>
+    <titleShort>apprentice</titleShort>
+    <baseDesc>Formal training began early under Legion supervision. [PAWN_nameDef] balanced weapons drills with structured study, learning the history of the world [PAWN_pronoun] would eventually defend.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Numantia_GunsmithApprentice</defName>
+    <slot>Childhood</slot>
+    <title>gunsmith apprentice</title>
+    <titleShort>gunsmith</titleShort>
+    <baseDesc>Workshop benches replaced playgrounds for [PAWN_nameDef]. [PAWN_pronoun] learned to assemble and disassemble firearms before [PAWN_pronoun] was even large enough to fire one.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>2</Crafting>
+      <Shooting>1</Shooting>
+      <Construction>1</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Numantia_Tunnelborn</defName>
+    <slot>Childhood</slot>
+    <title>tunnelborn</title>
+    <titleShort>tunnelborn</titleShort>
+    <baseDesc>Mining corridors shaped [PAWN_nameDef]’s early strength. [PAWN_pronoun] assisted in reinforcement and debris clearing, seeing the sun only on rare, guarded occasions.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Mining>2</Mining>
+      <Construction>2</Construction>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Numantia_Bugtender</defName>
+    <slot>Childhood</slot>
+    <title>bugtender</title>
+    <titleShort>bugtender</titleShort>
+    <baseDesc>Livestock pens housed chitinous creatures that others avoided. [PAWN_nameDef] learned feeding cycles and minor veterinary treatment from careful, silent observation.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Animals>2</Animals>
+      <Plants>1</Plants>
+      <Medicine>1</Medicine>
+    </skillGains>
+  </BackstoryDef>
+
+	<!--Pelagia-->
+<BackstoryDef>
+    <defName>Pelagia_MechOrphan</defName>
+    <slot>Childhood</slot>
+    <title>mech orphan</title>
+    <titleShort>orphan</titleShort>
+    <baseDesc>Machinery outlasted family for [PAWN_nameDef]. [PAWN_pronoun] found guidance in maintenance manuals and discarded components, preferring the logic of gears to the warmth of people.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>3</Intellectual>
+      <Crafting>1</Crafting>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Pelagia_RecyclersAssistant</defName>
+    <slot>Childhood</slot>
+    <title>recycler's assistant</title>
+    <titleShort>assistant</titleShort>
+    <baseDesc>Salvage yards offered steady instruction for [PAWN_nameDef]. [PAWN_pronoun] helped dismantle scrap and sort materials for reuse, learning the skeletal structure of the old world.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Crafting>2</Crafting>
+      <Construction>1</Construction>
+      <Mining>1</Mining>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Pelagia_ChildMilitia</defName>
+    <slot>Childhood</slot>
+    <title>child militia</title>
+    <titleShort>militia</titleShort>
+    <baseDesc>Patrol duties began before adulthood for [PAWN_nameDef]. [PAWN_pronoun] trained with basic weapons and maintained equipment while still considered a minor by the state.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+      <Social>-1</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Pelagia_LegionaryBastard</defName>
+    <slot>Childhood</slot>
+    <title>legionary bastard</title>
+    <titleShort>bastard</titleShort>
+    <baseDesc>Recognition by [PAWN_possessive] high-ranking parent was inconsistent, but expectations were not. [PAWN_nameDef] learned combat basics and harsh discipline without any of the privileges of rank.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+	<!--Ramaal-->
+<BackstoryDef>
+    <defName>Ramaal_RegimentalMascot</defName>
+    <slot>Childhood</slot>
+    <title>regimental mascot</title>
+    <titleShort>mascot</titleShort>
+    <baseDesc>Assigned to barracks life for morale, [PAWN_nameDef] learned to entertain and observe soldiers at close range. Familiarity with drill and military humor became [PAWN_possessive] daily routine.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>2</Social>
+      <Shooting>1</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Ramaal_RegimentServant</defName>
+    <slot>Childhood</slot>
+    <title>regiment servant</title>
+    <titleShort>servant</titleShort>
+    <baseDesc>Kitchen runs and equipment cleaning filled [PAWN_nameDef]'s early years. [PAWN_pronoun] absorbed military discipline and technical basics through proximity rather than formal command.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>1</Social>
+      <Crafting>1</Crafting>
+      <Construction>1</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Ramaal_OfficerBatman</defName>
+    <slot>Childhood</slot>
+    <title>officer batman</title>
+    <titleShort>batman</titleShort>
+    <baseDesc>Assigned to assist a high-ranking officer, [PAWN_nameDef] handled gear maintenance and minor logistics. Exposure to high-level planning discussions came at a very young age.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>2</Social>
+      <Shooting>1</Shooting>
+      <Construction>1</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Ramaal_CampHand</defName>
+    <slot>Childhood</slot>
+    <title>camp hand</title>
+    <titleShort>camp hand</titleShort>
+    <baseDesc>Cooking fires and minor repair duties defined [PAWN_nameDef]'s early responsibility. [PAWN_possessive] social awareness grew from navigating the complex hierarchies of crowded military camps.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Cooking>2</Cooking>
+      <Construction>1</Construction>
+      <Social>1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Ramaal_DoctorsApprentice</defName>
+    <slot>Childhood</slot>
+    <title>doctor's apprentice</title>
+    <titleShort>apprentice</titleShort>
+    <baseDesc>Medical tents became an informal classroom for [PAWN_nameDef]. [PAWN_pronoun] observed trauma treatment and assisted where allowed, learning to stay calm amidst the blood.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Medicine>3</Medicine>
+      <Intellectual>1</Intellectual>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Ramaal_YouthBiographer</defName>
+    <slot>Childhood</slot>
+    <title>youth biographer</title>
+    <titleShort>biographer</titleShort>
+    <baseDesc>Journals and after-action reports captured [PAWN_nameDef]'s attention. [PAWN_pronoun] practiced recording events with measured detail, preserving the history of the regiment.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>2</Intellectual>
+      <Social>1</Social>
+      <Artistic>1</Artistic>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Ramaal_MessageRunner</defName>
+    <slot>Childhood</slot>
+    <title>message runner</title>
+    <titleShort>runner</titleShort>
+    <baseDesc>Orders needed delivery regardless of the risk. [PAWN_nameDef] ran between units in active combat zones, learning the hard lessons of speed, caution, and navigation.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>1</Shooting>
+      <Melee>1</Melee>
+      <Social>-1</Social>
+      <Animals>1</Animals>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Ramaal_BarracksBastard</defName>
+    <slot>Childhood</slot>
+    <title>barracks bastard</title>
+    <titleShort>barracks</titleShort>
+    <baseDesc>Raised among soldiers but claimed by none, [PAWN_nameDef] learned basic combat skills through imitation and the occasional rough lesson from a veteran.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Melee>2</Melee>
+      <Shooting>2</Shooting>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+	<!--Tycho-->
+   <BackstoryDef>
+    <defName>Tycho_RangerOrphan</defName>
+    <slot>Childhood</slot>
+    <title>ranger orphan</title>
+    <titleShort>orphan</titleShort>
+    <baseDesc>Frontier patrols doubled as an upbringing for [PAWN_nameDef]. [PAWN_pronoun] learned tracking and animal handling from the rugged rangers who tolerated [PAWN_possessive] presence.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Shooting>2</Shooting>
+      <Animals>2</Animals>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+	<!--Vasilevsky-->
+  <BackstoryDef>
+    <defName>Vasilevsky_StateWard</defName>
+    <slot>Childhood</slot>
+    <title>state ward</title>
+    <titleShort>ward</titleShort>
+    <baseDesc>Government dormitories replaced family life for [PAWN_nameDef]. [PAWN_pronoun] followed a life of regimented schooling, communal routines, and state-sanctioned study.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>3</Intellectual>
+      <Social>1</Social>
+      <Melee>-1</Melee>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Vasilevsky_Wallhand</defName>
+    <slot>Childhood</slot>
+    <title>wallhand</title>
+    <titleShort>wallhand</titleShort>
+    <baseDesc>The Great Defensive walls required constant maintenance. [PAWN_nameDef] assisted in repairs and carried heavy supplies along the parapets under the watchful eye of the guards.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Construction>2</Construction>
+      <Shooting>1</Shooting>
+      <Social>-1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Vasilevsky_JuniorCommissar</defName>
+    <slot>Childhood</slot>
+    <title>junior commissar</title>
+    <titleShort>jr. commissar</titleShort>
+    <baseDesc>Debate and doctrine were introduced early to [PAWN_nameDef]. [PAWN_pronoun] practiced public speaking and political theory under structured, often intimidating, supervision.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>3</Social>
+      <Intellectual>1</Intellectual>
+      <Melee>-1</Melee>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Vasilevsky_KitchenHand</defName>
+    <slot>Childhood</slot>
+    <title>kitchen hand</title>
+    <titleShort>kitchen hand</titleShort>
+    <baseDesc>Long hours in communal kitchens built steady habits for [PAWN_nameDef]. [PAWN_pronoun] learned food preparation and timing through endless, rhythmic repetition.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Cooking>3</Cooking>
+      <Social>1</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Vasilevsky_Bisontender</defName>
+    <slot>Childhood</slot>
+    <title>bisontender</title>
+    <titleShort>tender</titleShort>
+    <baseDesc>Herd management required patience and a steady hand. [PAWN_nameDef] learned animal behavior and survival in the cold Vasilevsky plains before [PAWN_pronoun] could write.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Animals>2</Animals>
+      <Plants>1</Plants>
+      <Shooting>1</Shooting>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Vasilevsky_ChildRecordist</defName>
+    <slot>Childhood</slot>
+    <title>child recordist</title>
+    <titleShort>recordist</titleShort>
+    <baseDesc>The state archives became familiar territory for [PAWN_nameDef]. [PAWN_pronoun] copied reports and maintained basic logs under the watchful oversight of the Party's archivists.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Intellectual>3</Intellectual>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Vasilevsky_YouthRevolutionary</defName>
+    <slot>Childhood</slot>
+    <title>youth revolutionary</title>
+    <titleShort>youth rev.</titleShort>
+    <baseDesc>Political meetings were attended more often than games. [PAWN_nameDef] absorbed rhetoric and revolutionary theory alongside basic weapons training.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Social>2</Social>
+      <Shooting>1</Shooting>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>Vasilevsky_CafeteriaKid</defName>
+    <slot>Childhood</slot>
+    <title>cafeteria kid</title>
+    <titleShort>cafeteria</titleShort>
+    <baseDesc>Shared dining halls shaped [PAWN_nameDef]'s social development. [PAWN_pronoun] learned to navigate crowds, state-mandated routines, and the social hierarchies of the working class.</baseDesc>
+    <spawnCategories>
+      <li>Offworlder</li>
+		</spawnCategories>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<skillGains>
+      <Cooking>1</Cooking>
+      <Social>2</Social>
+      <Intellectual>1</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+
+</Defs>

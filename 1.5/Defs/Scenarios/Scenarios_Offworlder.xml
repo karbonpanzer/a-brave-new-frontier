@@ -46,12 +46,6 @@
 
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>KP_Assault_Pistol</thingDef>
-					<quality>Normal</quality>
-				</li>
-
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
 					<thingDef>KP_Super_Shotgun</thingDef>
 					<quality>Normal</quality>
 				</li>
@@ -59,12 +53,13 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>KP_Service_Rifle</thingDef>
+					<count>2</count>					
 					<quality>Normal</quality>
 				</li>				
 
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>KP_Trench_Spike</thingDef>
+					<thingDef>BNF_Blade_Bayonet</thingDef>
 					<count>2</count>
 					<stuff>Steel</stuff>
 					<quality>Normal</quality>

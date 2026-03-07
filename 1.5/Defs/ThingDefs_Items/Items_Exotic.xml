@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>BNF_Decompiler_Codes</defName>
+    <label>Dominion Codex</label>
+    <description>s can be obtained by deconstructing mechanoid shield generators.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Codex/Codex</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>750</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

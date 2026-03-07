@@ -17,7 +17,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Armor/Accessories/ArmoredBoots/ArmoredBoots</texPath>
+			<texPath>Things/Pawn/Humanlike/Armor/ArmoredBoots/ArmoredBoots</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -99,7 +99,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Armor/Accessories/ArmoredGloves/ArmoredGloves</texPath>
+			<texPath>Things/Pawn/Humanlike/Armor/ArmoredGloves/ArmoredGloves</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -174,7 +174,7 @@
 			<researchPrerequisite>ModifiedGauntlets</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Armor/Accessories/ArmoredGloves/ArmoredGloves</texPath>
+			<texPath>Things/Pawn/Humanlike/Armor/ArmoredGloves/ArmoredGloves</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -248,7 +248,7 @@
 			<researchPrerequisite>ModifiedGauntlets</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Armor/Accessories/ArmoredGloves/ArmoredGloves</texPath>
+			<texPath>Things/Pawn/Humanlike/Armor/ArmoredGloves/ArmoredGloves</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -316,7 +316,7 @@
 	<ThingDef ParentName="ArmorMachineableBase">
 		<defName>BNF_Armor_Gorget</defName>
 		<label>Gorget</label>
-		<description>Designed after the death of a particular speaker on the Rimworld during a tirade. The gorget is composed on the same materials as the Carapace Armor but not something that most armies would create, they would prefer integration that improvisation. However the death of that particular individual forced the hands of many of the dumbest individuals. So now many produce this poor excuse for protection in honor of one dead talking head and his wife who seems really chill about his death.</description>
+		<description>Designed to fix the strange issue with the armor which is a shallow protection for the neck which is a strange feature but does not seem to be ineffective armor. Unlike other forms of armor, the gorget serves a role more in line with the neck stocks of the ancient armies of Earth. Lacking, the design is not solely owned by a single world but is more often seen on worlds with aristocracies which see their nobles in the field. Despite this, it does come with a massive drawback which adds additional weight to the front of a soldier which leads to events know as turtling. As is written on the inside, try to keep good balance.</description>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
@@ -329,7 +329,7 @@
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Armor/Accessories/Gorget/Gorget</texPath>
+			<texPath>Things/Pawn/Humanlike/Armor/Gorget/Gorget</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -360,7 +360,7 @@
 			<bodyPartGroups>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Armor/Accessories/Gorget/Gorget</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Armor/Gorget/Gorget</wornGraphicPath>
 			<useWornGraphicMask>True</useWornGraphicMask>
 			<layers>
 				<li>Shell</li>
@@ -372,7 +372,7 @@
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
 		<modExtensions>
 			<li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
-				<LoreDesc>Designed after the death of a particular speaker on the Rimworld during a tirade. The gorget is composed on the same materials as the Carapace Armor but not something that most armies would create, they would prefer integration that improvisation. However the death of that particular individual forced the hands of many of the dumbest individuals. So now many produce this poor excuse for protection in honor of one dead talking head and his wife who seems really chill about his death.</LoreDesc>
+				<LoreDesc>Designed to fix the strange issue with the armor which is a shallow protection for the neck which is a strange feature but does not seem to be ineffective armor. Unlike other forms of armor, the gorget serves a role more in line with the neck stocks of the ancient armies of Earth. Lacking, the design is not solely owned by a single world but is more often seen on worlds with aristocracies which see their nobles in the field. Despite this, it does come with a massive drawback which adds additional weight to the front of a soldier which leads to events know as turtling. As is written on the inside, try to keep good balance.</LoreDesc>
 				<VanillaDesc>A improvised piece of armor designed to protect the neck of the wearer. Comprised of the same materials as Carapace Armor it provide decent protection at low cost. As a field invention not many groups use it, making it rare.</VanillaDesc>
 			</li>
 		</modExtensions>

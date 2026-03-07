@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef Name="KP_Light_Flak_Armor_Base" ParentName="ArmorMachineableBase" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</texPath>         
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MarketValue>550</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <Mass>7.0</Mass>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.04</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>BNF_Armor</li>
+    </thingCategories>
+    <costList>
+      <Cloth>60</Cloth>
+      <Plasteel>10</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</wornGraphicPath>      
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+    </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps> 
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>       
+  </ThingDef>
+
+  <ThingDef ParentName="KP_Light_Flak_Armor_Base">
+    <defName>KP_Light_Flak_Armor</defName>
+    <label>Carapace Armor</label>
+    <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNF_Armor_Light</li>
+        <li>BNF_Armor_Light_Shocktrooper</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <parentTagDef>ApparelBody</parentTagDef>
+          <baseLayer>16</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Infantry/Arrowhead</li>
+            <li>Things/Decals/Infantry/CrossedRifles</li>
+            <li>Things/Decals/Infantry/CrossedSabers</li>
+            <li>Things/Decals/Infantry/CrossedSwords</li>
+            <li>Things/Decals/Infantry/Exoduster</li>
+            <li>Things/Decals/Infantry/Lambda</li>
+            <li>Things/Decals/Infantry/Skull</li>
+            <li>Things/Decals/Infantry/Sword</li>
+            <li>Things/Decals/Infantry/6Cav</li>
+            <li>Things/Decals/Infantry/12Inf</li>
+            <li>Things/Decals/Infantry/20Inf</li>
+            <li>Things/Decals/Infantry/Keystone</li>
+            <li>Things/Decals/Infantry/Club</li>
+            <li>Things/Decals/Infantry/Heart</li>
+            <li>Things/Decals/Infantry/Spade</li>
+            <li>Things/Decals/Infantry/Diamond</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <BodyTypeOffsetsByFacingRows>
+            <li>
+              <bodyType>Fat</bodyType>
+              <north>(0,0,0.07)</north>
+              <south>(0,0,0.025)</south>
+            </li>
+            <li>
+              <bodyType>Thin</bodyType>
+              <north>(0,0,0.045)</north>
+            </li>
+            <li>
+              <bodyType>Hulk</bodyType>
+              <north>(0,0,0.7)</north>
+              <south>(0,0,-0.07)</south>
+            </li>
+            <li>
+              <bodyType>Female</bodyType>
+              <north>(0,0,0.07)</north>
+              <south>(0,0,0.05)</south>
+            </li>
+          </BodyTypeOffsetsByFacingRows>
+          <drawData>
+            <scale>0.090</scale>
+            <defaultData>
+              <layer>23.555</layer>
+              <offset>(0,0,-0.20)</offset>
+              <flip>true</flip>
+            </defaultData>
+            <dataNorth>
+              <layer>23.384</layer>
+              <offset>(0,0,-0.17)</offset>
+            </dataNorth>
+          </drawData>
+        </li>
+      </renderNodeProperties>    
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Single">
+      <color>(0.47, 0.47, 0.47)</color>
+    </colorGenerator>
+    <modExtensions>
+      <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+        <LoreDesc>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.</LoreDesc>
+        <VanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Weaker than power armor in overall protection.</VanillaDesc>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="KP_Light_Flak_Armor_Base">
+    <defName>KP_Light_Flak_Armor_Medic</defName>
+    <label>Carapace Armor (Medic)</label>
+    <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Medical staff.</description>
+    <apparel>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <tags Inherit="False">
+        <li>BNF_Armor_Light_Medic</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <parentTagDef>ApparelBody</parentTagDef>
+          <baseLayer>16</baseLayer>             
+          <texPaths>
+            <li>Things/Decals/Medical/Blooddrop</li>
+            <li>Things/Decals/Medical/Caduseus</li>
+            <li>Things/Decals/Medical/Chalice</li>
+            <li>Things/Decals/Medical/CrossCircle</li>
+            <li>Things/Decals/Medical/Medic</li>
+            <li>Things/Decals/Medical/Pill</li>
+            <li>Things/Decals/Medical/StaffofAsclepius</li>
+            <li>Things/Decals/Medical/StarofLife</li>
+            <li>Things/Decals/Medical/18Med</li>
+            <li>Things/Decals/Medical/2Med</li>                    
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <BodyTypeOffsetsByFacingRows>
+            <li>
+              <bodyType>Fat</bodyType>
+              <north>(0,0,0.07)</north>
+              <south>(0,0,0.025)</south>
+            </li>
+            <li>
+              <bodyType>Thin</bodyType>
+              <north>(0,0,0.045)</north>
+            </li>
+            <li>
+              <bodyType>Hulk</bodyType>
+              <north>(0,0,0.7)</north>
+              <south>(0,0,-0.07)</south>
+            </li>
+            <li>
+              <bodyType>Female</bodyType>
+              <north>(0,0,0.07)</north>
+              <south>(0,0,0.05)</south>
+            </li>
+          </BodyTypeOffsetsByFacingRows>
+          <drawData>
+            <scale>0.090</scale>
+            <defaultData>
+              <layer>23.555</layer>
+              <offset>(0,0,-0.20)</offset>
+              <flip>true</flip>                    
+            </defaultData>
+            <dataNorth>
+              <layer>23.384</layer>
+              <offset>(0,0,-0.17)</offset>
+            </dataNorth>
+            <bodyTypeScales>
+              <Hulk>1.65</Hulk>
+              <Fat>1.45</Fat>
+              <Thin>0.75</Thin>
+              <Female>1.2</Female>
+            </bodyTypeScales>
+          </drawData>
+        </li>
+      </renderNodeProperties>   
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <modExtensions>
+      <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+        <LoreDesc>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Medical staff.</LoreDesc>
+        <VanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Identical to the standard carapace armor, but marked with insignia to denote medical personnel.</VanillaDesc>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="KP_Light_Flak_Armor_Base">
+    <defName>KP_Light_Flak_Armor_Support</defName>
+    <label>Carapace Armor (Engineer)</label>
+    <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Engineering staff.</description>
+    <apparel>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <tags Inherit="False">
+        <li>BNF_Armor_Light_Engineer</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <parentTagDef>ApparelBody</parentTagDef>
+          <baseLayer>16</baseLayer>             
+          <texPaths>
+            <li>Things/Decals/Engineer/Anvil</li>
+            <li>Things/Decals/Engineer/Clockwork</li>
+            <li>Things/Decals/Engineer/Cog</li>
+            <li>Things/Decals/Engineer/Hammer</li>
+            <li>Things/Decals/Engineer/HammerWrench</li>
+            <li>Things/Decals/Engineer/Rook</li>
+            <li>Things/Decals/Engineer/Wrench</li>
+            <li>Things/Decals/Engineer/Wrenches</li>
+            <li>Things/Decals/Engineer/16Eng</li>
+            <li>Things/Decals/Engineer/20Eng</li>
+            <li>Things/Decals/Engineer/176Eng</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <BodyTypeOffsetsByFacingRows>
+            <li>
+              <bodyType>Fat</bodyType>
+              <north>(0,0,0.07)</north>
+              <south>(0,0,0.025)</south>
+            </li>
+            <li>
+              <bodyType>Thin</bodyType>
+              <north>(0,0,0.045)</north>
+            </li>
+            <li>
+              <bodyType>Hulk</bodyType>
+              <north>(0,0,0.7)</north>
+              <south>(0,0,-0.07)</south>
+            </li>
+            <li>
+              <bodyType>Female</bodyType>
+              <north>(0,0,0.07)</north>
+              <south>(0,0,0.05)</south>
+            </li>
+          </BodyTypeOffsetsByFacingRows>
+          <drawData>
+            <scale>0.090</scale>
+            <defaultData>
+              <layer>23.555</layer>
+              <offset>(0,0,-0.20)</offset>
+              <flip>true</flip>                    
+            </defaultData>
+            <dataNorth>
+              <layer>23.384</layer>
+              <offset>(0,0,-0.17)</offset>
+            </dataNorth>
+            <bodyTypeScales>
+              <Hulk>1.65</Hulk>
+              <Fat>1.45</Fat>
+              <Thin>0.75</Thin>
+              <Female>1.2</Female>
+            </bodyTypeScales>
+          </drawData>
+        </li>
+      </renderNodeProperties>         
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <modExtensions>
+      <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
+        <LoreDesc>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.\n\nThis variant is marked for usage by Engineering staff.</LoreDesc>
+        <VanillaDesc>A suit of plasteel reinforced plate armor, stronger than a standard flak vest. Provides solid protection against gunfire and melee weapons, while still light enough and resource-efficient to produce. Identical to the standard carapace armor, but marked with insignia to denote engineers.</VanillaDesc>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

@@ -112,6 +112,19 @@
           "ref/net472/mscorlib.dll": {},
           "ref/net472/netstandard.dll": {}
         }
+      },
+      "Lib.Harmony/2.3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net48/0Harmony.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/_._": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     }
   },
@@ -235,11 +248,57 @@
         "ref/net472/mscorlib.dll",
         "ref/net472/netstandard.dll"
       ]
+    },
+    "Lib.Harmony/2.3.1.1": {
+      "sha512": "tydjMTa88RB7MjdP6TzYgclwVRv6KqvvsprinCf0xPuHgemj2k0ZMJnC2b8YwwyGr7+sAG3e4P0ii09uwwRBMA==",
+      "type": "package",
+      "path": "lib.harmony/2.3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "HarmonyLogo.png",
+        "LICENSE",
+        "README.md",
+        "lib.harmony.2.3.1.1.nupkg.sha512",
+        "lib.harmony.nuspec",
+        "lib/net35/0Harmony.dll",
+        "lib/net35/0Harmony.pdb",
+        "lib/net35/0Harmony.xml",
+        "lib/net452/0Harmony.dll",
+        "lib/net452/0Harmony.pdb",
+        "lib/net452/0Harmony.xml",
+        "lib/net472/0Harmony.dll",
+        "lib/net472/0Harmony.pdb",
+        "lib/net472/0Harmony.xml",
+        "lib/net48/0Harmony.dll",
+        "lib/net48/0Harmony.pdb",
+        "lib/net48/0Harmony.xml",
+        "lib/net5.0/0Harmony.dll",
+        "lib/net5.0/0Harmony.pdb",
+        "lib/net5.0/0Harmony.xml",
+        "lib/net6.0/0Harmony.dll",
+        "lib/net6.0/0Harmony.pdb",
+        "lib/net6.0/0Harmony.xml",
+        "lib/net7.0/0Harmony.dll",
+        "lib/net7.0/0Harmony.pdb",
+        "lib/net7.0/0Harmony.xml",
+        "lib/net8.0/0Harmony.dll",
+        "lib/net8.0/0Harmony.pdb",
+        "lib/net8.0/0Harmony.xml",
+        "lib/netcoreapp3.0/0Harmony.dll",
+        "lib/netcoreapp3.0/0Harmony.pdb",
+        "lib/netcoreapp3.0/0Harmony.xml",
+        "lib/netcoreapp3.1/0Harmony.dll",
+        "lib/netcoreapp3.1/0Harmony.pdb",
+        "lib/netcoreapp3.1/0Harmony.xml",
+        "lib/netstandard2.0/_._"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "Krafs.Rimworld.Ref >= 1.6.4739-beta"
+      "Krafs.Rimworld.Ref >= 1.6.4739-beta",
+      "Lib.Harmony >= 2.3.1.1"
     ]
   },
   "packageFolders": {
@@ -295,6 +354,11 @@
           "Krafs.Rimworld.Ref": {
             "target": "Package",
             "version": "[1.6.4739-beta, )"
+          },
+          "Lib.Harmony": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[2.3.1.1, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310\\RuntimeIdentifierGraph.json"

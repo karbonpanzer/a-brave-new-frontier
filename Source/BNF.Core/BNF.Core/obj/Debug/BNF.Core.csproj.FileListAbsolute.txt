@@ -10,3 +10,8 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier Testing Branch\Source\BNF.Core\BNF.Core\obj\Debug\BNF.Core.sourcelink.json
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier Testing Branch\Source\BNF.Core\BNF.Core\obj\Debug\BNF.Core.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier Testing Branch\Assemblies\BNF.Core.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier Testing Branch\Source\BNF.Core\BNF.Core\...\Assemblies\BNF.Core.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier Testing Branch\Source\BNF.Core\Assemblies\BNF.Core.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier Testing Branch\Source\BNF.Core\1.6\Assemblies\BNF.Core.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier Testing Branch\Source\1.6\Assemblies\BNF.Core.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\A Brave New Frontier Testing Branch\1.6\Assemblies\BNF.Core.dll
