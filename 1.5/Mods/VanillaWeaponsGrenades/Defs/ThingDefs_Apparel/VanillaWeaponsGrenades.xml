@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-	<Patch>
-	  <Operation Class="PatchOperationFindMod">
-		<mods>
-		  <li>Vanilla Weapons Expanded - Grenades</li>
-		</mods>
-
-		  <match Class="PatchOperationAdd">
-			<xpath>Defs</xpath>
-		  <value> 
+<Defs>
 		 
 		<ThingDef ParentName="ApparelMakeableBase">
 			<defName>BNF_Webbing_Grenadier</defName>
@@ -19,7 +11,7 @@
 			</recipeMaker>
 
 			<graphicData>
-			  <texPath>Original/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
+			  <texPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
 			  <graphicClass>Graphic_Single</graphicClass>
 				<shaderType>CutoutComplex</shaderType>
 			</graphicData>
@@ -91,12 +83,13 @@
 				<li>Shoulders</li>
 				<li>Waist</li>        
 			  </bodyPartGroups>
-			  <wornGraphicPath>Original/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
+			  <wornGraphicPath>Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
 			  <layers>
 				<li>Shell</li>
 			  </layers>
 			  <tags>
-				<li>IndustrialMilitary</li>
+				<li>BNF_Accessories_Shocktrooper</li>
+				<li>BNF_Accessories_Shocktrooper</li>
 			  </tags>
 			  <defaultOutfitTags>
 				<li>Soldier</li>
@@ -128,19 +121,5 @@
 					</li>
 				  </options>
 				</colorGenerator>	
-				
-			<modExtensions>
-				<li Class="BNF.StyleSwitcher.BNFDescriptionExtension">
-					<loreDesc>Grenadiers are a fairly common role, no world claims to serve as the only world to field them. Such a common place occurance in warfare is the need to clear out fortificaions and urban settings, there is no finer solution than the grenadier. Most seem to overload themseves in dozens of grenades for the clearing of fortifications, good grenadiers however maintain a balance between weight and mobility.</loreDesc>
-					<vanillaDesc>A modified webbing with additional grenade pouches. Perfect for clearing out dangerous areas and trenches. The grenades pouches can be depleted, reload them to avoid issues.</vanillaDesc>
-				</li>
-				<li Class="BNF.StyleSwitcher.BNFTextureExtension">
-					<originalPath>Original/Accessories/GrenadierWebbing/GrenadierWebbing</originalPath>
-				</li>
-			</modExtensions>
 		</ThingDef>  	
-
-    </value>
-    </match>
-  </Operation>
-</Patch>
+</Defs>
