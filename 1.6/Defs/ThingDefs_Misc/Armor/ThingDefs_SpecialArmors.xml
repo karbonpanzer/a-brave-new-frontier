@@ -63,9 +63,9 @@
         <li>BNF_Armor_Officer</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
@@ -82,43 +82,22 @@
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-          <BodyTypeOffsetsByFacingRows>
-            <li>
-              <bodyType>Fat</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.025)</south>
-            </li>
-            <li>
-              <bodyType>Thin</bodyType>
-              <north>(0,0,0.045)</north>
-            </li>
-            <li>
-              <bodyType>Hulk</bodyType>
-              <north>(0,0,0.7)</north>
-              <south>(0,0,-0.07)</south>
-            </li>
-            <li>
-              <bodyType>Female</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.05)</south>
-            </li>
-          </BodyTypeOffsetsByFacingRows>
           <drawData>
-            <scale>0.090</scale>
+            <scale>0.120</scale>
             <defaultData>
               <layer>23.555</layer>
-              <offset>(0,0,-0.20)</offset>
+              <offset>(0,0,-0.155)</offset>
               <flip>true</flip>
             </defaultData>
             <dataNorth>
-              <layer>23.384</layer>
-              <offset>(0,0,-0.17)</offset>
+              <layer>23.655</layer>
+              <offset>(0,0,-0.148)</offset>
             </dataNorth>
             <bodyTypeScales>
-              <Hulk>1.65</Hulk>
-              <Fat>1.45</Fat>
-              <Thin>0.75</Thin>
-              <Female>1.2</Female>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
             </bodyTypeScales>
           </drawData>
         </li>
@@ -202,9 +181,9 @@
         <li>BNF_Armor_Conscript</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
@@ -222,43 +201,22 @@
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-          <BodyTypeOffsetsByFacingRows>
-            <li>
-              <bodyType>Fat</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.025)</south>
-            </li>
-            <li>
-              <bodyType>Thin</bodyType>
-              <north>(0,0,0.045)</north>
-            </li>
-            <li>
-              <bodyType>Hulk</bodyType>
-              <north>(0,0,0.7)</north>
-              <south>(0,0,-0.07)</south>
-            </li>
-            <li>
-              <bodyType>Female</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.05)</south>
-            </li>
-          </BodyTypeOffsetsByFacingRows>
           <drawData>
-            <scale>0.090</scale>
+            <scale>0.120</scale>
             <defaultData>
               <layer>23.555</layer>
-              <offset>(0,0,-0.20)</offset>
+              <offset>(0,0,-0.155)</offset>
               <flip>true</flip>
             </defaultData>
             <dataNorth>
-              <layer>23.384</layer>
-              <offset>(0,0,-0.17)</offset>
+              <layer>23.655</layer>
+              <offset>(0,0,-0.148)</offset>
             </dataNorth>
             <bodyTypeScales>
-              <Hulk>1.65</Hulk>
-              <Fat>1.45</Fat>
-              <Thin>0.75</Thin>
-              <Female>1.2</Female>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
             </bodyTypeScales>
           </drawData>
         </li>
@@ -341,9 +299,9 @@
         <li>BNF_Armor_Officer_Scout</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
@@ -360,43 +318,22 @@
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-          <BodyTypeOffsetsByFacingRows>
-            <li>
-              <bodyType>Fat</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.025)</south>
-            </li>
-            <li>
-              <bodyType>Thin</bodyType>
-              <north>(0,0,0.045)</north>
-            </li>
-            <li>
-              <bodyType>Hulk</bodyType>
-              <north>(0,0,0.7)</north>
-              <south>(0,0,-0.07)</south>
-            </li>
-            <li>
-              <bodyType>Female</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.05)</south>
-            </li>
-          </BodyTypeOffsetsByFacingRows>
           <drawData>
-            <scale>0.090</scale>
+            <scale>0.120</scale>
             <defaultData>
               <layer>23.555</layer>
-              <offset>(0,0,-0.20)</offset>
+              <offset>(0,0,-0.155)</offset>
               <flip>true</flip>
             </defaultData>
             <dataNorth>
-              <layer>23.384</layer>
-              <offset>(0,0,-0.17)</offset>
+              <layer>23.655</layer>
+              <offset>(0,0,-0.148)</offset>
             </dataNorth>
             <bodyTypeScales>
-              <Hulk>1.65</Hulk>
-              <Fat>1.45</Fat>
-              <Thin>0.75</Thin>
-              <Female>1.2</Female>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
             </bodyTypeScales>
           </drawData>
         </li>
@@ -418,6 +355,8 @@
     </modExtensions>
   </ThingDef>
 
+
+  <!--Riot Gear here temporarily while testing decals-->
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>BNF_Helmet_Police</defName>
     <label>Riot Helmet</label>
@@ -549,9 +488,9 @@
       <soundRemove>Remove_PowerArmor</soundRemove>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
@@ -570,43 +509,22 @@
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-          <BodyTypeOffsetsByFacingRows>
-            <li>
-              <bodyType>Fat</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.025)</south>
-            </li>
-            <li>
-              <bodyType>Thin</bodyType>
-              <north>(0,0,0.045)</north>
-            </li>
-            <li>
-              <bodyType>Hulk</bodyType>
-              <north>(0,0,0.7)</north>
-              <south>(0,0,-0.07)</south>
-            </li>
-            <li>
-              <bodyType>Female</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.05)</south>
-            </li>
-          </BodyTypeOffsetsByFacingRows>
           <drawData>
-            <scale>0.090</scale>
+            <scale>0.120</scale>
             <defaultData>
               <layer>23.555</layer>
-              <offset>(0,0,-0.20)</offset>
+              <offset>(0,0,-0.155)</offset>
               <flip>true</flip>
             </defaultData>
             <dataNorth>
-              <layer>23.384</layer>
-              <offset>(0,0,-0.17)</offset>
+              <layer>23.655</layer>
+              <offset>(0,0,-0.148)</offset>
             </dataNorth>
             <bodyTypeScales>
-              <Hulk>1.65</Hulk>
-              <Fat>1.45</Fat>
-              <Thin>0.75</Thin>
-              <Female>1.2</Female>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
             </bodyTypeScales>
           </drawData>
         </li>

@@ -3,33 +3,11 @@ using Verse;
 
 namespace BNF.Core.DecalSystem
 {
-    public class PawnRenderNodeWorkerOmniBodyApparelBnf : PawnRenderNodeWorker
+    public class PawnRenderNodeWorkerApparel : PawnRenderNodeWorker
     {
         public override Vector3 OffsetFor(PawnRenderNode node, PawnDrawParms parms, out Vector3 pivot)
         {
-            Vector3 result = base.OffsetFor(node, parms, out pivot);
-            
-
-            if (parms.pawn == null || !(node.Props is PawnRenderNodePropertiesOmniBnf bnfProps))
-                return result;
-
-            var bodyType = parms.pawn.story?.bodyType;
-            if (bodyType == null) return result;
-            
-            bnfProps.EnsureBodyTypeOffsetsByFacingBuilt();
-            
-            if (bnfProps.BodyTypeOffsetsByFacing.TryGetValue(parms.facing, out var facingMap) &&
-                facingMap.TryGetValue(bodyType, out var facingOffset))
-            {
-                result += facingOffset;
-            }
-            
-            else if (bnfProps.BodyTypeOffsets.TryGetValue(bodyType, out var globalOffset))
-            {
-                result += globalOffset;
-            }
-
-            return result;
+            return base.OffsetFor(node, parms, out pivot);
         }
 
         public override bool CanDrawNow(PawnRenderNode node, PawnDrawParms parms)
@@ -38,5 +16,5 @@ namespace BNF.Core.DecalSystem
         }
     }
 
-    public class PawnRenderNodeWorkerOmniHeadApparelBnf : PawnRenderNodeWorkerOmniBodyApparelBnf { }
+    public class PawnRenderNodeWorkerOmniHead : PawnRenderNodeWorkerApparel { }
 }

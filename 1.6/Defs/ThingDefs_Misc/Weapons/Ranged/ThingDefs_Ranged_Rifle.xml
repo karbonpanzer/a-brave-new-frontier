@@ -837,12 +837,12 @@
 			  <targetParams>
 				<canTargetLocations>true</canTargetLocations>
 			  </targetParams>
-			  <defaultProjectile>Proj_GrenadeEMP</defaultProjectile>
+			  <defaultProjectile>Bullet_EMPLauncher</defaultProjectile>
 			  <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</verbProperties>
 			<comps>
 			  <li Class="CompProperties_AbilityLaunchProjectile">
-				<projectileDef>Proj_GrenadeEMP</projectileDef>
+				<projectileDef>Bullet_EMPLauncher</projectileDef>
 			  </li>
 			</comps>
 		  </AbilityDef>  	

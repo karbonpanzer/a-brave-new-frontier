@@ -13,7 +13,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Pawn/Humanlike/Clothes/FieldUniformHell/FieldUniformHell</texPath>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>0.8</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
 		<costStuffCount>150</costStuffCount>
 		<stuffCategories>

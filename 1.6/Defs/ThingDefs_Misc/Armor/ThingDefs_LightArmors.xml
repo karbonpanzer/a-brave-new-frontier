@@ -42,7 +42,7 @@
     </stuffCategories>
     <costStuffCount>80</costStuffCount>
     <apparel>
-      <useWornGraphicMask>True</useWornGraphicMask>      
+      <useWornGraphicMask>True</useWornGraphicMask>
       <wornGraphicPath>Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</wornGraphicPath>      
       <bodyPartGroups>
         <li>Torso</li>
@@ -73,16 +73,17 @@
     <label>Carapace Armor</label>
     <description>Before the fall of the Coreworlds, the many armies of the Great Domain saw many servicemen divided into two groups, the Infantry and the Veterancy. While the Infantry was made up of various people from all walks of life, the Veterancy came from ancient nobility and were enhanced mechanically and biologically. This is the equipment of the Infantry, cheap and effective armor based on a plasteel framework with steel reinforcements to ensure an effective armor while being easy to produce compared to the Power Armor of the Veterancy. Its popularity remains after several centuries of usage.</description>
     <apparel>
+      <useWornGraphicMask>True</useWornGraphicMask>
       <tags Inherit="False">
         <li>BNF_Armor_Light</li>
         <li>BNF_Armor_Light_Shocktrooper</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
-          <baseLayer>16</baseLayer>
+          <baseLayer>23</baseLayer>
           <texPaths>
             <li>Things/Decals/Infantry/Arrowhead</li>
             <li>Things/Decals/Infantry/CrossedRifles</li>
@@ -105,38 +106,23 @@
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-          <BodyTypeOffsetsByFacingRows>
-            <li>
-              <bodyType>Fat</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.025)</south>
-            </li>
-            <li>
-              <bodyType>Thin</bodyType>
-              <north>(0,0,0.045)</north>
-            </li>
-            <li>
-              <bodyType>Hulk</bodyType>
-              <north>(0,0,0.7)</north>
-              <south>(0,0,-0.07)</south>
-            </li>
-            <li>
-              <bodyType>Female</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.05)</south>
-            </li>
-          </BodyTypeOffsetsByFacingRows>
           <drawData>
-            <scale>0.090</scale>
+            <scale>0.120</scale>
             <defaultData>
               <layer>23.555</layer>
-              <offset>(0,0,-0.20)</offset>
+              <offset>(0,0,-0.155)</offset>
               <flip>true</flip>
             </defaultData>
             <dataNorth>
-              <layer>23.384</layer>
-              <offset>(0,0,-0.17)</offset>
+              <layer>23.655</layer>
+              <offset>(0,0,-0.148)</offset>
             </dataNorth>
+            <bodyTypeScales>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
+            </bodyTypeScales>
           </drawData>
         </li>
       </renderNodeProperties>    
@@ -162,9 +148,9 @@
         <li>BNF_Armor_Light_Medic</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>             
           <texPaths>
@@ -183,43 +169,22 @@
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-          <BodyTypeOffsetsByFacingRows>
-            <li>
-              <bodyType>Fat</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.025)</south>
-            </li>
-            <li>
-              <bodyType>Thin</bodyType>
-              <north>(0,0,0.045)</north>
-            </li>
-            <li>
-              <bodyType>Hulk</bodyType>
-              <north>(0,0,0.7)</north>
-              <south>(0,0,-0.07)</south>
-            </li>
-            <li>
-              <bodyType>Female</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.05)</south>
-            </li>
-          </BodyTypeOffsetsByFacingRows>
           <drawData>
-            <scale>0.090</scale>
+            <scale>0.120</scale>
             <defaultData>
               <layer>23.555</layer>
-              <offset>(0,0,-0.20)</offset>
-              <flip>true</flip>                    
+              <offset>(0,0,-0.155)</offset>
+              <flip>true</flip>
             </defaultData>
             <dataNorth>
-              <layer>23.384</layer>
-              <offset>(0,0,-0.17)</offset>
+              <layer>23.655</layer>
+              <offset>(0,0,-0.148)</offset>
             </dataNorth>
             <bodyTypeScales>
-              <Hulk>1.65</Hulk>
-              <Fat>1.45</Fat>
-              <Thin>0.75</Thin>
-              <Female>1.2</Female>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
             </bodyTypeScales>
           </drawData>
         </li>
@@ -244,9 +209,9 @@
         <li>BNF_Armor_Light_Engineer</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>             
           <texPaths>
@@ -266,43 +231,22 @@
             <li>South</li>
             <li>North</li>
           </visibleFacing>
-          <BodyTypeOffsetsByFacingRows>
-            <li>
-              <bodyType>Fat</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.025)</south>
-            </li>
-            <li>
-              <bodyType>Thin</bodyType>
-              <north>(0,0,0.045)</north>
-            </li>
-            <li>
-              <bodyType>Hulk</bodyType>
-              <north>(0,0,0.7)</north>
-              <south>(0,0,-0.07)</south>
-            </li>
-            <li>
-              <bodyType>Female</bodyType>
-              <north>(0,0,0.07)</north>
-              <south>(0,0,0.05)</south>
-            </li>
-          </BodyTypeOffsetsByFacingRows>
           <drawData>
-            <scale>0.090</scale>
+            <scale>0.120</scale>
             <defaultData>
               <layer>23.555</layer>
-              <offset>(0,0,-0.20)</offset>
-              <flip>true</flip>                    
+              <offset>(0,0,-0.155)</offset>
+              <flip>true</flip>
             </defaultData>
             <dataNorth>
-              <layer>23.384</layer>
-              <offset>(0,0,-0.17)</offset>
+              <layer>23.655</layer>
+              <offset>(0,0,-0.148)</offset>
             </dataNorth>
             <bodyTypeScales>
-              <Hulk>1.65</Hulk>
-              <Fat>1.45</Fat>
-              <Thin>0.75</Thin>
-              <Female>1.2</Female>
+              <Hulk>1.35</Hulk>
+              <Fat>1.1</Fat>
+              <Thin>0.9</Thin>
+              <Female>1.05</Female>
             </bodyTypeScales>
           </drawData>
         </li>

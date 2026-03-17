@@ -12,7 +12,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldUniformDesert</texPath>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>0.8</drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
 		<costStuffCount>70</costStuffCount>
 		<stuffCategories>
