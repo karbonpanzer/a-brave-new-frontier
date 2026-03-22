@@ -30,7 +30,7 @@
 			<equippedStatOffsets>
 				<MoveSpeed>-0.01</MoveSpeed>
 				<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
-				<VacuumResistance>0.69</VacuumResistance>				
+				<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.69</VacuumResistance>				
 			</equippedStatOffsets>
 			<costList>
 				<Cloth>10</Cloth>
@@ -114,11 +114,12 @@
 				<StuffEffectMultiplierInsulation_Cold>6</StuffEffectMultiplierInsulation_Cold>
 				<StuffEffectMultiplierInsulation_Heat>2</StuffEffectMultiplierInsulation_Heat>
 				<EquipDelay>2</EquipDelay>
+				<JumpRange>11.9</JumpRange>
 			</statBases>
 			<equippedStatOffsets>
 				<PainShockThreshold>0.10</PainShockThreshold>
 		        <MoveSpeed>-1.25</MoveSpeed>
-			    <VacuumResistance>0.32</VacuumResistance>			
+			    <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>			
 			</equippedStatOffsets>
 			<apparel>
 				<bodyPartGroups>
@@ -138,6 +139,38 @@
 					<li>Spacefarer</li>
 				</defaultOutfitTags>
 			</apparel>
+			<comps>
+				<li Class="CompProperties_ApparelReloadable">
+					<maxCharges>5</maxCharges>
+					<ammoDef>Chemfuel</ammoDef>
+					<ammoCountPerCharge>20</ammoCountPerCharge>
+					<baseReloadTicks>60</baseReloadTicks>
+					<soundReload>Standard_Reload</soundReload>
+					<hotKey>Misc4</hotKey>
+					<chargeNoun>jump</chargeNoun>
+					<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+				</li>
+			</comps>
+			<verbs>
+				<li>
+					<verbClass>Verb_Jump</verbClass>
+					<label>jump</label>
+					<commandIcon>Things/Pawn/Humanlike/Apparel/JumpPack/JumpPack</commandIcon>
+					<violent>false</violent>
+					<hasStandardCommand>true</hasStandardCommand>
+					<onlyManualCast>True</onlyManualCast>
+					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+					<warmupTime>0.5</warmupTime>
+					<warmupEffecter>JumpWarmupEffect</warmupEffecter>
+					<flightEffecterDef>JumpFlightEffect</flightEffecterDef>
+					<requireLineOfSight>true</requireLineOfSight>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+						<canTargetPawns>false</canTargetPawns>
+						<canTargetBuildings>false</canTargetBuildings>
+					</targetParams>
+				</li>
+			</verbs>
 			<colorGenerator Class="ColorGenerator_StandardApparel" />	
 		</ThingDef>	  
 </Defs>
