@@ -297,7 +297,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>BNF_Dominium</thingDef>
-        <countRange>150~300</countRange>
+        <countRange>25~50</countRange>
       </li>      
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>

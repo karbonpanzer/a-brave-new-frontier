@@ -119,6 +119,7 @@
     </modExtensions>
   </ThingDef>
 
+  <!-- Scout Armor and Variants-->
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>KP_Scout_Flak_Armor</defName>
     <label>Scout Carapace Armor</label>
@@ -355,7 +356,6 @@
     </modExtensions>
   </ThingDef>
 
-
   <!--Riot Gear here temporarily while testing decals-->
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>BNF_Helmet_Police</defName>
@@ -372,7 +372,7 @@
       </recipeUsers>
     </recipeMaker>	
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Helmets/RiotHelmet/RiotHelmet</texPath>
+      <texPath>Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -399,7 +399,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/RiotHelmet/RiotHelmet</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -411,6 +411,38 @@
       </defaultOutfitTags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <useWornGraphicMask>True</useWornGraphicMask>
+            <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Police/142MP</li>
+            <li>Things/Decals/Police/300MP</li>
+            <li>Things/Decals/Police/Column</li>
+            <li>Things/Decals/Police/Dredd</li>
+            <li>Things/Decals/Police/Gavel</li>
+            <li>Things/Decals/Police/Police</li>
+            <li>Things/Decals/Police/Scales</li>
+            <li>Things/Decals/Police/Shield</li>
+            <li>Things/Decals/Police/TinStar</li>
+            <li>Things/Decals/Police/Torch</li>            
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.120</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.17)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties> 
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>

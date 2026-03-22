@@ -32,7 +32,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>BNF_Dominium</thingDef>
-        <countRange>200~350</countRange>
+        <countRange>25~75</countRange>
       </li>      
       <li Class="StockGenerator_SingleDef">
         <thingDef>Uranium</thingDef>

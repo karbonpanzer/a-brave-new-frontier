@@ -25,6 +25,7 @@ namespace BNF.Core.DecalSystem
             if (pawn?.apparel == null) return null;
 
             var wornApparel = pawn.apparel.WornApparel;
+
             for (int i = 0; i < wornApparel.Count; i++)
             {
                 var comp = wornApparel[i].TryGetComp<CompEditDecalMarker>();
@@ -36,12 +37,11 @@ namespace BNF.Core.DecalSystem
         public static void SetLiveEdit(Pawn pawn, DecalProfile profile)
         {
             WriteProfileTo(pawn, profile);
+            // Refreshing graphics here will now trigger updates for both Body and Head nodes
             pawn.Drawer?.renderer?.SetAllGraphicsDirty();
         }
 
-        public static void BeginLiveEdit(Pawn pawn) 
-        { 
-        }
+        public static void BeginLiveEdit(Pawn pawn) { }
 
         public static void EndLiveEdit(Pawn pawn, bool commit) 
         {

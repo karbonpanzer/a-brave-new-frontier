@@ -10,6 +10,7 @@ namespace BNF.Core.DecalSystem
 
         public override Graphic? GraphicFor(Pawn pawn)
         {
+            // Both the Helmet and Armor will share for now
             DecalProfile profile = DecalUtil.ReadProfileFrom(pawn);
             var bnfProps = Props as PawnRenderNodePropertiesOmni;
             
@@ -17,7 +18,7 @@ namespace BNF.Core.DecalSystem
             Color finalColor = profile.Active ? profile.SymbolColor : (bnfProps?.Color ?? new Color(0.2f, 0.2f, 0.2f));
 
             if (path.NullOrEmpty()) return null;
-
+            
             float finalScale = Props.drawData.ScaleFor(pawn);
 
             return GraphicDatabase.Get<Graphic_Multi>(path, ShaderDatabase.Cutout, Vector2.one * finalScale, finalColor);
