@@ -55,7 +55,7 @@
 				<range>28.0</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Sound_RetroRifle</soundCast>
+				<soundCast>Shot_AssaultRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -347,7 +347,7 @@
 				<range>32.0</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<soundCast>Sound_ServiceRifle</soundCast>
+				<soundCast>Shot_AssaultRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -436,7 +436,7 @@
 				<range>28.0</range>
 				<burstShotCount>4</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Sound_ServiceRifle</soundCast>
+				<soundCast>Shot_AssaultRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -543,7 +543,7 @@
 				<range>27.0</range>
 				<burstShotCount>6</burstShotCount>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-				<soundCast>Sound_Flechette</soundCast>
+				<soundCast>Shot_AssaultRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>8</muzzleFlashScale>
 			</li>
@@ -837,12 +837,12 @@
 			  <targetParams>
 				<canTargetLocations>true</canTargetLocations>
 			  </targetParams>
-			  <defaultProjectile>Bullet_EMPLauncher</defaultProjectile>
+			  <defaultProjectile>Proj_GrenadeEMP</defaultProjectile>
 			  <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</verbProperties>
 			<comps>
 			  <li Class="CompProperties_AbilityLaunchProjectile">
-				<projectileDef>Bullet_EMPLauncher</projectileDef>
+				<projectileDef>Proj_GrenadeEMP</projectileDef>
 			  </li>
 			</comps>
 		  </AbilityDef>  	
