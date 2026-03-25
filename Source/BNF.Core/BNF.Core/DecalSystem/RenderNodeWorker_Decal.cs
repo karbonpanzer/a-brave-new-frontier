@@ -8,7 +8,6 @@ namespace BNF.Core.DecalSystem
         public override Vector3 OffsetFor(PawnRenderNode node, PawnDrawParms parms, out Vector3 pivot)
         {
             Vector3 result = base.OffsetFor(node, parms, out pivot);
-            
 
             if (parms.pawn == null || !(node.Props is PawnRenderNodePropertiesOmni bnfProps))
                 return result;
@@ -16,14 +15,11 @@ namespace BNF.Core.DecalSystem
             var bodyType = parms.pawn.story?.bodyType;
             if (bodyType == null) return result;
             
-            bnfProps.EnsureBodyTypeOffsetsByFacingBuilt();
-            
             if (bnfProps.BodyTypeOffsetsByFacing.TryGetValue(parms.facing, out var facingMap) &&
                 facingMap.TryGetValue(bodyType, out var facingOffset))
             {
                 result += facingOffset;
             }
-            
             else if (bnfProps.BodyTypeOffsets.TryGetValue(bodyType, out var globalOffset))
             {
                 result += globalOffset;

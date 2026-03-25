@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -14,7 +13,7 @@ namespace BNF.Core.DecalSystem
         
         public readonly Dictionary<BodyTypeDef, Vector3> BodyTypeOffsets = new Dictionary<BodyTypeDef, Vector3>();
         public readonly Dictionary<Rot4, Dictionary<BodyTypeDef, Vector3>> BodyTypeOffsetsByFacing = new Dictionary<Rot4, Dictionary<BodyTypeDef, Vector3>>();
-        public readonly List<BodyTypeOffsetsByFacingRow> BodyTypeOffsetsByFacingRows = new List<BodyTypeOffsetsByFacingRow>();
+        public List<BodyTypeOffsetsByFacingRow> BodyTypeOffsetsByFacingRows = new List<BodyTypeOffsetsByFacingRow>();
 
         public PawnRenderNodePropertiesOmni()
         {
@@ -22,23 +21,36 @@ namespace BNF.Core.DecalSystem
             workerClass = typeof(PawnRenderNodeWorkerOmniBodyApparel);
         }
 
-        public void EnsureBodyTypeOffsetsByFacingBuilt()
+        public override void ResolveReferences()
         {
-            if (BodyTypeOffsetsByFacing.Count > 0 || BodyTypeOffsetsByFacingRows == null) return;
+            base.ResolveReferences();
+            BuildOffsets();
+        }
+
+        private void BuildOffsets()
+        {
+            if (BodyTypeOffsetsByFacingRows == null) return;
+
+            BodyTypeOffsets.Clear();
+            BodyTypeOffsetsByFacing.Clear();
+
             foreach (var row in BodyTypeOffsetsByFacingRows)
             {
                 if (row.BodyType == null) continue;
-                if (row.HasNorth) Add(Rot4.North, row.BodyType, row.North);
-                if (row.HasEast) Add(Rot4.East, row.BodyType, row.East);
-                if (row.HasSouth) Add(Rot4.South, row.BodyType, row.South);
-                if (row.HasWest) Add(Rot4.West, row.BodyType, row.West);
                 
-                if (row.HasOffset) BodyTypeOffsets[row.BodyType] = row.Offset;
-                else if (row.HasSouth) BodyTypeOffsets[row.BodyType] = row.South;
+                if (row.HasNorth) AddToFacingDict(Rot4.North, row.BodyType, row.North);
+                if (row.HasEast) AddToFacingDict(Rot4.East, row.BodyType, row.East);
+                if (row.HasSouth) AddToFacingDict(Rot4.South, row.BodyType, row.South);
+                if (row.HasWest) AddToFacingDict(Rot4.West, row.BodyType, row.West);
+                
+                if (row.HasOffset) 
+                    BodyTypeOffsets[row.BodyType] = row.Offset;
+                else if (row.HasSouth) 
+                    BodyTypeOffsets[row.BodyType] = row.South;
             }
         }
 
-        private void Add(Rot4 rot, BodyTypeDef bodyType, Vector3 offset)
+        private void AddToFacingDict(Rot4 rot, BodyTypeDef bodyType, Vector3 offset)
         {
             if (!BodyTypeOffsetsByFacing.TryGetValue(rot, out var dict))
             {
@@ -48,5 +60,4 @@ namespace BNF.Core.DecalSystem
             dict[bodyType] = offset;
         }
     }
-
 }
