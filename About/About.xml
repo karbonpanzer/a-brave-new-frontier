@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <packageId>kp.bravenewfrontier.testing</packageId>
+  <packageId>kp.bravenewfrontier</packageId>
   <author>karbonpanzer</author>
-  <name>A Brave New Frontier Testing</name>
+  <name>A Brave New Frontier</name>
   <description>A Brave New Frontier is faction, apparel, and weapon mod built on bridging the gap between Industrial and Spacer. It adds 2 factions, 1 Scenario, dozens of pieces of apparel which include clothing, headwear, armor, and accessories, and unique weapons of which are built to be integrated into the world and to follow tropes that exist within Rimworld itself.</description>
   
 	<supportedVersions>
@@ -19,13 +19,13 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
+		<li>brrainz.harmony</li>		
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Odyssey</li>
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>Ludeon.RimWorld.Anomaly</li>
-		<li>brrainz.harmony</li>
 	</loadAfter>
     
 </ModMetaData>

@@ -154,7 +154,7 @@
 				<range>33.0</range>
 				<burstShotCount>2</burstShotCount>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
-				<soundCast>Sound_AutoloaderRifle</soundCast>
+				<soundCast>Shot_AssaultRifle</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>12</muzzleFlashScale>
 			</li>

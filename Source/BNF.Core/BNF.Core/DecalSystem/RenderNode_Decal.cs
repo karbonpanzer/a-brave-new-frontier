@@ -3,11 +3,9 @@ using Verse;
 
 namespace BNF.Core.DecalSystem
 {
-    public class PawnRenderNodeDecal : PawnRenderNode
+    public class PawnRenderNodeDecal(Pawn pawn, PawnRenderNodeProperties props, PawnRenderTree tree)
+        : PawnRenderNode(pawn, props, tree)
     {
-        public PawnRenderNodeDecal(Pawn pawn, PawnRenderNodeProperties props, PawnRenderTree tree) 
-            : base(pawn, props, tree) { }
-
         public override Graphic? GraphicFor(Pawn pawn)
         {
             // Both the Helmet and Armor will share for now

@@ -44,6 +44,10 @@
 			  <layer>61</layer>
 			</defaultData>
 		  </drawData>
+			<tags>
+				<li>BNF_Uniform</li>
+				<li>BNF_Uniform_Officer</li>				
+			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
             </defaultOutfitTags>

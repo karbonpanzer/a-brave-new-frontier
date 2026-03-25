@@ -3,7 +3,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>BNF_Decompiler_Codes</defName>
     <label>Dominion Codex</label>
-    <description>s can be obtained by deconstructing mechanoid shield generators.</description>
+    <description>A Dominion Codex is a means of decoding Dominion schematics, limited to those within the Dominion. Many are sold under the table by traders looking for a quick buck.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Codex/Codex</texPath>
       <graphicClass>Graphic_Single</graphicClass>

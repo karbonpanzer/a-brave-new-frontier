@@ -2,7 +2,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>BNF_Dominion_Decompiler</defName>
     <label>Dominion Decompiler</label>
-    <description>.</description>
+    <description>A high-tech decoding station and system for decompling and codifying technology. Destruction of the decomplier does not return the codex.</description>
     <thingClass>Building</thingClass>
     <graphicData>
       <texPath>Things/Building/Misc/Decompiler/DominionDecompiler</texPath> 

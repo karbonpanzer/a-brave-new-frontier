@@ -7,7 +7,7 @@
     <description>A manufactured metallic compound. Steel is molecularly reinforced with bonded plasteel filaments, improving strength and durability without reaching true plasteel performance.</description>
 
     <graphicData>
-      <texPath>Things/Item/Resource/Dominium</texPath>
+      <texPath>Things/Item/Resource/Material/Dominium</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
 

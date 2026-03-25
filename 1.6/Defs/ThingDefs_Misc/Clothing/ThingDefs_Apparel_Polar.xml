@@ -13,7 +13,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Things/Pawn/Humanlike/Clothes/FieldUniformArctic/FieldUniformArctic</texPath>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.5</drawSize>
+			<drawSize>0.8</drawSize>
 		</graphicData>
 		<costStuffCount>150</costStuffCount>
 		<stuffCategories>
