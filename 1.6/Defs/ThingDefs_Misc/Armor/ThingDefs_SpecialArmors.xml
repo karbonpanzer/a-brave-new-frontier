@@ -69,14 +69,7 @@
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
-            <li>Things/Decals/Officer/Captain</li>
-            <li>Things/Decals/Officer/Crown</li>
-            <li>Things/Decals/Officer/Hawk</li>
-            <li>Things/Decals/Officer/Leaf Cluster</li>
-            <li>Things/Decals/Officer/Lionhead</li>
             <li>Things/Decals/Officer/OfficerStar</li>
-            <li>Things/Decals/Officer/StarBurst</li>
-            <li>Things/Decals/Officer/Wreath</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -208,15 +201,7 @@
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
-            <li>Things/Decals/Scout/22inf</li>
-            <li>Things/Decals/Scout/32Inf</li>
-            <li>Things/Decals/Scout/40Inf</li>
-            <li>Things/Decals/Scout/50Inf</li>
-            <li>Things/Decals/Scout/79Inf</li>
-            <li>Things/Decals/Scout/116Inf</li>
-            <li>Things/Decals/Scout/135Air</li>
-            <li>Things/Decals/Scout/460Chem</li>
-            <li>Things/Decals/Scout/Thunderbird</li>
+            <li>Things/Decals/Scout/None</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -347,14 +332,7 @@
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
-            <li>Things/Decals/Officer/Captain</li>
-            <li>Things/Decals/Officer/Crown</li>
-            <li>Things/Decals/Officer/Hawk</li>
-            <li>Things/Decals/Officer/Leaf Cluster</li>
-            <li>Things/Decals/Officer/Lionhead</li>
             <li>Things/Decals/Officer/OfficerStar</li>
-            <li>Things/Decals/Officer/StarBurst</li>
-            <li>Things/Decals/Officer/Wreath</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -555,16 +533,7 @@
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
-            <li>Things/Decals/Police/142MP</li>
-            <li>Things/Decals/Police/300MP</li>
-            <li>Things/Decals/Police/Column</li>
-            <li>Things/Decals/Police/Dredd</li>
-            <li>Things/Decals/Police/Gavel</li>
-            <li>Things/Decals/Police/Police</li>
-            <li>Things/Decals/Police/Scales</li>
-            <li>Things/Decals/Police/Shield</li>
-            <li>Things/Decals/Police/TinStar</li>
-            <li>Things/Decals/Police/Torch</li>            
+            <li>Things/Decals/Police/TinStar</li>        
           </texPaths>
           <visibleFacing>
             <li>South</li>

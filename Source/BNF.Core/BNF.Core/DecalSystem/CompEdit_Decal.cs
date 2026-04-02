@@ -5,14 +5,19 @@ namespace BNF.Core.DecalSystem
 {
     public sealed class CompEditDecalMarker : ThingComp 
     {
-        public DecalProfile Profile = DecalProfile.Default;
+        public DecalProfileSet ProfileSet = DecalProfileSet.Default;
 
         public override void PostExposeData()
         {
             base.PostExposeData();
-            Scribe_Values.Look(ref Profile.Active, "bnfDecalActive");
-            Scribe_Values.Look(ref Profile.SymbolPath, "bnfDecalPath", "");
-            Scribe_Values.Look(ref Profile.SymbolColor, "bnfDecalColor", Color.white);
+            
+            Scribe_Values.Look(ref ProfileSet.Helmet.Active, "bnfDecalHelmetActive");
+            Scribe_Values.Look(ref ProfileSet.Helmet.SymbolPath, "bnfDecalHelmetPath", "");
+            Scribe_Values.Look(ref ProfileSet.Helmet.SymbolColor, "bnfDecalHelmetColor", Color.white);
+            
+            Scribe_Values.Look(ref ProfileSet.Armor.Active, "bnfDecalArmorActive");
+            Scribe_Values.Look(ref ProfileSet.Armor.SymbolPath, "bnfDecalArmorPath", "");
+            Scribe_Values.Look(ref ProfileSet.Armor.SymbolColor, "bnfDecalArmorColor", Color.white);
         }
     }
 

@@ -78,22 +78,7 @@
           <parentTagDef>ApparelHead</parentTagDef>
           <baseLayer>55</baseLayer>
           <texPaths>
-            <li>Things/Decals/Infantry/Arrowhead</li>
-            <li>Things/Decals/Infantry/CrossedRifles</li>
-            <li>Things/Decals/Infantry/CrossedSabers</li>
-            <li>Things/Decals/Infantry/CrossedSwords</li>
-            <li>Things/Decals/Infantry/Exoduster</li>
-            <li>Things/Decals/Infantry/Lambda</li>
-            <li>Things/Decals/Infantry/Skull</li>
-            <li>Things/Decals/Infantry/Sword</li>
-            <li>Things/Decals/Infantry/6Cav</li>
-            <li>Things/Decals/Infantry/12Inf</li>
-            <li>Things/Decals/Infantry/20Inf</li>
-            <li>Things/Decals/Infantry/Keystone</li>
-            <li>Things/Decals/Infantry/Club</li>
-            <li>Things/Decals/Infantry/Heart</li>
-            <li>Things/Decals/Infantry/Spade</li>
-            <li>Things/Decals/Infantry/Diamond</li>
+            <li>Things/Decals/Infantry/None</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -133,16 +118,7 @@
           <parentTagDef>ApparelHead</parentTagDef>
           <baseLayer>55</baseLayer>             
           <texPaths>
-            <li>Things/Decals/Medical/Blooddrop</li>
-            <li>Things/Decals/Medical/Caduseus</li>
-            <li>Things/Decals/Medical/Chalice</li>
-            <li>Things/Decals/Medical/CrossCircle</li>
-            <li>Things/Decals/Medical/Medic</li>
-            <li>Things/Decals/Medical/Pill</li>
-            <li>Things/Decals/Medical/StaffofAsclepius</li>
-            <li>Things/Decals/Medical/StarofLife</li>
-            <li>Things/Decals/Medical/18Med</li>
-            <li>Things/Decals/Medical/2Med</li>                    
+            <li>Things/Decals/Medical/CrossCircle</li>                  
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -182,17 +158,7 @@
           <parentTagDef>ApparelHead</parentTagDef>
           <baseLayer>55</baseLayer>             
           <texPaths>
-            <li>Things/Decals/Engineer/Anvil</li>
-            <li>Things/Decals/Engineer/Clockwork</li>
             <li>Things/Decals/Engineer/Cog</li>
-            <li>Things/Decals/Engineer/Hammer</li>
-            <li>Things/Decals/Engineer/HammerWrench</li>
-            <li>Things/Decals/Engineer/Rook</li>
-            <li>Things/Decals/Engineer/Wrench</li>
-            <li>Things/Decals/Engineer/Wrenches</li>
-            <li>Things/Decals/Engineer/16Eng</li>
-            <li>Things/Decals/Engineer/20Eng</li>
-            <li>Things/Decals/Engineer/176Eng</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -239,14 +205,7 @@
           <parentTagDef>ApparelHead</parentTagDef>
           <baseLayer>55</baseLayer>
           <texPaths>
-            <li>Things/Decals/Officer/Captain</li>
-            <li>Things/Decals/Officer/Crown</li>
-            <li>Things/Decals/Officer/Hawk</li>
-            <li>Things/Decals/Officer/Leaf Cluster</li>
-            <li>Things/Decals/Officer/Lionhead</li>
             <li>Things/Decals/Officer/OfficerStar</li>
-            <li>Things/Decals/Officer/StarBurst</li>
-            <li>Things/Decals/Officer/Wreath</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -304,6 +263,29 @@
       <tags Inherit="False">
         <li>BNF_Armor_Heavy</li>
       </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Infantry/None</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>            
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.17)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>  
     </apparel>
     <modExtensions>
       <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
@@ -351,6 +333,29 @@
       <tags Inherit="False">
         <li>BNF_Armor_Heavy_Shocktrooper</li>
       </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Infantry/None</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>            
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.17)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>  
     </apparel>
     <modExtensions>
       <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
@@ -393,6 +398,29 @@
       <tags Inherit="False">
         <li>BNF_Armor_Heavy</li>
       </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Infantry/None</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>            
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.17)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>  
     </apparel>
     <modExtensions>
       <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">

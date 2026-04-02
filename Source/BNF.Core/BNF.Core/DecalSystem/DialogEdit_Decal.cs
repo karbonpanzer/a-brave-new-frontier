@@ -11,17 +11,22 @@ namespace BNF.Core.DecalSystem
     public sealed class DialogEditDecals : Window
     {
         private readonly Pawn _pawn;
-        private DecalProfile _profile;
-        private readonly DecalProfile _original;
+        private DecalProfileSet _profileSet;
+        private readonly DecalProfileSet _original;
         private readonly List<DecalSymbolDef> _symbols;
-        private int _selectedIndex;
-        private DecalSymbolDef? _selectedSymbol;
+
+        private int _selectedHelmetIndex;
+        private int _selectedArmorIndex;
+        private DecalSymbolDef? _selectedHelmetSymbol;
+        private DecalSymbolDef? _selectedArmorSymbol;
+        
         private bool _committed;
         private Vector2 _scrollPos;
-        private float _viewRectHeight;
         private List<Color>? _allColors;
+        
+        private float _viewRectHeight = 750f; 
 
-        public override Vector2 InitialSize => new Vector2(600f, 680f);
+        public override Vector2 InitialSize => new Vector2(600f, 750f);
 
         public DialogEditDecals(Pawn pawn)
         {
@@ -33,19 +38,21 @@ namespace BNF.Core.DecalSystem
             preventCameraMotion = false;
             doCloseX = true;
 
-            _profile = DecalUtil.ReadProfileFrom(_pawn);
-            _original = _profile;
+            _profileSet = DecalUtil.ReadProfileSetFrom(_pawn);
+            _original = _profileSet;
             _symbols = DecalUtil.AllSymbols();
-            _selectedIndex = FindSymbolIndex(_profile.SymbolPath);
+            _selectedHelmetIndex = FindSymbolIndex(_profileSet.Helmet.SymbolPath);
+            _selectedArmorIndex = FindSymbolIndex(_profileSet.Armor.SymbolPath);
+            
             SyncSelection();
-
-            DecalUtil.BeginLiveEdit(_pawn);
-            DecalUtil.SetLiveEdit(_pawn, _profile);
+            
+            DecalUtil.SetLiveEditFull(_pawn, _profileSet);
         }
 
         public override void Close(bool doCloseSound = true)
         {
-            DecalUtil.EndLiveEdit(_pawn, _committed);
+
+            DecalUtil.EndLiveEdit(_pawn, _committed, _original);
             base.Close(doCloseSound);
         }
 
@@ -54,181 +61,199 @@ namespace BNF.Core.DecalSystem
             if (_pawn.Destroyed) { Close(false); return; }
 
             float outerPad = 12f;
-            float footerH = 64f;
+            float footerH = 58f;
+            
             Text.Font = GameFont.Medium;
-            Rect titleRect = new Rect(inRect.x + outerPad, inRect.y, inRect.width - outerPad * 2f, Text.LineHeight * 2f);
+            Rect titleRect = new Rect(inRect.x + outerPad, inRect.y, inRect.width - outerPad * 2f, 35f);
             Widgets.Label(titleRect, "BNF_StyleDecalsTitle".Translate(_pawn.Name.ToStringShort));
-
             Text.Font = GameFont.Small;
-            Rect content = new Rect(inRect.x + outerPad, titleRect.yMax + 6f, inRect.width - outerPad * 2f, inRect.height - (titleRect.height + 6f) - footerH);
-            Rect footer = new Rect(inRect.x + outerPad, inRect.yMax - footerH, inRect.width - outerPad * 2f, footerH);
+            
+            Rect mainRect = new Rect(inRect.x + outerPad, titleRect.yMax + 8f, inRect.width - outerPad * 2f, inRect.height - titleRect.height - footerH - 20f);
+            Widgets.DrawMenuSection(mainRect);
+            
+            Rect inner = mainRect.ContractedBy(12f);
+            Rect viewRect = new Rect(0, 0, inner.width - 16f, _viewRectHeight);
+            
+            Widgets.BeginScrollView(inner, ref _scrollPos, viewRect);
+            Listing_Standard listing = new Listing_Standard();
+            listing.Begin(viewRect);
 
-            DrawMainUI(content);
+            // Armor Section
+            Text.Font = GameFont.Medium;
+            listing.Label("BNF_Decals_Armor".Translate());
+            Text.Font = GameFont.Small;
+            listing.GapLine(6f);
+            DrawSlotEditor(listing, DecalSlot.Armor);
+            
+            listing.Gap(24f); 
+
+            // Helmet Section
+            Text.Font = GameFont.Medium;
+            listing.Label("BNF_Decals_Helmet".Translate());
+            Text.Font = GameFont.Small;
+            listing.GapLine(6f);
+            DrawSlotEditor(listing, DecalSlot.Helmet);
+            
+            if (Event.current.type == EventType.Layout)
+            {
+                _viewRectHeight = listing.CurHeight + 20f;
+            }
+
+            listing.End();
+            Widgets.EndScrollView();
+            
+            Rect footer = new Rect(inRect.x + outerPad, inRect.yMax - footerH, inRect.width - outerPad * 2f, footerH);
             DrawBottomButtons(footer);
         }
 
-        private void DrawMainUI(Rect rect)
+        private void DrawSlotEditor(Listing_Standard listing, DecalSlot slot)
         {
-            Widgets.DrawMenuSection(rect);
-            float innerPad = 14f;
-            rect = rect.ContractedBy(innerPad);
+            bool isArmor = (slot == DecalSlot.Armor);
+            bool active = isArmor ? _profileSet.Armor.Active : _profileSet.Helmet.Active;
+            DecalSymbolDef? symbol = isArmor ? _selectedArmorSymbol : _selectedHelmetSymbol;
             
-            float scrollbarWidth = 18f;
-            Rect viewRect = new Rect(rect.x, rect.y, rect.width - scrollbarWidth, _viewRectHeight <= 0f ? 600f : _viewRectHeight);
-    
-            Widgets.BeginScrollView(rect, ref _scrollPos, viewRect);
-            float y = rect.y;
+            Rect row1 = listing.GetRect(28f);
+            bool wasActive = active;
+            Widgets.CheckboxLabeled(new Rect(row1.x, row1.y, row1.width * 0.45f, row1.height), "Enabled".Translate(), ref active);
             
-            y = DrawSymbolSetup(new Rect(rect.x, y, viewRect.width, 210f)) + 12f;
-            y = DrawColorSetup(new Rect(rect.x, y, viewRect.width, 280f));
-    
-            if (Event.current.type == EventType.Layout) _viewRectHeight = y - rect.y;
-            Widgets.EndScrollView();
-        }
-
-        private float DrawSymbolSetup(Rect rect)
-        {
-            float y = rect.y;
-            float lineH = 30f;
-            Rect enabledLine = new Rect(rect.x, y, rect.width * 0.55f, lineH);
-            bool before = _profile.Active;
-
-            float checkSize = 24f;
-            Rect checkRect = new Rect(enabledLine.x, enabledLine.y + (enabledLine.height - checkSize) * 0.5f, checkSize, checkSize);
-            Widgets.Checkbox(checkRect.position, ref _profile.Active, checkSize);
-
-            Rect enabledLabel = new Rect(checkRect.xMax + 4f, enabledLine.y, enabledLine.width - (checkSize + 4f), enabledLine.height);
-            Text.Anchor = TextAnchor.MiddleLeft;
-            Widgets.Label(enabledLabel, "Enabled".Translate());
-            Text.Anchor = TextAnchor.UpperLeft;
-            if (before != _profile.Active) PushLive();
-
-            float btnW = rect.width * 0.40f;
-            Rect randomRect = new Rect(rect.xMax - btnW, y, btnW, lineH);
-            if (Widgets.ButtonText(randomRect, "BNF_Decals_RandomSymbol".Translate()) && _symbols.Count > 0)
+            if (wasActive != active)
             {
-                _selectedIndex = Rand.Range(0, _symbols.Count);
+                if (isArmor) _profileSet.Armor.Active = active;
+                else _profileSet.Helmet.Active = active;
+                PushLive();
+            }
+
+            if (Widgets.ButtonText(new Rect(row1.xMax - 130f, row1.y, 130f, row1.height), "BNF_Decals_RandomSymbol".Translate()) && _symbols.Count > 0)
+            {
+                if (isArmor) _selectedArmorIndex = Rand.Range(0, _symbols.Count);
+                else _selectedHelmetIndex = Rand.Range(0, _symbols.Count);
                 SyncSelection();
                 PushLive();
             }
 
-            y = enabledLine.yMax + 12f;
-            Rect row = new Rect(rect.x, y, rect.width, 36f);
-            if (_symbols.Count == 0)
+            listing.Gap(8f);
+            
+            Rect row2 = listing.GetRect(32f);
+            string label = symbol?.LabelCap ?? "BNF_Decals_NoSelection".Translate();
+
+            MakeFloatOptionButtons(row2, 
+                () => { UpdateIndex(slot, -1); SyncSelection(); PushLive(); },
+                () => FloatMenuUtility.MakeMenu(_symbols, e => e.LabelCap, v => () => { SetIndex(slot, _symbols.IndexOf(v)); SyncSelection(); PushLive(); }),
+                label,
+                () => { UpdateIndex(slot, 1); SyncSelection(); PushLive(); });
+
+            listing.Gap(12f);
+            
+            listing.Label("BNF_Decals_Color".Translate());
+            
+            Color color = isArmor ? _profileSet.Armor.SymbolColor : _profileSet.Helmet.SymbolColor;
+            Color original = color;
+            
+            Rect posRect = listing.GetRect(0f);
+            Widgets.ColorSelector(new Rect(posRect.x, posRect.y, listing.ColumnWidth, 1000f), ref color, AllColors(), out float usedHeight, null, 22, 2);
+            listing.Gap(usedHeight + 8f);
+            
+            Rect btnRow = listing.GetRect(28f);
+            float btnW = (btnRow.width - 12f) / 3f;
+
+            if (Widgets.ButtonText(new Rect(btnRow.x, btnRow.y, btnW, btnRow.height), "BNF_Decals_IdeoColor".Translate()))
             {
-                Widgets.Label(row, "BNF_Decals_NoSymbolsFound".Translate());
-                return row.yMax;
+                if (TryGetIdeoColor(_pawn, out Color c)) { color = c; SoundDefOf.Tick_Low.PlayOneShotOnCamera(); }
+            }
+            if (Widgets.ButtonText(new Rect(btnRow.x + btnW + 6f, btnRow.y, btnW, btnRow.height), "BNF_Decals_RandomColor".Translate()))
+            {
+                var p = AllColors(); if (p.Count > 0) { color = p[Rand.Range(0, p.Count)]; SoundDefOf.Tick_Low.PlayOneShotOnCamera(); }
+            }
+            if (Widgets.ButtonText(new Rect(btnRow.xMax - btnW, btnRow.y, btnW, btnRow.height), "BNF_Decals_FavColor".Translate()))
+            {
+                if (TryGetFavoriteColor(_pawn, out Color c)) { color = c; SoundDefOf.Tick_Low.PlayOneShotOnCamera(); }
             }
 
-            MakeFloatOptionButtons(row, 
-                () => { _selectedIndex = (_selectedIndex <= 0) ? _symbols.Count - 1 : _selectedIndex - 1; SyncSelection(); PushLive(); },
-                () => FloatMenuUtility.MakeMenu(_symbols, e => e.LabelCap, v => () => { _selectedIndex = _symbols.FindIndex(x => x?.Path == v.Path); SyncSelection(); PushLive(); }),
-                _selectedSymbol?.LabelCap ?? "BNF_Decals_NoSelection".Translate(),
-                () => { _selectedIndex = (_selectedIndex + 1) % _symbols.Count; SyncSelection(); PushLive(); });
-
-            return row.yMax;
-        }
-
-        private float DrawColorSetup(Rect rect)
-        {
-            Rect header = new Rect(rect.x, rect.y, rect.width, 36f);
-            Text.Font = GameFont.Medium;
-            Widgets.Label(header, "BNF_Decals_Color".Translate());
-            Text.Font = GameFont.Small;
-
-            float y = header.yMax + 10f;
-            Color color = _profile.SymbolColor;
-            Rect selectorRect = new Rect(rect.x, y, rect.width, 9999f);
-            Widgets.ColorSelector(selectorRect, ref color, AllColors(), out float usedHeight, null, 28, 6);
-
-            y = selectorRect.y + usedHeight + 10f;
-            Rect buttonRow = new Rect(rect.x, y, rect.width, 36f);
-            DrawColorButtons(buttonRow, ref color);
-
-            if (!_profile.SymbolColor.IndistinguishableFrom(color)) { SetColor(color); PushLive(); }
-            return buttonRow.yMax;
-        }
-
-        private void DrawColorButtons(Rect rect, ref Color color)
-        {
-            float x = rect.x;
-            bool hasIdeo = TryGetIdeoColor(_pawn, out Color ideoColor);
-            bool hasFav = TryGetFavoriteColor(_pawn, out Color favColor);
-
-            float w = (rect.width - 48f) / 3f;
-            Rect ideoRect = new Rect(x, rect.y, w, rect.height);
-            Rect rndRect = new Rect(ideoRect.xMax + 24f, rect.y, w, rect.height);
-            Rect favRect = new Rect(rndRect.xMax + 24f, rect.y, w, rect.height);
-
-            if (!hasIdeo) GUI.color = new Color(1f, 1f, 1f, 0.45f);
-            if (Widgets.ButtonText(ideoRect, "BNF_Decals_SetIdeoColor".Translate()) && hasIdeo) { color = ideoColor; SoundDefOf.Tick_Low.PlayOneShotOnCamera(); }
-            GUI.color = Color.white;
-
-            if (Widgets.ButtonText(rndRect, "BNF_Decals_RandomColor".Translate())) { var p = AllColors(); if (p.Count > 0) { color = p[Rand.Range(0, p.Count)]; SoundDefOf.Tick_Low.PlayOneShotOnCamera(); } }
-
-            if (!hasFav) GUI.color = new Color(1f, 1f, 1f, 0.45f);
-            if (Widgets.ButtonText(favRect, "BNF_Decals_SetFavoriteColor".Translate()) && hasFav) { color = favColor; SoundDefOf.Tick_Low.PlayOneShotOnCamera(); }
-            GUI.color = Color.white;
+            if (!original.IndistinguishableFrom(color))
+            {
+                if (isArmor) _profileSet.Armor.SymbolColor = color;
+                else _profileSet.Helmet.SymbolColor = color;
+                PushLive();
+            }
         }
 
         private void DrawBottomButtons(Rect rect)
         {
-            float w = (rect.width - 20f) / 3f;
-            float y = rect.yMax - 28f - 15f;
-            if (Widgets.ButtonText(new Rect(rect.x, y, w, 28f), "BNF_Decals_Reset".Translate())) { _profile = _original; _selectedIndex = FindSymbolIndex(_profile.SymbolPath); SyncSelection(); PushLive(); }
-            if (Widgets.ButtonText(new Rect(rect.x + w + 10f, y, w, 28f), "BNF_Decals_Apply".Translate())) { _committed = true; Close(); }
-            if (Widgets.ButtonText(new Rect(rect.xMax - w, y, w, 28f), "Close".Translate())) { _committed = false; Close(); }
+            float w = 110f;
+            float btnY = rect.yMax - 32f - 12f;
+            float x = rect.xMax - (w * 3 + 20f);
+
+            if (Widgets.ButtonText(new Rect(x, btnY, w, 32f), "BNF_Decals_Reset".Translate())) 
+            { 
+                _profileSet = _original; 
+                _selectedHelmetIndex = FindSymbolIndex(_profileSet.Helmet.SymbolPath); 
+                _selectedArmorIndex = FindSymbolIndex(_profileSet.Armor.SymbolPath); 
+                SyncSelection(); PushLive(); 
+            }
+            if (Widgets.ButtonText(new Rect(x + w + 10f, btnY, w, 32f), "BNF_Decals_Apply".Translate())) { _committed = true; Close(); }
+            if (Widgets.ButtonText(new Rect(rect.xMax - w, btnY, w, 32f), "Close".Translate())) { _committed = false; Close(); }
         }
 
-        private List<Color> AllColors()
+        private void UpdateIndex(DecalSlot slot, int delta)
         {
-            if (_allColors != null) return _allColors;
-            
-            HashSet<Color> colorSet = new HashSet<Color>();
-            
-            if (TryGetIdeoColor(_pawn, out Color ideo)) colorSet.Add(ideo);
-            if (TryGetFavoriteColor(_pawn, out Color fav)) colorSet.Add(fav);
-            
-            var gameColors = DefDatabase<ColorDef>.AllDefsListForReading
-                .Where(x => x.colorType == ColorType.Ideo || x.colorType == ColorType.Misc || x.colorType == ColorType.Structure);
+            if (_symbols.Count == 0) return;
+            if (slot == DecalSlot.Armor) _selectedArmorIndex = (_selectedArmorIndex + delta + _symbols.Count) % _symbols.Count;
+            else _selectedHelmetIndex = (_selectedHelmetIndex + delta + _symbols.Count) % _symbols.Count;
+        }
 
-            foreach (var def in gameColors)
-            {
-                colorSet.Add(def.color);
-            }
-            
-            _allColors = colorSet.ToList();
-            _allColors.Sort((a, b) => 
-            { 
-                Color.RGBToHSV(a, out float ah, out float asat, out float av); 
-                Color.RGBToHSV(b, out float bh, out float bsat, out float bv); 
-                int c = ah.CompareTo(bh); 
-                return (c != 0) ? c : asat.CompareTo(bsat); 
-            });
-
-            return _allColors;
+        private void SetIndex(DecalSlot slot, int val)
+        {
+            if (slot == DecalSlot.Armor) _selectedArmorIndex = val;
+            else _selectedHelmetIndex = val;
         }
 
         private int FindSymbolIndex(string path) => (path.NullOrEmpty() || _symbols.Count == 0) ? 0 : Mathf.Max(0, _symbols.FindIndex(d => d?.Path == path));
 
         private void SyncSelection()
         {
-            if (_symbols.Count == 0) { _selectedSymbol = null; _profile.SymbolPath = ""; _profile.Active = false; return; }
-            _selectedIndex = Mathf.Clamp(_selectedIndex, 0, _symbols.Count - 1);
-            _selectedSymbol = _symbols[_selectedIndex];
-            if (_selectedSymbol != null) { _profile.SymbolPath = _selectedSymbol.Path; _profile.Active = true; }
+            if (_symbols.Count == 0) return;
+            _selectedHelmetIndex = Mathf.Clamp(_selectedHelmetIndex, 0, _symbols.Count - 1);
+            _selectedHelmetSymbol = _symbols[_selectedHelmetIndex];
+            _profileSet.Helmet.SymbolPath = _selectedHelmetSymbol?.Path ?? "";
+
+            _selectedArmorIndex = Mathf.Clamp(_selectedArmorIndex, 0, _symbols.Count - 1);
+            _selectedArmorSymbol = _symbols[_selectedArmorIndex];
+            _profileSet.Armor.SymbolPath = _selectedArmorSymbol?.Path ?? "";
         }
 
-        private void SetColor(Color c) { _profile.SymbolColor = c; if (!_profile.Active) _profile.Active = true; }
-        private void PushLive() => DecalUtil.SetLiveEdit(_pawn, _profile);
+        private List<Color> AllColors()
+        {
+            if (_allColors != null) return _allColors;
+            HashSet<Color> colorSet = new HashSet<Color>();
+            if (TryGetIdeoColor(_pawn, out Color ideo)) colorSet.Add(ideo);
+            if (TryGetFavoriteColor(_pawn, out Color fav)) colorSet.Add(fav);
+            
+            var gameColors = DefDatabase<ColorDef>.AllDefsListForReading
+                .Where(x => x.colorType == ColorType.Ideo || x.colorType == ColorType.Misc || x.colorType == ColorType.Structure);
+
+            foreach (var def in gameColors) colorSet.Add(def.color);
+            
+            _allColors = colorSet.ToList();
+            _allColors.Sort((a, b) => 
+            { 
+                Color.RGBToHSV(a, out float hA, out float sA, out _); 
+                Color.RGBToHSV(b, out float hB, out float sB, out _); 
+                int c = hA.CompareTo(hB); 
+                return (c != 0) ? c : sA.CompareTo(sB); 
+            });
+            return _allColors;
+        }
+
+        private void PushLive() => DecalUtil.SetLiveEditFull(_pawn, _profileSet);
         private static bool TryGetIdeoColor(Pawn? pawn, out Color c) { c = Color.white; if (!ModsConfig.IdeologyActive || pawn?.Ideo == null || Find.IdeoManager.classicMode) return false; c = pawn.Ideo.ApparelColor; return true; }
         private static bool TryGetFavoriteColor(Pawn? pawn, out Color c) { c = Color.white; if (!ModsConfig.IdeologyActive || pawn?.story == null || pawn.DevelopmentalStage.Baby()) return false; ColorDef def = pawn.story.favoriteColor; if (def == null) return false; c = def.color; return true; }
 
         private static void MakeFloatOptionButtons(Rect rect, Action leftAction, Action centerAction, string centerButtonName, Action rightAction)
         {
-            Rect l = new Rect(rect.x, rect.y, 44f, rect.height);
-            Rect r = new Rect(rect.xMax - 44f, rect.y, 44f, rect.height);
-            Rect m = new Rect(l.xMax + 8f, rect.y, rect.width - 44f * 2f - 16f, rect.height);
+            float sideW = 40f;
+            Rect l = new Rect(rect.x, rect.y, sideW, rect.height);
+            Rect r = new Rect(rect.xMax - sideW, rect.y, sideW, rect.height);
+            Rect m = new Rect(l.xMax + 6f, rect.y, rect.width - (sideW * 2f + 12f), rect.height);
             if (Widgets.ButtonText(l, "<")) leftAction();
             if (Widgets.ButtonText(m, centerButtonName)) centerAction();
             if (Widgets.ButtonText(r, ">")) rightAction();

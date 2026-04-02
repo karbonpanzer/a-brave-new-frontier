@@ -16,12 +16,14 @@
   <BNF_Decals_NoSelection>No selection</BNF_Decals_NoSelection>
 
   <!-- Color -->
-  <BNF_Decals_SetIdeoColor>Set Ideology Color</BNF_Decals_SetIdeoColor>
-  <BNF_Decals_SetFavoriteColor>Set Favorite Color</BNF_Decals_SetFavoriteColor>
+  <BNF_Decals_IdeoColor>Set Ideology Color</BNF_Decals_IdeoColor>
+  <BNF_Decals_FavColor>Set Favorite Color</BNF_Decals_FavColor>
   <BNF_Decals_RandomColor>Random Color</BNF_Decals_RandomColor>
 
   <!-- Buttons -->
   <BNF_Decals_Reset>Reset</BNF_Decals_Reset>
   <BNF_Decals_Apply>Apply</BNF_Decals_Apply>
+  <BNF_Decals_Helmet>Helmet</BNF_Decals_Helmet>
+  <BNF_Decals_Armor>Armor</BNF_Decals_Armor>
 
 </LanguageData>

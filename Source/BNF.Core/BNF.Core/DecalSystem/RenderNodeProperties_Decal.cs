@@ -7,9 +7,9 @@ namespace BNF.Core.DecalSystem
 {
     public class PawnRenderNodePropertiesOmni : PawnRenderNodeProperties
     {
-        public new List<string> texPaths = new List<string>(); 
-        
         public Color Color = new Color(0.2f, 0.2f, 0.2f); 
+        
+        public DecalSlot? ExplicitSlot = null;
         
         public readonly Dictionary<BodyTypeDef, Vector3> BodyTypeOffsets = new Dictionary<BodyTypeDef, Vector3>();
         public readonly Dictionary<Rot4, Dictionary<BodyTypeDef, Vector3>> BodyTypeOffsetsByFacing = new Dictionary<Rot4, Dictionary<BodyTypeDef, Vector3>>();

@@ -8,23 +8,38 @@ namespace BNF.Core.DecalSystem
     {
         public override Graphic? GraphicFor(Pawn pawn)
         {
-            // Both the Helmet and Armor will share for now
-            DecalProfile profile = DecalUtil.ReadProfileFrom(pawn);
             var bnfProps = Props as PawnRenderNodePropertiesOmni;
+            if (bnfProps == null) return null;
             
-            string path = profile.Active ? profile.SymbolPath : GetDefaultPath(pawn);
-            Color finalColor = profile.Active ? profile.SymbolColor : (bnfProps?.Color ?? new Color(0.2f, 0.2f, 0.2f));
+            DecalSlot slot = DetermineSlot(bnfProps);
+            DecalProfile profile = DecalUtil.ReadProfileFrom(pawn, slot);
+            
+            string path = profile.Active ? profile.SymbolPath : GetDefaultPath(pawn, bnfProps);
+            Color finalColor = profile.Active ? profile.SymbolColor : (bnfProps.Color);
 
             if (path.NullOrEmpty()) return null;
             
-            float finalScale = Props.drawData.ScaleFor(pawn);
-
-            return GraphicDatabase.Get<Graphic_Multi>(path, ShaderDatabase.Cutout, Vector2.one * finalScale, finalColor);
+            return GraphicDatabase.Get<Graphic_Multi>(path, ShaderDatabase.Cutout, Vector2.one, finalColor);
         }
 
-        private string GetDefaultPath(Pawn pawn)
+        private DecalSlot DetermineSlot(PawnRenderNodePropertiesOmni bnfProps)
         {
-            if (Props is PawnRenderNodePropertiesOmni bnfProps && bnfProps.texPaths.Count > 0)
+            if (bnfProps.ExplicitSlot.HasValue)
+                return bnfProps.ExplicitSlot.Value;
+
+            if (bnfProps.parentTagDef != null)
+            {
+                string tagName = bnfProps.parentTagDef.defName;
+                if (tagName.Contains("Head") || tagName.Contains("Headgear") || tagName.Contains("Helmet"))
+                    return DecalSlot.Helmet;
+            }
+
+            return DecalSlot.Armor;
+        }
+
+        private string GetDefaultPath(Pawn pawn, PawnRenderNodePropertiesOmni bnfProps)
+        {
+            if (bnfProps.texPaths != null && bnfProps.texPaths.Count > 0)
             {
                 int seed = pawn.Faction?.loadID ?? pawn.thingIDNumber;
                 return bnfProps.texPaths[seed % bnfProps.texPaths.Count];
