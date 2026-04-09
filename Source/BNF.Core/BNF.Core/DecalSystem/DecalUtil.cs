@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Verse;
 
 namespace BNF.Core.DecalSystem
@@ -27,7 +27,7 @@ namespace BNF.Core.DecalSystem
         public static void SetLiveEditFull(Pawn pawn, DecalProfileSet profileSet)
         {
             WriteProfileSetTo(pawn, profileSet);
-            pawn.Drawer?.renderer?.SetAllGraphicsDirty();
+            pawn.Drawer.renderer?.SetAllGraphicsDirty();
         }
 
         public static void EndLiveEdit(Pawn pawn, bool commit, DecalProfileSet original) 
@@ -36,23 +36,35 @@ namespace BNF.Core.DecalSystem
             {
                 WriteProfileSetTo(pawn, original);
             }
-            pawn.Drawer?.renderer?.SetAllGraphicsDirty();
+            pawn.Drawer.renderer?.SetAllGraphicsDirty();
         }
 
         private static CompEditDecalMarker? GetMarker(Pawn? pawn)
         {
             if (pawn?.apparel == null) return null;
-            var worn = pawn.apparel.WornApparel;
-            for (int i = 0; i < worn.Count; i++)
+            
+            var registry = WorldComponentDecalPawns.Instance;
+            if (registry != null)
             {
-                var comp = worn[i].TryGetComp<CompEditDecalMarker>();
-                if (comp != null) return comp;
+                var cached = registry.GetComp(pawn);
+                if (cached != null) return cached;
+                if (registry.HasDecalApparel(pawn)) registry.Unregister(pawn);
+            }
+            
+            foreach (var apparel in pawn.apparel.WornApparel)
+            {
+                var comp = apparel.TryGetComp<CompEditDecalMarker>();
+                if (comp != null)
+                {
+                    registry?.Register(pawn);
+                    return comp;
+                }
             }
             return null;
         }
 
         public static List<DecalSymbolDef> AllSymbols() => DefDatabase<DecalSymbolDef>.AllDefsListForReading;
-        public static bool IsHumanlikePawn(Pawn? pawn) => pawn?.RaceProps?.Humanlike ?? false;
+        public static bool IsHumanlikePawn(Pawn? pawn) => pawn?.RaceProps.Humanlike ?? false;
         public static bool PawnHasAnyDecalApparel(Pawn? pawn) => GetMarker(pawn) != null;
     }
 }

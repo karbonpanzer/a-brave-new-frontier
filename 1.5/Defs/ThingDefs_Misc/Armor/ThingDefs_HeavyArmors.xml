@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-  <ThingDef Name="KP_Heavy_Flak_Armor_Base" ParentName="ArmorMachineableBase" Abstract="True">
-    <techLevel>Spacer</techLevel>
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>KP_Heavy_Flak_Armor</defName>
+    <label>Heavy Carapace Armor</label>
+    <description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</texPath>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
       <researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -13,11 +20,15 @@
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <texPath>Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</texPath>
-    </graphicData>
+    <costList>
+      <Cloth>60</Cloth>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
     <statBases>
       <WorkToMake>10000</WorkToMake>
       <MarketValue>800</MarketValue>
@@ -29,18 +40,6 @@
     <equippedStatOffsets>
       <MoveSpeed>-0.07</MoveSpeed>
     </equippedStatOffsets>
-    <thingCategories>
-      <li>BNF_Armor</li>
-    </thingCategories>
-    <costList>
-      <Cloth>60</Cloth>
-      <Plasteel>30</Plasteel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>100</costStuffCount>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -58,50 +57,19 @@
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-    </apparel>
-    <comps>
-      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
-    </comps>
-    <tradeTags>
-      <li>Armor</li>
-      <li>BNF_Armor</li>
-    </tradeTags> 
-    <colorGenerator Class="ColorGenerator_StandardApparel" />
-  </ThingDef>
-
-  <ThingDef ParentName="KP_Heavy_Flak_Armor_Base">
-    <defName>KP_Heavy_Flak_Armor</defName>
-    <label>Heavy Carapace Armor</label>
-    <description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.</description>
-    <apparel>
       <tags Inherit="False">
         <li>BNF_Armor_Heavy</li>
         <li>BNF_Armor_Heavy_Shocktrooper</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
-            <texPaths>
-              <li>Things/Decals/Infantry/Arrowhead</li>
-              <li>Things/Decals/Infantry/CrossedRifles</li>
-              <li>Things/Decals/Infantry/CrossedSabers</li>
-              <li>Things/Decals/Infantry/CrossedSwords</li>
-              <li>Things/Decals/Infantry/Exoduster</li>
-              <li>Things/Decals/Infantry/Lambda</li>
-              <li>Things/Decals/Infantry/Skull</li>
-              <li>Things/Decals/Infantry/Sword</li>
-              <li>Things/Decals/Infantry/6Cav</li>
-              <li>Things/Decals/Infantry/12Inf</li>
-              <li>Things/Decals/Infantry/20Inf</li>
-              <li>Things/Decals/Infantry/Keystone</li>
-              <li>Things/Decals/Infantry/Club</li>
-              <li>Things/Decals/Infantry/Heart</li>
-              <li>Things/Decals/Infantry/Spade</li>
-              <li>Things/Decals/Infantry/Diamond</li>
-            </texPaths>
+          <texPaths>
+            <li>Things/Decals/Infantry/None</li>
+          </texPaths>
           <visibleFacing>
             <li>South</li>
             <li>North</li>
@@ -148,6 +116,17 @@
         </li>
       </renderNodeProperties>
     </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>BNF_Armor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
     <modExtensions>
       <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
         <LoreDesc>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.</LoreDesc>
@@ -156,32 +135,75 @@
     </modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="KP_Heavy_Flak_Armor_Base">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>KP_Heavy_Flak_Armor_Medic</defName>
     <label>Heavy Carapace Armor (Medic)</label>
     <description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\n This variant is marked for usage by Medical staff.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</texPath>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>60</Cloth>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>12.0</Mass>
+      <StuffEffectMultiplierArmor>1.25</StuffEffectMultiplierArmor>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.07</MoveSpeed>
+    </equippedStatOffsets>
     <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <wornGraphicPath>Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</wornGraphicPath>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <tags Inherit="False">
         <li>BNF_Armor_Heavy_Medic</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
-            <texPaths>
-              <li>Things/Decals/Medical/Blooddrop</li>
-              <li>Things/Decals/Medical/Caduseus</li>
-              <li>Things/Decals/Medical/Chalice</li>
-              <li>Things/Decals/Medical/CrossCircle</li>
-              <li>Things/Decals/Medical/Medic</li>
-              <li>Things/Decals/Medical/Pill</li>
-              <li>Things/Decals/Medical/StaffofAsclepius</li>
-              <li>Things/Decals/Medical/StarofLife</li>
-              <li>Things/Decals/Medical/18Med</li>
-              <li>Things/Decals/Medical/2Med</li>
-            </texPaths>
+          <texPaths>
+            <li>Things/Decals/Medical/CrossCircle</li>
+          </texPaths>
           <visibleFacing>
             <li>South</li>
             <li>North</li>
@@ -228,6 +250,17 @@
         </li>
       </renderNodeProperties>
     </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>BNF_Armor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
     <modExtensions>
       <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
         <LoreDesc>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\n This variant is marked for usage by Medical staff.</LoreDesc>
@@ -236,33 +269,75 @@
     </modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="KP_Heavy_Flak_Armor_Base">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>KP_Heavy_Flak_Armor_Support</defName>
     <label>Heavy Carapace Armor (Engineer)</label>
     <description>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\n This variant is marked for usage by Engineering staff.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</texPath>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisite>HeavyFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>60</Cloth>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>12.0</Mass>
+      <StuffEffectMultiplierArmor>1.25</StuffEffectMultiplierArmor>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.07</MoveSpeed>
+    </equippedStatOffsets>
     <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <wornGraphicPath>Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</wornGraphicPath>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <tags Inherit="False">
         <li>BNF_Armor_Heavy_Engineer</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
-            <texPaths>
-              <li>Things/Decals/Engineer/Anvil</li>
-              <li>Things/Decals/Engineer/Clockwork</li>
-              <li>Things/Decals/Engineer/Cog</li>
-              <li>Things/Decals/Engineer/Hammer</li>
-              <li>Things/Decals/Engineer/HammerWrench</li>
-              <li>Things/Decals/Engineer/Rook</li>
-              <li>Things/Decals/Engineer/Wrench</li>
-              <li>Things/Decals/Engineer/Wrenches</li>
-              <li>Things/Decals/Engineer/16Eng</li>
-              <li>Things/Decals/Engineer/20Eng</li>
-              <li>Things/Decals/Engineer/176Eng</li>
-            </texPaths>
+          <texPaths>
+            <li>Things/Decals/Engineer/Cog</li>
+          </texPaths>
           <visibleFacing>
             <li>South</li>
             <li>North</li>
@@ -309,6 +384,17 @@
         </li>
       </renderNodeProperties>
     </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>BNF_Armor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
     <modExtensions>
       <li Class="BNF.Core.DescriptionSwitcher.BnfDescriptionExtension">
         <LoreDesc>While Carapace Armor is better than flak vests and jackets, it does seem to lack a defense against charge weaponry and heavy munitions. An easier solution would be to equip all soldiers in the infantry with semi-powered armor but that is easier said than done. The end decision of this issue eventually became reinforcing the Carapace Armor with additional plates of plasteel to enhance its defensive abilities. The Heavy Carapace Armor was introduced during the Battle of Coldharbour after the Fall of the Great Domain to mixed success.\n\n This variant is marked for usage by Engineering staff.</LoreDesc>
@@ -316,5 +402,5 @@
       </li>
     </modExtensions>
   </ThingDef>
-
 </Defs>
+

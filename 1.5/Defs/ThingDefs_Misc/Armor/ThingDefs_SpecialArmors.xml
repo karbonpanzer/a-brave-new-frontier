@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
   <ThingDef ParentName="ArmorMachineableBase">
@@ -63,20 +63,13 @@
         <li>BNF_Armor_Officer</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
-            <li>Things/Decals/Officer/Captain</li>
-            <li>Things/Decals/Officer/Crown</li>
-            <li>Things/Decals/Officer/Hawk</li>
-            <li>Things/Decals/Officer/Leaf Cluster</li>
-            <li>Things/Decals/Officer/Lionhead</li>
             <li>Things/Decals/Officer/OfficerStar</li>
-            <li>Things/Decals/Officer/StarBurst</li>
-            <li>Things/Decals/Officer/Wreath</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -202,21 +195,13 @@
         <li>BNF_Armor_Conscript</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
-            <li>Things/Decals/Scout/22inf</li>
-            <li>Things/Decals/Scout/32Inf</li>
-            <li>Things/Decals/Scout/40Inf</li>
-            <li>Things/Decals/Scout/50Inf</li>
-            <li>Things/Decals/Scout/79Inf</li>
-            <li>Things/Decals/Scout/116Inf</li>
-            <li>Things/Decals/Scout/135Air</li>
-            <li>Things/Decals/Scout/460Chem</li>
-            <li>Things/Decals/Scout/Thunderbird</li>
+            <li>Things/Decals/Scout/None</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -341,20 +326,13 @@
         <li>BNF_Armor_Officer_Scout</li>
       </tags>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
-            <li>Things/Decals/Officer/Captain</li>
-            <li>Things/Decals/Officer/Crown</li>
-            <li>Things/Decals/Officer/Hawk</li>
-            <li>Things/Decals/Officer/Leaf Cluster</li>
-            <li>Things/Decals/Officer/Lionhead</li>
             <li>Things/Decals/Officer/OfficerStar</li>
-            <li>Things/Decals/Officer/StarBurst</li>
-            <li>Things/Decals/Officer/Wreath</li>
           </texPaths>
           <visibleFacing>
             <li>South</li>
@@ -549,22 +527,13 @@
       <soundRemove>Remove_PowerArmor</soundRemove>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <renderNodeProperties>
-        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmniBnf">
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
           <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
-          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparelBnf</workerClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerOmniBodyApparel</workerClass>
           <parentTagDef>ApparelBody</parentTagDef>
           <baseLayer>16</baseLayer>
           <texPaths>
-            <li>Things/Decals/Police/142MP</li>
-            <li>Things/Decals/Police/300MP</li>
-            <li>Things/Decals/Police/Column</li>
-            <li>Things/Decals/Police/Dredd</li>
-            <li>Things/Decals/Police/Gavel</li>
-            <li>Things/Decals/Police/Police</li>
-            <li>Things/Decals/Police/Scales</li>
-            <li>Things/Decals/Police/Shield</li>
-            <li>Things/Decals/Police/TinStar</li>
-            <li>Things/Decals/Police/Torch</li>            
+            <li>Things/Decals/Police/TinStar</li>        
           </texPaths>
           <visibleFacing>
             <li>South</li>

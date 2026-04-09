@@ -19,6 +19,22 @@ namespace BNF.Core.DecalSystem
             Scribe_Values.Look(ref ProfileSet.Armor.SymbolPath, "bnfDecalArmorPath", "");
             Scribe_Values.Look(ref ProfileSet.Armor.SymbolColor, "bnfDecalArmorColor", Color.white);
         }
+
+        public override void Notify_Equipped(Pawn pawn)
+        {
+            base.Notify_Equipped(pawn);
+            WorldComponentDecalPawns.Instance?.Register(pawn);
+        }
+
+        public override void Notify_Unequipped(Pawn pawn)
+        {
+            base.Notify_Unequipped(pawn);
+            foreach (var apparel in pawn.apparel.WornApparel)
+            {
+                if (apparel.TryGetComp<CompEditDecalMarker>() != null) return;
+            }
+            WorldComponentDecalPawns.Instance?.Unregister(pawn);
+        }
     }
 
     public sealed class CompPropertiesEditDecalMarker : CompProperties
