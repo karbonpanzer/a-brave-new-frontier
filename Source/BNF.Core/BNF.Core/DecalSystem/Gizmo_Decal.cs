@@ -9,6 +9,7 @@ namespace BNF.Core.DecalSystem
     [StaticConstructorOnStartup]
     public static class DecalBootstrap
     {
+        //Harmony Bootstrap/Constructor so I know this loads
         static DecalBootstrap()
         {
             try
@@ -23,6 +24,7 @@ namespace BNF.Core.DecalSystem
         }
     }
 
+    //Here is the Gizmo for opening the UI for decals, I gotta improve it though
     [StaticConstructorOnStartup]
     [HarmonyPatch(typeof(Pawn), nameof(Pawn.GetGizmos))]
     public static class PatchPawnGetGizmosDecals
@@ -38,7 +40,7 @@ namespace BNF.Core.DecalSystem
         
             __result = AppendGizmo(__result, CreateDecalGizmo(__instance));
         }
-
+        
         private static IEnumerable<Gizmo> AppendGizmo(IEnumerable<Gizmo> source, Gizmo gizmo)
         {
             foreach (var g in source) yield return g;

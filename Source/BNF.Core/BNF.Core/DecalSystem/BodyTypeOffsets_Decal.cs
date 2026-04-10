@@ -6,6 +6,7 @@ using Verse;
 namespace BNF.Core.DecalSystem
 
 {
+    //BodyType Offsets, because Vanilla does not have this for the actual Rimworld bodytypes, this works
     public class BodyTypeOffsetsByFacingRow
     {
         public BodyTypeDef? BodyType;

@@ -7,6 +7,7 @@ namespace BNF.Core.DecalSystem
     {
         public DecalProfileSet ProfileSet = DecalProfileSet.Default;
 
+        // Allows me to set up the XML structure of default decals with the Armor/Helmets so I have a fallback in case there is an issue with the symboldefs
         public override void PostExposeData()
         {
             base.PostExposeData();
@@ -20,6 +21,7 @@ namespace BNF.Core.DecalSystem
             Scribe_Values.Look(ref ProfileSet.Armor.SymbolColor, "bnfDecalArmorColor", Color.white);
         }
 
+        //This ties it into the WorldComponent to fix issues with decals and pawns
         public override void Notify_Equipped(Pawn pawn)
         {
             base.Notify_Equipped(pawn);
@@ -36,7 +38,7 @@ namespace BNF.Core.DecalSystem
             WorldComponentDecalPawns.Instance?.Unregister(pawn);
         }
     }
-
+    
     public sealed class CompPropertiesEditDecalMarker : CompProperties
     {
         public CompPropertiesEditDecalMarker() => compClass = typeof(CompEditDecalMarker);

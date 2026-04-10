@@ -5,8 +5,10 @@ using Verse;
 
 namespace BNF.Core.DecalSystem
 {
+    
     public class PawnRenderNodePropertiesOmni : PawnRenderNodeProperties
     {
+        //Decal, Slots, and the Offsets for usage at runtime
         public Color Color = new Color(0.2f, 0.2f, 0.2f); 
         
         public DecalSlot? ExplicitSlot = null;
@@ -26,7 +28,8 @@ namespace BNF.Core.DecalSystem
             base.ResolveReferences();
             BuildOffsets();
         }
-
+        
+        //Offsets for Bodytype to back into the XML
         private void BuildOffsets()
         {
             if (BodyTypeOffsetsByFacingRows == null) return;

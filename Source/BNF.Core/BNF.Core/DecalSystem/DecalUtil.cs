@@ -23,7 +23,8 @@ namespace BNF.Core.DecalSystem
             var comp = GetMarker(pawn);
             if (comp != null) comp.ProfileSet = profileSet;
         }
-
+        
+        //I wanted a live preview instead of selecting via interface, so this is how it sets up
         public static void SetLiveEditFull(Pawn pawn, DecalProfileSet profileSet)
         {
             WriteProfileSetTo(pawn, profileSet);
@@ -39,6 +40,7 @@ namespace BNF.Core.DecalSystem
             pawn.Drawer.renderer?.SetAllGraphicsDirty();
         }
 
+        //This is a marker system, needed to find CompEditDecalMarker via WorldComponenet First before falling back if that fails
         private static CompEditDecalMarker? GetMarker(Pawn? pawn)
         {
             if (pawn?.apparel == null) return null;
@@ -63,6 +65,7 @@ namespace BNF.Core.DecalSystem
             return null;
         }
 
+        //Pawn Checks that are just in case but really are here because I fucked up and had the comp appear on a testing camel
         public static List<DecalSymbolDef> AllSymbols() => DefDatabase<DecalSymbolDef>.AllDefsListForReading;
         public static bool IsHumanlikePawn(Pawn? pawn) => pawn?.RaceProps.Humanlike ?? false;
         public static bool PawnHasAnyDecalApparel(Pawn? pawn) => GetMarker(pawn) != null;

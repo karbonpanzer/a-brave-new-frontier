@@ -18,6 +18,7 @@ namespace BNF.Core.DecalSystem
             _slot = DetermineSlot(props as PawnRenderNodePropertiesOmni);
         }
 
+        //This is a grpahic lookup which is cached to avoid lookups and keep calls down.
         public override Graphic? GraphicFor(Pawn pawn)
         {
             var bnfProps = Props as PawnRenderNodePropertiesOmni;
@@ -40,6 +41,7 @@ namespace BNF.Core.DecalSystem
             return _cachedGraphic;
         }
 
+        //Slot fallback in case there is no XML override created via Decal
         private static DecalSlot DetermineSlot(PawnRenderNodePropertiesOmni? bnfProps)
         {
             if (bnfProps?.ExplicitSlot.HasValue == true)
@@ -55,6 +57,7 @@ namespace BNF.Core.DecalSystem
             return DecalSlot.Armor;
         }
 
+        //This is what actually provides the safe fallback to tagged decals of there is no decal selected in the interface
         private string GetDefaultPath(Pawn pawn, PawnRenderNodePropertiesOmni bnfProps)
         {
             if (bnfProps.texPaths != null && bnfProps.texPaths.Count > 0)

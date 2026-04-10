@@ -3,6 +3,7 @@ using Verse;
 
 namespace BNF.Core.DecalSystem
 {
+    //This is to setup for the symboldefs, basically using a similar structure VFEM2. It is shared between Helmet/Armor because they are scaled and offset independently
     public sealed class DecalSymbolDef : Def
     {
         public string Path = "";
